@@ -1,10 +1,20 @@
 <p style="color: green"><%= notice %></p>
 
-<%= render @list %>
+<%
+=begin%>
+ <%= render @list %> 
+<%
+=end%>
 
-<div>
+<%= @list %>
+
+<%
+=begin%>
+ <div>
   <%= link_to "Edit this list", edit_list_path(@list) %> |
   <%= link_to "Back to lists", lists_path %>
 
-  <%= button_to "Destroy this list", @list, method: :delete %>
+  <%= button_to "Destroy this list", @list, method: :delete %> 
+<%
+=end%>
 </div>

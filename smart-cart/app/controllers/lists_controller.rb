@@ -1,6 +1,7 @@
 class ListsController < ApplicationController
   before_action :set_list, only: %i[ show edit update destroy ]
 
+  $list = []
   # GET /lists or /lists.json
   def index
     # @lists = List.all
@@ -8,11 +9,13 @@ class ListsController < ApplicationController
 
   # GET /lists/1 or /lists/1.json
   def show
+    @list = session[:list_in_progress]
   end
 
   # GET /lists/new
   def new
-    @list = List.new
+    # @list = List.new
+    @list = []
   end
 
   # GET /lists/1/edit
@@ -21,17 +24,21 @@ class ListsController < ApplicationController
 
   # POST /lists or /lists.json
   def create
-    @list = List.new(list_params)
+    # @list = List.new(list_params)
 
-    respond_to do |format|
-      if @list.save
-        format.html { redirect_to list_url(@list), notice: "List was successfully created." }
-        format.json { render :show, status: :created, location: @list }
-      else
-        format.html { render :new, status: :unprocessable_entity }
-        format.json { render json: @list.errors, status: :unprocessable_entity }
-      end
-    end
+    # respond_to do |format|
+    #   if @list.save
+    #     format.html { redirect_to list_url(@list), notice: "List was successfully created." }
+    #     format.json { render :show, status: :created, location: @list }
+    #   else
+    #     format.html { render :new, status: :unprocessable_entity }
+    #     format.json { render json: @list.errors, status: :unprocessable_entity }
+    #   end
+    # end
+   
+    @list = [params[:item], "123"]
+    session[:list_in_progress] = @list
+    redirect_to list_url(1), notice: 'List was successfully created.'
   end
 
   # PATCH/PUT /lists/1 or /lists/1.json
@@ -60,7 +67,7 @@ class ListsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_list
-      @list = List.find(params[:id])
+      # @list = List.find(params[:id])
     end
 
     # Only allow a list of trusted parameters through.
