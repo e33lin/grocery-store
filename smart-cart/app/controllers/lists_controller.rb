@@ -9,7 +9,7 @@ class ListsController < ApplicationController
 
   # GET /lists/1 or /lists/1.json
   def show
-    @list = session[:list_in_progress]
+    @current_list = $list
   end
 
   # GET /lists/new
@@ -20,6 +20,8 @@ class ListsController < ApplicationController
 
   # GET /lists/1/edit
   def edit
+    @current_list = $list[params[:id].to_i]
+
   end
 
   # POST /lists or /lists.json
@@ -36,22 +38,32 @@ class ListsController < ApplicationController
     #   end
     # end
    
-    @list = [params[:item], "123"]
-    session[:list_in_progress] = @list
-    redirect_to list_url(1), notice: 'List was successfully created.'
+    if ($list.length >= 1) 
+      $list.push(params[:item])
+      redirect_to list_url(1), notice: 'List was successfully created.'
+     else 
+      $list.push(params[:item]) 
+      redirect_to list_url(1), notice: 'List was successfully updated.'
+     end
   end
 
   # PATCH/PUT /lists/1 or /lists/1.json
   def update
-    respond_to do |format|
-      if @list.update(list_params)
-        format.html { redirect_to list_url(@list), notice: "List was successfully updated." }
-        format.json { render :show, status: :ok, location: @list }
-      else
-        format.html { render :edit, status: :unprocessable_entity }
-        format.json { render json: @list.errors, status: :unprocessable_entity }
-      end
-    end
+    # respond_to do |format|
+    #   if @list.update(list_params)
+    #     format.html { redirect_to list_url(@list), notice: "List was successfully updated." }
+    #     format.json { render :show, status: :ok, location: @list }
+    #   else
+    #     format.html { render :edit, status: :unprocessable_entity }
+    #     format.json { render json: @list.errors, status: :unprocessable_entity }
+    #   end
+    # end
+
+    @current_list = $list[params[:id].to_i]
+    @current_list << [params[:item]]
+    $list.push(@current_list)
+    redirect_to list_url(1), notice: 'List was successfully updated.'
+
   end
 
   # DELETE /lists/1 or /lists/1.json
