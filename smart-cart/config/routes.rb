@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   root "lists#index"
 
   get "home", to: "home#show"
-  get "stores" to: "stores#show"
+  get "stores", to: "stores#show"
 end
