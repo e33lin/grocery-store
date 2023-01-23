@@ -76,6 +76,12 @@ class ListsController < ApplicationController
     end
   end
 
+  def add-item
+  end 
+
+  def delete-item
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_list
@@ -86,4 +92,5 @@ class ListsController < ApplicationController
     def list_params
       params.fetch(:list, {})
     end
+
 end
