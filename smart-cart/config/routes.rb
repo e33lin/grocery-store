@@ -4,8 +4,14 @@ Rails.application.routes.draw do
   
   # Defines the root path route ("/")
   # root "articles#index"
-  root "lists#index"
+  root "home#show"
 
-  get "home", to: "home#show"
+  get "lists", to: "lists#show"
   get "stores", to: "stores#show"
+  get "instructions", to: "instructions#show"
+  post "add-item", to: "lists#add-item"
+  get "recommendations", to: "recommendations#show"
+  get "recommendations/:id", to: "recommendations#number" #route to show specific recommendation
+  delete "delete-item", to: "lists#delete-item"
+
 end
