@@ -76,10 +76,10 @@ class ListsController < ApplicationController
     end
   end
 
-  def add-item
+  def add_item
   end 
 
-  def delete-item
+  def delete_item
   end
 
   private
