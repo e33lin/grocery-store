@@ -1,0 +1,22 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>SmartCart</h1>
+
+<%
+=begin%>
+ <div id="lists">
+  <% @lists.each do |list| %>
+    <%= render list %>
+    <p>
+      <%= link_to "Show this list", list %>
+    </p>
+  <% end %>
+</div> 
+<%
+=end%>
+
+
+
+<%= link_to "New list", new_list_path %>
+<br>
+<%= link_to "List of stores", stores_path %>

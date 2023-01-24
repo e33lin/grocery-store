@@ -1,0 +1,23 @@
+<%= form_with url: lists_path do |form| %>
+  <%
+=begin%>
+ <% if list.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(list.errors.count, "error") %> prohibited this list from being saved:</h2>
+
+      <ul>
+        <% list.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %> 
+<%
+=end%>
+
+  <%= form.text_field :item %>
+
+  <div>
+    <%= form.submit "Add Item" %>
+  </div>
+<% end %>
