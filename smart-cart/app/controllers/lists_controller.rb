@@ -5,6 +5,8 @@ class ListsController < ApplicationController
   # GET /lists or /lists.json
   def index
     # @lists = List.all
+    @list = []
+    @current_list = $list
   end
 
   # GET /lists/1 or /lists/1.json
@@ -21,7 +23,6 @@ class ListsController < ApplicationController
   # GET /lists/1/edit
   def edit
     @current_list = $list[params[:id].to_i]
-
   end
 
   # POST /lists or /lists.json
@@ -40,11 +41,11 @@ class ListsController < ApplicationController
    
     if ($list.length >= 1) 
       $list.push(params[:item])
-      redirect_to list_url(1), notice: 'List was successfully created.'
-     else 
+      redirect_to lists_path, notice: 'List was successfully updated.'
+    else 
       $list.push(params[:item]) 
-      redirect_to list_url(1), notice: 'List was successfully updated.'
-     end
+      redirect_to lists_path, notice: 'List was successfully created.'
+    end
   end
 
   # PATCH/PUT /lists/1 or /lists/1.json
@@ -63,7 +64,6 @@ class ListsController < ApplicationController
     @current_list << [params[:item]]
     $list.push(@current_list)
     redirect_to list_url(1), notice: 'List was successfully updated.'
-
   end
 
   # DELETE /lists/1 or /lists/1.json
