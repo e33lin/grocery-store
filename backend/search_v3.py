@@ -107,8 +107,8 @@ results_dict = search(grocery_list, ps)
 
 output = cost_min.n_store_selection(n_stores, results_dict)
 
-with open("search_output/output.json", "w") as outfile:
-    json.dump(output, outfile)
+# with open("search_output/output.json", "w") as outfile:
+#     json.dump(output, outfile)
 
 print(output)
     
