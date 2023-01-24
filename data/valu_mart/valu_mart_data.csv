@@ -1,0 +1,1933 @@
+,store,category,brand,product,price,sale_price,per_unit_price,sale_per_unit_price,units,is_sale
+0,valu_mart,dairy_and_eggs,Neilson,Partly Skimmed Milk 2% MF,5.99,,0.15,,100ml,False
+1,valu_mart,dairy_and_eggs,No Name,Salted Butter,6.19,,1.36,,100g,False
+2,valu_mart,dairy_and_eggs,No Name,Sour Cream 14%,3.79,,0.76,,100ml,False
+3,valu_mart,dairy_and_eggs,Neilson,Partly Skimmed Milk 1% MF,5.99,,0.15,,100ml,False
+4,valu_mart,dairy_and_eggs,Neilson,Trutaste Partially Skimmed Milk 2 percent MF,6.79,,0.17,,100ml,False
+5,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probiotics, Vanilla Flavour",4.79,,0.74,,100g,False
+6,valu_mart,dairy_and_eggs,No Name,Unsalted Butter,6.19,,1.36,,100g,False
+7,valu_mart,dairy_and_eggs,Black Diamond,Cheddar Cheese Thin Slices,4.99,,1.2199999999999998,,100g,False
+8,valu_mart,dairy_and_eggs,Neilson,Homogenized Milk 3.25%,6.69,,0.17,,100ml,False
+9,valu_mart,dairy_and_eggs,Gray Ridge,Premium Large Eggs,6.89,,0.38,,1ea,False
+10,valu_mart,dairy_and_eggs,Astro,Original Balkan Balkan Style Yogurt,4.79,,0.64,,100g,False
+11,valu_mart,dairy_and_eggs,No Name,Farmer's Marble Cheese,5.99,,1.5,,100g,False
+12,valu_mart,dairy_and_eggs,Becel,Margarine Original,9.29,6.99,1.0898140200286122,0.82,100g,True
+13,valu_mart,dairy_and_eggs,Neilson,"True Taste, 2% Milk",4.99,,0.25,,100ml,False
+14,valu_mart,dairy_and_eggs,No Name,5% M.F. Light Sour Cream,3.79,,0.76,,100ml,False
+15,valu_mart,dairy_and_eggs,Black Diamond,Cheestrings Marble 18% M.F.,6.99,,2.08,,100g,False
+16,valu_mart,dairy_and_eggs,No Name,Marble Cheddar Cheese Slices,4.99,,2.17,,100g,False
+17,valu_mart,dairy_and_eggs,PhillySwirl,Original Brick Cream Cheese,5.29,,2.12,,100g,False
+18,valu_mart,dairy_and_eggs,I Can't Believe it's Not,Margarine Spread,4.29,,1.0,,100g,False
+19,valu_mart,dairy_and_eggs,Natrel,Lactose Free 2% Dairy Product (2L),6.89,,0.34,,100ml,False
+20,valu_mart,dairy_and_eggs,Kraft,Singles Original Slices,5.99,,1.4599999999999997,,100g,False
+21,valu_mart,dairy_and_eggs,No Name,Medium Grade A White Eggs,3.89,,0.32,,1ea,False
+22,valu_mart,dairy_and_eggs,No Name,Shredded Mozzarella,5.99,,1.87,,100g,False
+23,valu_mart,dairy_and_eggs,Heluva,"Sour Cream Dip, French Onion",4.49,,1.8,,100g,False
+24,valu_mart,dairy_and_eggs,No Name,Old Cheddar Cheese,9.79,,1.4,,100g,False
+25,valu_mart,dairy_and_eggs,Becel,Margarine with Olive Oil,9.29,6.99,1.0898140200286122,0.82,100g,True
+26,valu_mart,dairy_and_eggs,Philadelphia,Onion Dip,7.49,,2.2,,100g,False
+27,valu_mart,dairy_and_eggs,PC Organics,"Organic Cultured Coconut Milk Yogurt, Alternative Vanilla",5.99,,0.88,,100g,False
+28,valu_mart,dairy_and_eggs,PC Organics,"Organic Cheese, Old Cheddar",6.49,,3.25,,100g,False
+29,valu_mart,dairy_and_eggs,President's Choice,Monterey Jack Sliced Cheese,4.99,,2.38,,100g,False
+30,valu_mart,dairy_and_eggs,Woolwich,Dairy Old Goat's Milk Cheddar Cheese,9.99,,5.0,,100g,False
+31,valu_mart,dairy_and_eggs,Riviera,Crème Fraiche,4.99,,2.08,,100ml,False
+32,valu_mart,dairy_and_eggs,Rolling Meadow,"Yogurt, Plain 3.25%",3.99,,0.8,,100g,False
+33,valu_mart,dairy_and_eggs,Burnbrae Farms,Naturegg Simply Egg Whites,5.29,,1.06,,100ml,False
+34,valu_mart,dairy_and_eggs,President's Choice,Plant Based Butter Alternative Salted,4.99,,1.1,,100g,False
+35,valu_mart,dairy_and_eggs,Gay Lea,Butter Garlic Parsley ,4.19,,3.35,,100g,False
+36,valu_mart,dairy_and_eggs,Silk,"Dairy Free Plant Based Coconut Yogurt, Vanilla, Unsweetened",7.49,,1.1,,100g,False
+37,valu_mart,dairy_and_eggs,Gay Lea,"Butter Sticks, Salted",8.49,,1.87,,100g,False
+38,valu_mart,dairy_and_eggs,President's Choice,Country Churned Salted Butter,7.99,,1.76,,100g,False
+39,valu_mart,dairy_and_eggs,PC Organics,"Organic Cultured Coconut Milk Plain, Unsweetened",5.99,,0.88,,100g,False
+40,valu_mart,dairy_and_eggs,Cracker Barrel,Snack Marble Cheddar,6.29,,3.74,,100g,False
+41,valu_mart,dairy_and_eggs,President's Choice,Havarti Sliced Cheese,4.99,,2.38,,100g,False
+42,valu_mart,dairy_and_eggs,President's Choice,Gouda Sliced Cheese,4.99,,2.38,,100g,False
+43,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurt, Variety Pack, 6X Strawberry, 6X Vanilla, Blended, 2% M.F.",10.99,,0.92,,100g,False
+44,valu_mart,dairy_and_eggs,Kraft,Grated Parmesan Cheese,8.99,,3.6,,100g,False
+45,valu_mart,dairy_and_eggs,Gay Lea,Lactose Free Cottage Cheese,5.49,,1.22,,100g,False
+46,valu_mart,dairy_and_eggs,President's Choice,Lactose Free 2% M.F. Cottage Cheese,4.99,,1.0,,100g,False
+47,valu_mart,dairy_and_eggs,President's Choice,Plain 1% M.F. Yogurt,3.49,,0.47,,100g,False
+48,valu_mart,dairy_and_eggs,Gay Lea,"Nordica Cottage Cheese, 2%",7.49,,1.0,,100g,False
+49,valu_mart,dairy_and_eggs,Tre Stelle,"Grated Cheese, 100% Parmesan",8.49,,4.25,,100g,False
+50,valu_mart,dairy_and_eggs,Kraft,Grated Parmesan Cheese,5.49,,4.39,,100g,False
+51,valu_mart,dairy_and_eggs,Golden Gate,Mirage Margarine,18.49,,0.68,,100g,False
+52,valu_mart,dairy_and_eggs,PC Organics,Organic Homogenized Milk,4.59,,0.46,,100ml,False
+53,valu_mart,dairy_and_eggs,President's Choice,"Yogurt, Plant Based Cultured Oat Alternative Yuzu Citrus Flavour",3.99,,0.8,,100g,False
+54,valu_mart,dairy_and_eggs,President's Choice,"Plant Based Cultured Coconut Milk Yogurt Alternative, Vanilla",4.79,,0.9599999999999999,,100g,False
+55,valu_mart,dairy_and_eggs,Pillsbury,Grands Cookie Dough Chocolate Chip,5.29,,1.17,,100g,False
+56,valu_mart,dairy_and_eggs,Kraft,Light Grated Parmesan Cheese,8.99,,3.6,,100g,False
+57,valu_mart,dairy_and_eggs,Black Diamond,Sliced Marble Cheddar Cheese,5.79,,2.41,,100g,False
+58,valu_mart,dairy_and_eggs,Liberte,3.25% Goat Milk,12.99,,0.32,,100ml,False
+59,valu_mart,dairy_and_eggs,Silk,"Almond For Coffee, Vanilla, Plant Based, Dairy Free Coffee Creamer",2.99,,0.63,,100ml,False
+60,valu_mart,dairy_and_eggs,Rolling Meadow,"Yogurt, Plain 3.25%",3.99,,0.8,,100g,False
+61,valu_mart,dairy_and_eggs,Neilson,Skim Milk,5.99,,0.15,,100ml,False
+62,valu_mart,dairy_and_eggs,Natrel,Fine-filtered 10% Half & Half Cream,4.99,,0.5,,100ml,False
+63,valu_mart,dairy_and_eggs,Neilson,Trutaste Homogenized Milk Lactose Free 3.25% M.F.,10.79,,0.27,,100ml,False
+64,valu_mart,dairy_and_eggs,Neilson,Trutaste Lactose Free 2% Milk,4.49,,0.45,,100ml,False
+65,valu_mart,dairy_and_eggs,Neilson,Homogenized Milk,5.09,,0.25,,100ml,False
+66,valu_mart,dairy_and_eggs,Neilson,Half and Half Cream,3.69,,0.78,,100ml,False
+67,valu_mart,dairy_and_eggs,Neilson,Chocolate Milkshake,1.0,,0.32,,100ml,False
+68,valu_mart,dairy_and_eggs,Gray Ridge,Extra Large Eggs,7.19,,0.39999999999999997,,1ea,False
+69,valu_mart,dairy_and_eggs,Olympic,"Fat Free Organic Yogurt, Plain",4.99,,0.77,,100g,False
+70,valu_mart,dairy_and_eggs,President's Choice,Lactose Free Pizza Mozzarella Shredded Cheese,6.49,,2.03,,100g,False
+71,valu_mart,dairy_and_eggs,Liberte,Grk Ex Crm Vanilla 5%,6.49,,1.0,,100g,False
+72,valu_mart,dairy_and_eggs,Activia,"Probiotic Smoothie, Mango, Peach & Carrot, Drinkable Yogurt",2.29,,1.21,,100ml,False
+73,valu_mart,dairy_and_eggs,Black Diamond,Processed Cheddar Cheese Slices Thick,4.99,,1.2199999999999998,,100g,False
+74,valu_mart,dairy_and_eggs,Violife,Creamy Original ,6.99,6.49,3.5003852080123266,3.25,100g,True
+75,valu_mart,dairy_and_eggs,IOGO,"Yogurt, Vanilla 1.5%",4.29,2.99,0.66,0.46,100g,True
+76,valu_mart,dairy_and_eggs,No Name,Medium Cheddar Cheese Slices,4.99,,2.17,,100g,False
+77,valu_mart,dairy_and_eggs,Yoplait,Tubes Strawberry Yogurt,4.79,,1.07,,100g,False
+78,valu_mart,dairy_and_eggs,No Name,1% M.F. Light Cottage Cheese,4.99,,1.0,,100g,False
+79,valu_mart,dairy_and_eggs,No Name, 75% Vegetable Oil Margarine Squares,7.99,,0.59,,100g,False
+80,valu_mart,dairy_and_eggs,Milk 2 Go,"Sport, Chocolate",2.69,,0.83,,100ml,False
+81,valu_mart,dairy_and_eggs,Armstrong,Marble Cheddar Cheese Slice,5.99,,2.5,,100g,False
+82,valu_mart,dairy_and_eggs,Activia,"Probiotics Yogurt, Yellow Apple/Apricot/Mango/Peach",6.99,,0.58,,100g,False
+83,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probiotics, Stawberry Vanilla Flavour",6.69,,0.84,,100g,False
+84,valu_mart,dairy_and_eggs,President's Choice,Havarti Cheese,6.49,,1.6200000000000003,,100g,False
+85,valu_mart,dairy_and_eggs,Liberte,Yogourt Vanilla Organic Large Size 0 % M.F.,6.49,,0.72,,100g,False
+86,valu_mart,dairy_and_eggs,Violife,Mozzarella Style Shreds ,6.99,6.49,3.080338983050847,2.86,100g,True
+87,valu_mart,dairy_and_eggs,Liberte,Greek Vanilla 2% MF Yogurt,6.49,,0.87,,100g,False
+88,valu_mart,dairy_and_eggs,Cracker Barrel,Bar Old Cheddar,9.29,,2.32,,100g,False
+89,valu_mart,dairy_and_eggs,Philadelphia,Light Original Cream Cheese Product,5.29,,2.33,,100g,False
+90,valu_mart,dairy_and_eggs,President's Choice,Pizza Mozzarella Shredded Cheese,6.49,,2.03,,100g,False
+91,valu_mart,dairy_and_eggs,Neilson,"Flavoured Milk, Chocolate",6.19,5.49,0.30442622950819676,0.27,100ml,True
+92,valu_mart,dairy_and_eggs,No Name,Light 5% M.F. Sour Cream ,2.79,,1.12,,100ml,False
+93,valu_mart,dairy_and_eggs,IOGO,"Zip Yogurt, Limited Edition Game Over Edition Strawberry-Melon/Blueberry",4.29,,0.8900000000000001,,100g,False
+94,valu_mart,dairy_and_eggs,Yoplait,Yop Drinkable Yogurt Watermelon Flavour ,1.69,,0.85,,100ml,False
+95,valu_mart,dairy_and_eggs,Philadelphia,Chive Whipped Cream Cheese Product,5.29,,2.33,,100g,False
+96,valu_mart,dairy_and_eggs,Tre Stelle,"Tre Stelle Creamy Cheese Spread, Lactose Free",4.49,,2.25,,100g,False
+97,valu_mart,dairy_and_eggs,Cracker Barrel,Sweet Combo,5.49,,4.26,,100g,False
+98,valu_mart,dairy_and_eggs,Cracker Barrel,Shreds Double Ched,7.79,,2.43,,100g,False
+99,valu_mart,dairy_and_eggs,Liberte,Greek Vanilla Large Size 2 % M.F. Yogourt,10.79,,1.08,,100g,False
+100,valu_mart,dairy_and_eggs,International Delight,Southern Butter Pecan Coffee Creamer,5.99,,0.63,,100ml,False
+101,valu_mart,dairy_and_eggs,Nestle,Coffee Mate Liquid French Vanilla Value Size,8.99,,0.48,,100ml,False
+102,valu_mart,dairy_and_eggs,Neilson,Homogenized Milk 3.25%,3.59,,0.36,,100ml,False
+103,valu_mart,dairy_and_eggs,Neilson,French Vanilla Milkshake,1.0,,0.32,,100ml,False
+104,valu_mart,dairy_and_eggs,Nestle,Coffee Mate Double Double-Mate Liquid Coffee Enhancer Value Size,8.99,,0.48,,100ml,False
+105,valu_mart,dairy_and_eggs,Gay Lea,"Real Whipped Cream, Regular",4.49,,2.0,,100g,False
+106,valu_mart,dairy_and_eggs,Natrel,Lactose Free 1% Dairy Product (2L),6.89,,0.34,,100ml,False
+107,valu_mart,dairy_and_eggs,Heluva,Jalapeno Cheddar Dip,4.49,,1.8,,100g,False
+108,valu_mart,dairy_and_eggs,Beatrice,"Sour Cream, Light 5%",3.99,,0.8,,100ml,False
+109,valu_mart,dairy_and_eggs,President's Choice,Chocolate Chip Cookie Dough,4.49,,0.96,,100g,False
+110,valu_mart,dairy_and_eggs,Liberte,Kéfir 1% MF Plain,6.49,,0.65,,100ml,False
+111,valu_mart,dairy_and_eggs,Philadelphia,Original Light Cream Cheese Product,7.49,,2.2,,100g,False
+112,valu_mart,dairy_and_eggs,PC Blue Menu,"Free Run Omega-3 Hard-Boiled Peeled Eggs, Pack of 3",4.99,,5.67,,100g,False
+113,valu_mart,dairy_and_eggs,The Greek Gods,"Greek Style Yogurt, Traditional Plain",5.49,,1.1,,100g,False
+114,valu_mart,dairy_and_eggs,President's Choice,Plant Based Kefir Probiotic Fermented Coconut Milk,4.99,,0.5,,100ml,False
+115,valu_mart,dairy_and_eggs,Olivina,Margarine,4.99,,1.17,,100g,False
+116,valu_mart,dairy_and_eggs,Olympic,Organic Yogurt Plain,11.99,,0.6900000000000001,,100g,False
+117,valu_mart,dairy_and_eggs,Nestle,Nesquik Milkshake,1.79,,0.38,,100ml,False
+118,valu_mart,dairy_and_eggs,Gay Lea,Butter 82 Farmhouse ,7.49,6.49,3.000616332819723,2.6,100g,True
+119,valu_mart,dairy_and_eggs,IOGO,"Nano Yogurt, Vanilla",4.79,,0.86,,100ml,False
+120,valu_mart,dairy_and_eggs,Yoplait,Tubes Mixed Berry,4.79,,1.07,,100g,False
+121,valu_mart,dairy_and_eggs,Woolwich,Dairy Goat Milk Unsalted Butter,7.49,,3.0,,100g,False
+122,valu_mart,dairy_and_eggs,President's Choice,Lactose Free Plain 2%  M.F. Yogurt,3.49,,0.47,,100g,False
+123,valu_mart,dairy_and_eggs,President's Choice,Phyllo Pastry,4.69,,1.03,,100g,False
+124,valu_mart,dairy_and_eggs,Gay Lea,Spreadables Light Butter With Canola Oil,5.49,,2.42,,100g,False
+125,valu_mart,dairy_and_eggs,Woolwich,Dairy Goat Milk Sea Salted Butter,7.49,,3.0,,100g,False
+126,valu_mart,dairy_and_eggs,Fairlife,Chocolate Ultrafiltered Partly Skimmed Milk Lactose Free 2% M.F.,2.79,,1.16,,100ml,False
+127,valu_mart,dairy_and_eggs,Derlea,Garlic Spread,2.99,,1.2,,100g,False
+128,valu_mart,dairy_and_eggs,Philadelphia,"Original Cream Cheese, Lactose Free",6.29,,2.52,,100g,False
+129,valu_mart,dairy_and_eggs,No Name,Fat-Free Cottage Cheese,4.99,,1.0,,100g,False
+130,valu_mart,dairy_and_eggs,PC Organics,"Organic Fresh Churned Butter, Unsalted",6.99,,2.8000000000000003,,100g,False
+131,valu_mart,dairy_and_eggs,Pillsbury,Grands! Cinnamon Rolls Flaky Supreme with Icing,5.29,,1.07,,100g,False
+132,valu_mart,dairy_and_eggs,Saputo,Mozzarellissima,9.29,,1.86,,100g,False
+133,valu_mart,dairy_and_eggs,Burnbrae Farms,Naturegg Egg Whites,5.29,,1.06,,100ml,False
+134,valu_mart,dairy_and_eggs,PC Blue Menu,Free Run Egg Whites,5.49,,1.1,,100g,False
+135,valu_mart,dairy_and_eggs,PC Organics,"Organic Free Run Brown Eggs, Medium",7.29,,0.61,,1ea,False
+136,valu_mart,dairy_and_eggs,Natrel,10% Lactose Free Coffee Cream (1L),5.89,,0.59,,100ml,False
+137,valu_mart,dairy_and_eggs,PC Organics,Organic 14% M.F. Sour Cream,5.29,,1.06,,100g,False
+138,valu_mart,dairy_and_eggs,Lactantia,"Lactose Free Butter, Unsalted",6.39,,2.56,,100g,False
+139,valu_mart,dairy_and_eggs,The Greek Gods,"Yogurt, Vanille",5.49,,1.1,,100g,False
+140,valu_mart,dairy_and_eggs,Baileys,French Vanilla,4.39,,1.1,,100ml,False
+141,valu_mart,dairy_and_eggs,Riviera,"Goat Yogurt, Plain 4.9%",6.49,,1.3,,100ml,False
+142,valu_mart,dairy_and_eggs,Organic Meadow,"Organic Butter, Salted     ",11.99,,2.6399999999999997,,100g,False
+143,valu_mart,dairy_and_eggs,PC Organics,Organic Free-Range Egg Whites,4.99,,1.0,,100g,False
+144,valu_mart,dairy_and_eggs,PC Organics,Organic Partly Skimmed 1% Milk,10.39,,0.26,,100ml,False
+145,valu_mart,dairy_and_eggs,Neilson,Skim Milk,4.99,,0.25,,100ml,False
+146,valu_mart,dairy_and_eggs,Neilson,Caramel Chocolate Milkshake,1.0,,0.32,,100ml,False
+147,valu_mart,dairy_and_eggs,Milk 2 Go,Chocolate Partly Skimmed Milk 1% M.F. 6 x,6.19,,515.83,,100ml,False
+148,valu_mart,dairy_and_eggs,Neilson,Original Chocolate Milkshake,1.0,,0.32,,100ml,False
+149,valu_mart,dairy_and_eggs,President's Choice,"Plant Based Cultured Coconut Milk Yogurt Alternative, Plain",4.79,,0.9599999999999999,,100g,False
+150,valu_mart,dairy_and_eggs,Earth Island,Cheddar Cheese Slices,8.99,,4.5,,100g,False
+151,valu_mart,dairy_and_eggs,Armstrong,Pizza Mozz Cheese Slice,6.49,,2.7,,100g,False
+152,valu_mart,dairy_and_eggs,Natrel,2% Lactose Free Enriched Milk,7.19,,0.36,,100ml,False
+153,valu_mart,dairy_and_eggs,Gray Ridge,"Grade A Brown Eggs, Large",5.49,,0.46,,1ea,False
+154,valu_mart,dairy_and_eggs,MacLarens,Cheese Spread,8.49,,3.69,,100g,False
+155,valu_mart,dairy_and_eggs,Organic Meadow,Vanilla Kefir,6.99,,0.7000000000000001,,100ml,False
+156,valu_mart,dairy_and_eggs,Tre Stelle,Tre Stelle Organic Cream Cheese Spread,4.49,,2.25,,100g,False
+157,valu_mart,dairy_and_eggs,President's Choice,Country Churned Unsalted Butter ,7.99,,1.76,,100g,False
+158,valu_mart,dairy_and_eggs,PC Organics,"Organic Fresh Churned Butter, Salted",6.99,,2.8000000000000003,,100g,False
+159,valu_mart,dairy_and_eggs,Gay Lea,"Nordica Cottage Cheese, 2%",5.49,,1.1,,100g,False
+160,valu_mart,dairy_and_eggs,Yoplait,Special Edition Yogurt,4.79,,1.07,,100g,False
+161,valu_mart,dairy_and_eggs,IOGO,"Nano Drinkable Yogurt, Raspberry",4.79,,0.86,,100ml,False
+162,valu_mart,dairy_and_eggs,Kraft,Singles Original Thick Slices,5.99,,1.4599999999999997,,100g,False
+163,valu_mart,dairy_and_eggs,The A2 Milk Company,2% M.F. Partly Skimmed Milk,6.49,,0.32,,100ml,False
+164,valu_mart,dairy_and_eggs,Neilson,Trutaste Lactose Free 1% Milk,6.99,5.99,0.3500834724540901,0.3,100ml,True
+165,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurt, Strawberry-Banana Flavour, Blended, 2% M.F.",4.79,,1.2,,100g,False
+166,valu_mart,dairy_and_eggs,Starbucks,Cinnamon Dolce Latte,7.99,,0.9599999999999999,,100ml,False
+167,valu_mart,dairy_and_eggs,Black Diamond,"Cheddar Cheese Medium, 32% M.F.",6.99,,1.75,,100g,False
+168,valu_mart,dairy_and_eggs,Armstrong,Natural Swiss Cheese Slice,5.99,,2.72,,100g,False
+169,valu_mart,dairy_and_eggs,Neilson,Whipping Cream 35 percent MF,9.29,,0.93,,100ml,False
+170,valu_mart,dairy_and_eggs,Liberte,Greek Grk Ex Crm Str/Ban 5%,6.49,,1.0,,100g,False
+171,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurt, Plain, No Added Sugar, 2% Mf, Value Tub",7.29,6.49,0.9772419106317412,0.87,100g,True
+172,valu_mart,dairy_and_eggs,IOGO,"Fat Free Yogurt, Strawberry, Blueberry, Peach, Vanilla",8.49,,0.53,,100g,False
+173,valu_mart,dairy_and_eggs,Organic Meadow,"Organic Butter, Unsalted",11.99,,2.6399999999999997,,100g,False
+174,valu_mart,dairy_and_eggs,PC Organics,Organic Homogenized Milk,10.39,,0.26,,100ml,False
+175,valu_mart,dairy_and_eggs,President's Choice,Plant Based Coconut Cream Cheese-Style Spread,3.49,,1.54,,100g,False
+176,valu_mart,dairy_and_eggs,Fairlife,Ultrafiltered Partly Skimmed Milk Lactose Free 2% M.F,2.79,,1.16,,100ml,False
+177,valu_mart,dairy_and_eggs,Olympic,Yogurt-French Vanilla,11.99,,0.6900000000000001,,100g,False
+178,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probiotics, Vanilla Flavouractose-Free",6.69,,0.84,,100g,False
+179,valu_mart,dairy_and_eggs,Becel,Buttery Taste Margarine,9.29,6.99,1.461945636623748,1.1,100g,True
+180,valu_mart,dairy_and_eggs,President's Choice,Greek Vanilla 5%,6.49,,0.71,,100g,False
+181,valu_mart,dairy_and_eggs,Nestle,Coffee Mate Coffee Crisp Liquid Coffee Enhancer,6.49,,0.6899999999999998,,100ml,False
+182,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurt, Strawberry Raspberry, Fruit On The Bottom, 2% M.F.",4.79,,1.2,,100g,False
+183,valu_mart,dairy_and_eggs,Liberte,Méditerranée Raspbery Cheesecake 9%MF Yogurt,5.79,,1.16,,100g,False
+184,valu_mart,dairy_and_eggs,Activia,"Probiotic Yogurt, Blueberry/Vanilla",6.99,,0.58,,100g,False
+185,valu_mart,dairy_and_eggs,Yoplait,Source Raspberry/Fieldberry/Strawberry/Peach  0% MF Yogurt,6.99,,0.44,,100g,False
+186,valu_mart,dairy_and_eggs,Black Diamond,Marble Cheddar Cheese Sticks,6.99,,2.77,,100g,False
+187,valu_mart,dairy_and_eggs,International Delight,"Maple Latte Flavoured Coffee Creamer, 63 Servings",5.99,,0.63,,100ml,False
+188,valu_mart,dairy_and_eggs,Oikos,"Extra Creamy Greek Yogurt, Banana Chocolate Flavour, 4% Mf",4.79,,1.26,,100g,False
+189,valu_mart,dairy_and_eggs,President's Choice,Tre Formaggi Shredded Cheese Blend,12.49,,2.01,,100g,False
+190,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurt, Pineapple Flavour, Fruit On The Bottom, 2% M.F.",4.79,,1.2,,100g,False
+191,valu_mart,dairy_and_eggs,Olympic,"Organic Yogurt, Plain 3.5%",4.99,,0.77,,100g,False
+192,valu_mart,dairy_and_eggs,Yoplait,Yop Drinkable Yogurt Limited Edition,1.69,,0.85,,100ml,False
+193,valu_mart,dairy_and_eggs,No Name,Whipped Topping ,3.49,,1.5500000000000003,,100g,False
+194,valu_mart,dairy_and_eggs,Fairlife,Chocolate Lactose Free 2% Partly Skimmed Ultrafiltered Milk,5.49,4.99,0.36306613226452905,0.33,100ml,True
+195,valu_mart,dairy_and_eggs,Silk,"Coconut Yogurt Style, Plain, Unsweetened, Plant Based Dairy Free Yogurt",7.49,,1.1,,100g,False
+196,valu_mart,dairy_and_eggs,Neilson,Chocolate Dairy Beverage 2% M.F.,4.69,3.29,0.4704255319148937,0.33,100ml,True
+197,valu_mart,dairy_and_eggs,Burnbrae Farms,"Naturegg Nest Laid White Eggs, Large",4.99,,0.42,,1ea,False
+198,valu_mart,dairy_and_eggs,IOGO,"Nano Yogurt, Peach 1%",4.79,,0.86,,100ml,False
+199,valu_mart,dairy_and_eggs,President's Choice,Shredded Pizza Mozzarella Cheese,12.49,,2.01,,100g,False
+200,valu_mart,dairy_and_eggs,Starbucks,White Chocolate Mocha Liquid Coffee Enhancer,7.99,,0.9599999999999999,,100ml,False
+201,valu_mart,dairy_and_eggs,Philadelphia,Mixed Berry Whipped Cream Cheese Product,5.29,,2.33,,100g,False
+202,valu_mart,dairy_and_eggs,President's Choice,Peach Mango 2% M.F. Greek Yogurt,3.79,,0.95,,100g,False
+203,valu_mart,dairy_and_eggs,Activia,"Probiotic Yogurt, Raspberry/Apple/Blackberry/Strawberry Flavour, 12XG",6.99,,0.58,,100g,False
+204,valu_mart,dairy_and_eggs,Silk,"Soy For Coffee, Original Coffee Creamer",5.49,,0.62,,100ml,False
+205,valu_mart,dairy_and_eggs,Neilson,Whipping Cream,3.79,,1.6,,100ml,False
+206,valu_mart,dairy_and_eggs,Neilson,"Homogenized Milk Microfiltered, 3.25% M.F.",3.69,,0.37,,100ml,False
+207,valu_mart,dairy_and_eggs,Nestle,Coffee Mate Coffee Enhancer Hazelnut Value Size,8.99,,0.48,,100ml,False
+208,valu_mart,dairy_and_eggs,Neilson,Half & Half Cream,2.49,,1.05,,100ml,False
+209,valu_mart,dairy_and_eggs,Neilson,Skim Milk,3.49,,0.35,,100ml,False
+210,valu_mart,dairy_and_eggs,Neilson,Buttermilk,4.39,,0.44,,100ml,False
+211,valu_mart,dairy_and_eggs,Liberte,Greek Plain 0% MF Yogurt,6.49,,0.87,,100g,False
+212,valu_mart,dairy_and_eggs,Gay Lea,Unsalted Butter,8.19,,1.8,,100g,False
+213,valu_mart,dairy_and_eggs,Becel,Margarine with Oat Beverage,9.29,6.99,1.0898140200286122,0.82,100g,True
+214,valu_mart,dairy_and_eggs,Natrel,3.25% Lactose Free Enriched Milk,6.59,,0.33,,100ml,False
+215,valu_mart,dairy_and_eggs,Philadelphia,Herb & Garlic Cream Cheese Product,7.49,,2.2,,100g,False
+216,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probiotics, Strawberry, Raspberry, Vanilla, Blueberry Flavour, 24XG",13.99,,0.58,,100g,False
+217,valu_mart,dairy_and_eggs,PC Organics,"Organic Cheese, Marble Cheddar",6.49,,3.25,,100g,False
+218,valu_mart,dairy_and_eggs,No Name, Light Cottage Cheese,3.29,,1.32,,100g,False
+219,valu_mart,dairy_and_eggs,No Name,Dill Pickle Sour Cream Dip,3.79,,1.52,,100g,False
+220,valu_mart,dairy_and_eggs,President's Choice,Plain Skyr Icelandic Style 4% M.F. Yogurt,5.99,,1.2,,100g,False
+221,valu_mart,dairy_and_eggs,PC Organics,"Organic Cheese, Medium Cheddar",6.49,,3.25,,100g,False
+222,valu_mart,dairy_and_eggs,Pillsbury,Grands Cinnamon Rolls Regular   ,5.29,,1.07,,100g,False
+223,valu_mart,dairy_and_eggs,Philadelphia,Light Cream Cheese,8.99,,2.0,,100g,False
+224,valu_mart,dairy_and_eggs,Woolwich,Goat Dairy Marble Goat Cheddar Cheese 31 % M.F.,8.99,,4.5,,100g,False
+225,valu_mart,dairy_and_eggs,Becel,Margarine Original,16.99,,1.0,,100g,False
+226,valu_mart,dairy_and_eggs,Riviera,Oat Based Vegan Delight Plain,6.99,,1.08,,100g,False
+227,valu_mart,dairy_and_eggs,President's Choice,Plain 3% M.F. Yogurt,3.49,,0.47,,100g,False
+228,valu_mart,dairy_and_eggs,Yoso,"Cultured Coconut Yogurt, Unsweetened",6.49,,1.48,,100g,False
+229,valu_mart,dairy_and_eggs,Pillsbury,Cut-Out Heart Cookies,4.49,,2.2,,100g,False
+230,valu_mart,dairy_and_eggs,Earth Island,Mozzarella Style Dairy-Free Cheese,6.99,,3.53,,100g,False
+231,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurt, Variety Pack, Raspberry-Pomegranate / Key Lime / Vanilla / Strawberry Banana, Blended 2% M.F.",10.99,,0.92,,100g,False
+232,valu_mart,dairy_and_eggs,PC Blue Menu,Blue Menu Free Run Large White Eggs 12 Pack,6.89,,0.57,,1ea,False
+233,valu_mart,dairy_and_eggs,President's Choice,Butter Puff Pastry,6.49,,1.44,,100g,False
+234,valu_mart,dairy_and_eggs,Lactantia,Partly Skimmed Milk Organic 1% M.F.,5.74,,0.38,,100ml,False
+235,valu_mart,dairy_and_eggs,Gay Lea,"Nordica On-The-Go Cottage Cheese, Plain",5.79,,1.28,,100g,False
+236,valu_mart,dairy_and_eggs,President's Choice,Black Cherry Skyr Icelandic Style 4% M.F. Yogurt,5.99,,1.2,,100g,False
+237,valu_mart,dairy_and_eggs,Beatrice,Protein Milk Chocolate,3.45,,0.75,,100ml,False
+238,valu_mart,dairy_and_eggs,Liberte,Yogourt Black Cherry 9 % M.F.,5.49,,1.3700000000000003,,100g,False
+239,valu_mart,dairy_and_eggs,Gay Lea,"Real Whipped Cream, Light",4.49,,2.0,,100g,False
+240,valu_mart,dairy_and_eggs,Neilson,"Chocolate Milk, 25% Less Sugar",3.49,,0.35,,100ml,False
+241,valu_mart,dairy_and_eggs,Neilson,TruTaste 2% Milk,4.09,,0.41,,100ml,False
+242,valu_mart,dairy_and_eggs,Neilson,Table Cream,6.99,,0.7000000000000001,,100ml,False
+243,valu_mart,dairy_and_eggs,Neilson,TruTaste 1% Milk,4.09,,0.41,,100ml,False
+244,valu_mart,dairy_and_eggs,Natrel,Lactose Free Fat Free Skim 0% Dairy Product (2L),6.89,,0.34,,100ml,False
+245,valu_mart,dairy_and_eggs,Liberte,"Goat Milk, 2%",5.49,,0.55,,100ml,False
+246,valu_mart,dairy_and_eggs,Neilson,2% Milk,3.49,,0.35,,100ml,False
+247,valu_mart,dairy_and_eggs,Neilson,Trutaste Lactose Free Skim Milk,4.49,,0.45,,100ml,False
+248,valu_mart,dairy_and_eggs,Neilson,TruTaste Lactose Free 2% Milk,10.59,,0.26,,100ml,False
+249,valu_mart,dairy_and_eggs,Silk,"Oat Yogurt Style, Plainluten Free, Vegan",7.49,,1.17,,100g,False
+250,valu_mart,dairy_and_eggs,Silk,"Almond Plant Based Yogurt, Plain, Unsweetened, Dairy-Free",7.49,,1.17,,100g,False
+251,valu_mart,dairy_and_eggs,President's Choice,Berries & Cherries Skyr Icelandic Style 0% M.F. Yogurt,5.99,,1.2,,100g,False
+252,valu_mart,dairy_and_eggs,No Name,Old Cheddar Cheese,4.29,,2.15,,100g,False
+253,valu_mart,dairy_and_eggs,Saputo,Lactose Free Mozzarellissima,9.29,5.49,1.861384335154827,1.1,100g,True
+254,valu_mart,dairy_and_eggs,Silk,"For Coffee, Hazelnut Flavour, Dairy Free Coffee Creamer",2.99,,0.63,,100ml,False
+255,valu_mart,dairy_and_eggs,Gay Lea,Lactose Free Sour Cream,4.29,,0.95,,100ml,False
+256,valu_mart,dairy_and_eggs,Follow Your Heart,Soy Free Vegenaise,9.49,,2.01,,100ml,False
+257,valu_mart,dairy_and_eggs,Imperial,Soft Margarine Spread,4.99,,1.17,,100g,False
+258,valu_mart,dairy_and_eggs,Imperial,Margarine Club Pack,8.99,,0.71,,100g,False
+259,valu_mart,dairy_and_eggs,Lactantia,"My Country Butter, Unsalted",8.49,,1.87,,100g,False
+260,valu_mart,dairy_and_eggs,President,Premium Salted Cultured Butter,5.19,,2.08,,100g,False
+261,valu_mart,dairy_and_eggs,Gay Lea,"Sour Cream, Fat Free 1%",4.29,,0.86,,100ml,False
+262,valu_mart,dairy_and_eggs,Kraft,Grated Parmesan Cheese,15.99,,3.1999999999999997,,100g,False
+263,valu_mart,dairy_and_eggs,Lactantia,Whole Milk Organic 3.8% M.F.,5.74,,0.38,,100ml,False
+264,valu_mart,dairy_and_eggs,PC Organics,Organic Partly Skimmed 1% Milk,6.89,,0.34,,100ml,False
+265,valu_mart,dairy_and_eggs,Organic Meadow,10% Half & Half Organic Cream,4.29,,0.86,,100ml,False
+266,valu_mart,dairy_and_eggs,PC Blue Menu,Blue Menu Original Margarine,4.79,,1.06,,100g,False
+267,valu_mart,dairy_and_eggs,Pillsbury,Chub Chocolate Chunk Cookie   ,4.49,,0.96,,100g,False
+268,valu_mart,dairy_and_eggs,Nestle,Coffee Mate Turtles Liquid Coffee Enhancer,6.49,,0.6899999999999998,,100ml,False
+269,valu_mart,dairy_and_eggs,Oikos,"Fat Free Greek Yogurt, High Protein, Plain, 0% M.F.",7.29,6.49,1.12326656394453,1.0,100g,True
+270,valu_mart,dairy_and_eggs,Liberte,Greek Vanilla yogurt,7.49,,1.15,,100g,False
+271,valu_mart,dairy_and_eggs,President's Choice,Blueberry Fruit On The Bottom 0% M.F. Greek Yogurt,3.79,,0.95,,100g,False
+272,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probiotics, Cherry Flavour",4.79,,0.74,,100g,False
+273,valu_mart,dairy_and_eggs,IOGO,Nanö Drinkable Yogurt Strawberry 1 % M.F.,5.49,,0.61,,100ml,False
+274,valu_mart,dairy_and_eggs,Nestle,Coffee Mate Liquid French Vanilla,6.49,,0.6899999999999998,,100ml,False
+275,valu_mart,dairy_and_eggs,Kiri,Cream Cheese,5.99,,4.16,,100g,False
+276,valu_mart,dairy_and_eggs,Yoplait,Yop Drinkable Yogurt Strawberry Flavour 1% M.F.,6.99,,0.58,,100ml,False
+277,valu_mart,dairy_and_eggs,Armstrong,"Cheese, Sliced Cheddar with Jalapeño Mexican Fiesta 31 % M.F.",6.49,5.99,2.947045075125209,2.72,100g,True
+278,valu_mart,dairy_and_eggs,Heluva,"Sour Cream Dip, Dill Pickle",4.49,,1.8,,100g,False
+279,valu_mart,dairy_and_eggs,Danone,"Drinkable Yogurt, Strawberry Banana Flavour, Made With Real Fruit, 2% M.F.",1.29,,0.68,,100ml,False
+280,valu_mart,dairy_and_eggs,President's Choice,Gluten Free Pie Crust,6.99,,1.84,,100g,False
+281,valu_mart,dairy_and_eggs,Yoplait,Yop Drinkable Yogurt Raspberrry Flavour,1.69,,0.85,,100ml,False
+282,valu_mart,dairy_and_eggs,No Name,Herb and Spice Sour Cream Dip,3.79,,1.52,,100g,False
+283,valu_mart,dairy_and_eggs,IOGO,Nano Yogurt Vanilla,5.49,,0.61,,100ml,False
+284,valu_mart,dairy_and_eggs,International Delight,"French Vanilla Flavoured Fat Free Coffee Creamer, 63 Servings",5.99,,0.63,,100ml,False
+285,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurtimited Edition, Vanilla Chai Flavour, 4X100G",4.79,,1.2,,100g,False
+286,valu_mart,dairy_and_eggs,No Name,Stringable Cheese Marble,6.69,,1.99,,100g,False
+287,valu_mart,dairy_and_eggs,Activia,"Probiotic Yogurt, 4X Blueberry, 4X Strawberry & Rhubarb, 8 Pack",6.69,,0.84,,100g,False
+288,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurtimited Edition, Vanilla Chai Flavour, 4X100G",4.79,,1.2,,100g,False
+289,valu_mart,dairy_and_eggs,No Name,Stringable Cheese Marble,6.69,,1.99,,100g,False
+290,valu_mart,dairy_and_eggs,Activia,"Probiotic Yogurt, 4X Blueberry, 4X Strawberry & Rhubarb, 8 Pack",6.69,,0.84,,100g,False
+291,valu_mart,dairy_and_eggs,Neilson,TruTaste Skim Milk,6.79,,0.17,,100ml,False
+292,valu_mart,dairy_and_eggs,International Delight,"Caramel Waffle Cookie, Limited Edition Coffee Creamer",5.99,,0.63,,100ml,False
+293,valu_mart,dairy_and_eggs,Danone,"Drinkable Yogurt, Strawberry, Made With Real Fruit, 2% M.F.",1.29,,0.68,,100ml,False
+294,valu_mart,dairy_and_eggs,Milk 2 Go,Chocolate,1.79,,0.38,,100ml,False
+295,valu_mart,dairy_and_eggs,President's Choice,Parmesan Shredded Cheese,6.49,,2.6,,100g,False
+296,valu_mart,dairy_and_eggs,Starbucks,Caramel Macchiato Liquid Coffee Enhancer,7.99,,0.9599999999999999,,100ml,False
+297,valu_mart,dairy_and_eggs,Liberte,Greek Vanilla Bean 5% MF Yogurt,5.49,,1.3700000000000003,,100g,False
+298,valu_mart,dairy_and_eggs,Pillsbury,Holiday Premium Edition Cookies,4.49,,1.13,,100g,False
+299,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurt, Raspberry-Pomegramate Flavour, Fruit On Bottom, 2% M.F.,",4.79,,1.2,,100g,False
+300,valu_mart,dairy_and_eggs,Cracker Barrel,Bar Marble Cheddar,9.29,,2.32,,100g,False
+301,valu_mart,dairy_and_eggs,No Name,Pasteurized Light Cream Cheese Spread,3.79,,1.52,,100g,False
+302,valu_mart,dairy_and_eggs,Burnbrae Farms,Eggs2go! 6 Hard Boiled Peeled Eggs,4.99,,0.83,,1ea,False
+303,valu_mart,dairy_and_eggs,President's Choice,Vanilla 2% M.F. Greek Yogurt,6.99,6.49,0.7646995377503851,0.71,100g,True
+304,valu_mart,dairy_and_eggs,Astro,"Original Balkan Style Yogurt, Strawberry, Raspberry, Black Cherry, Nectarine",7.99,,0.67,,100g,False
+305,valu_mart,dairy_and_eggs,International Delight,Irish Creme Coffee Creamer,5.99,,0.63,,100ml,False
+306,valu_mart,dairy_and_eggs,siggi's,"Yogurt, Vanilla Cinnamon 3.25% M.F. Creamy Skyr",7.49,,1.15,,100g,False
+307,valu_mart,dairy_and_eggs,No Name,Shredded Mild White Cheddar Cheese,5.99,,1.87,,100g,False
+308,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probiotics, Raspberry Flavour",4.79,,0.74,,100g,False
+309,valu_mart,dairy_and_eggs,Neilson,"Milk, Ultrafiltered Partly Skimmed 2% M.F.",4.69,3.29,0.4704255319148937,0.33,100ml,True
+310,valu_mart,dairy_and_eggs,No Name,2% M.F. Cottage Cheese ,5.99,,0.8,,100g,False
+311,valu_mart,dairy_and_eggs,Becel,Margarine Vegan,5.49,,1.2899999999999998,,100g,False
+312,valu_mart,dairy_and_eggs,No Name,Shredded Medium Cheddar,5.99,,1.87,,100g,False
+313,valu_mart,dairy_and_eggs,No Name,Shredded Nacho Cheese Blend,5.99,,1.87,,100g,False
+314,valu_mart,dairy_and_eggs,PC Organics,Organic Skim Milk,10.39,,0.26,,100ml,False
+315,valu_mart,dairy_and_eggs,Organic Meadow,"Organic Cheese, Medium Cheddar",12.99,,3.82,,100g,False
+316,valu_mart,dairy_and_eggs,Pillsbury,Crescents Flaky Rolls,4.49,,1.32,,100g,False
+317,valu_mart,dairy_and_eggs,Black Diamond,Lactose Free Sliced Marble Cheese ,5.79,,2.63,,100g,False
+318,valu_mart,dairy_and_eggs,Yummy Doh,Raw Cookie Dough Chocolate Chunk,6.49,,1.6200000000000003,,100g,False
+319,valu_mart,dairy_and_eggs,Pillsbury,Ciinnamon Rolls,4.49,,1.28,,100g,False
+320,valu_mart,dairy_and_eggs,Beatrice,"Sour Cream, Regular 14%",3.99,,0.8,,100ml,False
+321,valu_mart,dairy_and_eggs,Gay Lea,"Butter Sticks, Unsalted",8.49,,1.87,,100g,False
+322,valu_mart,dairy_and_eggs,PC Organics,Organic Fresh Skim Milk,6.89,,0.34,,100ml,False
+323,valu_mart,dairy_and_eggs,PC Organics,Organic Partly Skimmed 2% Milk,6.89,,0.34,,100ml,False
+324,valu_mart,dairy_and_eggs,PC Organics,Organic Partly Skimmed 2% Milk,10.39,,0.26,,100ml,False
+325,valu_mart,dairy_and_eggs,Spread 'Em Kitchen Co.,The Classic Greek Inspired Cashew Cheeze Block,10.99,,5.5,,100g,False
+326,valu_mart,dairy_and_eggs,PC Blue Menu,Blue Menu Free Run Large Brown Eggs 12 Pack,7.39,,0.62,,1ea,False
+327,valu_mart,dairy_and_eggs,Kraft,Shredded Parmesan Cheese,8.99,,4.5,,100g,False
+328,valu_mart,dairy_and_eggs,Philadelphia,Original Cream Cheese,6.29,,2.77,,100g,False
+329,valu_mart,dairy_and_eggs,Pillsbury,"Cinnamon Rolls, Strawberry",4.19,,0.84,,100g,False
+330,valu_mart,dairy_and_eggs,Kraft,Shaved Parmesan Cheese,7.49,,5.31,,100g,False
+331,valu_mart,dairy_and_eggs,Pillsbury,Flaky Real Apple Turnovers,4.49,,1.17,,100g,False
+332,valu_mart,dairy_and_eggs,No Name,Everything Bagel Seasoning Sour Cream Dip,3.79,,1.52,,100g,False
+333,valu_mart,dairy_and_eggs,Pillsbury,Pbry Cookie Swt Heart,4.49,,1.73,,100g,False
+334,valu_mart,dairy_and_eggs,Gay Lea,Gold Sour Cream 18%,4.49,,1.06,,100ml,False
+335,valu_mart,dairy_and_eggs,Pillsbury,Chocolatey Chip Cookies,4.49,,0.96,,100g,False
+336,valu_mart,dairy_and_eggs,Spread 'Em Kitchen Co.,The Classic Greek Inspired Cashew Cheeze Block,10.99,,5.5,,100g,False
+337,valu_mart,dairy_and_eggs,PC Blue Menu,Blue Menu Free Run Large Brown Eggs 12 Pack,7.39,,0.62,,1ea,False
+338,valu_mart,dairy_and_eggs,Kraft,Shredded Parmesan Cheese,8.99,,4.5,,100g,False
+339,valu_mart,dairy_and_eggs,Silk,"Coconut Yogurt Style, Raspberry Flavour, Plant Based Dairy Free Yogurt",7.49,,1.1,,100g,False
+340,valu_mart,dairy_and_eggs,Del Monte,Red Grapefruit In Slightly Sweetened Water 8 Cups (Case),18.99,,1.25,,100ml,False
+341,valu_mart,dairy_and_eggs,President's Choice,Oatmeal Chocolate Chip Cookie Dough,4.49,,0.96,,100g,False
+342,valu_mart,dairy_and_eggs,President's Choice,Plain Kefir Probiotic Fermented 1% M.F. Milk,4.99,,0.5,,100ml,False
+343,valu_mart,dairy_and_eggs,Beatrice,Vanila Milkshake Bottle,3.45,,0.75,,100ml,False
+344,valu_mart,dairy_and_eggs,Lactantia,"Lactose Free Butter, Salted",6.39,,2.56,,100g,False
+345,valu_mart,dairy_and_eggs,Pillsbury,Reese Cookie Dough,4.49,,0.99,,100g,False
+346,valu_mart,dairy_and_eggs,Gray Ridge,Grade A Double Yolk White Eggs,5.99,,0.5,,1ea,False
+347,valu_mart,dairy_and_eggs,Lactantia,Organic 2% M.F.,5.74,,0.38,,100ml,False
+348,valu_mart,dairy_and_eggs,No Name,Original Cream Cheese Spread ,4.79,,1.41,,100g,False
+349,valu_mart,dairy_and_eggs,Neilson,"Flavoured Milk, Strawberry",3.49,,0.35,,100ml,False
+350,valu_mart,dairy_and_eggs,Liberte,Méditerranée Apple Pie 9%MF Yogurt,5.79,,1.16,,100g,False
+351,valu_mart,dairy_and_eggs,Yoplait,"Yogurt Tubes, Strawberry Banana & Fruit Punch",4.79,,1.07,,100g,False
+352,valu_mart,dairy_and_eggs,Liberte,Greek Peach 2% MF Yogurt,6.49,,0.87,,100g,False
+353,valu_mart,dairy_and_eggs,Becel,Margarine with Avocado Oil,5.49,,1.2899999999999998,,100g,False
+354,valu_mart,dairy_and_eggs,Philadelphia,Smoked Salmon Cream Cheese Product,5.29,,2.33,,100g,False
+355,valu_mart,dairy_and_eggs,Philadelphia,Whipped Original Cream Cheese Product,5.29,,2.33,,100g,False
+356,valu_mart,dairy_and_eggs,President's Choice,Shredded Feta Cheese,6.49,,2.16,,100g,False
+357,valu_mart,dairy_and_eggs,Riviera,Coconut Milk Vegan Yogurt - Raspberry Blackcurrant,6.49,,1.3,,100g,False
+358,valu_mart,dairy_and_eggs,Liberte,Greek Vanilla 0% MF Yogurt,6.49,,0.87,,100g,False
+359,valu_mart,dairy_and_eggs,Oikos,"High Protein Greek Yogurt, Zesty Lemon & Lime Flavour, Blended, Value Tub",7.29,6.49,1.12326656394453,1.0,100g,True
+360,valu_mart,dairy_and_eggs,Liberte,Greek Lactose Free Vanilla 0% MF Yogurt,6.49,,0.87,,100g,False
+361,valu_mart,dairy_and_eggs,Philadelphia,Light Herb & Garlic Cream Cheese,5.29,,2.33,,100g,False
+362,valu_mart,dairy_and_eggs,President's Choice,Lactose Free Marble Cheddar ,6.49,,1.6200000000000003,,100g,False
+363,valu_mart,dairy_and_eggs,Neilson,Trutaste Lactose Free Cream Half & Half 10% M.F.,3.99,,0.4,,100ml,False
+364,valu_mart,dairy_and_eggs,Violife,Mature Cheddar Style Slices,6.99,6.49,3.5003852080123266,3.25,100g,True
+365,valu_mart,dairy_and_eggs,President's Choice,Lactose Free Plain Greek Yogurt,6.49,,0.71,,100g,False
+366,valu_mart,dairy_and_eggs,Nestle,Rolo Milkshake,1.79,,0.38,,100ml,False
+367,valu_mart,dairy_and_eggs,Baileys,Original Irish Cream,4.39,,1.1,,100ml,False
+368,valu_mart,dairy_and_eggs,Neilson,2% Milk,4.99,,0.25,,100ml,False
+369,valu_mart,dairy_and_eggs,Woolwich,Partially Skimmed Goat Milk 2%,4.59,,0.46,,100ml,False
+370,valu_mart,dairy_and_eggs,Neilson,1% Partly Skimmed Milk,4.99,,0.25,,100ml,False
+371,valu_mart,dairy_and_eggs,Activia,Yogurt With Probioticsemon Flavour,4.79,,0.74,,100g,False
+372,valu_mart,dairy_and_eggs,Activia,"Probiotic Yogurt, Blackberry, Blueberry, Blackcurrent, Berries, 12XG",6.99,,0.58,,100g,False
+373,valu_mart,dairy_and_eggs,Nestle,Coffee Crisp Milkshake,1.79,,0.38,,100ml,False
+374,valu_mart,dairy_and_eggs,Philadelphia,Original Cream Cheese Product,8.99,,2.0,,100g,False
+375,valu_mart,dairy_and_eggs,International Delight,"White Chocolate Mocha, Zero Sugar Coffee Creamer, Limited Edition",5.99,,0.63,,100ml,False
+376,valu_mart,dairy_and_eggs,Philadelphia,Herb & Garlic Cream Cheese Product,5.29,,2.33,,100g,False
+377,valu_mart,dairy_and_eggs,President's Choice,Tex Mex Shredded Cheese Blend,6.49,,2.03,,100g,False
+378,valu_mart,dairy_and_eggs,No Name,Pizza Mozzarella Cheese with 28% M.F.,5.99,,1.5,,100g,False
+379,valu_mart,dairy_and_eggs,JUST Egg,Plant Based Egg,7.49,6.49,2.2042989214175654,1.91,100ml,True
+380,valu_mart,dairy_and_eggs,Becel,Margarine Original,5.49,,1.2899999999999998,,100g,False
+381,valu_mart,dairy_and_eggs,Black Diamond,"Cheese Mozzarella, 27% M.F.",6.99,,1.75,,100g,False
+382,valu_mart,dairy_and_eggs,President's Choice,Lactose Free Nacho Shredded Cheese Blend,6.49,,2.03,,100g,False
+383,valu_mart,dairy_and_eggs,Neilson,"Flavoured Milk, Chocolate",7.99,,0.20000000000000004,,100ml,False
+384,valu_mart,dairy_and_eggs,Black Diamond,"Cheese Mozzarella, 27% M.F.",6.99,,1.75,,100g,False
+385,valu_mart,dairy_and_eggs,President's Choice,Lactose Free Nacho Shredded Cheese Blend,6.49,,2.03,,100g,False
+386,valu_mart,dairy_and_eggs,Neilson,"Flavoured Milk, Chocolate",7.99,,0.20000000000000004,,100ml,False
+387,valu_mart,dairy_and_eggs,Yoplait,Minigo 3% MF Duo Fresh Cheese Strawberry-Banana/Blueberry-Strawberry/Banana-Blueberry,4.79,,1.33,,100g,False
+388,valu_mart,dairy_and_eggs,Kraft,Singles Original Slices,9.99,,1.21,,100g,False
+389,valu_mart,dairy_and_eggs,Neilson,TruTaste Homogenized Milk,5.99,5.49,0.2945901639344263,0.27,100ml,True
+390,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurt, Banana Flavour, Blended, 2% Mf, 4X100G",4.79,,1.2,,100g,False
+391,valu_mart,dairy_and_eggs,No Name,Mild Cheddar Cheese,5.99,,1.5,,100g,False
+392,valu_mart,dairy_and_eggs,Fairlife,Lactose Free 1% Partly Skimmed Ultrafiltered Milk,5.49,4.99,0.36306613226452905,0.33,100ml,True
+393,valu_mart,dairy_and_eggs,International Delight,"French Vanilla Flavoured Coffee Creamer, 63 Servings",5.99,,0.63,,100ml,False
+394,valu_mart,dairy_and_eggs,No Name,Old Cheddar Cheese,5.99,,1.5,,100g,False
+395,valu_mart,dairy_and_eggs,Philadelphia,Original Cream Cheese,6.29,,2.77,,100g,False
+396,valu_mart,dairy_and_eggs,Gay Lea,"Butter Sticks, Unsalted",8.49,,1.87,,100g,False
+397,valu_mart,dairy_and_eggs,Neilson,Strawberry Milkshake,1.0,,0.32,,100ml,False
+398,valu_mart,dairy_and_eggs,Neilson,Trutaste No Lactose 3.25% Milk,6.89,6.29,0.33957074721780606,0.31,100ml,True
+399,valu_mart,dairy_and_eggs,Cracker Barrel,Bar Medium Cheddar,9.29,,2.32,,100g,False
+400,valu_mart,dairy_and_eggs,Yoplait,Vanilla Yogurt,1.69,,0.85,,100ml,False
+401,valu_mart,dairy_and_eggs,Earth Balance,Original Buttery Spread,5.49,,1.2899999999999998,,100g,False
+402,valu_mart,dairy_and_eggs,No Name,Pie Shells,4.49,,1.28,,100g,False
+403,valu_mart,dairy_and_eggs,No Name,Cream Cheese Spread ,3.79,,1.67,,100g,False
+404,valu_mart,dairy_and_eggs,Becel,Margarine Salt Free,9.29,6.99,1.0898140200286122,0.82,100g,True
+405,valu_mart,dairy_and_eggs,No Name,Cheese Sticks Stringable Marble,11.19,,1.9,,100g,False
+406,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probiotics, Strawberry Flavour",4.79,,0.74,,100g,False
+407,valu_mart,dairy_and_eggs,Gay Lea,"Nordica Cottage Cheese, Light 1%",5.49,,1.1,,100g,False
+408,valu_mart,dairy_and_eggs,PC Organics,Organic Skyr Yogurt 0% Mf Plain,5.49,,1.1,,100g,False
+409,valu_mart,dairy_and_eggs,Organic Meadow,"Organic Cheese, Mozzarella",12.99,,3.82,,100g,False
+410,valu_mart,dairy_and_eggs,No Name,Cottage Cheese,3.29,,1.32,,100g,False
+411,valu_mart,dairy_and_eggs,Neilson,2% Milk,2.59,,0.55,,100ml,False
+412,valu_mart,dairy_and_eggs,Earth Island, Mozzarella Slices,8.99,,4.5,,100g,False
+413,valu_mart,dairy_and_eggs,PC Organics,Organic Plain Kefir Probiotic Fermented 1% M.F. Milk,5.49,,0.55,,100ml,False
+414,valu_mart,dairy_and_eggs,President's Choice,Jalapeno Greek Yogurt Dip,3.79,,1.67,,100g,False
+415,valu_mart,dairy_and_eggs,PC Blue Menu,Blue Menu Original Margarine,6.49,,0.72,,100g,False
+416,valu_mart,dairy_and_eggs,Tim Hortons,"K-cup Pods Medium Roast, Maple",12.99,,1.08,,1ea,False
+417,valu_mart,dairy_and_eggs,Del Monte,Peach Chunks In Light Syrup 8 Cups X (1.52 L)  (Case),18.99,,1.25,,100ml,False
+418,valu_mart,dairy_and_eggs,Gay Lea,"Sour Cream, Low Fat 3%",4.29,,0.86,,100ml,False
+419,valu_mart,dairy_and_eggs,Gray Ridge,"Grade A Brown Eggs, Extra Large",5.79,,0.48,,1ea,False
+420,valu_mart,dairy_and_eggs,Chobani,Greek Vanilla Yogurt,7.79,,0.8599999999999999,,100g,False
+421,valu_mart,dairy_and_eggs,Tim Hortons,"Coffee, Roast: Medium Premium Instant ",16.99,,5.66,,100g,False
+422,valu_mart,dairy_and_eggs,Gay Lea,"Sour Cream, Regular 14%",3.29,,1.32,,100ml,False
+423,valu_mart,dairy_and_eggs,Riviera,"Goat Yogurt, Vanilla 4.9%",6.49,,1.3,,100ml,False
+424,valu_mart,dairy_and_eggs,Pillsbury,Easy Roll Pie Crust   ,4.49,,1.12,,100g,False
+425,valu_mart,dairy_and_eggs,No Name,Cheddar Flavour Processed Cheese Product Slices,4.29,,1.07,,100g,False
+426,valu_mart,dairy_and_eggs,Kraft,Velveeta Processed Cheese Loaf,8.29,,1.8399999999999999,,100g,False
+427,valu_mart,dairy_and_eggs,Chobani,Greek Yogurt Plain 2%MF,7.79,,0.8599999999999999,,100g,False
+428,valu_mart,dairy_and_eggs,Gray Ridge,"Grade A Premium White Eggs, Large",4.59,,0.38,,1ea,False
+429,valu_mart,dairy_and_eggs,Organic Meadow,"Organic Yogurt, Plain 3.8%",6.99,,0.93,,100g,False
+430,valu_mart,dairy_and_eggs,Cracker Barrel,Sweet Combo,5.49,,4.26,,100g,False
+431,valu_mart,dairy_and_eggs,No Name,Shredded Marble Farmer's Cheese,14.99,,1.67,,100g,False
+432,valu_mart,dairy_and_eggs,Becel,Salted Plant-Based Margarine Bricks,5.99,,1.32,,100g,False
+433,valu_mart,dairy_and_eggs,Organic Meadow,"Organic Yogurt, Plain 2%",6.99,,0.93,,100g,False
+434,valu_mart,dairy_and_eggs,Organic Meadow,"Organic Yogurt, Plain 3.8%",6.99,,0.93,,100g,False
+435,valu_mart,dairy_and_eggs,Cracker Barrel,Sweet Combo,5.49,,4.26,,100g,False
+436,valu_mart,dairy_and_eggs,No Name,Shredded Marble Farmer's Cheese,14.99,,1.67,,100g,False
+437,valu_mart,dairy_and_eggs,Liberte,Goat Milk 2%MF,12.99,,0.32,,100ml,False
+438,valu_mart,dairy_and_eggs,Tim Hortons,Fine Grind Coffee Maple Roast Medium,10.99,,3.66,,100g,False
+439,valu_mart,dairy_and_eggs,President's Choice,Vanilla Skyr Icelandic Style 0% M.F. Yogurt,5.99,,1.2,,100g,False
+440,valu_mart,dairy_and_eggs,Kiri,"Cheese, Cream Product Original 29.5% M.F.",4.29,,2.86,,100g,False
+441,valu_mart,dairy_and_eggs,Black Diamond,Combo Marble Cubes and Sea Salted Roasted Almonds and Dried Cranberries,5.49,,4.3,,100g,False
+442,valu_mart,dairy_and_eggs,Kraft,Velveeta Processed Cheese Loaf,8.29,,1.8399999999999999,,100g,False
+443,valu_mart,dairy_and_eggs,President,Premium Unsalted Cultured Butter,5.19,,2.08,,100g,False
+444,valu_mart,dairy_and_eggs,Philadelphia,Original Cream Cheese Product,7.49,,2.2,,100g,False
+445,valu_mart,dairy_and_eggs,Chobani,Greek Yogurt Plain 2%MF,7.79,,0.8599999999999999,,100g,False
+446,valu_mart,dairy_and_eggs,Neilson,Table Cream,3.19,,1.35,,100ml,False
+447,valu_mart,dairy_and_eggs,Neilson,Trutaste Light Cream,3.69,,0.78,,100ml,False
+448,valu_mart,dairy_and_eggs,International Delight,Classic French Vanilla Coffee Creamer,8.99,,0.63,,100ml,False
+449,valu_mart,dairy_and_eggs,Neilson,Homogenized Milk 3.25%,2.89,,0.61,,100ml,False
+450,valu_mart,dairy_and_eggs,Woolwich,Homogenized Goat Milk 3.25%MF  ,4.59,,0.46,,100ml,False
+451,valu_mart,dairy_and_eggs,Neilson,1% Milk,3.49,,0.35,,100ml,False
+452,valu_mart,dairy_and_eggs,Neilson,"Flavoured Milk, Chocolate",3.49,,0.35,,100ml,False
+453,valu_mart,dairy_and_eggs,President's Choice,Plant Based Cultured Oat Yogurt Alternative Strawberry Vanilla,3.99,,0.8,,100g,False
+454,valu_mart,dairy_and_eggs,Liberte,Yogourt Orchard Peach 9 % M.F.,5.49,,1.3700000000000003,,100g,False
+455,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurt, Vanilla Flavour, 2% M.F.,  Blended",4.79,,1.2,,100g,False
+456,valu_mart,dairy_and_eggs,No Name,Medium Cheddar Cheese,5.99,,1.5,,100g,False
+457,valu_mart,dairy_and_eggs,Gay Lea,Salted Butter,8.19,,1.8,,100g,False
+458,valu_mart,dairy_and_eggs,Armstrong,Combos - Marble & Naturally Smoked Ham Sausage Sticks,6.49,,3.61,,100g,False
+459,valu_mart,dairy_and_eggs,Philadelphia,French Onion Dip,5.29,,2.33,,100g,False
+460,valu_mart,dairy_and_eggs,Milk 2 Go,Strawberry,1.79,,0.38,,100ml,False
+461,valu_mart,dairy_and_eggs,IOGO,"Yogurt Tubes, Strawberry & Peach",4.29,,0.8900000000000001,,100g,False
+462,valu_mart,dairy_and_eggs,Philadelphia,Strawberry Cream Cheese Product,5.29,,2.33,,100g,False
+463,valu_mart,dairy_and_eggs,No Name,14% M.F. Regular Sour Cream,2.79,,1.12,,100ml,False
+464,valu_mart,dairy_and_eggs,Starbucks,Almond And Oat Dairy Free Hazelnut Latte Coffee Enhancer,7.99,,0.9599999999999999,,100ml,False
+465,valu_mart,dairy_and_eggs,No Name,Light Double Cheddar Shredded Cheese,5.99,,1.87,,100g,False
+466,valu_mart,dairy_and_eggs,Astro,"Original Balkan Style Yogurt, Plain 3%    ",4.79,,0.64,,100g,False
+467,valu_mart,dairy_and_eggs,The A2 Milk Company,1% M.F. Partly Skimmed Milk,6.49,,0.32,,100ml,False
+468,valu_mart,dairy_and_eggs,IOGO,Yogurt 1.5% M.F. Variety Pack,8.49,,0.53,,100g,False
+469,valu_mart,dairy_and_eggs,Tre Stelle,Tre Stelle Cream Cheese Light    ,4.49,,2.25,,100g,False
+470,valu_mart,dairy_and_eggs,Liberte,Greek Lemon 2% MF Yogurt,5.49,,1.3700000000000003,,100g,False
+471,valu_mart,dairy_and_eggs,Fairlife,Lactose Free 2% Partly Skimmed Ultrafiltered Milk,5.49,4.99,0.36306613226452905,0.33,100ml,True
+472,valu_mart,dairy_and_eggs,International Delight,Classic Hazelnut Coffee Creamer,8.99,,0.63,,100ml,False
+473,valu_mart,dairy_and_eggs,No Name,1% M.F. Fat Free Sour Cream ,3.79,,0.76,,100ml,False
+474,valu_mart,dairy_and_eggs,Liberte,Greek Coconut 2% MF Yogurt,6.49,,0.87,,100g,False
+475,valu_mart,dairy_and_eggs,Astro,Original Balkan Yogourt 4% M.F.,7.99,,0.67,,100g,False
+476,valu_mart,dairy_and_eggs,Neilson,TruTaste Skim Milk,4.99,,0.25,,100ml,False
+477,valu_mart,dairy_and_eggs,Yoplait,Yop Drinkable Yogurt Peach Flavour 1% M.F.,1.69,,0.85,,100ml,False
+478,valu_mart,dairy_and_eggs,President's Choice,Mozzarella Cheese ,6.49,,1.6200000000000003,,100g,False
+479,valu_mart,dairy_and_eggs,Danone,Strawberry-Banana Flavoured Paw Patrol Yogurt Drink For Kids,5.99,,0.81,,100ml,False
+480,valu_mart,dairy_and_eggs,Neilson,Trutaste Lactose Free Skim Milk,6.99,5.99,0.3500834724540901,0.3,100ml,True
+481,valu_mart,dairy_and_eggs,Astro,Original Balkan Yogourt 4% M.F.,7.99,,0.67,,100g,False
+482,valu_mart,dairy_and_eggs,Neilson,TruTaste Skim Milk,4.99,,0.25,,100ml,False
+483,valu_mart,dairy_and_eggs,Yoplait,Yop Drinkable Yogurt Peach Flavour 1% M.F.,1.69,,0.85,,100ml,False
+484,valu_mart,dairy_and_eggs,President's Choice,Mozzarella Cheese ,6.49,,1.6200000000000003,,100g,False
+485,valu_mart,dairy_and_eggs,Danone,Strawberry-Banana Flavoured Paw Patrol Yogurt Drink For Kids,5.99,,0.81,,100ml,False
+486,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probioticsactose-Free, Vanilla Flavour",4.79,,0.74,,100g,False
+487,valu_mart,dairy_and_eggs,Liberte,Greek Coconut 2% MF Yogurt,6.49,,0.87,,100g,False
+488,valu_mart,dairy_and_eggs,Gay Lea,Real Coconut Whipped Cream,4.49,,2.0,,100g,False
+489,valu_mart,dairy_and_eggs,Liberte,Greek Blueberry 0% MF Yogurt,6.49,,0.87,,100g,False
+490,valu_mart,dairy_and_eggs,Armstrong,Medium Cheddar Cheese Slice,6.49,5.99,2.7086811352253757,2.5,100g,True
+491,valu_mart,dairy_and_eggs,Earth Balance,Organic Whipped Spread,6.49,,1.76,,100g,False
+492,valu_mart,dairy_and_eggs,Oikos,"Extra Creamy Greek Yogurtemon Meringue Flavour, 4% Mf",4.79,,1.26,,100g,False
+493,valu_mart,dairy_and_eggs,Philadelphia,Dill Pickle Dip,5.29,,2.33,,100g,False
+494,valu_mart,dairy_and_eggs,Activia,"Plant-Based Probiotic Yogurt, Cherry And Peach, 8 Pack",6.69,,0.84,,100g,False
+495,valu_mart,dairy_and_eggs,Lactantia,2% M.F. Partly Skimmed Milk,5.69,,0.28,,100ml,False
+496,valu_mart,dairy_and_eggs,Riviera,"Vegan Yogurt, Plain Coconut",6.49,,1.0,,100g,False
+497,valu_mart,dairy_and_eggs,Lactantia,Butter Sticks Salted with Sea Salt,8.99,,1.98,,100g,False
+498,valu_mart,dairy_and_eggs,President's Choice,Black Cherry 0% M.F. Greek Yogurt ,3.79,,0.95,,100g,False
+499,valu_mart,dairy_and_eggs,Armstrong,Combos - Mozzarella & Naturally Smoked Salami Sticks,6.49,,3.61,,100g,False
+500,valu_mart,dairy_and_eggs,Nestle,Coffee Mate Liquid Hazelnut,6.49,,0.6899999999999998,,100ml,False
+501,valu_mart,dairy_and_eggs,No Name,Cream Cheese Spread with Everything Bagel Seasoning,3.79,,1.67,,100g,False
+502,valu_mart,dairy_and_eggs,Activia,"Probiotic Yogurt, Strawberry/Blueberry/Raspberry/Peach Flavour",6.99,,0.58,,100g,False
+503,valu_mart,dairy_and_eggs,Astro,"Original Balkan Style Yogurt, French Vanilla",4.79,,0.64,,100g,False
+504,valu_mart,dairy_and_eggs,President's Choice,Plant Based Sour Cream Alternative,3.29,,0.97,,100ml,False
+505,valu_mart,dairy_and_eggs,President's Choice,Lactose Free 14% M.F. Sour Cream,4.49,,0.9,,100ml,False
+506,valu_mart,dairy_and_eggs,Becel,Calorie-Reduced Margarine Light,9.29,6.99,1.0898140200286122,0.82,100g,True
+507,valu_mart,dairy_and_eggs,Neilson,Ultrafiltered Skim Milk 0% M.F.,4.69,3.29,0.4704255319148937,0.33,100ml,True
+508,valu_mart,dairy_and_eggs,President's Choice,Gouda Cheese,6.49,,1.6200000000000003,,100g,False
+509,valu_mart,dairy_and_eggs,No Name,Coffee Whitener,5.49,,1.22,,100g,False
+510,valu_mart,dairy_and_eggs,Kraft,Cheez Whiz Cheese Spread,5.99,,1.3299999999999998,,100g,False
+511,valu_mart,dairy_and_eggs,Violife, Smoke Flavoured Provolone Style Slices ,6.99,6.49,3.5003852080123266,3.25,100g,True
+512,valu_mart,dairy_and_eggs,President's Choice,Plant Based Butter Alternative Unsalted,4.99,,1.1,,100g,False
+513,valu_mart,dairy_and_eggs,Organic Meadow,"Organic Cheese, Old Cheddar",12.99,,3.82,,100g,False
+514,valu_mart,dairy_and_eggs,PC Organics,Organic 2% Milk,4.59,,0.46,,100ml,False
+515,valu_mart,dairy_and_eggs,Nestle,COFFEE-MATE Original Powder,7.49,,1.66,,100g,False
+516,valu_mart,dairy_and_eggs,PC Organics,Organic Homogenized Milk,6.89,,0.34,,100ml,False
+517,valu_mart,dairy_and_eggs,Savor,Grass Fed Salted Butter,7.99,,3.2000000000000006,,100g,False
+518,valu_mart,dairy_and_eggs,Yoplait,Lactose Free Strawberry/Raspberry Drinkable Yogurt,1.69,,0.85,,100ml,False
+519,valu_mart,dairy_and_eggs,President's Choice,French Onion Greek Yogurt Dip,3.79,,1.67,,100g,False
+520,valu_mart,dairy_and_eggs,PC Organics,"Organic Cheese, Old Cheddar",6.49,,3.25,,100g,False
+521,valu_mart,dairy_and_eggs,President's Choice,Monterey Jack Sliced Cheese,4.99,,2.38,,100g,False
+522,valu_mart,dairy_and_eggs,Yoplait,Source Strawberry 0% MF,4.79,,0.76,,100g,False
+523,valu_mart,dairy_and_eggs,Black Diamond,Marble Shredded Cheese,6.99,,2.18,,100g,False
+524,valu_mart,dairy_and_eggs,No Name,68% Vegetable Oil Margarine ,4.59,,0.51,,100g,False
+525,valu_mart,dairy_and_eggs,Activia,"Probiotic Yogurt, Mixed Berries, Drinkable Yogurt, 8 Pack",6.49,,0.87,,100ml,False
+526,valu_mart,dairy_and_eggs,Oikos,"Fat Free Greek Yogurt, Cherry Flavour, Fruit On The Bottom, 0% M.F.",4.79,,1.2,,100g,False
+527,valu_mart,dairy_and_eggs,No Name,Light Medium Cheddar Cheese,5.99,,1.5,,100g,False
+528,valu_mart,dairy_and_eggs,Black Diamond,Cheestrings Mozzarella 18% M.F.,6.99,,2.08,,100g,False
+529,valu_mart,dairy_and_eggs,Yoplait,Yop Drinkable Yogurt  Strawberry-Banana Flavour,1.69,,0.85,,100ml,False
+530,valu_mart,dairy_and_eggs,Armstrong,Snack Marble Cheese,6.49,,3.09,,100g,False
+531,valu_mart,dairy_and_eggs,No Name,Farmer's Marble Cheese,9.79,,1.4,,100g,False
+532,valu_mart,dairy_and_eggs,Oikos,"Fat Free Greek Yogurt, 30% Less Sugar, Vanilla Flavour, Blended",4.79,,1.2,,100g,False
+533,valu_mart,dairy_and_eggs,No Name,Cream Cheese Product With Strawberries,3.79,,1.67,,100g,False
+534,valu_mart,dairy_and_eggs,Burnbrae Farms,"Egg Creations, Cheese & Chives",5.29,,1.06,,100g,False
+535,valu_mart,dairy_and_eggs,Cracker Barrel,Slice Old White,5.79,,2.9,,100g,False
+536,valu_mart,dairy_and_eggs,Neilson,Trutaste Lactose Free 2% Milk,6.99,5.99,0.3500834724540901,0.3,100ml,True
+537,valu_mart,dairy_and_eggs,Burnbrae Farms,"Egg Creations, Original",5.29,,1.06,,100g,False
+538,valu_mart,dairy_and_eggs,Neilson,TruTaste 1% Milk,6.79,,0.17,,100ml,False
+539,valu_mart,dairy_and_eggs,Yoplait,Tubes Limited Edition,4.79,,1.07,,100g,False
+540,valu_mart,dairy_and_eggs,President's Choice,Triple Cheddar Shredded Cheese Blend ,12.49,,2.01,,100g,False
+541,valu_mart,dairy_and_eggs,Black Diamond,Cheestrings Marble 18% M.F.,11.99,,2.04,,100g,False
+542,valu_mart,dairy_and_eggs,Philadelphia,Whipped Jalapeno Cheddar Cream Cheese Product,5.29,,2.33,,100g,False
+543,valu_mart,dairy_and_eggs,siggi's,"Yogurt, Strawberry 2% M.F. Simple Ingredient Skyr",7.49,,1.15,,100g,False
+544,valu_mart,dairy_and_eggs,Yoplait,Source Vanilla  Yogurt 0% MF,4.79,,0.76,,100g,False
+545,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probiotics, Mango Flavour Tub",4.79,,0.74,,100g,False
+546,valu_mart,dairy_and_eggs,President's Choice,Country Churned Unsalted Butter ,7.99,,1.76,,100g,False
+547,valu_mart,dairy_and_eggs,PC Organics,"Organic Fresh Churned Butter, Salted",6.99,,2.8000000000000003,,100g,False
+548,valu_mart,dairy_and_eggs,Earth Island,Cheddar Cheese Slices,8.99,,4.5,,100g,False
+549,valu_mart,dairy_and_eggs,Yoplait,Source Raspberry/Fieldberry/Strawberry/Peach  0% MF Yogurt,6.99,,0.44,,100g,False
+550,valu_mart,dairy_and_eggs,President's Choice,"Plant Based Cultured Coconut Milk Yogurt Alternative, Plain",4.79,,0.9599999999999999,,100g,False
+551,valu_mart,dairy_and_eggs,Baileys,French Vanilla,4.39,,1.1,,100ml,False
+552,valu_mart,dairy_and_eggs,Armstrong,Pizza Mozz Cheese Slice,6.49,,2.7,,100g,False
+553,valu_mart,dairy_and_eggs,PC Organics,Organic Partly Skimmed 1% Milk,10.39,,0.26,,100ml,False
+554,valu_mart,dairy_and_eggs,Neilson,"Homogenized Milk Microfiltered, 3.25% M.F.",3.69,,0.37,,100ml,False
+555,valu_mart,dairy_and_eggs,Nestle,Coffee Mate Coffee Enhancer Hazelnut Value Size,8.99,,0.48,,100ml,False
+556,valu_mart,dairy_and_eggs,Milk 2 Go,Chocolate Partly Skimmed Milk 1% M.F. 6 x,6.19,,515.83,,100ml,False
+557,valu_mart,dairy_and_eggs,Neilson,Half & Half Cream,2.49,,1.05,,100ml,False
+558,valu_mart,dairy_and_eggs,Neilson,Original Chocolate Milkshake,1.0,,0.32,,100ml,False
+559,valu_mart,dairy_and_eggs,Neilson,Partly Skimmed Milk 2% MF,5.99,,0.15,,100ml,False
+560,valu_mart,dairy_and_eggs,Neilson,Skim Milk,3.49,,0.35,,100ml,False
+561,valu_mart,dairy_and_eggs,Neilson,Buttermilk,4.39,,0.44,,100ml,False
+562,valu_mart,dairy_and_eggs,Neilson,Whipping Cream,3.79,,1.6,,100ml,False
+563,valu_mart,dairy_and_eggs,Neilson,Skim Milk,4.99,,0.25,,100ml,False
+564,valu_mart,dairy_and_eggs,Natrel,Lactose Free 2% Dairy Product (2L),6.89,,0.34,,100ml,False
+565,valu_mart,dairy_and_eggs,Neilson,Caramel Chocolate Milkshake,1.0,,0.32,,100ml,False
+566,valu_mart,dairy_and_eggs,Spread 'Em Kitchen Co.,The Meadow,10.99,,5.5,,100g,False
+567,valu_mart,dairy_and_eggs,Oikos,Maple Syrup 2% M.F. Greek Yogurt,4.79,,1.2,,100g,False
+568,valu_mart,dairy_and_eggs,Black Diamond,Cheddar Cheese Thin Slices,4.99,,1.2199999999999998,,100g,False
+569,valu_mart,dairy_and_eggs,Neilson,Chocolate Dairy Beverage 2% M.F.,4.69,3.29,0.4704255319148937,0.33,100ml,True
+570,valu_mart,dairy_and_eggs,Burnbrae Farms,"Naturegg Nest Laid White Eggs, Large",4.99,,0.42,,1ea,False
+571,valu_mart,dairy_and_eggs,IOGO,"Nano Yogurt, Peach 1%",4.79,,0.86,,100ml,False
+572,valu_mart,dairy_and_eggs,Gay Lea,"Sour Cream, Regular 14%",4.29,,0.86,,100ml,False
+573,valu_mart,dairy_and_eggs,IOGO,"Drinkable Yogurt, Banana 1.5%",4.79,,0.86,,100ml,False
+574,valu_mart,dairy_and_eggs,Nestle,Coffee Mate Double Double-Mate Liquid Coffee Enhancer,6.49,,0.6899999999999998,,100ml,False
+575,valu_mart,dairy_and_eggs,Liberte,Greek Mango 0% MF Yogurt,6.49,,0.87,,100g,False
+576,valu_mart,dairy_and_eggs,Neilson,Chocolate Dairy Beverage 2% M.F.,4.69,3.29,0.4704255319148937,0.33,100ml,True
+577,valu_mart,dairy_and_eggs,Burnbrae Farms,"Naturegg Nest Laid White Eggs, Large",4.99,,0.42,,1ea,False
+578,valu_mart,dairy_and_eggs,IOGO,"Nano Yogurt, Peach 1%",4.79,,0.86,,100ml,False
+579,valu_mart,dairy_and_eggs,Oikos,"High Protein Greek Yogurt, Strawberry-Raspberry Flavour, Blended, Value Tub",7.29,6.49,1.12326656394453,1.0,100g,True
+580,valu_mart,dairy_and_eggs,President's Choice,Shredded Pizza Mozzarella Cheese,12.49,,2.01,,100g,False
+581,valu_mart,dairy_and_eggs,Starbucks,White Chocolate Mocha Liquid Coffee Enhancer,7.99,,0.9599999999999999,,100ml,False
+582,valu_mart,dairy_and_eggs,Philadelphia,Mixed Berry Whipped Cream Cheese Product,5.29,,2.33,,100g,False
+583,valu_mart,dairy_and_eggs,President's Choice,Peach Mango 2% M.F. Greek Yogurt,3.79,,0.95,,100g,False
+584,valu_mart,dairy_and_eggs,Activia,"Probiotic Yogurt, Raspberry/Apple/Blackberry/Strawberry Flavour, 12XG",6.99,,0.58,,100g,False
+585,valu_mart,dairy_and_eggs,Silk,"Soy For Coffee, Original Coffee Creamer",5.49,,0.62,,100ml,False
+586,valu_mart,dairy_and_eggs,President's Choice,Blueberry Fruit On The Bottom 0% M.F. Greek Yogurt,3.79,,0.95,,100g,False
+587,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probiotics, Cherry Flavour",4.79,,0.74,,100g,False
+588,valu_mart,dairy_and_eggs,IOGO,Nanö Drinkable Yogurt Strawberry 1 % M.F.,5.49,,0.61,,100ml,False
+589,valu_mart,dairy_and_eggs,Nestle,Coffee Mate Liquid French Vanilla,6.49,,0.6899999999999998,,100ml,False
+590,valu_mart,dairy_and_eggs,Kiri,Cream Cheese,5.99,,4.16,,100g,False
+591,valu_mart,dairy_and_eggs,Yoplait,Yop Drinkable Yogurt Strawberry Flavour 1% M.F.,6.99,,0.58,,100ml,False
+592,valu_mart,dairy_and_eggs,Armstrong,"Cheese, Sliced Cheddar with Jalapeño Mexican Fiesta 31 % M.F.",6.49,5.99,2.947045075125209,2.72,100g,True
+593,valu_mart,dairy_and_eggs,Heluva,"Sour Cream Dip, Dill Pickle",4.49,,1.8,,100g,False
+594,valu_mart,dairy_and_eggs,Danone,"Drinkable Yogurt, Strawberry Banana Flavour, Made With Real Fruit, 2% M.F.",1.29,,0.68,,100ml,False
+595,valu_mart,dairy_and_eggs,President's Choice,Gluten Free Pie Crust,6.99,,1.84,,100g,False
+596,valu_mart,dairy_and_eggs,Yoplait,Yop Drinkable Yogurt Raspberrry Flavour,1.69,,0.85,,100ml,False
+597,valu_mart,dairy_and_eggs,No Name,Herb and Spice Sour Cream Dip,3.79,,1.52,,100g,False
+598,valu_mart,dairy_and_eggs,Pillsbury,Holiday Premium Edition Cookies,4.49,,1.13,,100g,False
+599,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurt, Raspberry-Pomegramate Flavour, Fruit On Bottom, 2% M.F.,",4.79,,1.2,,100g,False
+600,valu_mart,dairy_and_eggs,IOGO,1% Lactose Free Strawberry-Banana Drinkable Yogurt,4.79,,0.86,,100g,False
+601,valu_mart,dairy_and_eggs,Neilson,TruTaste 1% Milk,4.09,,0.41,,100ml,False
+602,valu_mart,dairy_and_eggs,IOGO,"Yogurt Duo, Pineapple-Coconut-Banana, Raspberry, Orange-Mandarin, Peach-Mango",8.49,,0.53,,100g,False
+603,valu_mart,dairy_and_eggs,Philadelphia,Original Cream Cheese Product,5.29,,2.33,,100g,False
+604,valu_mart,dairy_and_eggs,No Name,Old Cheddar Cheese Slices ,4.99,,2.38,,100g,False
+605,valu_mart,dairy_and_eggs,Lactantia,1% M.F. Partly Skimmed Milk,5.69,,0.28,,100ml,False
+606,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probiotics, Vanilla Flavour, 100G",6.69,,0.84,,100g,False
+607,valu_mart,dairy_and_eggs,PC Organics,Organic Free-Range Brown Eggs,7.69,,0.64,,1ea,False
+608,valu_mart,dairy_and_eggs,Danone,"Drinkable Yogurt, Peach Flavour, Made With Real Fruit, 2% M.F.",1.29,,0.68,,100ml,False
+609,valu_mart,dairy_and_eggs,No Name,Marble Cheddar Cheese,5.99,,1.5,,100g,False
+610,valu_mart,dairy_and_eggs,President's Choice,Strawberry 0% M.F. Greek Yogurt ,3.79,,0.95,,100g,False
+611,valu_mart,dairy_and_eggs,Riviera,"Vegan Yogurt, Vanilla Coconut",6.49,,1.0,,100g,False
+612,valu_mart,dairy_and_eggs,Yoplait,Minigo 3% MF Fresh Cheese Strawberry/Strawberry-Vanilla/Strawberry-Banana,4.79,,1.33,,100g,False
+613,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probiotics, Strawberry Flavour",6.99,,0.58,,100g,False
+614,valu_mart,dairy_and_eggs,Cracker Barrel,Shreds 3 Cheese Mexicana,7.79,,2.43,,100g,False
+615,valu_mart,dairy_and_eggs,International Delight,"Zero Sugar Hazelnut Coffee Creamer,",5.99,,0.63,,100ml,False
+616,valu_mart,dairy_and_eggs,Black Diamond,Cheddar Coloured Old,6.99,,1.75,,100g,False
+617,valu_mart,dairy_and_eggs,President's Choice,Cheddar Cheese with Habanero,6.49,,1.6200000000000003,,100g,False
+618,valu_mart,dairy_and_eggs,No Name,Deep Dish Pie Shells,4.49,,1.18,,100g,False
+619,valu_mart,dairy_and_eggs,Yoplait,Lactose Free Mango,1.69,,0.85,,100ml,False
+620,valu_mart,dairy_and_eggs,Neilson,Whipping Cream,3.99,,0.8400000000000001,,100ml,False
+621,valu_mart,dairy_and_eggs,Activia,"Immune System, Probiotic Yogurt Drink, Strawberry Drinkable Yogurt, 8 Pack",6.49,,0.87,,100ml,False
+622,valu_mart,dairy_and_eggs,Lactantia,Unsalted Butter,8.49,,1.87,,100g,False
+623,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probiotics, Strawberry Flavour",4.79,,0.74,,100g,False
+624,valu_mart,dairy_and_eggs,Activia,"Yogurt With Probiotics, Fieldberry Flavour Tub",4.79,,0.74,,100g,False
+625,valu_mart,dairy_and_eggs,Heluva,"Sour Cream Dip, French Onion",5.99,,0.88,,100g,False
+626,valu_mart,dairy_and_eggs,Oikos,"Drinkable Greek Yogurt With Field Berries, Oats, & Seeds, 9G Protein",2.29,,1.21,,100ml,False
+627,valu_mart,dairy_and_eggs,Activia,"Probiotic Smoothie, Blueberry, Strawberry, & Beet, Drinkable Yogurt",2.29,,1.21,,100ml,False
+628,valu_mart,dairy_and_eggs,Yoplait,Yop Drinkable Yogurt Strawberry Flavour ,1.69,,0.85,,100ml,False
+629,valu_mart,dairy_and_eggs,No Name,Pasteurized Cream Cheese,3.79,,1.52,,100g,False
+630,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurt, Vanilla Flavour, 2% M.F., Value Tub",7.29,6.49,0.9772419106317412,0.87,100g,True
+631,valu_mart,dairy_and_eggs,Activia,"Probiotic Yogurt With Fibre, Vanilla Flavour With Oats, Almonds, Pumpkin Seeds And Dried Cranberries, 3 Pack",6.69,,1.49,,100g,False
+632,valu_mart,dairy_and_eggs,Astro,"Original Balkan Style Yogurt, Plain 2%",4.79,,0.64,,100g,False
+633,valu_mart,dairy_and_eggs,PC Organics,Dairy-Free Coconut Milk Kefir,5.49,,0.55,,100ml,False
+634,valu_mart,dairy_and_eggs,Black Diamond,Cheddar Old Coloured Shred,6.99,,2.18,,100g,False
+635,valu_mart,dairy_and_eggs,Oikos,"Greek Yogurt, Key Lime Flavour, 2% M.F., Blended",4.79,,1.2,,100g,False
+636,valu_mart,dairy_and_eggs,President's Choice,Free Run Brown Eggs Large,6.79,,0.57,,1ea,False
+637,valu_mart,dairy_and_eggs,No Name,Light Part Skim Mozzarella Cheese,5.99,,1.5,,100g,False
+638,valu_mart,dairy_and_eggs,President's Choice,Marble Cheddar Cheese,6.49,,1.6200000000000003,,100g,False
+639,valu_mart,dairy_and_eggs,Nestle,Coffee Mate Liquid Creamer Caramel Macchiato,6.49,,0.6899999999999998,,100ml,False
+640,valu_mart,dairy_and_eggs,Gay Lea,"Nordica Cottage Cheese, Creamed 4%",5.49,,1.1,,100g,False
+641,valu_mart,dairy_and_eggs,No Name,Swiss Cheese Slices,4.99,,2.38,,100g,False
+642,valu_mart,dairy_and_eggs,Lactantia,"My Country Butter Sticks, Unsalted",8.49,,1.87,,100g,False
+643,valu_mart,dairy_and_eggs,President's Choice,Key Lime 2% M.F. Greek Yogurt ,3.79,,0.95,,100g,False
+644,valu_mart,dairy_and_eggs,Black Diamond,Marble Cheese,6.99,,1.75,,100g,False
+645,valu_mart,dairy_and_eggs,Riviera,Coconut Milk Vegan Yogurt - Mango And Passion Fruit,6.49,,1.3,,100g,False
+646,valu_mart,dairy_and_eggs,Becel,Buttery Taste Margarine,16.99,,1.33,,100g,False
+647,valu_mart,dairy_and_eggs,No Name,"Cottage Cheese, 2% M.F.",4.99,,1.0,,100g,False
+648,valu_mart,dairy_and_eggs,Becel,Margarine Salted Plant-Based Sticks,5.49,,1.21,,100g,False
+649,valu_mart,dairy_and_eggs,President's Choice,Tre Formaggi Shredded Cheese Blend,6.49,,2.03,,100g,False
+650,valu_mart,dairy_and_eggs,No Name,Cream Cheese Product With Jalapeño ,3.79,,1.67,,100g,False
+651,valu_mart,dairy_and_eggs,PC Blue Menu,Blue Menu Margarine with Olive Oil,6.49,,0.72,,100g,False
+652,valu_mart,dairy_and_eggs,President's Choice,Plain 2% M.F. Greek Yogurt,6.49,,0.71,,100g,False
+653,valu_mart,dairy_and_eggs,Nestle,Coffee Mate Liquid Fat Free French Vanilla,6.49,,0.6899999999999998,,100ml,False
+654,valu_mart,dairy_and_eggs,President's Choice,Greek Yogurt Tzatziki Dip,3.79,,1.67,,100g,False
+655,valu_mart,dairy_and_eggs,Organic Meadow,Cottage Cheese,8.99,,1.8,,100g,False
+656,valu_mart,dairy_and_eggs,Amooza,Pizza Mozzarella Cheese With Mild Cheddar Taste 22 % M.F.,5.99,,2.63,,100g,False
+657,valu_mart,dairy_and_eggs,No Name,French Onion Sour Cream Dip ,3.79,,1.52,,100g,False
+658,valu_mart,dairy_and_eggs,Becel,Margarine Unsalted Plant-Based Sticks,5.49,,1.21,,100g,False
+659,valu_mart,bakery,Country Harvest,14 Grains Whole Wheat Bread,4.29,,0.72,,100g,False
+660,valu_mart,bakery,Casa Mendosa,Large Original Tortillas,4.79,,0.75,,100g,False
+661,valu_mart,bakery,,White Baguette,1.69,1.49,0.6578523489932885,0.58,100g,True
+662,valu_mart,bakery,President's Choice,Tortillas Original ,4.29,,0.66,,100g,False
+663,valu_mart,bakery,ACE,White Baguette,3.79,,1.08,,100g,False
+664,valu_mart,bakery,President's Choice,Original English Muffins,2.89,,0.85,,100g,False
+665,valu_mart,bakery,Old Mill,White Bread,2.79,,0.41,,100g,False
+666,valu_mart,bakery,Country Harvest,Ancient Grains & Red Fife Bread,4.29,,0.72,,100g,False
+667,valu_mart,bakery,Farmer's Market,Banana Chocolate Chunk Muffins,6.99,,1.17,,100g,False
+668,valu_mart,bakery,Wonder,"Bread, Sliced White",3.79,,0.56,,100g,False
+669,valu_mart,bakery,Casa Mendosa,Large Whole Wheat Tortillas,4.79,,0.75,,100g,False
+670,valu_mart,bakery,Farmer's Market,Butter Croissant,5.99,,2.22,,100g,False
+671,valu_mart,bakery,Farmer's Market,Chocolate Chip Muffins,6.99,,1.17,,100g,False
+672,valu_mart,bakery,Wonder,"Thin Sandwich Bread, White",3.79,,0.56,,100g,False
+673,valu_mart,bakery,Farmer's Market,Blueberry Muffins,6.99,,1.23,,100g,False
+674,valu_mart,bakery,Wonder,White Hamburger Buns,3.79,,1.0,,100g,False
+675,valu_mart,bakery,Country Harvest,Everything Bagel,4.29,,0.95,,100g,False
+676,valu_mart,bakery,Wonder,White Bread with Fibre,3.79,,0.56,,100g,False
+677,valu_mart,bakery,Wonder,White Hotdog Buns,3.79,,1.06,,100g,False
+678,valu_mart,bakery,No Name,Bagel Everthing,2.89,,0.6,,100g,False
+679,valu_mart,bakery,No Name,Bagel Plain 6 Pack,2.89,,0.57,,100g,False
+680,valu_mart,bakery,DItaliano,Thick Slices Bread,4.29,,0.64,,100g,False
+681,valu_mart,bakery,DItaliano,Brioche-Style Hamburger Buns,4.29,,0.77,,100g,False
+682,valu_mart,bakery,Country Harvest,Cinnamon Raisin Bread,4.29,,0.72,,100g,False
+683,valu_mart,bakery,Wonder,100% Whole Wheat Bread,3.79,,0.56,,100g,False
+684,valu_mart,bakery,Farmer's Market,Carrot Muffins,6.99,,1.17,,100g,False
+685,valu_mart,bakery,Casa Mendosa,"10 Medium Tortillas, Original",4.29,,1.26,,100g,False
+686,valu_mart,bakery,Wonder,White Bread White Texas,3.79,,0.56,,100g,False
+687,valu_mart,bakery,Suraj,Naan Original 5 Flatbreads,3.99,,0.8,,100g,False
+688,valu_mart,bakery,Country Harvest,Everything Bread,4.29,,0.72,,100g,False
+689,valu_mart,bakery,Country Harvest,Quinoa Flax Bread,4.29,,0.72,,100g,False
+690,valu_mart,bakery,Country Harvest,Oat & Honey Whole Wheat Bread,4.29,,0.72,,100g,False
+691,valu_mart,bakery,Country Harvest,Protein Bread,4.29,,0.72,,100g,False
+692,valu_mart,bakery,Country Harvest,Whole Grains Bread No Sugar Added,4.29,,0.72,,100g,False
+693,valu_mart,bakery,,Kaiser Rolls Large 6 Pack,3.99,,1.14,,100g,False
+694,valu_mart,bakery,Farmer's Market,Butter Croissants Mini,5.99,,1.78,,100g,False
+695,valu_mart,bakery,President's Choice,Triple Chocolate Cake,17.49,,2.46,,100g,False
+696,valu_mart,bakery,Dimpflmeier,Klosterbrot Bread,4.09,,0.9,,100g,False
+697,valu_mart,bakery,,PC Dinner Rolls 60% Whole Wheat,4.29,,0.36,,1ea,False
+698,valu_mart,bakery,,Panini Roll 2 Pack,1.59,,1.49,,100g,False
+699,valu_mart,bakery,Dimpflmeier,100% Rye Bread With Flaxseeds,4.99,,1.1,,100g,False
+700,valu_mart,bakery,Country Harvest,Original Bagels,4.29,,0.95,,100g,False
+701,valu_mart,bakery,PC Blue Menu,100% Whole Wheat Bagels,4.49,,1.34,,100g,False
+702,valu_mart,bakery,,All Butter Almondine Rolls,3.99,,1.16,,100g,False
+703,valu_mart,bakery,President's Choice,Brioche Mini Rolls,5.49,,1.3700000000000003,,100g,False
+704,valu_mart,bakery,,Old Fashioned Cherry Pie,1.79,,1.57,,100g,False
+705,valu_mart,bakery,,"Bagel, Plain, 6-pack",4.29,,3.8,,100g,False
+706,valu_mart,bakery,Frontier Bakery,Thick Pouch White Bread Pitas,1.59,,0.37,,100g,False
+707,valu_mart,bakery,,"Bagel, Plain, 6-pack",4.29,,3.8,,100g,False
+708,valu_mart,bakery,Frontier Bakery,Thick Pouch White Bread Pitas,1.59,,0.37,,100g,False
+709,valu_mart,bakery,ACE,Ciabatta Cluster,3.79,,0.95,,100g,False
+710,valu_mart,bakery,Baxters,Vanilla Raspberry Cream,5.49,4.99,1.3642484969939879,1.24,100g,True
+711,valu_mart,bakery,,Panini Rolls 6 Pack,3.99,,1.25,,100g,False
+712,valu_mart,bakery,,Macarons Assorted Pk 6,5.99,,6.24,,100g,False
+713,valu_mart,bakery,,"Pumpernickel Bread, Sliced",4.79,,0.71,,100g,False
+714,valu_mart,bakery,Farmer's Market,Pecan Butter Tarts,7.99,,1.5700000000000003,,100g,False
+715,valu_mart,bakery,,"White Bread, Sliced",2.99,,0.66,,100g,False
+716,valu_mart,bakery,Farmer's Market,Cinnamon Coffee Cake,6.0,,1.2,,100g,False
+717,valu_mart,bakery,Farmer's Market,Carrot Cake,15.99,,1.83,,100g,False
+718,valu_mart,bakery,President's Choice,Plain Barbari Flatbread,3.49,,1.4,,100g,False
+719,valu_mart,bakery,Furlani,Frozen Texas Toast Garlic,5.29,,0.83,,100g,False
+720,valu_mart,bakery,PC Organics,Organic 100% Whole Grain Bread,5.29,,0.75,,100g,False
+721,valu_mart,bakery,Old Mill,"12"" Thin Pizza Starter Kit",4.39,,0.63,,100g,False
+722,valu_mart,bakery,,"Plain Croissant, 6 Pack",4.29,,1.43,,100g,False
+723,valu_mart,bakery,LA FOURNEE DOREE,Brioche Hot Dog Rolls,4.49,,1.17,,100g,False
+724,valu_mart,bakery,,"7 Grain Bread, Sliced",3.99,,0.89,,100g,False
+725,valu_mart,bakery,Sha Sha,Ginger Snap Cookies,7.49,,2.5,,100g,False
+726,valu_mart,bakery,Frontier Bakery,Lebanese Style White Pita,1.39,,0.42,,100g,False
+727,valu_mart,bakery,Baxters,Swiss Roll Chocolate,5.49,4.99,1.3642484969939879,1.24,100g,True
+728,valu_mart,bakery,,Submarine Buns 4 Pack,2.79,,2.15,,100g,False
+729,valu_mart,bakery,Dempster,Fresh White Bread,3.99,,0.59,,100g,False
+730,valu_mart,bakery,,Bagels,0.79,,0.7,,100g,False
+731,valu_mart,bakery,President's Choice,Thick Pizza Crust,4.29,,1.43,,100g,False
+732,valu_mart,bakery,Farmer's Market,"Tea Biscuits, Cheddar Cheese",6.29,,2.0,,100g,False
+733,valu_mart,bakery,DItaliano,Thick Sliced Brioche-Style Loaf,4.29,,0.69,,100g,False
+734,valu_mart,bakery,President's Choice,Traditional Naan,3.69,,1.48,,100g,False
+735,valu_mart,bakery,Casa Mendosa,"10 Medium Tortillas, Whole Wheat",4.29,,1.26,,100g,False
+736,valu_mart,bakery,,"Strawberry Rhubarb Pie, 8 Inch",6.79,,1.0,,100g,False
+737,valu_mart,bakery,No Name,Bagel Whole Wheat,2.89,,0.57,,100g,False
+738,valu_mart,bakery,President's Choice,Multigrain Flatbread,3.29,,1.1,,100g,False
+739,valu_mart,bakery,President's Choice,Chocolate Chip Mini Muffins,5.69,,1.69,,100g,False
+740,valu_mart,bakery,Dempster,100% Whole Wheat Bread,4.29,,0.64,,100g,False
+741,valu_mart,bakery,President's Choice,Italian Style Bread Crumbs,2.99,,1.09,,100g,False
+742,valu_mart,bakery,PC Blue Menu,100% Whole Grain Tortillas,4.29,,1.1,,100g,False
+743,valu_mart,bakery,Paneriso,Banana Loaf Cake,8.49,,1.87,,100g,False
+744,valu_mart,bakery,DItaliano,Sesame Seed Bread,4.29,,0.64,,100g,False
+745,valu_mart,bakery,No Name,Whole Wheat English Muffins,2.89,,0.85,,100g,False
+746,valu_mart,bakery,Farmer's Market,Lemon Curd Cake,6.99,,1.4699999999999998,,100g,False
+747,valu_mart,bakery,Dimpflmeier,Bread Original Swedish Style Light Rye,4.49,,0.99,,100g,False
+748,valu_mart,bakery,,Bulk Ts Donut,1.89,,1.89,,100g,False
+749,valu_mart,bakery,LA FOURNEE DOREE, Croissant Bun,6.99,,2.33,,100g,False
+750,valu_mart,bakery,Farmer's Market,Chocolate Cake,6.99,,1.43,,100g,False
+751,valu_mart,bakery,President's Choice,Sourdough Loaf,3.99,,0.8,,100g,False
+752,valu_mart,bakery,President's Choice,Mini Naan Garlic 4 Flatbreads,3.49,,1.9399999999999997,,100g,False
+753,valu_mart,bakery,DItaliano,Brizzolio Bread,4.29,,0.72,,100g,False
+754,valu_mart,bakery,President's Choice,Pumpernickel Rye Loaf Bread,3.99,,0.83,,100g,False
+755,valu_mart,bakery,Rubschlager,Sesame Multigrain Loaf,3.49,,0.77,,100g,False
+756,valu_mart,bakery,,"White Subs, 2 Pack",1.59,,0.8,,100g,False
+757,valu_mart,bakery,,Swirl Bun 2 Pack,3.19,,2.08,,100g,False
+758,valu_mart,bakery,,Cheese Swirl Buns 4 Pack,5.79,,1.45,,100g,False
+759,valu_mart,bakery,ACE,Olive Oil & Sea Salt Mini Crisps ,6.29,,3.49,,100g,False
+760,valu_mart,bakery,Poppers,Popped Grains Corn Minis,3.99,,8.87,,100g,False
+761,valu_mart,bakery,Poppers,Wheat Popped Grains,5.29,,4.41,,100g,False
+762,valu_mart,bakery,Farmer's Market,Cake Chocolate,22.99,,1.53,,100g,False
+763,valu_mart,bakery,ACE,Ciabatta Piccola,6.79,,0.85,,100g,False
+764,valu_mart,bakery,,Croissant 2 Pack,1.59,,1.28,,100g,False
+765,valu_mart,bakery,,Honey Glazed Ring Donuts 2 Pack,3.49,,2.18,,100g,False
+766,valu_mart,bakery,,"Jamocha Almond Fudge Cake, 8 Inch",29.99,,2.4,,100g,False
+767,valu_mart,bakery,Farmer's Market,Hello Dolly 7 Layer Square,6.99,,1.55,,100g,False
+768,valu_mart,bakery,,"Bagels, Poppy Seed 6 Pack",4.29,,3.9700000000000006,,100g,False
+769,valu_mart,bakery,,"Italian Bread, Multi-grain  Sliced",3.49,,0.78,,100g,False
+770,valu_mart,bakery,PC Blue Menu,White Whole Grain Thin Buns,3.99,,0.83,,100g,False
+771,valu_mart,bakery,President's Choice,Bread Crumbs,2.99,,1.0,,100g,False
+772,valu_mart,bakery,Apple Valley,"Apple Pie, No Sugar Added 8""",6.99,,1.13,,100g,False
+773,valu_mart,bakery,President's Choice,Vanilla Bark Cake,17.49,,2.53,,100g,False
+774,valu_mart,bakery,Farmer's Market,Cake Vanilla,22.99,,1.53,,100g,False
+775,valu_mart,bakery,President's Choice,Traditional Naan Dippers Flatbreads Club Pack,6.99,,1.75,,100g,False
+776,valu_mart,bakery,,"Sourdough Bread, Sliced",4.79,,0.71,,100g,False
+777,valu_mart,bakery,,Truffle Royale,18.99,,3.17,,100g,False
+778,valu_mart,bakery,,"100% Whole Wheat Bread, Sliced",2.99,,0.66,,100g,False
+779,valu_mart,bakery,PC Organics,Organic Original Tortilla 10,4.29,,1.1,,100g,False
+780,valu_mart,bakery,Farmer's Market,Tuxedo Cake,14.99,,1.99,,100g,False
+781,valu_mart,bakery,President's Choice,Gigantico Burger Buns ,4.29,,0.76,,100g,False
+782,valu_mart,bakery,President's Choice,Extra Raisins Hot Cross Buns,4.99,,0.88,,100g,False
+783,valu_mart,bakery,Farmer's Market,Cake Carrot,22.99,,1.64,,100g,False
+784,valu_mart,bakery,President's Choice,Gluten Free Tortillas Original,5.99,,1.66,,100g,False
+785,valu_mart,bakery,President's Choice,Gluten Free Hamburger Buns,4.69,,1.47,,100g,False
+786,valu_mart,bakery,,PC Multigrain Kaiser 6S,3.99,,1.0,,100g,False
+787,valu_mart,bakery,President's Choice,Gluten Free Strawberry Cake ,9.99,,1.81,,100g,False
+788,valu_mart,bakery,Farmer's Market,Lemon Coffee Cake,6.0,,1.2,,100g,False
+789,valu_mart,bakery,,Croissant Chocolatine 4 Pack,3.99,,1.23,,100g,False
+790,valu_mart,bakery,Dimpflmeier,Marble Rye Bread,3.89,,0.78,,100g,False
+791,valu_mart,bakery,President's Choice,Garlic Naan ,3.69,,1.48,,100g,False
+792,valu_mart,bakery,Farmer's Market,Oatmeal & Chocolate Cookies,5.99,5.49,1.3092896174863389,1.2,100g,True
+793,valu_mart,bakery,ACE,Rustic Italian Oval,4.59,,1.31,,100g,False
+794,valu_mart,bakery,,"Red Velvet Cake 8""",29.99,,2.31,,100g,False
+795,valu_mart,bakery,,Old Fashioned Apple Pie,1.79,,1.57,,100g,False
+796,valu_mart,bakery,Country Harvest,Sourdough Loaf,4.29,,0.66,,100g,False
+797,valu_mart,bakery,School Safe,Muffin Bars Banana Chocolate Chip,3.99,,1.35,,100g,False
+798,valu_mart,bakery,Rubschlager,Marble Rye Loaf,3.49,,0.77,,100g,False
+799,valu_mart,bakery,,Flame-Baked Naan Cilantro & Roasted Garlic,3.99,,1.0,,100g,False
+800,valu_mart,bakery,Country Harvest,Cranberry & Oats Bagel,4.29,,0.95,,100g,False
+801,valu_mart,bakery,La Baguetterie,Ciabatta Demi ,3.49,,0.78,,100g,False
+802,valu_mart,bakery,Farmer's Market,"Sliced Loaf Cake, Marble",6.29,,1.5,,100g,False
+803,valu_mart,bakery,President's Choice,Carrot Mini Muffins,5.69,,1.69,,100g,False
+804,valu_mart,bakery,Vachon,Flaky Pastries Apple-Raspberry,4.29,,1.41,,100g,False
+805,valu_mart,bakery,,Core 12 Grain Breads,4.29,,1.51,,100g,False
+806,valu_mart,bakery,,"8"" Lemon Meringue Pie",6.79,,1.07,,100g,False
+807,valu_mart,bakery,Suraj,Naan Garlic 5 Flatbreads,3.99,,0.8,,100g,False
+808,valu_mart,bakery,Wonder,Whole Wheat Hamburger Buns,3.79,,0.85,,100g,False
+809,valu_mart,bakery,Wonder,Whole Wheat Hot Dog Rolls,3.79,,0.79,,100g,False
+810,valu_mart,bakery,Suraj,"Naan Original Flatbreads, 10 pack",5.49,,5.49,,1ea,False
+811,valu_mart,bakery,,Amazing Grain Raisin Bread Sliced,4.49,,1.0,,100g,False
+812,valu_mart,bakery,Rudolphs,Bavarian Rye Bread,4.29,,0.86,,100g,False
+813,valu_mart,bakery,Country Harvest,"Bagels, Raisin Cinnamon with Whole Wheat",4.29,,0.95,,100g,False
+814,valu_mart,bakery,La Baguetterie,White Oval,3.49,,0.77,,100g,False
+815,valu_mart,bakery,Country Harvest,14 Grain Bagels,4.29,,0.95,,100g,False
+816,valu_mart,bakery,Farmer's Market,Bumbleberry Crumble Pie,10.99,,1.1,,100g,False
+817,valu_mart,bakery,LA FOURNEE DOREE,Milk Brioche Rolls,6.49,,1.85,,100g,False
+818,valu_mart,bakery,Farmer's Market,"Cookies, Peanut Butter, 12 Pack",5.99,5.49,1.3092896174863389,1.2,100g,True
+819,valu_mart,bakery,Moms,Golden Pound Cake,5.49,,1.22,,100g,False
+820,valu_mart,bakery,President's Choice,Yukon Gold Potato Loaf,3.99,,0.83,,100g,False
+821,valu_mart,bakery,Dimpflmeier,Bread Original Swedish Style Light Rye,5.29,,0.78,,100g,False
+822,valu_mart,bakery,,"6"" Chocolate Truffle Cake",18.99,,3.17,,100g,False
+823,valu_mart,bakery,Rudolphs,Bavarian Premium Sandwich Bread,4.29,,0.86,,100g,False
+824,valu_mart,bakery,ACE,Aged Mini Cheddar Crisps,6.29,,4.19,,100g,False
+825,valu_mart,bakery,Farmer's Market,Cookies and Creme Cake,15.99,,1.9399999999999997,,100g,False
+826,valu_mart,bakery,Promise Gluten Free, Soft White Loaf,7.99,,1.66,,100g,False
+827,valu_mart,bakery,No Name,Whole Wheat Mini Pitas,1.99,,1.17,,100g,False
+828,valu_mart,bakery,,Cheese Pizza Buns 4 Pack,5.79,,1.26,,100g,False
+829,valu_mart,bakery,,"12 Grain Bread, Sliced",3.99,,0.89,,100g,False
+830,valu_mart,bakery,Sha Sha,Ginger Snaps,7.49,,2.5,,100g,False
+831,valu_mart,bakery,Dimpflmeier,Sonnenblumenkerne Bread,4.09,,0.9,,100g,False
+832,valu_mart,bakery,,Savoury Roll,1.49,,1.75,,100g,False
+833,valu_mart,bakery,,"Bagels, Cinnamon Raisin 6 Pack",4.29,,3.9700000000000006,,100g,False
+834,valu_mart,bakery,Rudolphs,Light Rye Bread,4.29,,0.63,,100g,False
+835,valu_mart,bakery,President's Choice,Traditional Naan Club Size ,5.59,,0.75,,100g,False
+836,valu_mart,bakery,,"Bagels, Everything 6 Pack",4.29,,3.9700000000000006,,100g,False
+837,valu_mart,bakery,,"Pumpernickel Bread, Sliced",3.19,,0.7100000000000001,,100g,False
+838,valu_mart,bakery,Rubschlager,Bavarian Rye Loaf,3.49,,0.77,,100g,False
+839,valu_mart,bakery,,ProteinUp Tortilla Wrap with Sea Salt & Pepper,4.29,,1.51,,100g,False
+840,valu_mart,bakery,two-bite,Mini Vanilla Cupcakes 12 Pack,5.29,,1.8600000000000003,,100g,False
+841,valu_mart,bakery,ACE,Ciabatta Pezzetti Duo,6.79,,0.81,,100g,False
+842,valu_mart,bakery,Ready Bake,Garlic Bread,3.99,,1.21,,100g,False
+843,valu_mart,bakery,Farmer's Market,Raisin Bran Muffins,6.99,,1.17,,100g,False
+844,valu_mart,bakery,Furlani,Frozen Texas Toast Parmesan Garlic,5.29,,0.83,,100g,False
+845,valu_mart,bakery,Farmer's Market,Everything Butter Croissants,5.99,,2.22,,100g,False
+846,valu_mart,bakery,Suraj,Naan Garlic Flatbreads,5.49,,0.55,,100g,False
+847,valu_mart,bakery,President's Choice,Traditional Naan Rounds,4.59,,0.96,,100g,False
+848,valu_mart,bakery,President's Choice,Cannoli Kit,9.99,,3.33,,100g,False
+849,valu_mart,bakery,Wonder,100% Whole Wheat Bread Thin Sliced,3.79,,0.56,,100g,False
+850,valu_mart,bakery,,Savoury Butter Rolls,4.49,,1.32,,100g,False
+851,valu_mart,bakery,,"Pumpernickel Bread, Sliced",3.19,,0.7100000000000001,,100g,False
+852,valu_mart,bakery,,"Bagels, Cinnamon Raisin 6 Pack",4.29,,3.9700000000000006,,100g,False
+853,valu_mart,bakery,Sha Sha,Ginger Snaps,7.49,,2.5,,100g,False
+854,valu_mart,bakery,Farmer's Market,Sandwich Croissant,5.99,,2.3,,100g,False
+855,valu_mart,bakery,Farmer's Market,"Loaf Cake, Banana",6.29,,1.61,,100g,False
+856,valu_mart,bakery,Rubschlager,Bavarian Rye Loaf,3.49,,0.77,,100g,False
+857,valu_mart,bakery,,ProteinUp Tortilla Wrap with Sea Salt & Pepper,4.29,,1.51,,100g,False
+858,valu_mart,bakery,two-bite,Mini Vanilla Cupcakes 12 Pack,5.29,,1.8600000000000003,,100g,False
+859,valu_mart,bakery,ACE,Ciabatta Pezzetti Duo,6.79,,0.81,,100g,False
+860,valu_mart,bakery,Farmer's Market,Raisin Bran Muffins,6.99,,1.17,,100g,False
+861,valu_mart,bakery,Furlani,Frozen Texas Toast Parmesan Garlic,5.29,,0.83,,100g,False
+862,valu_mart,bakery,Farmer's Market,Everything Butter Croissants,5.99,,2.22,,100g,False
+863,valu_mart,bakery,Suraj,Naan Garlic Flatbreads,5.49,,0.55,,100g,False
+864,valu_mart,bakery,President's Choice,Traditional Naan Rounds,4.59,,0.96,,100g,False
+865,valu_mart,bakery,President's Choice,Cannoli Kit,9.99,,3.33,,100g,False
+866,valu_mart,bakery,Wonder,100% Whole Wheat Bread Thin Sliced,3.79,,0.56,,100g,False
+867,valu_mart,bakery,PC Organics,Organic Everything Bagel,4.29,,0.95,,100g,False
+868,valu_mart,bakery,Ready Bake,Garlic Bread,3.99,,1.21,,100g,False
+869,valu_mart,bakery,,Savoury Butter Rolls,4.49,,1.32,,100g,False
+870,valu_mart,bakery,No Name,Bagel Sesame 6 Pack,2.89,,0.57,,100g,False
+871,valu_mart,bakery,two-bite,Mini Chocolate Cupcakes 12 Pack,5.29,,1.8600000000000003,,100g,False
+872,valu_mart,bakery,Rubschlager,Pumpernickel Loaf,3.49,,0.77,,100g,False
+873,valu_mart,bakery,ACE,Rosemary Crisps,6.29,,3.49,,100g,False
+874,valu_mart,bakery,Farmer's Market,Lemon Tarts,7.29,6.99,1.8251072961373391,1.75,100g,True
+875,valu_mart,bakery,Dimpflmeier,Bread Prebiotic Multi-Grain,3.79,,0.8300000000000001,,100g,False
+876,valu_mart,bakery,Old Mill,Hot Dog Buns,3.09,,0.9,,100g,False
+877,valu_mart,bakery,Farmer's Market,Raisin Butter Tarts,7.99,,1.5700000000000003,,100g,False
+878,valu_mart,bakery,Vachon,Ah Caramel,4.29,,1.28,,100g,False
+879,valu_mart,bakery,Farmer's Market,Muffins Double Chocolate    ,6.99,,1.23,,100g,False
+880,valu_mart,bakery,Dimpflmeier,Vollkornbrot Bread,3.79,,0.8300000000000001,,100g,False
+881,valu_mart,bakery,Sha Sha,Shasha Cocoa Snaps,7.49,,2.5,,100g,False
+882,valu_mart,bakery,Farmer's Market,Marble Coffee Cake,6.0,,1.2,,100g,False
+883,valu_mart,bakery,,Bread Cheese Sliced,6.29,,1.34,,100g,False
+884,valu_mart,bakery,Frontier Bakery,White Bread Greek Pitas,1.59,,0.37,,100g,False
+885,valu_mart,bakery,,Bread Cinnamon Raisin Sliced,4.49,,0.82,,100g,False
+886,valu_mart,bakery,,Hawaiian Sprinkle Donutss 2 Pack,3.49,,1.75,,100g,False
+887,valu_mart,bakery,Farmer's Market,Lemon Squares,6.99,,1.75,,100g,False
+888,valu_mart,bakery,Farmer's Market,Oatmeal Raisin Cookies,5.99,5.49,1.3092896174863389,1.2,100g,True
+889,valu_mart,bakery,Farmer's Market,Fudge Square,6.99,,1.75,,100g,False
+890,valu_mart,bakery,,White Buns Dinner Rolls,4.29,,0.36,,1ea,False
+891,valu_mart,bakery,Wonder,Flour Tortillas White 10 Medium ,4.29,,1.26,,100g,False
+892,valu_mart,bakery,,"Rolls, Calabrese",3.99,,0.83,,100g,False
+893,valu_mart,bakery,President's Choice,Carrot Nut Rustic Cake,7.99,,1.31,,100g,False
+894,valu_mart,bakery,,"6"" Grand Maman Marie Sponge Flan",2.99,,2.99,,100g,False
+895,valu_mart,bakery,Farmer's Market,Cookies Oatmeal,5.99,5.49,1.3092896174863389,1.2,100g,True
+896,valu_mart,bakery,President's Choice,Mini Tortilllas Original ,3.39,,1.77,,100g,False
+897,valu_mart,bakery,ACE,Brioche Gourmet Hamburger Bun,3.99,,1.53,,100g,False
+898,valu_mart,bakery,President's Choice,Extra Thick Sliced Cinnamon Bread with Raisins,4.99,,0.74,,100g,False
+899,valu_mart,bakery,Farmer's Market,Black Forest Cake,15.99,,2.13,,100g,False
+900,valu_mart,bakery,Farmer's Market,Lemon Squares,6.99,,1.75,,100g,False
+901,valu_mart,bakery,Farmer's Market,Oatmeal Raisin Cookies,5.99,5.49,1.3092896174863389,1.2,100g,True
+902,valu_mart,bakery,Farmer's Market,Fudge Square,6.99,,1.75,,100g,False
+903,valu_mart,bakery,,White Buns Dinner Rolls,4.29,,0.36,,1ea,False
+904,valu_mart,bakery,Wonder,Flour Tortillas White 10 Medium ,4.29,,1.26,,100g,False
+905,valu_mart,bakery,,"Bagel, Herb N' Cheese",4.29,,3.9700000000000006,,100g,False
+906,valu_mart,bakery,Farmer's Market,Chocolate Chip Cookies,5.99,5.49,1.3092896174863389,1.2,100g,True
+907,valu_mart,bakery,,Texas Hot Dog Buns,3.79,,0.73,,100g,False
+908,valu_mart,bakery,Lanthier,Croissant Mini'S ,5.49,,2.6100000000000003,,100g,False
+909,valu_mart,bakery,LA FOURNEE DOREE,Mini Brioches,4.79,,1.0,,100g,False
+910,valu_mart,bakery,Elite,"6"" Triple Chocolate Mousse",17.49,,1.94,,100g,False
+911,valu_mart,bakery,La Baguetterie,Roasted Garlic Oval,3.49,,0.88,,100g,False
+912,valu_mart,bakery,Farmer's Market,Chocolate Ganache Coffee Cake,6.0,,1.2,,100g,False
+913,valu_mart,bakery,Farmer's Market,Pumpkin Pie 10 Inch,10.99,,1.22,,100g,False
+914,valu_mart,bakery,President's Choice,Whole Wheat Naan Rounds Buns,4.59,,0.96,,100g,False
+915,valu_mart,bakery,Farmer's Market,Brownies,4.99,,1.8799999999999997,,100g,False
+916,valu_mart,bakery,,Old Fashioned Lemon Pie ,1.79,,1.57,,100g,False
+917,valu_mart,bakery,Rubschlager,Bavarian Multigrain Loaf,3.49,,0.77,,100g,False
+918,valu_mart,bakery,No Name,Original English Muffins,2.89,,0.85,,100g,False
+919,valu_mart,bakery,Farmer's Market,Pecan Pie 9 Inch,10.99,,1.8900000000000001,,100g,False
+920,valu_mart,bakery,Farmer's Market,"Sliced Loaf Cake, Vanilla",6.29,,1.5,,100g,False
+921,valu_mart,bakery,,Red Pepper Breads,4.29,,1.73,,100g,False
+922,valu_mart,bakery,,"Cherry Pie, 8 Inch",6.79,,1.0,,100g,False
+923,valu_mart,bakery,President's Choice,Meringue Nests,3.99,,3.99,,100g,False
+924,valu_mart,bakery,President's Choice, Khubz Middle Eastern-Style Pita,3.49,,0.8699999999999999,,100g,False
+925,valu_mart,bakery,Farmer's Market,Vanilla Cake,6.99,,1.43,,100g,False
+926,valu_mart,bakery,,Old Fashioned Wild Blueberry Pie,1.79,,1.57,,100g,False
+927,valu_mart,bakery,Country Harvest,Sunflower Flax Bread,4.29,,0.72,,100g,False
+928,valu_mart,bakery,Weston,"Texas Toast Bread, 100% Whole Wheat",3.79,,0.56,,100g,False
+929,valu_mart,bakery,Farmer's Market,"Sliced Loaf Cake, Banana",6.29,,1.5,,100g,False
+930,valu_mart,bakery,DItaliano,Brioche-Style Sausage Buns,4.29,,1.02,,100g,False
+931,valu_mart,bakery,,"Apple Pie, 8 Inch",6.79,,0.91,,100g,False
+932,valu_mart,bakery,Farmer's Market,Macaroons,6.49,,1.85,,100g,False
+933,valu_mart,bakery,ACE,Brioche Bagel,4.19,,1.54,,100g,False
+934,valu_mart,bakery,PC Blue Menu,100% Whole Wheat Loaf,5.19,,1.15,,100g,False
+935,valu_mart,bakery,Sha Sha,Shasha Cocoa Snaps,7.49,,2.5,,100g,False
+936,valu_mart,bakery,Paneriso,Blueberry Muffins,8.49,,2.28,,100g,False
+937,valu_mart,bakery,Paneriso,Chocolate Chip Cookies,8.49,,2.43,,100g,False
+938,valu_mart,bakery,,"Pumpkin Pie, 8 Inch",6.79,,1.0,,100g,False
+939,valu_mart,bakery,Country Harvest,Sourdough Bagel,4.29,,0.95,,100g,False
+940,valu_mart,bakery,Country Harvest,Seeds and Grains Bread,4.29,,0.72,,100g,False
+941,valu_mart,bakery,President's Choice,Original Mini Bagel,3.49,,0.92,,100g,False
+942,valu_mart,bakery,,Flame-Baked Naan Original,3.99,,1.0,,100g,False
+943,valu_mart,bakery,Farmer's Market,Cake Cookies And Crème,22.99,,1.9200000000000002,,100g,False
+944,valu_mart,bakery,,"Bagel, Blueberry",4.29,,3.9700000000000006,,100g,False
+945,valu_mart,bakery,Dimpflmeier,Pumpernickel Bread,3.79,,0.8300000000000001,,100g,False
+946,valu_mart,bakery,President's Choice,Gluten Free Plain Bread Crumbs,4.09,,1.4900000000000002,,100g,False
+947,valu_mart,bakery,President's Choice,Gluten Free White Bread,4.29,,0.9400000000000001,,100g,False
+948,valu_mart,bakery,Farmer's Market,Apple Pie 10 Inch,10.99,,1.1,,100g,False
+949,valu_mart,bakery,DItaliano,Crustini Buns,4.29,,0.76,,100g,False
+950,valu_mart,bakery,Farmer's Market,Strawberry Shortcake,14.99,,1.99,,100g,False
+951,valu_mart,bakery,Farmer's Market,Mini Cinnamon Rolls,6.29,,2.33,,100g,False
+952,valu_mart,bakery,two-bite,Lunar New Year Cupcakes,4.99,,1.66,,100g,False
+953,valu_mart,bakery,ACE,Organic Granary Sliced Loaf,6.19,,1.18,,100g,False
+954,valu_mart,bakery,President's Choice,European Multi Grain Rustic Bread,3.99,,0.8,,100g,False
+955,valu_mart,bakery,La Baguetterie,Ciabatta Rolls ,3.49,,0.8699999999999999,,100g,False
+956,valu_mart,bakery,Sha Sha,Coconut Chia Snaps ,6.99,,2.33,,100g,False
+957,valu_mart,bakery,Farmer's Market,Cake Black Forest,22.99,,1.9200000000000002,,100g,False
+958,valu_mart,bakery,ACE,Cranberry Focaccia ,6.59,,2.06,,100g,False
+959,valu_mart,bakery,DItaliano,Thick Slice Bread 100% Whole Wheat ,4.29,,0.64,,100g,False
+960,valu_mart,bakery,No Name,White Dinner Roll,3.79,,0.9,,100g,False
+961,valu_mart,bakery,,"Flax Bread, Sliced",3.99,,0.89,,100g,False
+962,valu_mart,bakery,Dimpflmeier,Rye Bread With Sunflower Seeds,4.99,,1.1,,100g,False
+963,valu_mart,bakery,Farmer's Market,"Tea Biscuits, Raisin",6.29,,2.0,,100g,False
+964,valu_mart,bakery,Farmer's Market,Apple Crumble Pie,10.99,,1.1,,100g,False
+965,valu_mart,bakery,Wonder,Wrap Me White Flour Tortillas Large ,4.79,,0.75,,100g,False
+966,valu_mart,bakery,ACE,Roasted Garlic Oval,5.99,,1.32,,100g,False
+967,valu_mart,bakery,No Name,Original Mini Pitas,1.99,,1.17,,100g,False
+968,valu_mart,bakery,Charlottes,Real Chocolate Brownie Bites,4.99,4.49,1.7226057906458796,1.55,100g,True
+969,valu_mart,bakery,,"Sesame Egg Bread, Sliced",3.89,,0.86,,100g,False
+970,valu_mart,bakery,Farmer's Market,Tiramisu Cake,14.99,,2.22,,100g,False
+971,valu_mart,bakery,Farmer's Market,Assorted Mini Tarts,7.99,,2.66,,100g,False
+972,valu_mart,bakery,,"Bagels, Sesame",4.29,,3.9700000000000006,,100g,False
+973,valu_mart,bakery,DItaliano,Hamburger Buns Brizzolio Extra Soft,4.29,,0.81,,100g,False
+974,valu_mart,bakery,ACE,Toasted Sesame Mini Crisps,6.29,,3.49,,100g,False
+975,valu_mart,bakery,Frontier Bakery,Whole Wheat Greek Pitas,1.59,,0.37,,100g,False
+976,valu_mart,bakery,,Pumpernickel Sesame Bagels,4.29,,0.72,,100g,False
+977,valu_mart,bakery,President's Choice,Mini Naan Traditional 4 Flatbreads,3.49,,1.9399999999999997,,100g,False
+978,valu_mart,bakery,ACE,Three Cheese Oval,5.99,,1.32,,100g,False
+979,valu_mart,bakery,,Corn Popped Grains,5.29,,4.41,,100g,False
+980,valu_mart,bakery,Elite Sweets,Tiramisu,17.49,,2.5,,100g,False
+981,valu_mart,bakery,,"Celebration Cupcakes, White",6.49,,0.36,,100g,False
+982,valu_mart,bakery,,"6"" Chocolate Brownie Cheesecake",18.99,,3.17,,100g,False
+983,valu_mart,bakery,,Chocolate Dip Donut 2 Pack,3.49,,2.05,,100g,False
+984,valu_mart,bakery,Ready Bake,ACE White Demi Baguette,2.99,,1.5,,100g,False
+985,valu_mart,bakery,Farmer's Market,Lemon Cranberry Muffins,6.79,,1.13,,100g,False
+986,valu_mart,bakery,Rudolphs,Bavarian Multi-grain Bread,4.29,,0.86,,100g,False
+987,valu_mart,bakery,,Amazing Grain Bread Sliced,4.49,,1.0,,100g,False
+988,valu_mart,bakery,President's Choice,Brioche Hot Dog Buns,4.99,,1.85,,100g,False
+989,valu_mart,bakery,President's Choice,Original Pizza Crusts,4.49,,0.98,,100g,False
+990,valu_mart,bakery,President's Choice,Protein Tortillas,4.29,,1.25,,100g,False
+991,valu_mart,bakery,Farmer's Market,"Loaf Cake, Cinnamon Swirl",6.29,,1.61,,100g,False
+992,valu_mart,bakery,Vachon,Jos Louis The Original Cakes,4.29,,1.32,,100g,False
+993,valu_mart,bakery,PC Blue Menu,Everything Bagels 6 Bagels,4.49,,1.23,,100g,False
+994,valu_mart,bakery,Paneriso,Lemon Loaf Cake,8.49,,1.87,,100g,False
+995,valu_mart,bakery,President's Choice,Multigrain Pizza Crusts,4.49,,0.98,,100g,False
+996,valu_mart,bakery,ACE,White Baguette Bagel,4.19,,1.4,,100g,False
+997,valu_mart,bakery,PC Blue Menu,Multigrain Loaf With Quinoa,5.19,,1.15,,100g,False
+998,valu_mart,bakery,,"Caramel Apple Pie, 8 Inch",6.79,,1.0,,100g,False
+999,valu_mart,bakery,President's Choice,Appetizer Flatbreads,3.29,,1.5,,100g,False
+1000,valu_mart,bakery,ACE,Everything Baguette Bagel,4.19,,1.16,,100g,False
+1001,valu_mart,bakery,School Safe,Muffin Bars Birthday Cake,3.99,,1.35,,100g,False
+1002,valu_mart,bakery,Old Mill,Cracked Wheat Bread,2.79,,0.41,,100g,False
+1003,valu_mart,meat,PC Blue Menu,"Chicken Breast, Boneless Skinless, 3 Pack",12.0,,12.0,,1ea,False
+1004,valu_mart,meat,No Name,Mild Sugar-Cured Bacon,6.99,6.29,1.4002225755166933,1.26,100g,True
+1005,valu_mart,meat,PC Blue Menu,"Boneless Skinless Chicken Breasts, 4 Pack",15.0,,15.0,,1ea,False
+1006,valu_mart,meat,Janes,"Pub Style Chicken Strips, Fully Cooked",13.49,,1.93,,100g,False
+1007,valu_mart,meat,No Name,"Bacon, Mild Sugar Cured with Reduced Salt, Uncooked",6.99,6.29,1.4002225755166933,1.26,100g,True
+1008,valu_mart,meat,President's Choice,"Free From Chicken Breast, Boneless, Skinless, Club Pack",14.0,,13.21,,1kg,False
+1009,valu_mart,meat,PC Blue Menu,Chicken Thighs  boneless Skinless  8 Pack,12.0,,12.0,,1ea,False
+1010,valu_mart,meat,PC Blue Menu,Ground Chicken,8.0,,1.7599999999999998,,100g,False
+1011,valu_mart,meat,Schneider,Hickory Smoked Classic Cut Bacon,8.79,,2.34,,100g,False
+1012,valu_mart,meat,President's Choice,"Pub Recipe Chicken Strips, Fully Cooked",5.99,5.49,0.8510382513661202,0.78,100g,True
+1013,valu_mart,meat,,Pork Tenderloin Pack of 2,14.0,,13.21,,1kg,False
+1014,valu_mart,meat,Janes,"Pub Style Chicken Nugget, Fully Cooked",13.49,,1.93,,100g,False
+1015,valu_mart,meat,President's Choice,"Free From Chicken Breast, Boneless, Skinless",12.14,,23.349999999999998,,1kg,False
+1016,valu_mart,meat,,Lean Ground Beef,7.27,,15.41,,1kg,False
+1017,valu_mart,meat,President's Choice,Reduced Salt Bacon  ,8.49,7.99,1.700125156445557,1.6,100g,True
+1018,valu_mart,meat,,"Beef Ground Medium, Club Pack",14.72,,11.0,,1kg,False
+1019,valu_mart,meat,Maple Leaf,Original Natural Bacon,8.79,,2.34,,100g,False
+1020,valu_mart,meat,Janes,"Pub Style Chicken Burger, Fully Cooked",13.49,,1.93,,100g,False
+1021,valu_mart,meat,No Name,Original Hot Dogs    ,4.49,,1.0,,100g,False
+1022,valu_mart,meat,President's Choice,Free From Mild Italian Pork Sausages,7.49,,1.5,,100g,False
+1023,valu_mart,meat,No Name,Chicken Hot Dogs,2.79,,0.62,,100g,False
+1024,valu_mart,meat,,Sirloin Tip Oven Roast,14.86,,11.0,,1kg,False
+1025,valu_mart,meat,President's Choice,"Free From Split Chicken Wings, Club Pack",16.1,,15.19,,1kg,False
+1026,valu_mart,meat,President's Choice,"Free From Chicken Thigh, Boneless, Skinless, Club Pack",15.72,,13.210000000000003,,1kg,False
+1027,valu_mart,meat,,"Chicken Leg (Back Attached) , Club Pack",6.53,,5.49,,1kg,False
+1028,valu_mart,meat,,"Pork Loin Chop Boneless Cutlet, Club Pack",5.61,,12.1,,1kg,False
+1029,valu_mart,meat,Butterball,Homestyle Stuffing,6.99,,0.78,,100g,False
+1030,valu_mart,meat,Maple Leaf,Fully Cooked Natural Pork Breakfast Sausage Patties,8.29,,2.76,,100g,False
+1031,valu_mart,meat,Maple Leaf,Mini-Sizzlers Breakfast Sausages,8.49,,2.26,,100g,False
+1032,valu_mart,meat,Sufra,Skin-on Chicken Legs,8.0,,0.63,,100g,False
+1033,valu_mart,meat,President's Choice,Sirloin Beef Meatballs ,17.49,,1.9299999999999997,,100g,False
+1034,valu_mart,meat,,"Pork Rib Roast, Boneless",9.63,,10.34,,1kg,False
+1035,valu_mart,meat,,Boneless Pork For Stew,6.48,,14.31,,1kg,False
+1036,valu_mart,meat,President's Choice,World Of Flavours Greek Seasoned Pork Loin Chops,10.39,,2.36,,100g,False
+1037,valu_mart,meat,Janes,"Boneless Chicken Bites, Honey Garlic",20.99,,2.96,,100g,False
+1038,valu_mart,meat,President's Choice,Jerk Chicken Wings,17.49,,1.9299999999999997,,100g,False
+1039,valu_mart,meat,Maple Lodge Farms LT,Chicken Wiener,3.99,,0.89,,100g,False
+1040,valu_mart,meat,Maple Leaf,Natural Top Dogs BBQ Hot Dogs,6.99,,1.86,,100g,False
+1041,valu_mart,meat,St Hubert,Montana's Texan BBQ Ribs,15.99,,2.46,,100g,False
+1042,valu_mart,meat,Johnsonville,Smoked & Fully Cooked Sausages Pure Pork Smoked Bratwurst,6.99,,1.86,,100g,False
+1043,valu_mart,meat,Schneider,All Beef Hot Dogs,8.79,,2.34,,100g,False
+1044,valu_mart,meat,President's Choice,Free From Bacon Style Turkey,7.99,,2.66,,100g,False
+1045,valu_mart,meat,,"Pork Loin Chop, Bone In Center Cut",4.73,,9.46,,1kg,False
+1046,valu_mart,meat,President's Choice,Nashville Breaded Chicken Bites,15.99,,2.28,,100g,False
+1047,valu_mart,meat,The Keg,Prime Rib Beef Burger,20.99,,2.06,,100g,False
+1048,valu_mart,meat,PC Blue Menu,Angus Burger,15.99,,1.57,,100g,False
+1049,valu_mart,meat,,Pork Loin Rib End Chop,3.56,,7.25,,1kg,False
+1050,valu_mart,meat,,Pork Half Loin,33.0,,11.0,,1kg,False
+1051,valu_mart,meat,President's Choice,Jerk Chicken Wings,17.49,,1.9299999999999997,,100g,False
+1052,valu_mart,meat,Maple Lodge Farms LT,Chicken Wiener,3.99,,0.89,,100g,False
+1053,valu_mart,meat,Maple Leaf,Natural Top Dogs BBQ Hot Dogs,6.99,,1.86,,100g,False
+1054,valu_mart,meat,St Hubert,Montana's Texan BBQ Ribs,15.99,,2.46,,100g,False
+1055,valu_mart,meat,Johnsonville,Smoked & Fully Cooked Sausages Pure Pork Smoked Bratwurst,6.99,,1.86,,100g,False
+1056,valu_mart,meat,Schneider,All Beef Hot Dogs,8.79,,2.34,,100g,False
+1057,valu_mart,meat,President's Choice,"Pub Recipe Chicken Strips, Fully Cooked, Club Size",11.99,,0.86,,100g,False
+1058,valu_mart,meat,Janes,"Boneless Chicken Bites, Honey Garlic",20.99,,2.96,,100g,False
+1059,valu_mart,meat,President's Choice,Free From Bacon Style Turkey,7.99,,2.66,,100g,False
+1060,valu_mart,meat,President's Choice,Honey Barbecue Pork Back Ribs,16.99,,2.5,,100g,False
+1061,valu_mart,meat,Beyond Meat,Beyond Sausage Hot Italian,9.99,,2.5,,100g,False
+1062,valu_mart,meat,President's Choice,Free From Lean Ground Lamb,13.99,,3.08,,100g,False
+1063,valu_mart,meat,Butcher's Choice,Hot Italian Pork Sausages,14.99,,1.03,,100g,False
+1064,valu_mart,meat,President's Choice,Free From Bangers Pork Sausages,7.49,,1.5,,100g,False
+1065,valu_mart,meat,President's Choice,Free From Original Breakfast Pork Sausages,6.99,,1.86,,100g,False
+1066,valu_mart,meat,President's Choice,October Wurst Fully Cooked Pork Sausages,14.29,,1.43,,100g,False
+1067,valu_mart,meat,President's Choice,Free From Hot Italian Pork Sausages,7.49,,1.5,,100g,False
+1068,valu_mart,meat,,Beef Sirloin Tip Steak,6.47,,15.41,,1kg,False
+1069,valu_mart,meat,President's Choice,Plant Based Beefless Ground,9.99,,2.94,,100g,False
+1070,valu_mart,meat,,"Extra Lean Ground Beef, Club Pack",16.78,,15.410000000000002,,1kg,False
+1071,valu_mart,meat,No Name,Pork Loin Peameal-Style Sliced Cured,6.49,,1.4299999999999997,,100g,False
+1072,valu_mart,meat,Schneider,"Smokies, Sharp Cheddar Smoked Sausage",15.49,,1.72,,100g,False
+1073,valu_mart,meat,,Extra Lean Ground Beef,7.96,,17.61,,1kg,False
+1074,valu_mart,meat,President's Choice,Gluten Free Chicken Strips,8.49,,1.42,,100g,False
+1075,valu_mart,meat,Butterball,"Frozen Turkey, 5-7 Kg",48.0,,0.8,,100g,False
+1076,valu_mart,meat,President's Choice,Free From Turkey Meatballs,17.49,,2.19,,100g,False
+1077,valu_mart,meat,PC Blue Menu,Thick & Juicy™ Lean Beef Burgers  ,15.99,,1.42,,100g,False
+1078,valu_mart,meat,President's Choice,"Chicken Wings Club Pack, Honey Garlic",29.99,,1.6600000000000001,,100g,False
+1079,valu_mart,meat,No Name,All-Beef Wieners,6.99,,1.55,,100g,False
+1080,valu_mart,meat,PC Blue Menu,Sirloin Beef Burger,15.99,,1.57,,100g,False
+1081,valu_mart,meat,Schneider,Applewood Smoked Brown Sugar Ham,16.39,,2.34,,100g,False
+1082,valu_mart,meat,President's Choice,Turkey Smokies,8.49,,2.83,,100g,False
+1083,valu_mart,meat,Maple Leaf,"Natural Pork Breakfast Sausage, Fully Cooked",8.29,,2.76,,100g,False
+1084,valu_mart,meat,President's Choice,Butter Infused Young Turkey - Frozen - 3-5 kg,35.0,,,,,False
+1085,valu_mart,meat,President's Choice,"Air Chilled Chicken Drumsticks, 8-Pack",10.0,,10.0,,1ea,False
+1086,valu_mart,meat,President's Choice,Free From Lean Ground Beef,9.0,,1.9799999999999998,,100g,False
+1087,valu_mart,meat,,Beef Striploin Fast Fry Steak,12.64,,41.87,,1kg,False
+1088,valu_mart,meat,President's Choice,"Air Chilled Chicken Breast Cutlet, Boneless, Skinless",12.0,,12.0,,1ea,False
+1089,valu_mart,meat,President's Choice,World of Flavours French Style Braising Beef Short Ribs,15.99,,2.67,,100g,False
+1090,valu_mart,meat,President's Choice,Rosemary & Garlic Rack,34.5,,68.32,,1kg,False
+1091,valu_mart,meat,No Name,Pork Cottage Roll,15.51,,10.34,,1kg,False
+1092,valu_mart,meat,,Beef Striploin Steak,15.75,,39.66,,1kg,False
+1093,valu_mart,meat,PC Blue Menu,"Air Chilled Chicken Breast Fillets, Boneless, Skinless",10.0,,10.0,,1ea,False
+1094,valu_mart,meat,Maple Leaf,Natural Smoked Black Forest Ham,7.99,,1.33,,100g,False
+1095,valu_mart,meat,Maple Leaf,"Natural Top Dogs Original Hot Dogs, Family Size",9.99,,1.11,,100g,False
+1096,valu_mart,meat,President's Choice,Crisp & Crunchy Spicy Southern-Style Chicken Wings,15.99,,1.76,,100g,False
+1097,valu_mart,meat,Johnsonville,Ground Mild Italian Sausage,6.99,,1.86,,100g,False
+1098,valu_mart,meat,PC Blue Menu,Lean Beef Burgers,26.99,,1.19,,100g,False
+1099,valu_mart,meat,,Beef Top Sirloin Grilling Steak Boneless,11.78,,25.33,,1kg,False
+1100,valu_mart,meat,,Striploin Roast,45.7,,36.36,,1kg,False
+1101,valu_mart,meat,Maple Leaf,Original Natural Smoked Ham,7.99,,1.33,,100g,False
+1102,valu_mart,meat,President's Choice,Swedish Beef Meatballs,17.49,,1.9299999999999997,,100g,False
+1103,valu_mart,meat,President's Choice,Worlds of Flavors Carnitas Pork Shoulder,15.19,,1.69,,100g,False
+1104,valu_mart,meat,Maple Leaf,Red Hots Original Hot Dogs Party Size,9.99,,1.11,,100g,False
+1105,valu_mart,meat,Johnsonville,Original Bratwurst Sausage,7.49,,1.5,,100g,False
+1106,valu_mart,meat,Beyond Meat,Beyond Beef Grounds,7.99,,2.35,,100g,False
+1107,valu_mart,meat,President's Choice,Cheddar Jalapeno Smokies Pork Sausages,14.29,,1.43,,100g,False
+1108,valu_mart,meat,President's Choice,Nashville-Style Chicken Wings,15.99,,1.76,,100g,False
+1109,valu_mart,meat,Pinty's,"Chicken Wings, Honey Roasted Garlic",21.99,,2.47,,100g,False
+1110,valu_mart,meat,President's Choice,Smokin Stampede Pork Back Ribs ,16.99,,2.5,,100g,False
+1111,valu_mart,meat,President's Choice,Free From Smoked Ham,13.99,,2.0,,100g,False
+1112,valu_mart,meat,Swiss Chalet,BBQ Pork Ribs,15.99,,2.67,,100g,False
+1113,valu_mart,meat,President's Choice,Vermont-Style Maple Flavour Extra Lean Boneless Ham,13.49,12.49,1.684899919935949,1.56,100g,True
+1114,valu_mart,meat,President's Choice,Rotisserie-Style Chicken Wings,15.99,,1.76,,100g,False
+1115,valu_mart,meat,President's Choice,Kofta Beef Meatballs,9.99,,2.2,,100g,False
+1116,valu_mart,meat,Cooks,Premium Lean Hickory Smoked Ham Steak,6.99,5.49,1.5406010928961746,1.21,100g,True
+1117,valu_mart,meat,President's Choice,Plant Based Spicy Italian Sausage,8.99,,2.25,,100g,False
+1118,valu_mart,meat,President's Choice,Butter Infused Young Turkey - Frozen - 7-9kg,62.0,,,,,False
+1119,valu_mart,meat,President's Choice,Butter Infused Young Turkey - Frozen - 5-7 kg,46.0,,,,,False
+1120,valu_mart,meat,Al Safa,Lean Ground Beef,10.0,,1.1,,100g,False
+1121,valu_mart,meat,President's Choice,Thick & Juicy™ Chicken Burgers ,15.99,,1.42,,100g,False
+1122,valu_mart,meat,,Beef Sirloin Tip Fast Fry,4.39,,17.62,,1kg,False
+1123,valu_mart,meat,,"Chicken Breast Skinless Bone In, Club Pack",17.56,,12.54,,1kg,False
+1124,valu_mart,meat,,"Pork Loin Chop, Boneless Butterfly Cut",6.24,,14.31,,1kg,False
+1125,valu_mart,meat,Beyond Meat,Beyond Burger Plant-Based,7.99,,3.54,,100g,False
+1126,valu_mart,meat,President's Choice,Plant Based Breakfast Sausage,8.99,,3.0,,100g,False
+1127,valu_mart,meat,President's Choice,Free From Wieners,5.99,,1.6,,100g,False
+1128,valu_mart,meat,President's Choice,Thick & Juicy™ Beef Burgers  ,15.99,,1.18,,100g,False
+1129,valu_mart,meat,,Centre Cut Pork Loin Roast Boneless,13.16,,11.0,,1kg,False
+1130,valu_mart,meat,,Seasoned Veal Meatballs,9.61,,19.82,,1kg,False
+1131,valu_mart,meat,President's Choice,World of Flavours Filipino Adobo Pork Stir Fry Strips,9.99,,2.85,,100g,False
+1132,valu_mart,meat,,"Navel Beef, 4LB",22.99,,1.27,,100g,False
+1133,valu_mart,meat,,Beef Eye of Round Marinating Steak,7.3,,20.92,,1kg,False
+1134,valu_mart,meat,President's Choice,Thick & Juicy Beef Burgers,29.99,,1.1,,100g,False
+1135,valu_mart,meat,,Centre Cut Pork Loin Chop Boneless,5.97,,13.21,,1kg,False
+1136,valu_mart,meat,Schneider,Original Half Ham,15.99,,2.28,,100g,False
+1137,valu_mart,meat,Montpak,Lean Ground Veal ,7.99,,1.76,,100g,False
+1138,valu_mart,meat,President's Choice,Free From Honey Garlic Flavoured Pork Sausages ,7.49,,1.5,,100g,False
+1139,valu_mart,meat,Schneider,"Smoked Sausage, Classic Recipe",7.79,,2.08,,100g,False
+1140,valu_mart,meat,Johnsonville,"Smoked Sausage, Cheddar",6.99,,1.86,,100g,False
+1141,valu_mart,meat,Janes,BBQ Chickens Bites,20.99,,2.96,,100g,False
+1142,valu_mart,meat,Johnsonville,Original Breakfast Sausage,6.99,,1.86,,100g,False
+1143,valu_mart,meat,Janes, Turkey Burgers,13.49,,2.25,,100g,False
+1144,valu_mart,meat,Schneider,Texas BBQ Chicken Wings,16.99,,2.76,,100g,False
+1145,valu_mart,meat,Butterball,Boneless Stuffed Turkey Ball Frozen,24.99,,1.67,,100g,False
+1146,valu_mart,meat,No Name,"Chicken Wings, Honey Garlic",14.99,,1.65,,100g,False
+1147,valu_mart,meat,Janes,Chicken Burgers,13.49,,1.58,,100g,False
+1148,valu_mart,meat,No Name,"Fully Cooked, Breaded Chicken Nuggets Cutlettes",6.99,,0.77,,100g,False
+1149,valu_mart,meat,President's Choice,Gochujang Sweet & Spicy Chicken Wings,17.49,,1.9299999999999997,,100g,False
+1150,valu_mart,meat,Johnsonville,Hot Italian Sausage,7.49,,1.5,,100g,False
+1151,valu_mart,meat,Lesters,Wieners All Beef,4.99,,1.33,,100g,False
+1152,valu_mart,meat,No Name,"Honey Garlic Chicken Wings, Club Pack",25.99,,1.44,,100g,False
+1153,valu_mart,meat,President's Choice,World Of Flavours Greek Seasoned Pork Loin Roast,13.49,,1.85,,100g,False
+1154,valu_mart,meat,Schneider,Original Ham Steak,4.99,,2.85,,100g,False
+1155,valu_mart,meat,President's Choice,Free From Maple Breakfast Pork Sausages,6.99,,1.86,,100g,False
+1156,valu_mart,meat,Schneider,Red Hots Original Hot Dogs,6.99,,1.86,,100g,False
+1157,valu_mart,meat,President's Choice,"Chicken Wings, Crisp & Crunchy Mild Southern-Style ",15.99,,1.76,,100g,False
+1158,valu_mart,meat,Johnsonville,Maple Breakfast Sausage,6.99,,1.86,,100g,False
+1159,valu_mart,meat,No Name,"Chicken Wings, Club Pack",25.99,,1.44,,100g,False
+1160,valu_mart,meat,President's Choice,Medium Buffalo-Style Chicken Wings,15.99,,1.76,,100g,False
+1161,valu_mart,meat,Schneider,97% Fat Free Lower Sodium Smoked Ham,15.99,,2.28,,100g,False
+1162,valu_mart,meat,President's Choice,Gluten Free Chicken Burgers,8.49,,1.42,,100g,False
+1163,valu_mart,meat,Butcher's Choice,Pork Shoulder Blade Steak,25.44,,6.59,,1kg,False
+1164,valu_mart,meat,Johnsonville,Original Breakfast Sausage Rounds,6.99,,2.8000000000000003,,100g,False
+1165,valu_mart,meat,No Name,"Chicken Strips, Club Pack",12.49,,0.69,,100g,False
+1166,valu_mart,meat,President's Choice,"Butter Infused Stuffed Turkey  5-7 Kg, Frozen",50.0,,,,,False
+1167,valu_mart,meat,President's Choice,Free From Extra Lean Ground Beef,10.0,,2.2,,100g,False
+1168,valu_mart,meat,President's Choice,"Too Good To Be Wings, Honey Garlic",15.99,,2.0,,100g,False
+1169,valu_mart,meat,President's Choice,Everything Seasoned Breaded Chicken Breast Fillets,15.99,,2.13,,100g,False
+1170,valu_mart,meat,,Pork Rib Loin & Sirloin Combination Chop,7.01,,5.05,,1kg,False
+1171,valu_mart,meat,President's Choice,Free From Naturally Smoked Fully Cooked Bacon,7.29,6.99,11.211373390557938,10.75,100g,True
+1172,valu_mart,meat,Johnsonville,Honey Garlic Sausage,6.99,,1.4000000000000001,,100g,False
+1173,valu_mart,meat,President's Choice,"Too Good To Be Wings Boneless Chicken Breast Chunks, Butter Buffalo",15.99,,2.0,,100g,False
+1174,valu_mart,meat,,Beef Top Sirloin Fast Fry Steak,7.27,,27.54,,1kg,False
+1175,valu_mart,meat,President's Choice,Air Chilled Split Chicken Wings,12.0,,12.0,,1ea,False
+1176,valu_mart,meat,,"Boneless Pork Loin Rib Chops, Club Pack",8.18,,10.34,,1kg,False
+1177,valu_mart,meat,Pinty's,Buffalo Chicken Wings,23.49,,3.01,,100g,False
+1178,valu_mart,meat,,"Beef Bottom Blade Pot Roast, Boneless",23.98,,19.82,,1kg,False
+1179,valu_mart,meat,,"Pork Loin Butterfly Center Cut Boneless, Club Pack",7.83,,12.1,,1kg,False
+1180,valu_mart,meat,President's Choice,Thick & Juicy™ Prime Rib Beef Burger,15.99,,1.42,,100g,False
+1181,valu_mart,meat,Sufra,Boneless Skinless Chicken Breasts,12.0,,1.86,,100g,False
+1182,valu_mart,meat,,"Pork Loin Chop Center Chop, Club Pack",7.16,,7.25,,1kg,False
+1183,valu_mart,meat,,Pork Loin Chop Boneless Club Pack,9.49,,11.0,,1kg,False
+1184,valu_mart,meat,,"Ground Pork, Lean",6.34,,9.9,,1kg,False
+1185,valu_mart,meat,,Beef Top Sirloin Grilling Cap Steak,10.39,,26.430000000000003,,1kg,False
+1186,valu_mart,meat,,Pork Rib Chops Boneless,5.32,,12.1,,1kg,False
+1187,valu_mart,meat,President's Choice,Free From Australian Lamb Frenched Rack,34.38,,57.3,,1kg,False
+1188,valu_mart,meat,No Name,"Fully Cooked, Breaded Chicken Burgers",6.99,,0.77,,100g,False
+1189,valu_mart,meat,Butcher's Choice,Mild Italian Pork Sausages,14.99,,1.03,,100g,False
+1190,valu_mart,meat,President's Choice,Yuzu Citrus Chicken Wings,15.99,,1.76,,100g,False
+1191,valu_mart,meat,President's Choice,"Chicken Nuggets, Club Pack",11.99,,0.86,,100g,False
+1192,valu_mart,meat,President's Choice,"Air Chilled Chicken Thighs, Bone-in, Skin-on",10.0,,10.0,,1ea,False
+1193,valu_mart,meat,President's Choice,Honey Garlic Chicken Wings,15.99,,1.76,,100g,False
+1194,valu_mart,meat,President's Choice,Dry-Rubbed Sea Salt & Black Pepper Pork Back Ribs,16.99,,2.5,,100g,False
+1195,valu_mart,meat,No Name,"Chicken Wings, Mild BBQ",14.99,,1.65,,100g,False
+1196,valu_mart,meat,President's Choice,Dry-Rubbed Sea Salt & Black Pepper Pork Back Ribs,16.99,,2.5,,100g,False
+1197,valu_mart,meat,President's Choice,World Of Flavours Canadian Maple Apple Butter Roast,13.49,,1.85,,100g,False
+1198,valu_mart,meat,No Name,Breaded Chicken Cutlettes Chicken Strips,6.99,,0.77,,100g,False
+1199,valu_mart,meat,Johnsonville,Brown Sugar & Honey Breakfast Sausage,6.99,,1.86,,100g,False
+1200,valu_mart,meat,Maple Leaf,Natural Top Dogs Original Hot Dogs,6.99,,1.86,,100g,False
+1201,valu_mart,meat,President's Choice,Italian Smokies,14.29,,1.43,,100g,False
+1202,valu_mart,meat,Johnsonville,Ground Hot Italian Sausage,6.99,,1.86,,100g,False
+1203,valu_mart,meat,President's Choice,"Fully Cooked Pork Back Ribs, Smokin Stampede",15.49,,3.1,,100g,False
+1204,valu_mart,meat,President's Choice,Thick & Juicy™ Sirloin Beef Burgers ,15.99,,1.42,,100g,False
+1205,valu_mart,meat,President's Choice,Free From Angus Beef Burger,15.99,,1.57,,100g,False
+1206,valu_mart,meat,,"Beef Top Sirloin Grilling Steak, Club Pack",23.45,,24.23,,1kg,False
+1207,valu_mart,meat,Pillers,European Wieners,9.99,,2.22,,100g,False
+1208,valu_mart,meat,,Medium Ground Beef,6.04,,13.21,,1kg,False
+1209,valu_mart,meat,,"Beef Stewing Cubes, Boneless",9.8,,22.02,,1kg,False
+1210,valu_mart,meat,PC Blue Menu,Angus Beef Meatballs,17.49,,1.9299999999999997,,100g,False
+1211,valu_mart,meat,No Name,Crispy Southern Style Chicken,16.99,,1.6999999999999997,,100g,False
+1212,valu_mart,meat,President's Choice,World of Flavours Barbecue Seasoned Boneless Beef Blade Roast,19.99,,2.5,,100g,False
+1213,valu_mart,meat,,Cook's Portion Ham,36.17,,8.8,,1kg,False
+1214,valu_mart,meat,No Name,Beef Burger 4 Oz,13.99,,1.03,,100g,False
+1215,valu_mart,meat,,"Beef Eye of Round Marinating Steak, Club Pack",21.31,,19.82,,1kg,False
+1216,valu_mart,meat,President's Choice,Butter-Infused Stuffed Turkey Crown,38.99,,1.3,,100g,False
+1217,valu_mart,meat,Maple Leaf,Shredded Chicken Bbq Seasoning,11.49,,4.6,,100g,False
+1218,valu_mart,meat,President's Choice,Smokin' Honey Fully Cooked Pork Back Ribs,15.49,,3.1,,100g,False
+1219,valu_mart,meat,President's Choice,Ham Steak,5.49,3.99,3.137142857142857,2.28,100g,True
+1220,valu_mart,meat,President's Choice,Plant Based Sweet Italian Sausage,8.99,,2.25,,100g,False
+1221,valu_mart,meat,President's Choice,Free From Australian Lamb Spiedini 24 Skewers,26.99,,5.619999999999999,,100g,False
+1222,valu_mart,meat,,Beef Ground Lean Club Pack,15.38,,13.21,,1kg,False
+1223,valu_mart,meat,President's Choice,"Meatballs, Italian Style",17.49,,1.9299999999999997,,100g,False
+1224,valu_mart,meat,President's Choice,Free From Naturally Smoked Fully Cooked Thick Sliced Bacon,7.29,6.99,11.211373390557938,10.75,100g,True
+1225,valu_mart,meat,,Pork Loin Center Cut Boneless Cutlet,5.38,,15.41,,1kg,False
+1226,valu_mart,meat,,Beef Eye of Round Oven Roast,21.27,,18.71,,1kg,False
+1227,valu_mart,meat,,Beef Stir Fry Strips,6.1,,19.82,,1kg,False
+1228,valu_mart,meat,President's Choice,Free From Top Sirloin Steak,14.81,,35.25,,1kg,False
+1229,valu_mart,meat,Maple Leaf,Ready Crisp Fully Cooked Natural Bacon Slices,8.99,,13.830000000000002,,100g,False
+1230,valu_mart,meat,President's Choice,Free From Chorizo Pork Sausages,7.49,,1.5,,100g,False
+1231,valu_mart,meat,Johnsonville,"Smoked Sausage, Buffalo Cheese",6.99,,1.86,,100g,False
+1232,valu_mart,meat,Schneider,Cheddar Hot Dogs,6.49,,1.73,,100g,False
+1233,valu_mart,meat,Maple Leaf,Country Naturals Hot Dogs,6.99,,1.86,,100g,False
+1234,valu_mart,meat,Maple Leaf,Natural Top Dogs Less Salt Hot Dogs,6.99,,1.86,,100g,False
+1235,valu_mart,meat,PC Blue Menu,Italian Beef Meatballs,17.49,,1.9299999999999997,,100g,False
+1236,valu_mart,meat,Butcher's Choice,Honey Garlic Flavoured Pork Sausages ,14.99,,1.03,,100g,False
+1237,valu_mart,meat,Zabiha Halal,Chicken Breakfast Strips,6.29,,1.68,,100g,False
+1238,valu_mart,meat,Beyond Meat,Sausage Mild Italian,9.99,,2.5,,100g,False
+1239,valu_mart,meat,President's Choice,Breaded Chicken Strips,5.99,5.49,1.0037887067395264,0.92,100g,True
+1240,valu_mart,meat,President's Choice,Free From Crisp & Crunchy Mild Southern-Style Chicken Wings,15.99,,2.28,,100g,False
+1241,valu_mart,meat,No Name,Salt & Pepper Chicken Wings,14.99,,1.65,,100g,False
+1242,valu_mart,meat,Schneider,Juicy Jumbos Original Hot Dogs,6.99,,1.55,,100g,False
+1243,valu_mart,meat,President's Choice,Free From Crisp & Crunchy Mild Southern-Style Chicken Wings,15.99,,2.28,,100g,False
+1244,valu_mart,meat,Zabiha Halal,Chicken Breakfast Strips,6.29,,1.68,,100g,False
+1245,valu_mart,meat,Maple Leaf,Natural Smoked Honey Ham,15.29,13.49,2.5502223869532985,2.25,100g,True
+1246,valu_mart,meat,Marcangelo,Italian Pork Meatballs,14.99,,1.5,,100g,False
+1247,valu_mart,meat,President's Choice,Dry-Rubbed Hardwood-Smoked Chicken Wings,15.99,,2.0,,100g,False
+1248,valu_mart,meat,Johnsonville,Mild Italian Sausage,7.49,,1.5,,100g,False
+1249,valu_mart,meat,President's Choice,Barbecue Seasoned Pork Shoulder Blade (World Of Flavours ),15.19,,1.69,,100g,False
+1250,valu_mart,produce,,English Cucumber,1.99,,1.99,,1ea,False
+1251,valu_mart,produce,,Green Onion,1.99,,1.99,,1ea,False
+1252,valu_mart,produce,Farmer's Market,Yellow Onions,3.49,2.49,0.252289156626506,0.18,100g,True
+1253,valu_mart,produce,,Green Seedless Grapes,8.98,6.72,8.806279761904763,6.59,1kg,True
+1254,valu_mart,produce,,Avocados Bag,4.99,,1.0,,1ea,False
+1255,valu_mart,produce,,Lemon,0.99,,0.99,,1ea,False
+1256,valu_mart,produce,,Tomato On The Vine Red ( 1 Bunch),6.25,,8.8,,1kg,False
+1257,valu_mart,produce,,Red Peppers    ,2.9,,12.1,,1kg,False
+1258,valu_mart,produce,,Zucchini,1.85,,6.59,,1kg,False
+1259,valu_mart,produce,,Tomato Beefsteak  Red,2.36,,8.8,,1kg,False
+1260,valu_mart,produce,,Sweet Green Peppers,2.46,,8.8,,1kg,False
+1261,valu_mart,produce,,Broccoli,4.49,,4.49,,1ea,False
+1262,valu_mart,produce,,Red Seedless Grapes,8.71,6.52,8.80351226993865,6.59,1kg,True
+1263,valu_mart,produce,,Ginger,1.85,,8.8,,1kg,False
+1264,valu_mart,produce,,Broccoli Crowns,3.76,,9.9,,1kg,False
+1265,valu_mart,produce,PC Organics,"Organic Bananas, Bunch",2.88,,2.62,,1kg,False
+1266,valu_mart,produce,Rooster,Garlic      ,1.49,,0.5,,1ea,False
+1267,valu_mart,produce,,Cantaloupe,5.99,,5.99,,1ea,False
+1268,valu_mart,produce,,Limes,0.89,,0.89,,1ea,False
+1269,valu_mart,produce,Farmer's Market,Russet Potatoes,5.99,,0.13,,100g,False
+1270,valu_mart,produce,,Royal Gala Apples,1.61,,7.69,,1kg,False
+1271,valu_mart,produce,,Bartlett Pears,1.85,,8.8,,1kg,False
+1272,valu_mart,produce,Farmer's Market,Mini Carrots,2.49,,0.73,,100g,False
+1273,valu_mart,produce,,Cauliflower,5.99,,5.99,,1ea,False
+1274,valu_mart,produce,,Navel Orange,2.08,,5.93,,1kg,False
+1275,valu_mart,produce,,Sweet Onion,3.03,,6.59,,1kg,False
+1276,valu_mart,produce,President's Choice,Greek Vin Pouch 45Ml,0.59,,1.31,,100ml,False
+1277,valu_mart,produce,President's Choice,Mixed Nuts in Shell,7.96,,0.88,,100g,False
+1278,valu_mart,produce,Greenhouse,Ginger Beer,4.99,,1.47,,100ml,False
+1279,valu_mart,produce,Loop,Cold-Pressed Juice Magic Sip,8.99,,8.99,,100ml,False
+1280,valu_mart,produce,,Carrots & Celery ,4.0,,1.67,,100g,False
+1281,valu_mart,produce,,Honey Pitted Dates,4.99,,1.43,,100g,False
+1282,valu_mart,produce,Greenhouse,Organic Booster Lullaby,3.99,,6.65,,100ml,False
+1283,valu_mart,produce,President's Choice,Bay Leaf,2.99,,,,,False
+1284,valu_mart,produce,,SweeTango Apples,1.38,,6.59,,1kg,False
+1285,valu_mart,produce,,Platter Veggie Small,14.0,,1.61,,100g,False
+1286,valu_mart,produce,,"Mexican Style Beef Taco Salad, Large",13.0,,1.82,,100g,False
+1287,valu_mart,produce,President's Choice,Spring Mix,4.99,,3.51,,100g,False
+1288,valu_mart,produce,,Greek Salad Family Size,17.0,,1.7,,100g,False
+1289,valu_mart,produce,Greenhouse,Lime Lemongrass Organic Kombucha,9.99,,1.0,,100ml,False
+1290,valu_mart,produce,,Premium Taco Salad,9.0,,2.43,,100g,False
+1291,valu_mart,produce,President's Choice,Dressing Caesar,0.49,,1.11,,100ml,False
+1292,valu_mart,produce,Greenhouse,Kombucha Ultraviolet Organic    ,4.99,,1.47,,100ml,False
+1293,valu_mart,produce,,Golden Figs,4.99,,2.2,,100g,False
+1294,valu_mart,produce,,Lunch Size Veg and Dip 600G,8.0,,1.33,,100g,False
+1295,valu_mart,produce,,Chick Pea/Artichoke/Sundried Tomato Salad,7.45,,21.9,,1kg,False
+1296,valu_mart,produce,Paramount,"Pistachios, Salt & Pepper",6.49,,3.25,,100g,False
+1297,valu_mart,produce,,Curly Parsley,2.69,,2.69,,1ea,False
+1298,valu_mart,produce,,Chicken Salad  (After 11am),4.29,,21.9,,1kg,False
+1299,valu_mart,produce,,Organic Dried Figs,5.99,,2.4,,100g,False
+1300,valu_mart,produce,Bolthouse,Blue Goodness,6.99,,0.7400000000000001,,100ml,False
+1301,valu_mart,produce,,Blueberry Parfait,5.0,,1.9199999999999997,,100g,False
+1302,valu_mart,produce,,Turkish Pearl Couscous Salad,5.37,,21.9,,1kg,False
+1303,valu_mart,produce,,Chicken Caesar Salad Family Size,17.0,,1.7900000000000003,,100g,False
+1304,valu_mart,produce,,"Chicken Ceasar Salad, Mini No Bacon",5.0,,4.17,,100g,False
+1305,valu_mart,produce,,"Steak and Egg Salad , Large",13.0,,1.86,,100g,False
+1306,valu_mart,produce,,Mexican-Style Beef Taco Salad Family Size,19.0,,1.48,,100g,False
+1307,valu_mart,produce,Renees,Mighty Caesar Dressing,0.49,,1.17,,100g,False
+1308,valu_mart,produce,Greenhouse,Ultraviolet Organic Kombucha,9.99,,1.0,,100ml,False
+1309,valu_mart,produce,,Pearl Onion,2.99,,1.2,,100g,False
+1310,valu_mart,produce,Remedy,Peach Kombucha,4.99,,0.71,,100ml,False
+1311,valu_mart,produce,Loop,Cold-Pressed Juice Better Together Grapefruit Orange Ginger,8.99,,0.9,,100ml,False
+1312,valu_mart,produce,PC Organics,Rose Spring Salad Mix,5.99,,4.22,,100g,False
+1313,valu_mart,produce,,Black Plums,0.88,,8.8,,1kg,False
+1314,valu_mart,produce,PC Organics,Baby Spinach,5.99,,4.22,,100g,False
+1315,valu_mart,produce,Farmer's Market,Cucumbers 11 count,8.99,,0.82,,1ea,False
+1316,valu_mart,produce,PC Organics,Organic Cauliflower,6.99,,6.99,,1ea,False
+1317,valu_mart,produce,PC Organics,Organic Baby King Oyster Mushrooms,5.99,,3.0,,100g,False
+1318,valu_mart,produce,President's Choice,Mixed Little Gems,3.99,,0.59,,100g,False
+1319,valu_mart,produce,PC Organics,Organic Grape Tomatoes,5.49,,2.15,,100g,False
+1320,valu_mart,produce,,Organic Raspberry Lemon Kombucha,3.99,,1.12,,100ml,False
+1321,valu_mart,produce,,Pummelos,4.99,2.88,4.99,2.88,1ea,True
+1322,valu_mart,produce,,McIntosh Apples,1.32,,6.589999999999999,,1kg,False
+1323,valu_mart,produce,,Organic English Cucumber,3.99,,3.99,,1ea,False
+1324,valu_mart,produce,,Organic Rainbow Carrots,5.99,,5.99,,1ea,False
+1325,valu_mart,produce,,Organic Grapefruit,7.99,,0.88,,100g,False
+1326,valu_mart,produce,,Kiwis,1.09,,1.09,,1ea,False
+1327,valu_mart,produce,PC Organics,Organic Tomato On The Vine Red (1 Bunch),9.51,,13.21,,1kg,False
+1328,valu_mart,produce,,Apricots,0.77,,11.0,,1kg,False
+1329,valu_mart,produce,POM Wonderful,100% Pomegranate Juice,14.99,,1.07,,100ml,False
+1330,valu_mart,produce,,Italian Parsley,2.69,,2.69,,1ea,False
+1331,valu_mart,produce,Sunrich,Apple Slices,4.99,,1.78,,100g,False
+1332,valu_mart,produce,,Large Chestnuts,0.99,,1.98,,100g,False
+1333,valu_mart,produce,Well,Ink. Lemonade Charcoal    ,5.99,,1.8,,100ml,False
+1334,valu_mart,produce,,Taiwanese Flat Cabbage,4.96,,4.39,,1kg,False
+1335,valu_mart,produce,,Red Cherries,17.64,13.71,19.82730853391685,15.41,1kg,True
+1336,valu_mart,produce,Greenhouse,Lime Herbal Kombucha,4.99,,1.47,,100ml,False
+1337,valu_mart,produce,PC Organics,Organic King Oyster Sliced Mushrooms,5.99,,3.0,,100g,False
+1338,valu_mart,produce,Loop,Morning Glory Juice    ,8.99,,0.9,,100ml,False
+1339,valu_mart,produce,,Jalapeno Peppers,0.55,,11.0,,1kg,False
+1340,valu_mart,produce,Taylor Farms,Broccoli Crunch Salad Kit,6.99,,1.94,,100g,False
+1341,valu_mart,produce,,Winter Peppers,4.99,,2.5,,1ea,False
+1342,valu_mart,produce,No Name,Naturally Imperfect Avocados,7.99,,0.59,,100g,False
+1343,valu_mart,produce,GoodLeaf,Micro Arugula,4.49,,8.98,,100g,False
+1344,valu_mart,produce,No Name,Brown Mushrooms,4.99,,0.73,,100g,False
+1345,valu_mart,produce,Marzetti,Marzetti Chocolate Dip 250g,5.99,,2.4,,100g,False
+1346,valu_mart,produce,Well,Ink. Lemonade Charcoal    ,5.99,,1.8,,100ml,False
+1347,valu_mart,produce,,Taiwanese Flat Cabbage,4.96,,4.39,,1kg,False
+1348,valu_mart,produce,,Red Cherries,17.64,13.71,19.82730853391685,15.41,1kg,True
+1349,valu_mart,produce,,Organic Grapefruit,7.99,,0.88,,100g,False
+1350,valu_mart,produce,,Kiwis,1.09,,1.09,,1ea,False
+1351,valu_mart,produce,,Greek Salad Family Size,17.0,,1.7,,100g,False
+1352,valu_mart,produce,No Name,Naturally Imperfect Avocados,7.99,,0.59,,100g,False
+1353,valu_mart,produce,GoodLeaf,Micro Arugula,4.49,,8.98,,100g,False
+1354,valu_mart,produce,No Name,Brown Mushrooms,4.99,,0.73,,100g,False
+1355,valu_mart,produce,Marzetti,Marzetti Chocolate Dip 250g,5.99,,2.4,,100g,False
+1356,valu_mart,produce,PC Organics,Granny Smith Apples 3Lb Bag,10.99,8.99,0.8068298109010011,0.66,100g,True
+1357,valu_mart,produce,President's Choice,Cocktail Tomatoes,4.99,,1.47,,100g,False
+1358,valu_mart,produce,President's Choice,Mini Mixed Potatoes,9.99,,0.44000000000000006,,100g,False
+1359,valu_mart,produce,,Papaya,5.71,,4.39,,1kg,False
+1360,valu_mart,produce,Farmer's Market,Red Potatoes 10lb Bag,6.99,,0.15,,100g,False
+1361,valu_mart,produce,,"Fresh Dill, Baby",3.99,,3.99,,1ea,False
+1362,valu_mart,produce,,Organic French Beans,5.99,,1.71,,100g,False
+1363,valu_mart,produce,Renees,Dill Refrigerated Dip,5.99,,2.12,,100g,False
+1364,valu_mart,produce,Fresh Attitude,Caesar Salad with Toppings Single Sized,5.99,,3.42,,100g,False
+1365,valu_mart,produce,Well,Cold Pressed Juice C Well  ,5.99,,1.8,,100ml,False
+1366,valu_mart,produce,,Pumelo ,18.88,,0.42,,100g,False
+1367,valu_mart,produce,Farmer's Market,Granny Smith Apples,11.99,,0.6599999999999999,,100g,False
+1368,valu_mart,produce,,French Beans,5.99,,1.5,,100g,False
+1369,valu_mart,produce,Farmer's Market,Red Grapefruit,6.99,,0.51,,100g,False
+1370,valu_mart,produce,Dole,Chop Chop Kit Tropical Thai,6.99,,2.61,,100g,False
+1371,valu_mart,produce,PC Organics,Organics Whole Oyster Mushrooms,3.99,,3.99,,100g,False
+1372,valu_mart,produce,,Mini Medjools Sweet & Salty Almond,8.99,,2.64,,100g,False
+1373,valu_mart,produce,,Jazz Apples,1.61,,7.69,,1kg,False
+1374,valu_mart,produce,President's Choice,Oregano,2.99,,,,,False
+1375,valu_mart,produce,,Butternut Squash,8.84,,5.49,,1kg,False
+1376,valu_mart,produce,President's Choice,Bacon Caesar Chop Salad Kit,6.99,,2.14,,100g,False
+1377,valu_mart,produce,PC Organics,Honeycrisp Apples 3Lb Bag,12.99,,0.96,,100g,False
+1378,valu_mart,produce,President's Choice,Chopped Mexican Style Street Corn Salad Kit,6.99,,2.45,,100g,False
+1379,valu_mart,produce,,Mini Greek Salad,5.0,,3.23,,100g,False
+1380,valu_mart,produce,,Small Cubed Cantaloupe,6.0,,2.0,,100g,False
+1381,valu_mart,produce,Tiffany Gates,"Cauliflower, Kale & Cranberry Salad",14.9,,14.9,,1kg,False
+1382,valu_mart,produce,Greenhouse,"Raw, Organic Juice Farma-C",7.99,,2.66,,100ml,False
+1383,valu_mart,produce,,Jamaican Ginger,4.05,,17.61,,1kg,False
+1384,valu_mart,produce,,Petite Carrots,3.49,,1.03,,100g,False
+1385,valu_mart,produce,Aurora,Sundried Tomatoes,2.99,,3.32,,100g,False
+1386,valu_mart,produce,,Spaghetti Squash,6.92,,5.49,,1kg,False
+1387,valu_mart,produce,7D,Dried Mangos,9.99,,7.14,,100g,False
+1388,valu_mart,produce,Greenhouse,Organic Shake Vanilla Almond Brekky,7.99,,2.66,,100g,False
+1389,valu_mart,produce,Greenhouse,"Raw, Organic Juice Gatsby",7.99,,2.66,,100ml,False
+1390,valu_mart,produce,Wholly Guacamole,Minis,6.99,,3.08,,100g,False
+1391,valu_mart,produce,President's Choice,Loads Of Garlic Caesar Salad Kit,6.99,,2.19,,100g,False
+1392,valu_mart,produce,,Pineapple Cubed Large,10.0,,1.29,,100g,False
+1393,valu_mart,produce,President's Choice,Salted California Pistachios,10.99,,2.42,,100g,False
+1394,valu_mart,produce,President's Choice,Savory,2.99,,,,,False
+1395,valu_mart,produce,,Organic Dried Apricots,5.99,,2.4,,100g,False
+1396,valu_mart,produce,Bolthouse,Berry Boost Juice,5.49,,1.22,,100ml,False
+1397,valu_mart,produce,Taylor Farms,"Chopped Salad Kit, Steakhouse",6.99,,1.92,,100g,False
+1398,valu_mart,produce,President's Choice,Tarragon,2.99,,,,,False
+1399,valu_mart,produce,,French Bean,8.99,,1.32,,100g,False
+1400,valu_mart,produce,,Steak and Egg Salad Family Size,19.0,,1.79,,100g,False
+1401,valu_mart,produce,,Greek Yogurt Parfait,5.0,,1.7200000000000002,,100g,False
+1402,valu_mart,produce,,Golden Delicious Apples,1.45,,6.59,,1kg,False
+1403,valu_mart,produce,,Heirloom Ontario Garlic,3.99,,3.47,,100g,False
+1404,valu_mart,produce,,Sweet Tango Apple,4.99,,4.99,,1ea,False
+1405,valu_mart,produce,,Butternut Squash Crinkle Fries,5.0,,0.91,,100g,False
+1406,valu_mart,produce,Farmer's Market,Mango Red 3Ct,5.49,,1.83,,1ea,False
+1407,valu_mart,produce,Bolthouse,Berry Boost,6.99,,0.7400000000000001,,100ml,False
+1408,valu_mart,produce,President's Choice,Blsmic Vin Pouch 45Ml,0.49,,1.09,,100ml,False
+1409,valu_mart,produce,,Cubed Sweet Potato,5.0,,0.83,,100g,False
+1410,valu_mart,produce,Bolthouse,Amazing Mango,6.99,,0.7400000000000001,,100ml,False
+1411,valu_mart,produce,,Fruit Salad Large,10.0,,1.33,,100g,False
+1412,valu_mart,produce,,Sweet Potato Crinkle Fries,5.0,,1.0,,100g,False
+1413,valu_mart,produce,Bolthouse,Green Goodness,5.49,,1.22,,100ml,False
+1414,valu_mart,produce,,Lebanese Tabbouleh Salad,5.51,,14.900000000000002,,1kg,False
+1415,valu_mart,produce,PC Organics,Organic Rosemary,2.99,,,,,False
+1416,valu_mart,produce,Greenhouse, Fiery Ginger,3.99,,6.65,,100ml,False
+1417,valu_mart,produce,President's Choice,Mixed Nuts,2.96,,0.65,,100g,False
+1418,valu_mart,produce,Paramount,Pistachios No Shells Honey Roasted,8.99,,5.8,,100g,False
+1419,valu_mart,produce,Greenhouse,Ginger Tumeric Kombucha,4.99,,1.47,,100ml,False
+1420,valu_mart,produce,President's Choice,Anaheim Hot Peppers,5.99,,3.52,,100g,False
+1421,valu_mart,produce,,Collard Greens,3.99,,3.99,,1ea,False
+1422,valu_mart,produce,,"Wonderful Pistachios, Shelled",8.99,,5.29,,100g,False
+1423,valu_mart,produce,,Carrots & Cucumber ,4.0,,1.57,,100g,False
+1424,valu_mart,produce,,"Snack Cup, Veggies & Dip",5.0,,2.35,,100g,False
+1425,valu_mart,produce,,"Chanterelle Mushrooms, Dried",5.49,,39.21,,100g,False
+1426,valu_mart,produce,Bolthouse,Strawberry Banana,5.49,,1.22,,100ml,False
+1427,valu_mart,produce,President's Choice,Garden Salad,4.49,,1.32,,100g,False
+1428,valu_mart,produce,Well,Cold Pressed Juice Be Well  ,5.99,,1.8,,100ml,False
+1429,valu_mart,produce,Marzetti,"Veggie Dip, Light Ranch",5.99,,1.76,,100g,False
+1430,valu_mart,produce,,Minneola Tangelos,1.47,,6.59,,1kg,False
+1431,valu_mart,produce,,Apple Pazazz,7.99,,0.44,,100g,False
+1432,valu_mart,produce,,Clementines,6.99,,0.39,,100g,False
+1433,valu_mart,produce,PC Organics,Organic Russet Potatoes,5.99,4.99,0.44414829659318633,0.37,100g,True
+1434,valu_mart,produce,,Hami Melons,16.03,,5.49,,1kg,False
+1435,valu_mart,produce,President's Choice,Mini Sweet Potatoes,4.99,,0.73,,100g,False
+1436,valu_mart,produce,,Premium Baby Spinach With Chicken,9.0,,2.95,,100g,False
+1437,valu_mart,produce,,Gold Cored Pineapple,5.99,,1.0,,100g,False
+1438,valu_mart,produce,,Black Figs,1.99,,1.99,,1ea,False
+1439,valu_mart,produce,President's Choice,"Meyer Lemon, 1lb",5.99,,1.32,,100g,False
+1440,valu_mart,produce,,Rutabaga,4.52,,2.84,,1kg,False
+1441,valu_mart,produce,,Snack  Platter,8.0,,2.11,,100g,False
+1442,valu_mart,produce,,Snack  Platter,8.0,,2.11,,100g,False
+1443,valu_mart,produce,Gourmet Garden,Italian Herbs Stir-In Paste,5.99,,5.209999999999999,,100g,False
+1444,valu_mart,produce,,Cubanelle Peppers,1.68,,9.9,,1kg,False
+1445,valu_mart,produce,,"Greenhouse Peppers, Yellow",3.03,,12.1,,1kg,False
+1446,valu_mart,produce,,Chestnuts,8.99,,1.98,,100g,False
+1447,valu_mart,produce,PC Organics,Organic Beefsteak Red Tomato,3.57,,13.21,,1kg,False
+1448,valu_mart,produce,PC Organics,Organic Peppers,6.99,,3.5,,1ea,False
+1449,valu_mart,produce,,Honeydew Melon,8.99,,8.99,,1ea,False
+1450,valu_mart,produce,President's Choice,Cauliflower Slaw,4.49,,1.32,,100g,False
+1451,valu_mart,produce,Farmer's Market,Corn On The Cob,5.99,,1.5,,1ea,False
+1452,valu_mart,produce,,Purple Eggplants,3.76,,6.589999999999999,,1kg,False
+1453,valu_mart,produce,,Red Seedless Watermelon,12.99,,12.99,,1ea,False
+1454,valu_mart,produce,President's Choice,"Live Lettuce Red/Green, 2-pack",5.99,,5.99,,1ea,False
+1455,valu_mart,produce,Farmer's Market,Honeycrisp Apples,12.99,,0.72,,100g,False
+1456,valu_mart,produce,,Frisee Lettuce 2-pack,4.99,,2.5,,100g,False
+1457,valu_mart,produce,,D'Anjou Pears,1.85,,7.69,,1kg,False
+1458,valu_mart,produce,,Fresh Coconut Young,4.99,,4.99,,1ea,False
+1459,valu_mart,produce,No Name,"Roasted Peanuts, No Salt",6.99,,0.77,,100g,False
+1460,valu_mart,produce,Farmer's Market,Yellow Potato 10lb Bag,6.99,,0.15,,100g,False
+1461,valu_mart,produce,,Santa Claus Melons,10.44,,5.49,,1kg,False
+1462,valu_mart,produce,GoodLeaf,Good Leaf Baby Arugula,6.49,,4.57,,100g,False
+1463,valu_mart,produce,President's Choice,"Live Lettuce Trio, 2-pack",5.99,,5.99,,1ea,False
+1464,valu_mart,produce,Manns,Snap Peas,5.49,,2.42,,100g,False
+1465,valu_mart,produce,Renees,Ranch Refrigerated Dip,5.99,,2.12,,100g,False
+1466,valu_mart,produce,President's Choice,Salted Virginia Peanuts,3.99,,0.88,,100g,False
+1467,valu_mart,produce,,Pazazz Apple,1.61,,6.59,,1kg,False
+1468,valu_mart,produce,,Organic Cilantro Bunched,4.99,,4.99,,1ea,False
+1469,valu_mart,produce,Remedy,Kombucha Lemon Lime & Mint  ,4.99,,0.71,,100ml,False
+1470,valu_mart,produce,,Ataulfo Mango,2.49,,2.49,,1ea,False
+1471,valu_mart,produce,,Decadent Strawberry Parfait,5.0,,1.7200000000000002,,100g,False
+1472,valu_mart,produce,,Grilled Chicken Caesar Salad,13.14,,21.9,,1kg,False
+1473,valu_mart,produce,,"Southwestern Chicken Salad, Family Size",17.0,,1.23,,100g,False
+1474,valu_mart,produce,,Envy Apples,1.76,,8.8,,1kg,False
+1475,valu_mart,produce,,Medjool Dates,9.49,,2.09,,100g,False
+1476,valu_mart,produce,,Red Beets,3.99,,0.44,,100g,False
+1477,valu_mart,produce,,White Onion,2.44,,6.59,,1kg,False
+1478,valu_mart,produce,,Brussels Sprouts,0.3,,9.9,,1kg,False
+1479,valu_mart,produce,,Popeye Select Spinach,11.99,,1.06,,100g,False
+1480,valu_mart,produce,President's Choice,Apple Cider Vin Pouch 45 Ml,0.49,,1.09,,100ml,False
+1481,valu_mart,produce,,Mixed Melon Cubed Large,9.0,,1.67,,100g,False
+1482,valu_mart,produce,President's Choice,Red Potatoes,5.99,,0.26,,100g,False
+1483,valu_mart,produce,Gourmet Garden,Lightly Dried Cilantro,5.99,,59.9,,100g,False
+1484,valu_mart,produce,,Carrots & Snap Peas ,4.0,,1.6,,100g,False
+1485,valu_mart,produce,President's Choice,Romaine Salad,4.49,,1.76,,100g,False
+1486,valu_mart,produce,,"Spinach, Kale, Celery Juice",13.0,,13.0,,1ea,False
+1487,valu_mart,produce,,Organic Kiwi,5.99,,1.32,,100g,False
+1488,valu_mart,produce,Marzetti,Caramel Dip Snack,6.49,,13.52,,100g,False
+1489,valu_mart,produce,,Strawberry Parfait,5.0,,1.9199999999999997,,100g,False
+1490,valu_mart,produce,,Bok Choy,2.62,,3.28,,1kg,False
+1491,valu_mart,produce,,Chicken BLT Salad Mini,5.0,,3.45,,100g,False
+1492,valu_mart,produce,Wholly Guacamole,Chunky Bowl ,5.99,,2.81,,100g,False
+1493,valu_mart,produce,,Pineapple Cubed Small,5.0,,0.5,,100g,False
+1494,valu_mart,produce,The Little Potato Company,Oven BBQ Ready Garlic Herb Potatoes,4.99,,1.1,,100g,False
+1495,valu_mart,produce,,Baby Spinach,7.05,,17.62,,1kg,False
+1496,valu_mart,produce,,"Morel Mushrooms, Dried",12.99,,92.78999999999999,,100g,False
+1497,valu_mart,produce,,"Portobello Mushrooms, Bulk",1.85,,15.41,,1kg,False
+1498,valu_mart,produce,Gourmet Garden,Basil Stir-In Paste,5.99,,5.209999999999999,,100g,False
+1499,valu_mart,produce,,Grapes Mixed,5.0,,0.5,,100g,False
+1500,valu_mart,produce,,Organic Green Grapes,9.99,,2.21,,100g,False
+1501,valu_mart,produce,,Premium Baby Spinach With Fruit & Nuts,9.0,,3.04,,100g,False
+1502,valu_mart,produce,,Roasted Corn & Pepper Quinoa,9.2,,21.9,,1kg,False
+1503,valu_mart,produce,President's Choice,Navel Oranges Cara Cara,7.99,,0.59,,100g,False
+1504,valu_mart,produce,Bolthouse,100% Carrot,6.99,,0.7400000000000001,,100ml,False
+1505,valu_mart,produce,PC Organics,Organic Honeycrisp Apples,3.33,,13.21,,1kg,False
+1506,valu_mart,produce,,California Salad,9.0,,2.73,,100g,False
+1507,valu_mart,produce,,Carrots,0.57,,4.39,,1kg,False
+1508,valu_mart,produce,PC Organics,Organic Mushroom Umami Mix,4.99,,3.33,,100g,False
+1509,valu_mart,produce,,"Mint, Fresh",1.99,,1.99,,1ea,False
+1510,valu_mart,produce,Paramount,Pistachios No Shells Roasted Light Salt,8.99,,5.29,,100g,False
+1511,valu_mart,produce,,Red Anjou Pears,1.79,,7.69,,1kg,False
+1512,valu_mart,produce,,Mini Garden Cheddar Salad,5.0,,2.7,,100g,False
+1513,valu_mart,produce,,Key Limes,5.99,,1.32,,100g,False
+1514,valu_mart,produce,President's Choice,Southwest Salad Kit,6.99,,1.89,,100g,False
+1515,valu_mart,produce,Greenhouse,"Raw, Organic Juice Deep Roots",7.99,,2.66,,100ml,False
+1516,valu_mart,produce,,Cobb with Cheddar Salad Mini,5.0,,3.03,,100g,False
+1517,valu_mart,produce,,Cortland Apples,1.38,,6.59,,1kg,False
+1518,valu_mart,produce,,Organic Kiwi,5.99,,1.32,,100g,False
+1519,valu_mart,produce,Marzetti,Caramel Dip Snack,6.49,,13.52,,100g,False
+1520,valu_mart,produce,President's Choice,Poppyseed Pouch 44Ml,0.59,,1.34,,100ml,False
+1521,valu_mart,produce,Litehouse,Dip Organic Ranch,5.49,,1.94,,100g,False
+1522,valu_mart,produce,,Strawberry Parfait,5.0,,1.9199999999999997,,100g,False
+1523,valu_mart,produce,Remedy,Kombucha Wild Berry,4.99,,0.71,,100ml,False
+1524,valu_mart,produce,Paramount,No shell BBQ Pistachios,8.99,,5.8,,100g,False
+1525,valu_mart,produce,,Red Delicious Apples,1.38,,6.59,,1kg,False
+1526,valu_mart,produce,President's Choice,Kaki Persimmons,2.99,,2.99,,1ea,False
+1527,valu_mart,produce,Farmer's Market,Red Delicious Apples,7.99,,0.44,,100g,False
+1528,valu_mart,produce,,Packaged Yellow Nectarine,6.99,,0.77,,100g,False
+1529,valu_mart,produce,Greenhouse,Plant-Based Collagen Booster Glow,3.99,,6.65,,100ml,False
+1530,valu_mart,produce,No Name,Naturally Imperfect Limes,5.99,,0.66,,100g,False
+1531,valu_mart,produce,President's Choice,Kale Slaw,4.49,,1.32,,100g,False
+1532,valu_mart,produce,No Name,Naturally Imperfect Lemons 3lb Bag,5.99,,0.44,,100g,False
+1533,valu_mart,produce,Farmer's Market,Grape Tomato 907G    ,9.99,,1.1,,100g,False
+1534,valu_mart,produce,,"Spinach, Bunched",2.99,,2.99,,1ea,False
+1535,valu_mart,produce,Farmer's Market,Greenhouse Peppers,6.49,,2.16,,1ea,False
+1536,valu_mart,produce,PC Organics,Organic Peppers Mini 227G,5.99,,2.64,,100g,False
+1537,valu_mart,produce,,Leeks,5.49,,5.49,,1ea,False
+1538,valu_mart,produce,No Name,Naturally Imperfect Potatoes 15lb,5.99,,0.09,,100g,False
+1539,valu_mart,produce,,Pineapple,4.99,,4.99,,1ea,False
+1540,valu_mart,produce,,Yellow Asian Pears,2.82,,8.8,,1kg,False
+1541,valu_mart,produce,,Snow Peas,4.99,,2.5,,100g,False
+1542,valu_mart,produce,PC Organics,Organics Baby Spinach,7.99,,2.56,,100g,False
+1543,valu_mart,produce,Farmer's Market,Yellow Onions,7.99,,0.18,,100g,False
+1544,valu_mart,produce,PC Organics,Anjou Pears,9.99,,0.73,,100g,False
+1545,valu_mart,produce,,Broccolini,3.99,,3.99,,1ea,False
+1546,valu_mart,produce,President's Choice,White Potatoes,5.99,,0.26,,100g,False
+1547,valu_mart,produce,President's Choice,Mini Sweet Peppers,5.99,,1.32,,100g,False
+1548,valu_mart,produce,President's Choice,Kale Slaw,4.49,,1.32,,100g,False
+1549,valu_mart,produce,No Name,Naturally Imperfect Lemons 3lb Bag,5.99,,0.44,,100g,False
+1550,valu_mart,produce,Farmer's Market,Grape Tomato 907G    ,9.99,,1.1,,100g,False
+1551,valu_mart,produce,,Leeks,5.49,,5.49,,1ea,False
+1552,valu_mart,produce,President's Choice,Russet Potatoes ,4.99,,0.22,,100g,False
+1553,valu_mart,produce,,Red Prince Apple,1.32,,6.589999999999999,,1kg,False
+1554,valu_mart,produce,President's Choice,Live Lettuce Tri Mix - 1 Unit,3.99,,3.99,,1ea,False
+1555,valu_mart,produce,,Field Cucumbers,1.99,,1.99,,1ea,False
+1556,valu_mart,produce,,Caribbean Avocado,4.49,,4.49,,1ea,False
+1557,valu_mart,produce,,Sweet Nantes Carrots,3.49,,0.75,,100g,False
+1558,valu_mart,produce,PC Organics,Organics Yellow Onions,4.99,,0.55,,100g,False
+1559,valu_mart,produce,President's Choice,Ambrosia Apples,1.69,,7.69,,1kg,False
+1560,valu_mart,produce,,Red Grapefruit,2.99,,2.99,,1ea,False
+1561,valu_mart,produce,Paramount,No shell BBQ Pistachios,8.99,,5.8,,100g,False
+1562,valu_mart,produce,,Red Delicious Apples,1.38,,6.59,,1kg,False
+1563,valu_mart,produce,Marzetti,"Veggie Dip, Ranch Snack Pack",6.99,,16.26,,100g,False
+1564,valu_mart,produce,President's Choice,Sweet Kale Salad Kit,6.49,,1.91,,100g,False
+1565,valu_mart,produce,,Mixed Cut Peppers ,6.0,,1.5,,100g,False
+1566,valu_mart,produce,,Acorn Squash,4.61,,5.49,,1kg,False
+1567,valu_mart,produce,,Premium Greek Classic,9.0,,2.63,,100g,False
+1568,valu_mart,produce,Greenhouse,Organic Booster Pick-Me-Up,3.99,,6.65,,100ml,False
+1569,valu_mart,produce,,Fennel,4.99,,4.99,,1ea,False
+1570,valu_mart,produce,,Broccoli Cashew Crunch Salad,5.48,,21.900000000000002,,1kg,False
+1571,valu_mart,produce,,Fruit Salad Small,7.0,,1.59,,100g,False
+1572,valu_mart,produce,,Garden Salad Mini,5.0,,3.03,,100g,False
+1573,valu_mart,produce,President's Choice,Chipotle Chop Salad Kit,6.99,,2.06,,100g,False
+1574,valu_mart,produce,,Sweet Kale Salad Family Size,17.0,,17.0,,1ea,False
+1575,valu_mart,produce,Renees,"Sweet Onion Vinaigrette, Pouch",0.49,,1.17,,100g,False
+1576,valu_mart,produce,,Mango Diced,6.0,,1.6,,100g,False
+1577,valu_mart,produce,,Deluxe Neptune Salad,5.93,,21.900000000000002,,1kg,False
+1578,valu_mart,produce,President's Choice,Beets Mixed 907G,3.99,,0.44,,100g,False
+1579,valu_mart,produce,Greenhouse,Organic Dairy Free Shake Rococoa,7.99,,2.66,,100ml,False
+1580,valu_mart,produce,,Cubed Rutabagas,5.0,,0.83,,100g,False
+1581,valu_mart,produce,No Name,Roasted Peanuts In Shell,11.99,,0.6,,100g,False
+1582,valu_mart,produce,President's Choice,Barbecue Ranch Chopped Salad Kit,6.99,,1.89,,100g,False
+1583,valu_mart,produce,,Premium Garden Iceberg,9.0,,2.53,,100g,False
+1584,valu_mart,produce,President's Choice,Hazelnuts in Shell,4.96,,1.09,,100g,False
+1585,valu_mart,produce,,"Green Figs, Case (Case)",15.49,,15.49,,1ea,False
+1586,valu_mart,produce,,Savoy Cabbage,3.2,,3.28,,1kg,False
+1587,valu_mart,produce,President's Choice,Sweet Potato,5.49,,1.21,,100g,False
+1588,valu_mart,produce,,Dried Porcini Mushrooms    ,5.49,,39.21,,100g,False
+1589,valu_mart,produce,,Red Prince Apple,8.99,,,,,False
+1590,valu_mart,produce,PC Organics,Gala Apples,2.18,,9.9,,1kg,False
+1591,valu_mart,produce,,Spartan Apples,1.38,,6.59,,1kg,False
+1592,valu_mart,produce,,Celery Sticks,4.0,,1.6,,100g,False
+1593,valu_mart,produce,,Watermelon Cubed Small 300G,6.0,,0.6,,100g,False
+1594,valu_mart,produce,,Snack Platter Vegetables,6.0,,2.0,,100g,False
+1595,valu_mart,produce,Bolthouse,100% Carrot,9.99,,0.65,,100ml,False
+1596,valu_mart,produce,,Large Greek Salad,12.0,,1.62,,100g,False
+1597,valu_mart,produce,The Little Potato Company,Microwave Ready Garlic Parsley Potatoes,4.99,,1.1,,100g,False
+1598,valu_mart,produce,,Pumpernickel Snack,5.0,,5.0,,1ea,False
+1599,valu_mart,produce,,Watermelon Cubed Large,9.0,,1.64,,100g,False
+1600,valu_mart,produce,,Red Potatoes,1.43,,5.49,,1kg,False
+1601,valu_mart,produce,,Apple Cosmic Crisp,2.11,,8.8,,1kg,False
+1602,valu_mart,produce,,Mixed Fruit Parfait,5.0,,1.69,,100g,False
+1603,valu_mart,produce,Gourmet Garden,"Lightly Dried, Ginger Bowl",5.99,,27.23,,100g,False
+1604,valu_mart,produce,Paramount,Pistachios No Shells Chili Roasted,8.99,,5.8,,100g,False
+1605,valu_mart,produce,PC Organics,Organic Mini Carrots 1lb Bag,3.99,,0.88,,100g,False
+1606,valu_mart,produce,The Little Potato Company,Microwave Ready Lemon and Garden Herb Potatoes,4.99,,1.1,,100g,False
+1607,valu_mart,produce,President's Choice,Baby Arugula Spinach Blend,4.99,,3.51,,100g,False
+1608,valu_mart,produce,Paramount,"Pistachios, Roasted & Unsalted",6.49,,2.88,,100g,False
+1609,valu_mart,produce,,Radish,2.99,,0.66,,100g,False
+1610,valu_mart,produce,,Cheddar & Bacon Potato Salad,8.76,,21.9,,1kg,False
+1611,valu_mart,produce,,"Snack Cup, Grapes & Cheese",5.0,,2.5,,100g,False
+1612,valu_mart,produce,Gourmet Garden,Lightly Dried Basil,5.99,,49.92,,100g,False
+1613,valu_mart,produce,President's Choice,Red Thai Hot Peppers,5.99,,7.99,,100g,False
+1614,valu_mart,produce,,Large Organic Pineapple,5.99,,5.99,,1ea,False
+1615,valu_mart,produce,President's Choice,Dressing Blue Cheese,0.49,,1.11,,100ml,False
+1616,valu_mart,produce,,Organic Medjool Dates,11.99,,2.6399999999999997,,100g,False
+1617,valu_mart,produce,,Veggie Tripack,14.0,,1.6900000000000002,,100g,False
+1618,valu_mart,produce,President's Choice,Brussel Sprouts,11.99,,1.3199999999999998,,100g,False
+1619,valu_mart,produce,Greenhouse,Ginger Turmeric Organic Kombucha,9.99,,1.0,,100ml,False
+1620,valu_mart,produce,,Caesar Salad Mini,5.0,,4.55,,100g,False
+1621,valu_mart,produce,Bolthouse,C-Boost,6.99,,0.7400000000000001,,100ml,False
+1622,valu_mart,produce,Marzetti,"Fruit Dip, Cream Cheese",5.99,,2.36,,100g,False
+1623,valu_mart,produce,President's Choice,Poblano Hot Peppers,5.99,,2.65,,100g,False
+1624,valu_mart,produce,PC Organics,Organic Broccoli,6.99,,6.99,,1ea,False
+1625,valu_mart,produce,PC Organics,"Kale, Chard and Spinach Salad Mix",5.99,,4.22,,100g,False
+1626,valu_mart,produce,President's Choice,Kent Mango,2.99,,2.99,,1ea,False
+1627,valu_mart,produce,Farmer's Market,Lemons,5.99,,0.66,,100g,False
+1628,valu_mart,produce,Sunrich,Sun Rich Sliced Red Apples,6.0,,1.01,,100g,False
+1629,valu_mart,produce,,Red Leaf Lettuce,3.99,,3.99,,1ea,False
+1630,valu_mart,produce,,Blackberries 1/2 Pint,4.99,,2.94,,100g,False
+1631,valu_mart,produce,,Bean Sprouts,2.49,,0.55,,100g,False
+1632,valu_mart,produce,,Brown Asian Pears,3.7,,8.8,,1kg,False
+1633,valu_mart,produce,Manns,Snap Peas,8.99,,2.12,,100g,False
+1634,valu_mart,produce,Greenhouse,Ginger Turmeric Organic Kombucha,9.99,,1.0,,100ml,False
+1635,valu_mart,produce,President's Choice,Variety Pack Tomatoes,7.99,,1.17,,100g,False
+1636,valu_mart,produce,,Cheddar & Bacon Potato Salad,8.76,,21.9,,1kg,False
+1637,valu_mart,produce,,"Snack Cup, Grapes & Cheese",5.0,,2.5,,100g,False
+1638,valu_mart,produce,Gourmet Garden,Lightly Dried Basil,5.99,,49.92,,100g,False
+1639,valu_mart,produce,Remedy,Org Kom Rasp Lemn 700Ml  ,4.99,,0.71,,100ml,False
+1640,valu_mart,produce,Farmer's Market,Empire Apples,7.99,,0.44,,100g,False
+1641,valu_mart,produce,,Organic Brussel Sprouts,9.99,,2.2,,100g,False
+1642,valu_mart,produce,PC Organics,Organic Red Potatoes,4.99,,0.37,,100g,False
+1643,valu_mart,produce,,Empire Apples,1.05,,6.59,,1kg,False
+1644,valu_mart,produce,President's Choice,Blood Oranges,8.99,,0.99,,100g,False
+1645,valu_mart,produce,,Green Cabbage,4.77,,2.84,,1kg,False
+1646,valu_mart,produce,President's Choice,Yellow Hot Hot Peppers,5.99,,2.65,,100g,False
+1647,valu_mart,produce,President's Choice,Sage,2.99,,,,,False
+1648,valu_mart,produce,Well,Cold Pressed Juice Greens   ,5.99,,1.8,,100ml,False
+1649,valu_mart,produce,President's Choice,Fingerling Potatoes,4.99,,0.73,,100g,False
+1650,valu_mart,produce,,Organic Red Onions,4.99,,0.55,,100g,False
+1651,valu_mart,produce,Greenhouse,Organic Booster Farma-C+,14.99,,6.25,,100ml,False
+1652,valu_mart,produce,PC Organics,Organics Whole Shitake Mushrooms,4.99,,4.99,,100g,False
+1653,valu_mart,produce,,Yellow Dragon Fruit,5.49,,5.49,,1ea,False
+1654,valu_mart,produce,,Caesar Salad Family Size,17.0,,2.3,,100g,False
+1655,valu_mart,produce,,Decadent Blueberry Parfait,5.0,,1.7200000000000002,,100g,False
+1656,valu_mart,produce,Paramount,"No shell Pistachios, Sea Salt & Vinegar",8.99,,5.8,,100g,False
+1657,valu_mart,produce,,Sweet Potato and Butternut Squash Mix,7.0,,1.0,,100g,False
+1658,valu_mart,produce,President's Choice,Basil,2.99,,,,,False
+1659,valu_mart,produce,Paramount,"Wonderful Pistachios, Roasted & Salted",6.49,,2.88,,100g,False
+1660,valu_mart,produce,PC Organics,Organics Multicolour Carrots,5.49,,0.61,,100g,False
+1661,valu_mart,produce,,Original Greek Salad,5.48,,21.900000000000002,,1kg,False
+1662,valu_mart,produce,,Pitted Honey Dates,6.99,,0.77,,100g,False
+1663,valu_mart,produce,,Baby Spinach,9.0,,3.4,,100g,False
+1664,valu_mart,produce,,Cobb Salad with Cheddar Chips,9.0,,2.69,,100g,False
+1665,valu_mart,produce,President's Choice,Mixiany Cherry Tomatoes,7.99,,1.18,,100g,False
+1666,valu_mart,produce,,Green Beans,5.99,,1.58,,100g,False
+1667,valu_mart,produce,Bolthouse,Red Goodness,6.99,,0.7400000000000001,,100ml,False
+1668,valu_mart,produce,President's Choice,Scotch Bonnet Hot Peppers,5.99,,5.3,,100g,False
+1669,valu_mart,produce,Loop,Early Bird Smoothie,8.99,,0.9,,100ml,False
+1670,valu_mart,produce,Greenhouse,Probiotic Hydrator Blue Lemonade,4.99,,1.66,,100ml,False
+1671,valu_mart,produce,,Granny Smith Apples,1.54,,7.69,,1kg,False
+1672,valu_mart,produce,President's Choice,Mint,4.29,,,,,False
+1673,valu_mart,produce,Bolthouse,Strawberry Banana,9.99,,0.65,,100ml,False
+1674,valu_mart,produce,Tiffany Gates,Potato Salad New Orleans   ,21.9,,21.9,,1kg,False
+1675,valu_mart,produce,Bolthouse,Vanilla Chai Tea,6.99,,0.7400000000000001,,100ml,False
+1676,valu_mart,produce,Loop,"Smoothie, Green Vibes",8.99,,0.9,,100ml,False
+1677,valu_mart,produce,PC Organics,Red Delicious Apples 3Lb Bag,8.99,,0.66,,100g,False
+1678,valu_mart,produce,PC Organics,Organics Sliced Cremini Mushrooms,3.69,,1.63,,100g,False
+1679,valu_mart,produce,The Little Potato Company,Microwave Ready Savoury Herb Potatoes,4.99,,1.1,,100g,False
+1680,valu_mart,produce,,Pink Onions,3.99,,0.29,,100g,False
+1681,valu_mart,produce,,Buttercup Squash,8.38,,5.49,,1kg,False
+1682,valu_mart,produce,,Thai Noodle with Chicken Salad,5.91,,21.900000000000002,,1kg,False
+1683,valu_mart,produce,Greenhouse,Organic Booster Farma-C+,3.99,,6.65,,100ml,False
+1684,valu_mart,produce,President's Choice,Baby Spinach,6.99,,2.24,,100g,False
+1685,valu_mart,produce,,White Potatoes,1.98,,5.49,,1kg,False
+1686,valu_mart,produce,Farmer's Market,Mini Carrots,5.99,,0.66,,100g,False
+1687,valu_mart,produce,,Mixed Grapes Large,9.0,,1.5,,100g,False
+1688,valu_mart,produce,,Organic Dried Dates,5.99,,2.4,,100g,False
+1689,valu_mart,produce,,Genuine Coconut Organic Coconut Chunks,5.99,,5.3,,100g,False
+1690,valu_mart,produce,PC Organics,Mixiany Cherry Tomatoes,4.99,,1.96,,100g,False
+1691,valu_mart,produce,,Sweet Onions 3lb Bag,7.99,,0.59,,100g,False
+1692,valu_mart,produce,Bolthouse,Mocha Cappuccino,6.99,,0.7400000000000001,,100ml,False
+1693,valu_mart,produce,,Raspberry Banana Parfait,5.0,,1.7200000000000002,,100g,False
+1694,valu_mart,produce,Earthbound Farms Organic,Chop Honey Citrus Salad,7.49,,3.62,,100g,False
+1695,valu_mart,produce,President's Choice,Caesar Salad Chop Kit,6.99,,2.35,,100g,False
+1696,valu_mart,produce,Loop,"Smoothie, Green Vibes",8.99,,0.9,,100ml,False
+1697,valu_mart,produce,PC Organics,Red Delicious Apples 3Lb Bag,8.99,,0.66,,100g,False
+1698,valu_mart,produce,PC Organics,Organics Sliced Cremini Mushrooms,3.69,,1.63,,100g,False
+1699,valu_mart,produce,The Little Potato Company,Microwave Ready Savoury Herb Potatoes,4.99,,1.1,,100g,False
+1700,valu_mart,produce,,Pink Onions,3.99,,0.29,,100g,False
+1701,valu_mart,produce,,Mixed Dried Mushrooms,5.49,,39.21,,100g,False
+1702,valu_mart,produce,President's Choice,Walnuts,2.96,,0.65,,100g,False
+1703,valu_mart,produce,The Little Potato Company,Fresh Creamer Potatoes Smoked Salt,4.99,,1.1,,100g,False
+1704,valu_mart,produce,Renees,Sweet Chili Refrigerated Dip,5.99,,2.12,,100g,False
+1705,valu_mart,produce,President's Choice,Ranch Pouch 44Ml,0.49,,1.11,,100ml,False
+1706,valu_mart,produce,,Coconut Rolled Medjool Dates,8.99,,2.64,,100g,False
+1707,valu_mart,produce,Dole,Sunflower Bacon Crunch Chopped Salad Kit,6.99,,2.01,,100g,False
+1708,valu_mart,produce,Greenhouse,Cranberry Kombucha,4.99,,1.47,,100ml,False
+1709,valu_mart,produce,President's Choice,Chives,2.99,,,,,False
+1710,valu_mart,produce,President's Choice,Jalapeno Hot Peppers,5.99,,2.65,,100g,False
+1711,valu_mart,produce,,Fresh Fruit Snack Cup,5.0,,2.27,,100g,False
+1712,valu_mart,produce,,Red Cabbage,4.36,,3.2800000000000002,,1kg,False
+1713,valu_mart,produce,,Buttercup Squash,8.38,,5.49,,1kg,False
+1714,valu_mart,produce,,Premium Chicken Caesar Salad,9.0,,3.25,,100g,False
+1715,valu_mart,produce,,Celery Root,3.33,,4.39,,1kg,False
+1716,valu_mart,produce,Bolthouse,Strawberry Banana,6.99,,0.7400000000000001,,100ml,False
+1717,valu_mart,produce,President's Choice,Coleslaw,3.49,,0.88,,100g,False
+1718,valu_mart,produce,Taylor Farms,"Chopped Salad Kit, Maple Bourbon Bacon",6.99,,2.22,,100g,False
+1719,valu_mart,produce,Earthbound Farms Organic,Asian Salad,7.49,,3.5,,100g,False
+1720,valu_mart,produce,PC Organics,Organic Granny Smith Apples,1.88,,9.9,,1kg,False
+1721,valu_mart,produce,Paramount,Pistachios Lightly Salted,11.99,,2.66,,100g,False
+1722,valu_mart,produce,,Large Chicken Caesar Salad,12.0,,1.92,,100g,False
+1723,valu_mart,produce,,Fresh Orange Juice,12.0,,1.2,,100ml,False
+1724,valu_mart,produce,,Chicken Caesar Salad Mini,5.0,,3.13,,100g,False
+1725,valu_mart,produce,,Yellow Onion,1.54,,5.49,,1kg,False
+1726,valu_mart,produce,,Organic Red Grapes,9.99,,2.21,,100g,False
+1727,valu_mart,produce,Bolthouse,Green Goodness,6.99,,0.7400000000000001,,100ml,False
+1728,valu_mart,produce,,Green Leaf Lettuce,3.99,,3.99,,1ea,False
+1729,valu_mart,produce,,Vine Cherry Tomatoes,6.99,,2.74,,100g,False
+1730,valu_mart,produce,PC Organics,Organics Whole White Mushrooms,8.99,,1.32,,100g,False
+1731,valu_mart,produce,,Genuine Coconut Organic Coconut Topping,6.99,,4.11,,100g,False
+1732,valu_mart,produce,PC Organics,Organic White Mushrooms,3.69,,1.63,,100g,False
+1733,valu_mart,produce,,Canary Melon,5.44,,0.55,,100g,False
+1734,valu_mart,produce,PC Organics,"Mushroom White, Sliced",3.69,,1.63,,100g,False
+1735,valu_mart,produce,,Halo Mandarin,9.99,,1.1,,100g,False
+1736,valu_mart,produce,President's Choice,Rosemary,2.99,,,,,False
+1737,valu_mart,produce,President's Choice,Arugula,4.99,,3.51,,100g,False
+1738,valu_mart,produce,PC Organics,Organics Field Greens Salad Mix,7.99,,2.56,,100g,False
+1739,valu_mart,produce,Farmer's Market,Mandarin Oranges,4.99,,0.55,,100g,False
+1740,valu_mart,produce,No Name,Naturally Imperfect Green Peppers 2.5lb Bag,6.99,,6.99,,1ea,False
+1741,valu_mart,produce,POM Wonderful,Pomegranate Juice,9.99,,1.41,,100ml,False
+1742,valu_mart,produce,Sunkist,Navel Oranges,10.99,,0.3,,100g,False
+1743,valu_mart,produce,Farmer's Market,Fuji Apples,7.99,,0.44,,100g,False
+1744,valu_mart,produce,PC Organics,Field Greens Salad Mix,5.99,,4.22,,100g,False
+1745,valu_mart,produce,Marzetti,"Veggie Dip, Southwest Ranch",5.99,,1.76,,100g,False
+1746,valu_mart,produce,,"Grapes, Red Globe",8.62,,8.8,,1kg,False
+1747,valu_mart,produce,Farmer's Market,Red Onions 10lb Bag,10.99,,0.24,,100g,False
+1748,valu_mart,produce,,Brussels Sprouts,4.99,,1.1,,100g,False
+1749,valu_mart,produce,President's Choice,Habanero Hot Peppers,5.99,,11.98,,100g,False
+1750,valu_mart,produce,Marzetti,"Veggie Dip, Ranch",5.99,,1.76,,100g,False
+1751,valu_mart,produce,,"Fresh Dill, Baby",3.99,,3.99,,1ea,False
+1752,valu_mart,produce,,Organic French Beans,5.99,,1.71,,100g,False
+1753,valu_mart,produce,Renees,Dill Refrigerated Dip,5.99,,2.12,,100g,False
+1754,valu_mart,produce,PC Organics,Organics Portobello Mushroom Caps,5.99,,2.5,,100g,False
+1755,valu_mart,produce,,Bard Valley Natural Delights Pitted Medjool Dates,10.99,,3.23,,100g,False
+1756,valu_mart,produce,Farmer's Market,Red Onions,4.99,,0.37,,100g,False
+1757,valu_mart,produce,PC Blue Menu,Blue Menu Unsalted Virginia Peanuts,3.99,,0.88,,100g,False
+1758,valu_mart,produce,President's Choice,Finger Hot Hot Peppers,5.99,,2.65,,100g,False
+1759,valu_mart,produce,,"Garlic, Peeled",3.49,,1.4,,100g,False
+1760,valu_mart,produce,,Pomegranate,3.99,,3.99,,1ea,False
+1761,valu_mart,produce,,Cilantro,2.99,,2.99,,1ea,False
+1762,valu_mart,produce,PC Organics,Organic Fuji Apples,8.99,,0.66,,100g,False
+1763,valu_mart,produce,PC Organics,Organics Whole Cremini Mushrooms,3.69,,1.63,,100g,False
+1764,valu_mart,produce,President's Choice,"Live Lettuce Green, 2-pack",5.99,,5.99,,1ea,False
+1765,valu_mart,produce,Marzetti,"Veggie Dip, Spinach",5.99,,1.76,,100g,False
+1766,valu_mart,produce,President's Choice,Live Lettuce Boston,2.99,,2.99,,1ea,False
+1767,valu_mart,produce,PC Organics,Organic Yellow Potatoes,5.99,4.99,0.44414829659318633,0.37,100g,True
+1768,valu_mart,produce,PC Organics,Gala Apples 3Lb Bag,10.49,8.99,0.7701223581757508,0.66,100g,True
+1769,valu_mart,produce,,Sweet Potato,2.49,,3.95,,1kg,False
+1770,valu_mart,produce,PC Organics,Organic Cremini Mushrooms,8.99,,1.32,,100g,False
+1771,valu_mart,produce,PC Organics,Baby Arugula,5.99,,4.22,,100g,False
+1772,valu_mart,produce,Farmer's Market,Carrots,3.49,2.49,0.252289156626506,0.18,100g,True
+1773,valu_mart,produce,,Royal Gala Apples,1.61,,7.69,,1kg,False
+1774,valu_mart,produce,,Snow Peas,4.99,,2.5,,100g,False
+1775,valu_mart,produce,PC Organics,Organics Baby Spinach,7.99,,2.56,,100g,False
+1776,valu_mart,produce,Farmer's Market,Yellow Onions,7.99,,0.18,,100g,False
+1777,valu_mart,produce,PC Organics,Anjou Pears,9.99,,0.73,,100g,False
+1778,valu_mart,produce,,Broccolini,3.99,,3.99,,1ea,False
+1779,valu_mart,produce,President's Choice,White Potatoes,5.99,,0.26,,100g,False
+1780,valu_mart,produce,President's Choice,Mini Sweet Peppers,5.99,,1.32,,100g,False
+1781,valu_mart,produce,President's Choice,Salted California Pistachios,5.99,,2.6599999999999997,,100g,False
+1782,valu_mart,produce,,Roma Tomatoes,0.92,,7.69,,1kg,False
+1783,valu_mart,produce,Renees,French Onion Refrigerated Dip,5.99,,2.12,,100g,False
+1784,valu_mart,produce,PC Organics,Organic Green Onions,2.29,,2.29,,1ea,False
+1785,valu_mart,produce,President's Choice,Adora Seedless® Black Grapes,15.07,,11.0,,1kg,False
+1786,valu_mart,produce,,Celery Stalks,4.99,,4.99,,1ea,False
+1787,valu_mart,produce,POM Wonderful,100% Pomegranate Juice,6.99,,1.4800000000000002,,100ml,False
+1788,valu_mart,produce,PC Organics,Organics Baby Cut Carrots,5.99,,0.66,,100g,False
+1789,valu_mart,produce,No Name,Carrots,3.99,,0.18,,100g,False
+1790,valu_mart,produce,PC Organics,Organic Field Greens & Baby Spinach - Salad Mix,7.99,,2.56,,100g,False
+1791,valu_mart,produce,,"Romaine Heart, 3 Pack",4.99,,1.66,,1ea,False
+1792,valu_mart,produce,,Organic Black Kale,4.99,,1.05,,100g,False
+1793,valu_mart,produce,,Raspberries 1/2 pint,4.99,,2.94,,100g,False
+1794,valu_mart,produce,,Honeycrisp Apples,2.38,,9.9,,1kg,False
+1795,valu_mart,produce,,Blueberries 1 pint,4.99,,1.47,,100g,False
+1796,valu_mart,produce,President's Choice,50-50 Blend - A Blend of Baby Spinach and Field Greens,6.99,,2.47,,100g,False
+1797,valu_mart,produce,President's Choice,Axiany Cherry Tomatoes,4.99,,2.22,,100g,False
+1798,valu_mart,produce,PC Organics,Organic Enoki Mushrooms,3.99,,2.66,,100g,False
+1799,valu_mart,produce,Remedy,Org Kom Rasp Lemn 700Ml  ,4.99,,0.71,,100ml,False
+1800,valu_mart,produce,Eat Smart,Sunflower Kale Vegetable Salad Kit,6.49,,1.91,,100g,False
+1801,valu_mart,produce,,Lettuce Iceberg,3.99,,3.99,,1ea,False
+1802,valu_mart,produce,PC Organics,Organic Basil,2.99,,,,,False
+1803,valu_mart,produce,Farmer's Market,Navel Oranges,6.99,4.99,0.5182965931863727,0.37,100g,True
+1804,valu_mart,produce,,"Bananas, Bunch",1.75,,1.5199999999999998,,1kg,False
+1805,valu_mart,produce,,Bosc Pears,1.94,,8.8,,1kg,False
+1806,valu_mart,produce,President's Choice,Baby Spinach,4.99,,3.51,,100g,False
+1807,valu_mart,produce,Farmer's Market,Gala Apples,8.99,,0.5,,100g,False
+1808,valu_mart,produce,,Dragon Fruit,4.99,,4.99,,1ea,False
+1809,valu_mart,produce,PC Organics,Arugula & Baby Spinach Salad Mix,5.99,,4.22,,100g,False
+1810,valu_mart,produce,PC Organics,Celery Hearts,6.99,,3.5,,1ea,False
+1811,valu_mart,produce,,Organic Iceberg Lettuce,4.99,,4.99,,1ea,False
+1812,valu_mart,produce,President's Choice,Axiany Cherry Tomatoes,7.99,,1.17,,100g,False
+1813,valu_mart,produce,,Orange Chocolate,2.2,,8.8,,1kg,False
+1814,valu_mart,produce,President's Choice,"Ready Veggie, Kale Blend",5.99,,1.76,,100g,False
+1815,valu_mart,produce,,Fuji Apples,1.85,,7.69,,1kg,False
+1816,valu_mart,produce,,Strawberries 1LB,6.99,,1.54,,100g,False
+1817,valu_mart,produce,,Blueberry Organic Kombucha,3.99,,1.12,,100ml,False
+1818,valu_mart,produce,PC Blue Menu,Unsalted California Pistachios ,5.99,,2.6599999999999997,,100g,False
+1819,valu_mart,produce,,Snap Peas,4.99,,2.5,,100g,False
+1820,valu_mart,produce,Manns,Snow Peas,5.99,,3.52,,100g,False
+1821,valu_mart,produce,,Raspberry Pint ,8.99,,2.64,,100g,False
+1822,valu_mart,produce,,Cantaloupe,5.99,,5.99,,1ea,False
+1823,valu_mart,produce,,Coconuts,2.49,,2.49,,1ea,False
+1824,valu_mart,produce,,Yellow Nectarines,2.16,,15.409999999999998,,1kg,False
+1825,valu_mart,produce,,Green Swiss Chard,3.99,,3.99,,1ea,False
+1826,valu_mart,produce,,Cantaloupe,5.99,,5.99,,1ea,False
+1827,valu_mart,produce,,Coconuts,2.49,,2.49,,1ea,False
+1828,valu_mart,produce,,Yellow Nectarines,2.16,,15.409999999999998,,1kg,False
+1829,valu_mart,produce,,Green Swiss Chard,3.99,,3.99,,1ea,False
+1830,valu_mart,produce,,"Grapes, Red Globe",8.62,,8.8,,1kg,False
+1831,valu_mart,produce,Farmer's Market,Red Onions 10lb Bag,10.99,,0.24,,100g,False
+1832,valu_mart,produce,,"Plantains, Single",0.94,,2.84,,1kg,False
+1833,valu_mart,produce,,Walnuts,0.44,,0.88,,100g,False
+1834,valu_mart,produce,,Red Swiss Chard,3.99,,3.99,,1ea,False
+1835,valu_mart,produce,,Mini Seedless Watermelon,6.99,,6.99,,1ea,False
+1836,valu_mart,produce,Well,Cold Pressed Juice Played   ,5.99,,1.8,,100ml,False
+1837,valu_mart,produce,Wholly Guacamole,Classic Bowl ,5.99,,2.81,,100g,False
+1838,valu_mart,produce,,Organic Mango,2.99,,2.99,,1ea,False
+1839,valu_mart,produce,,Vero Tomato,6.99,,1.03,,100g,False
+1840,valu_mart,produce,,Physalis (Gooseberries),4.99,,2.5,,100g,False
+1841,valu_mart,produce,,Organic Green Kale,4.99,,4.99,,1ea,False
+1842,valu_mart,produce,President's Choice,Ruby Little Gems Potatoes,3.99,,0.59,,100g,False
+1843,valu_mart,produce,,Red Onion,2.44,,6.59,,1kg,False
+1844,valu_mart,produce,President's Choice,Yellow Mini Potatoes,3.99,,0.59,,100g,False
+1845,valu_mart,produce,PC Organics,Organic Carrots,5.49,,0.61,,100g,False
+1846,valu_mart,produce,,Shishito Peppers,4.99,,2.2,,100g,False
+1847,valu_mart,seafood,Seaquest,"Colossal Raw Shrimp, 16/20",7.99,,2.66,,100g,False
+1848,valu_mart,seafood,President's Choice,Pacific White Shrimp Raw Peeled,10.99,,2.75,,100g,False
+1849,valu_mart,seafood,President's Choice,Pacific White Shrimp Cooked Peeled,10.99,,2.75,,100g,False
+1850,valu_mart,seafood,Seaquest,Wild Haddock Fillets Skinless Boneless ,8.99,,2.25,,100g,False
+1851,valu_mart,seafood,Seaquest,"Scallops, Small",11.99,,2.6399999999999997,,100g,False
+1852,valu_mart,seafood,Seaquest,"Sole Fillets, Skinless Boneless",8.99,,2.25,,100g,False
+1853,valu_mart,seafood,DOM,Smoked Steelhead Salmon,3.49,,6.98,,100g,False
+1854,valu_mart,seafood,President's Choice,Smoked Wild Sockeye Salmon,8.99,,5.99,,100g,False
+1855,valu_mart,seafood,Seaquest,Leg-style King Crab Flavoured Wild Alaska Pollock & Wild Pacific Whiting,3.99,,1.76,,100g,False
+1856,valu_mart,seafood,,"Raw Wild Shrimp, Easy Peel",13.99,,4.66,,100g,False
+1857,valu_mart,seafood,President's Choice,Zipperback Pacific White Shrimp Raw,12.99,,3.25,,100g,False
+1858,valu_mart,seafood,Seaquest,King Crab Flavoured Wild Alaska Pollock & Wild Pacific Whiting,3.99,,1.76,,100g,False
+1859,valu_mart,seafood,Seaquest,Salad Shrimp,11.99,,2.6399999999999997,,100g,False
+1860,valu_mart,seafood,President's Choice,Pacific White Shrimp Platter with Mild Cocktail Sauce,19.99,,3.52,,100g,False
+1861,valu_mart,seafood,Seaquest,Pink Salmon Fillets,17.99,,1.8,,100g,False
+1862,valu_mart,seafood,President's Choice,Scottish Atlantic Salmon Double Smoked ,8.99,,5.99,,100g,False
+1863,valu_mart,seafood,Seaquest,Shrimp Ring,16.99,,3.74,,100g,False
+1864,valu_mart,seafood,President's Choice,Tempura Torpedo Shrimp With Sweet Soy Dipping Sauce,14.99,,4.41,,100g,False
+1865,valu_mart,seafood,Seaquest,Wild Haddock Fillets Club Size ,17.99,,1.8,,100g,False
+1866,valu_mart,seafood,PC Blue Menu,"Wild Nova Scotian Sea Scallops, Frozen",25.99,23.99,6.500208420175073,6.0,100g,True
+1867,valu_mart,seafood,President's Choice,Breaded Butterflied Shrimp ,14.99,,3.75,,100g,False
+1868,valu_mart,seafood,President's Choice,Breaded Coconut Shrimp With Sweet Chili Dipping Sauce,14.99,,3.3,,100g,False
+1869,valu_mart,seafood,Seaquest,Shrimp Ring,8.99,,3.96,,100g,False
+1870,valu_mart,seafood,President's Choice,Salmon & Haddock Fish Cake,7.99,,2.76,,100g,False
+1871,valu_mart,seafood,,Cod Fillet,9.78,,33.05,,1kg,False
+1872,valu_mart,seafood,PC Blue Menu,"Wild Sea Scallops, 100/150",15.99,,4.0,,100g,False
+1873,valu_mart,seafood,High Liner,Wild Pacific Salmon Loins Market Cuts ,9.99,,4.4,,100g,False
+1874,valu_mart,seafood,Ocean Jewel,"Scottish Kippers, Boned    ",4.99,,2.5,,100g,False
+1875,valu_mart,seafood,President's Choice,Crispy Shrimp Fine Hors D'Oeuvre Trio,19.99,,3.79,,100g,False
+1876,valu_mart,seafood,Waterview Market,Crispy Calamari,4.29,,1.43,,100g,False
+1877,valu_mart,seafood,President's Choice,"Wild Yellowfin Tuna Skinless Boneless Steaks, Sustainably Sourced 280g",12.99,,4.64,,100g,False
+1878,valu_mart,seafood,Seaquest,"Basa fillets, skinless & boneless",13.99,,1.4,,100g,False
+1879,valu_mart,seafood,Seaquest,Wild Pollock Fillets,7.99,,2.0,,100g,False
+1880,valu_mart,seafood,Nanuk,Smoked Coho Salmon,22.99,,7.66,,100g,False
+1881,valu_mart,seafood,PC Blue Menu,"Wild Sockeye Salmon Sustainably Sourced, Skin-On Boneless Fillets",18.99,,6.78,,100g,False
+1882,valu_mart,seafood,,Haddock Fillet,6.27,,28.64,,1kg,False
+1883,valu_mart,seafood,Millionnaires,Flat Fillets of Anchovies,4.99,,4.99,,50g,False
+1884,valu_mart,seafood,President's Choice,Bacon-Wrapped Wild Sea Scallops,17.99,,6.92,,100g,False
+1885,valu_mart,seafood,PC Blue Menu,Rainbow Trout Skinless Boneless Fillets,12.99,,4.64,,100g,False
+1886,valu_mart,seafood,President's Choice,Sea Salt and Malt Vinegar Haddock Bites,11.99,,2.6399999999999997,,100g,False
+1887,valu_mart,seafood,President's Choice,Raw Shrimp,10.99,,3.23,,100g,False
+1888,valu_mart,seafood,Premier, Seafood Mix,5.99,,1.76,,100g,False
+1889,valu_mart,seafood,Anchor Bay,Cooked Shrimp 61-70 ct,15.99,,3.52,,100g,False
+1890,valu_mart,seafood,Feature Foods,Lunch Herring,4.99,,1.56,,100g,False
+1891,valu_mart,seafood,PC Organics,Organic Atlantic Salmon Fillets,19.99,,7.14,,100g,False
+1892,valu_mart,seafood,President's Choice, Atlantic Salmon Burger,11.99,,2.11,,100g,False
+1893,valu_mart,seafood,President's Choice,Shrimp & Scallops Au Gratin,12.99,,5.41,,100g,False
+1894,valu_mart,seafood,Foppen,Smoked Slice Salmon Loin,13.99,,8.23,,100g,False
+1895,valu_mart,seafood,Foodfest,Steelhead Smoked Salmon,10.49,,7.49,,100g,False
+1896,valu_mart,seafood,,Haddock Fillet,28.64,,28.64,,1kg,False
+1897,valu_mart,seafood,,"Lobster Tail, Frozen",8.99,,9.46,,100g,False
+1898,valu_mart,seafood,President's Choice,Melt In The Middle Sustainably Sourced Cod Fish Cakes,7.99,,2.76,,100g,False
+1899,valu_mart,seafood,President's Choice,Raw Zipperback Shrimp Grilling,18.99,,4.18,,100g,False
+1900,valu_mart,seafood,,"Lobster Tail, Frozen",9.99,,8.84,,100g,False
+1901,valu_mart,seafood,,"Fresh Tilapia Fillets, Packaged",6.03,,25.33,,1kg,False
+1902,valu_mart,seafood,High Liner,Catch of the Day Haddock Fillets 5,14.99,,2.58,,100g,False
+1903,valu_mart,seafood,Nanuk,Smoked Sockeye Salmon,11.99,,14.11,,100g,False
+1904,valu_mart,seafood,Toppits,"Frozen Lobster Meat, Cooked",28.99,,19.33,,100g,False
+1905,valu_mart,seafood,Foppen,Smoked Salmon Toast Trio,15.99,,6.450000000000001,,100g,False
+1906,valu_mart,seafood,President's Choice,Butter & Lemon Grilling Lobster Tail Skewers,21.99,,11.0,,100g,False
+1907,valu_mart,seafood,President's Choice,Oak Smoked Scottish Atlantic Salmon,8.99,,5.99,,100g,False
+1908,valu_mart,seafood,President's Choice,Black Tiger Shrimp Raw Gigantico,15.99,,4.0,,100g,False
+1909,valu_mart,seafood,Anchor Bay,Mussel Meat,5.99,,1.76,,100g,False
+1910,valu_mart,seafood,President's Choice,Beer Battered Shrimp,12.99,,4.33,,100g,False
+1911,valu_mart,seafood,President's Choice,Black Tiger Shrimp With Mild Cocktail Sauce Gigantico,27.99,,4.93,,100g,False
+1912,valu_mart,seafood,PC Organics,Organic Zipperback Shrimp,13.99,,4.66,,100g,False
+1913,valu_mart,seafood,Feature Foods,Herring Fillets in Wine Marinade,5.99,,1.87,,100g,False
+1914,valu_mart,seafood,Foodfest,Sockeye Salmon,12.99,,9.28,,100g,False
+1915,valu_mart,seafood,PC Blue Menu,Atlantic Salmon Skinless Boneless Fillets,14.99,,5.35,,100g,False
+1916,valu_mart,seafood,,Cod Fillets,33.05,,33.05,,1kg,False
+1917,valu_mart,seafood,President's Choice,Wild Atlantic Cod Fillets ,7.99,,2.85,,100g,False
+1918,valu_mart,seafood,President's Choice,Gluten Free Breaded Shrimp,11.99,,3.53,,100g,False
+1919,valu_mart,seafood,Toppits,Snow Crab Legs & Claw,29.99,,6.0,,100g,False
+1920,valu_mart,seafood,PC Organics,Organics Zipperback Raw Black Tiger Shrimp,10.99,,3.66,,100g,False
+1921,valu_mart,seafood,PC Organics,Organics Peeled Raw Black Tiger Shrimp,14.99,,5.0,,100g,False
+1922,valu_mart,seafood,Seaquest,"Calamari Rings, Uncooked",7.99,,2.35,,100g,False
+1923,valu_mart,seafood,President's Choice,Pacific White Shrimp Cooked Peeled Responsibly Farmed Jumbo ,18.99,,4.75,,100g,False
+1924,valu_mart,seafood,,Lobster Tail 2-3 Oz Frozen (1 Ea),6.99,,6.99,,1ea,False
+1925,valu_mart,seafood,President's Choice,Wild Atlantic Cold Water Shrimp Cooked Peeled ,12.99,,3.82,,100g,False
+1926,valu_mart,seafood,Unico,Fillets of Anchovies,2.49,,4.98,,100g,False
+1927,valu_mart,seafood,Anchor Bay,Cooked Clam Meat,6.99,,2.33,,100g,False
+1928,valu_mart,seafood,Laurena,Anchovy Paste,3.49,,5.82,,100g,False
+1929,valu_mart,seafood,President's Choice,Everything Seasoned Smoked Steelhead Salmon,8.99,,5.99,,100g,False
+1930,valu_mart,seafood,President's Choice,Breaded Potato and Wild Salt Cod Croquettes,9.99,,3.33,,100g,False
+1931,valu_mart,seafood,President's Choice,Smoked Atlantic Salmon,8.99,,5.99,,100g,False
