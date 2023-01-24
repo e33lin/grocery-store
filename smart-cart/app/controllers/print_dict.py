@@ -13,6 +13,11 @@ d = {
       "store":"store2",
       "cost":10.0,
       "list":grocery_list
+   },
+   "3":{
+      "store":"store3",
+      "cost":15.0,
+      "list":grocery_list
    }
 }
 
