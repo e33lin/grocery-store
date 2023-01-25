@@ -51,7 +51,6 @@ def search(grocery_list, ps):
     for store in stores: # retrieval for each store 
         
         # load data
-        # store_data = pd.read_csv(f'clean_data/{store}/{store}_data.csv')
         store_data = pd.read_csv(f'../data/{store}/{store}_data.csv')
         
         final_selection = pd.DataFrame()
@@ -84,7 +83,7 @@ def search(grocery_list, ps):
 
             try:
                 # take the cheapest item 
-                cheapest_item = selected_data.sort_values(by=['price', 'similarity'], ascending = [True, False])
+                cheapest_item = selected_data.sort_values(by=['comparable_PUP', 'similarity'], ascending = [True, False])
                 final_selection = final_selection.append(dict(cheapest_item.iloc[0]), ignore_index=True)
             except: continue
 
@@ -92,7 +91,7 @@ def search(grocery_list, ps):
         globals()[f"{store}_results"] = final_selection
     
         # dump results to csv 
-        # globals()[f"{store}_results"].to_csv(f'search_output/{store}_results.csv', index=False)
+        # globals()[f"{store}_results"].to_csv(f'{store}_results.csv', index=False)
     
     return {'zehrs': zehrs_results
         , 'no_frills': no_frills_results
@@ -108,8 +107,8 @@ results_dict = search(grocery_list, ps)
 
 output = cost_min.n_store_selection(n_stores, results_dict)
 
-# with open("search_output/output.json", "w") as outfile:
-#     json.dump(output, outfile)
+# with open("output.json", "w") as outfile:
+#     json.dump(output, outfile, indent=4)
 
 print(output)
     
