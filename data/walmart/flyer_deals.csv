@@ -1,338 +1,338 @@
-store,category,brand,product,price,sale_price,price_unit,per_unit_price,sale_per_unit_price,units,price_per_1,is_sale
-walmart,flyer,,Cara Cara Oranges 3 lb,,2.44,each,,0.17930945284161393,100g,True,True
-walmart,flyer,,Cara Cara Blood Oranges 2 lb.,,2.44,each,,0.26896417926242083,100g,True,True
-walmart,flyer,,Fresh Pork Combination Chops,,1.97,lb.,,1.97,,False,True
-walmart,flyer,Ruffles,Ruffles Chips,,2.97,each,,2.97,,True,True
-walmart,flyer,Ruffles,Ruffles Chips,,2.97,each,,2.97,,True,True
-walmart,flyer,Nestlé,Nestlé Drumstick,,4.44,each,,4.44,,True,True
-walmart,flyer,,Del Monte Novelties or Real Dairy Confectionery Tubs,,4.44,each,,4.44,,True,True
-walmart,flyer,Country Harvest,Country Harvest Grain Bread,,2.77,each,,0.46166666666666667,100g,True,True
-walmart,flyer,Country Harvest,Country Harvest Grain Bread,,2.77,each,,0.46166666666666667,100g,True,True
-walmart,flyer,Folgers,Folgers Ground Coffee,,8.97,each,,1.099264705882353,100g,True,True
-walmart,flyer,,Cashmere Bathroom Tissue,,9.97,each,,0.4154166666666667,1ea,True,True
-walmart,flyer,,lunar,,,each,,,,True,True
-walmart,flyer,,Nappa Cabbage,,1.27,lb.,,1.27,,False,True
-walmart,flyer,,Nappa Cabbage or Lobok,,1.27,lb.,,1.27,,False,True
-walmart,flyer,Aroy-D,Aroy-D Coconut Milk,,1.88,each,,0.4699999999999999,100ml,True,True
-walmart,flyer,Delicious Kitchen,Delicious Kitchen Coconut Milk or Coconut Water,,1.88,each,,0.188,100ml,True,True
-walmart,flyer,,Delicious Coconut Milk,,1.88,each,,1.88,,True,True
-walmart,flyer,Delicious Kitchen,Delicious Kitchen Jasmine Rice,,13.88,each,,0.1735,100g,True,True
-walmart,flyer,Great Value,Great Value Vegetable Oil,,15.88,each,,0.3176,100ml,True,True
-walmart,flyer,Great Value,Great Value Canola Oil,,15.88,each,,0.3176,100ml,True,True
-walmart,flyer,,Digital gift cards,,,each,,,,True,True
-walmart,flyer,,lunar,,,each,,,,True,True
-walmart,flyer,Lee Kum Kee,Lee Kum Kee Hoisin Sauce,,2.48,each,,2.48,,True,True
-walmart,flyer,,Panda Oyster Sauce,,2.48,each,,2.48,,True,True
-walmart,flyer,,Marutai Noodles,,2.98,each,,2.98,,True,True
-walmart,flyer,Marutai,Marutai Noodles,,2.98,each,,2.98,,True,True
-walmart,flyer,ChaCheer,ChaCheer Sunflower Seeds,,2.28,each,,0.8769230769230769,100g,True,True
-walmart,flyer,Chacheer,Chacheer Sunflower Seeds,,2.28,each,,2.28,,True,True
-walmart,flyer,,Lotte Koala's March Cookies,,4.88,each,,2.5025641025641026,100g,True,True
-walmart,flyer,Lotte Koala's,Lotte Koala's March Cookies,,4.88,each,,2.5025641025641026,100g,True,True
-walmart,flyer,,Fresh Angus Beef Stewing Cubes,,7.88,lb.,,7.88,,False,True
-walmart,flyer,,Fresh Lean Ground Pork Value Pack,,6.88,each,,6.88,,True,True
-walmart,flyer,,Siwin Dumplings,,3.98,each,,3.98,,True,True
-walmart,flyer,,Siwin Dumplings or Potstickers,,3.98,each,,3.98,,True,True
-walmart,flyer,O'Tasty,O'Tasty Dumplings,,4.48,each,,4.48,,True,True
-walmart,flyer,O'Tasty,O'Tasty Dumplings,,4.48,each,,0.7901234567901235,100g,True,True
-walmart,flyer,,Aqua Star Frozen Basa Fillet,,5.0,each,,1.25,100g,True,True
-walmart,flyer,,Joe's Tasty Travels Walnuts,,11.0,each,,2.0,100g,True,True
-walmart,flyer,Joe's Tasty Travels,Joe's Tasty Travels Almonds,,11.0,each,,2.0,100g,True,True
-walmart,flyer,Salton,Salton 10-Cup Rice Cooker & Steamer,,21.98,each,,21.98,,True,True
-walmart,flyer,,Starfrit The Rock 3L Electric Dual-Sided Hot Pot,,48.88,each,,48.88,,True,True
-walmart,flyer,Campbell's,Campbell's Broth,,1.47,each,,1.47,,True,True
-walmart,flyer,Heinz,Heinz Ketchup,,3.97,each,,0.397,100ml,True,True
-walmart,flyer,Campbell's,Campbell's Broth,,1.47,each,,1.47,,True,True
-walmart,flyer,Heinz,Heinz Ketchup,,3.97,each,,0.397,100ml,True,True
-walmart,flyer,Allen's,Allen's Juice or Drinks,,1.97,each,,1.97,,True,True
-walmart,flyer,Yoplait,Yoplait Tubes 8 Pack Yogurt,,1.88,each,,1.88,,True,True
-walmart,flyer,,Minigo 6-Pack Yogurt,,1.88,each,,1.88,,True,True
-walmart,flyer,Cheemo,Cheemo Perogies,,2.27,each,,0.25027563395810365,100g,True,True
-walmart,flyer,Cheemo,Cheemo Perogies,,2.27,each,,0.25027563395810365,100g,True,True
-walmart,flyer,Minute Maid,Minute Maid Drinks,,2.97,each,,0.16971428571428573,100ml,True,True
-walmart,flyer,Minute Maid,Minute Maid Drinks,,2.97,each,,0.1928571428571429,100ml,True,True
-walmart,flyer,,M&M's Milk Chocolate or Peanut Bowl Size,,6.97,each,,1.7425,100g,True,True
-walmart,flyer,Clif,Clif Bar,,8.97,each,,13.191176470588237,100g,True,True
-walmart,flyer,,Clif Bar,,8.97,each,,8.97,,True,True
-walmart,flyer,Pillsbury,Pillsbury Pizza Pops,,15.47,each,,0.5156666666666667,1ea,True,True
-walmart,flyer,Pillsbury,Pillsbury Pizza Pops,,15.47,each,,0.5156666666666667,1ea,True,True
-walmart,flyer,,Locked in low prices,,,each,,,,True,True
-walmart,flyer,Great Value,Great Value Pickles,,2.47,each,,2.47,,True,True
-walmart,flyer,Great Value,Great Value Mac & Cheese,,0.77,each,,0.3422222222222222,100g,True,True
-walmart,flyer,Great Value,Great Value Tuna,,0.97,each,,0.5705882352941176,100g,True,True
-walmart,flyer,Great Value,Great Value Tuna,,0.97,each,,0.5705882352941176,100g,True,True
-walmart,flyer,Coca-Cola,Coca-Cola,,6.0,or $2.47 each,,2.0,,False,True
-walmart,flyer,,Sprite,,6.0,or $2.47 each,,0.1,100ml,False,True
-walmart,flyer,,Chef Boyardee,,7.0,or $1.97 each,,1.75,,False,True
-walmart,flyer,Chef Boyardee,Chef Boyardee,,7.0,or $1.97 each,,1.75,,False,True
-walmart,flyer,Activia,Activia Yogurt Tubs,,10.0,or $4.18 each,,0.5128205128205128,100g,False,True
-walmart,flyer,Activia,Activia Yogurt Tubs,,10.0,or 4.18 each,,0.5128205128205128,100g,False,True
-walmart,flyer,Christie,Christie Cookies,,8.0,or $3.28 each,,2.6666666666666665,,False,True
-walmart,flyer,Christie,Christie Cookies,,8.0,or 3.28 each,,2.6666666666666665,,False,True
-walmart,flyer,Orville Redenbacher,Orville Redenbacher Popcorn,,9.0,or $5.27 each,,4.5,,False,True
-walmart,flyer,Orville Redenbacher,Orville Redenbacher Popcorn,,9.0,or 5.27 each,,4.5,,False,True
-walmart,flyer,Danone,Danone Oikos Yogurt,,11.0,or $4.28 each,,3.6666666666666665,100g,False,True
-walmart,flyer,Danone,Danone Oikos Yogurt,,11.0,or $4.28 each,,3.6666666666666665,100g,False,True
-walmart,flyer,,Walmart,,,each,,,,True,True
-walmart,flyer,,Site to Store,,,each,,,,True,True
-walmart,flyer,,Meals made easy,,,each,,,,True,True
-walmart,flyer,Your Fresh Market,Your Fresh Market Meal Kits,,9.97,each,,9.97,,True,True
-walmart,flyer,Your Fresh Market,Your Fresh Market Carrots,,2.47,each,,0.18161764705882352,100g,True,True
-walmart,flyer,,Rainbow Peppers,,4.47,each,,1.49,1ea,True,True
-walmart,flyer,Great Value,Great Value Popcorn Chicken or Meatballs,,9.0,each,,9.0,,True,True
-walmart,flyer,Great Value,Great Value Meatballs,,9.0,each,,9.0,,True,True
-walmart,flyer,Marcangelo,Marcangelo Bacon-Wrapped Fine Herb Pork Sirloin Roast 600 g or BBQ Roast 800 g,,12.0,each,,2.0,100g,True,True
-walmart,flyer,Lou's Kitchen,Lou's Kitchen Fully Cooked Entrees,,8.97,each,,8.97,,True,True
-walmart,flyer,Schneiders,Schneiders Pepperettes,,9.97,each,,3.3233333333333337,100g,True,True
-walmart,flyer,Your Fresh Market™,Your Fresh Market™ Sliced Deli Meats,,3.47,each,,1.9828571428571429,100g,True,True
-walmart,flyer,Your Fresh Market™,Your Fresh Market™ Sliced Deli Meats,,3.47,each,,1.9828571428571429,100g,True,True
-walmart,flyer,Furlani,Furlani Garlic Toast,,4.47,each,,0.7006269592476488,100g,True,True
-walmart,flyer,Your Fresh Market™,Your Fresh Market™ Cheese Slices,,5.97,each,,3.7312499999999997,100g,True,True
-walmart,flyer,Your Fresh Market™,Your Fresh Market™ Cheese Slices,,5.97,each,,3.7312499999999997,100g,True,True
-walmart,flyer,Furlani,Furlani Garlic Toast,,4.47,each,,0.7006269592476488,100g,True,True
-walmart,flyer,,Dempster's Bread or Hostess Value Snack Cakes,,5.5,or $2.97 to $3.37 each,,2.75,,False,True
-walmart,flyer,Wonder,Wonder Bread,,5.5,or 2.97 to 3.37 each,,2.75,,False,True
-walmart,flyer,,Sara Lee Little Bites,,7.0,or 4.27 each,,1.4957264957264957,100g,False,True
-walmart,flyer,Sara Lee,Sara Lee Little Bites,,7.0,or $4.27 each,,1.4957264957264957,100g,False,True
-walmart,flyer,Your Fresh Market™,Your Fresh Market™ Chocolate Chip Cookies,,6.0,each,,0.7326007326007326,100g,True,True
-walmart,flyer,Our Finest,Our Finest Frozen Entrees,,3.97,each,,3.97,,True,True
-walmart,flyer,Great Value,Great Value Frozen Fruit Cocktails,,4.47,each,,1.1175,100g,True,True
-walmart,flyer,Great Value,Great Value Frozen Fruit Cocktails,,4.47,each,,1.1175,100g,True,True
-walmart,flyer,Our Finest,Our Finest Frozen Entrees,,3.97,each,,1.1342857142857143,100g,True,True
-walmart,flyer,Huggies,Huggies 16x Wipes,,23.97,each,,23.97,,True,True
-walmart,flyer,,"Enfamil A+, A+ 2 or Geantlease A+ Ready to Feed",,53.97,each,,53.97,,True,True
-walmart,flyer,,Rascal + Friends Jumbo Box Diapers,,26.97,each,,26.97,,True,True
-walmart,flyer,Rascal + Friends,Rascal + Friends CoComelon Training Pants,,26.97,each,,26.97,,True,True
-walmart,flyer,Huggies,Huggies 16x Wipes,,23.97,each,,23.97,,True,True
-walmart,flyer,Enfamil,Enfamil A+ 2 Ready to Feed,,53.97,each,,53.97,,True,True
-walmart,flyer,,Walmart Canada,,,each,,,,True,True
-walmart,flyer,Great Value,Great Value Frozen Organic Fruit,,6.97,each,,1.1616666666666666,100g,True,True
-walmart,flyer,Great Value,Great Value The Ultimate Meatless Burger,,8.97,each,,1.12125,1ea,True,True
-walmart,flyer,Great Value,Great Value Organic Eggs 12-Pack,,6.28,each,,6.28,,True,True
-walmart,flyer,Great Value,Great Value Oats,,2.47,each,,2.47,,True,True
-walmart,flyer,,Great Value Sauces,,1.77,each,,1.5663716814159294,100g,True,True
-walmart,flyer,Great Value,Great Value Canned Pineapple,,1.67,each,,1.67,,True,True
-walmart,flyer,Great Value,Great Value Canned Pineapple,,1.67,each,,1.67,,True,True
-walmart,flyer,Great Value,Great Value Sauces,,1.77,each,,1.5663716814159294,100g,True,True
-walmart,flyer,Great Value,Great Value Almond Beverage,,1.97,each,,1.97,,True,True
-walmart,flyer,Great Value,Great Value Almond Beverage,,1.97,each,,1.97,,True,True
-walmart,flyer,Great Value,Great Value Canned Beans,,5.0,or $1.17 each,,1.25,,False,True
-walmart,flyer,Great Value,Great Value Canned Beans,,5.0,or 1.17 each,,1.25,,False,True
-walmart,flyer,Great Value,Great Value Cheese Slices,,4.78,each,,4.78,,True,True
-walmart,flyer,Great Value,Great Value Nutri-Bowl Entrees,,3.47,each,,1.1566666666666667,100g,True,True
-walmart,flyer,Great Value,Great Value Cheese Slices,,4.78,each,,4.78,,True,True
-walmart,flyer,Great Value,Great Value Nutri-Bowl Entrees,,3.47,each,,1.1566666666666667,100g,True,True
-walmart,flyer,Great Value,Great Value Smoothie Yogurt Bars,,6.98,each,,6.98,,True,True
-walmart,flyer,Great Value,Great Value Drinkable Yogurt,,4.48,each,,4.81720430107527,100ml,True,True
-walmart,flyer,Great Value,Great Value Smoothie Yogurt Bars,,6.98,each,,6.98,,True,True
-walmart,flyer,Great Value,Great Value Drinkable Yogurt,,4.48,each,,4.48,,True,True
-walmart,flyer,SpongeTowels,SpongeTowels Ultra Paper Towels,,5.97,each,,0.995,1ea,True,True
-walmart,flyer,,Finish Quantum Ultimate Detergent Tabs,,16.97,each,,16.97,,True,True
-walmart,flyer,Finish,Finish Quantum Max Detergent Tabs,,16.97,each,,16.97,,True,True
-walmart,flyer,Downy,Downy Unstopables,,15.97,each,,2.123670212765958,100g,True,True
-walmart,flyer,Gain,Gain Scent Beads,,15.97,each,,2.123670212765958,100g,True,True
-walmart,flyer,Tide,Tide Liquid Laundry Detergent,,20.97,each,,20.97,,True,True
-walmart,flyer,Air Wick,Air Wick Essential Mist Kit,,9.97,each,,9.97,,True,True
-walmart,flyer,Air Wick,Air Wick Scented Oil Refills,,9.97,each,,9.97,,True,True
-walmart,flyer,Swiffer,Swiffer Sweeper Dry Cloths 105 - 36s,,9.97,each,,9.97,,True,True
-walmart,flyer,Woolite,Woolite 2.96 Laundry Detergent,,13.97,each,,0.47195945945945944,100ml,True,True
-walmart,flyer,Lysol,Lysol Laundry Disinfectant 2.7 L,,13.97,each,,0.5174074074074074,100ml,True,True
-walmart,flyer,,Swiffer Sweeper Wet Refills 12s -24s or Dry Cloths 10s -36s,,9.97,each,,9.97,,True,True
-walmart,flyer,Great Value,Great Value Eco Towels,,6.97,each,,1.1616666666666666,1ea,True,True
-walmart,flyer,Ziploc,Ziploc Freezer or Storage Bags,,8.97,each,,8.97,,True,True
-walmart,flyer,Royale,Royale Facial Tissue,,18.77,each,,1.0427777777777778,1ea,True,True
-walmart,flyer,Royale,Royale Facial Tissue,,18.77,each,,1.0427777777777778,1ea,True,True
-walmart,flyer,Ziploc,Ziploc Freezer or Storage Bag,,8.97,each,,8.97,,True,True
-walmart,flyer,AXE,AXE Body Spray,,3.97,each,,3.97,,True,True
-walmart,flyer,Old Spice,Old Spice Deodorant 85 g,,5.47,each,,6.435294117647058,100g,True,True
-walmart,flyer,,"Always Pads, Liners or Period Underwear or Tampax Tampons or L. Natural Tampons",,16.0,or 8.48 to 10.98 each,,8.0,,False,True
-walmart,flyer,AXE,AXE Deodorant,,3.97,each,,3.97,,True,True
-walmart,flyer,,Secret Antiperspirant 73g or Old Spice Deodorant 85g,,5.47,each,,5.47,,True,True
-walmart,flyer,Tampax,Tampax Tampons,,16.0,or 8.48 to 10.98 each,,8.0,,False,True
-walmart,flyer,L'Oréal,L'Oréal Paris Preference Hair Colour,,10.97,each,,10.97,,True,True
-walmart,flyer,L'Oréal,L'Oréal Paris Preference Hair Colour,,10.97,each,,10.97,,True,True
-walmart,flyer,,Aveeno or Neutrogena Hand or Body Lotion,,10.97,each,,10.97,,True,True
-walmart,flyer,,Aveeno or Neutrogena Hand or Body Lotion,,10.97,each,,10.97,,True,True
-walmart,flyer,Tylenol,Tylenol Pain Relief,,9.67,each,,9.67,,True,True
-walmart,flyer,Nexium,Nexium 24HR Antacid,,12.97,each,,12.97,,True,True
-walmart,flyer,Jamieson,Jamieson Melatonin 60s,,11.17,each,,11.17,,True,True
-walmart,flyer,,Jamieson B50 Complex Vitamins,,11.17,each,,11.17,,True,True
-walmart,flyer,Jamieson,Jamieson Calcium or Magnesium,,10.77,each,,10.77,,True,True
-walmart,flyer,Jamieson,Jamieson Magnesium,,10.77,each,,10.77,,True,True
-walmart,flyer,Always,Always Discreet Underwear,,52.0,or $28.97 each,,26.0,,False,True
-walmart,flyer,Scope,Crest Pro-Health Multi-Protection Mouthwash 1L,,5.97,each,,5.97,,True,True
-walmart,flyer,Garnier,Garnier Whole Blends Shampoo or Conditioner,,7.96,each,,7.96,,True,True
-walmart,flyer,L'Oréal,L'Oréal Paris Hair Expertise Shampoo or Conditioner,,9.37,each,,9.37,,True,True
-walmart,flyer,L'Oreal,"L'Oreal Paris Ever Pure, Hair Expertise Shampoo or Conditioner or Wonder Water",,9.37,each,,9.37,,True,True
-walmart,flyer,L'Oréal Paris,L'Oréal Paris Ever Pure Hair Expertise Shampoo,,9.37,each,,9.37,,True,True
-walmart,flyer,Crest,Crest GUM Toothpaste 110 mL,,5.97,each,,5.97,,True,True
-walmart,flyer,Colgate,Colgate MaxFresh 52 mL or Cavity Protection 95 mL Toothpaste,,0.88,each,,0.88,,True,True
-walmart,flyer,Vaseline,Vaseline Intensive Care Hand or Body Lotion,,5.78,each,,1.959322033898305,100ml,True,True
-walmart,flyer,Softsoap,Softsoap Hand Soap Refill,,5.97,each,,0.40612244897959177,100ml,True,True
-walmart,flyer,Softsoap,Softsoap Hand Soap Refill,,5.97,each,,0.40612244897959177,100ml,True,True
-walmart,flyer,Colgate,Colgate Cavity Protection 95 mL Toothpaste,,0.88,each,,0.88,,True,True
-walmart,flyer,,Dove Body Wash 354 mL,,4.97,each,,4.97,,True,True
-walmart,flyer,Dial,Dial Hand Soap Refills,,4.97,each,,0.3248366013071895,100ml,True,True
-walmart,flyer,Dial,Dial Hand Soap Refills,,4.97,each,,0.3248366013071895,100ml,True,True
-walmart,flyer,Neutrogena,Neutrogena Hydro Boost Gel Cream,,18.47,each,,18.47,,True,True
-walmart,flyer,Dove,"Dove Body Wash 354 mL, Men+Care 3 Bars or Body Wash 400 mL",,4.97,each,,4.97,,True,True
-walmart,flyer,Maybelline,Maybelline Volum' Express The Falsies Mascara,,5.98,each,,5.98,,True,True
-walmart,flyer,Garnier,Garnier Belle Color Hair Colour,,12.0,or 7.47 each,,6.0,,False,True
-walmart,flyer,Garnier,Garnier Belle Color Hair Colour,,12.0,or $7.47 each,,6.0,,False,True
-walmart,flyer,,CoverGirl Clean Fresh Skincare Serum,,18.47,each,,18.47,,True,True
-walmart,flyer,CoverGirl,CoverGirl Clean Fresh Skincare Serum,,18.47,each,,18.47,,True,True
-walmart,flyer,Equate,Equate Conditioner,,3.97,each,,3.97,,True,True
-walmart,flyer,Equate,Equate Moisture Shampoo,,3.97,each,,3.97,,True,True
-walmart,flyer,Equate,Equate Mouthwash,,5.98,each,,0.3986666666666667,100ml,True,True
-walmart,flyer,Equate,Equate Mouthwash,,5.98,each,,0.3986666666666667,100ml,True,True
-walmart,flyer,Equate,Equate Hand Soap,,3.97,each,,0.2406060606060606,100ml,True,True
-walmart,flyer,Equate,Equate Hand Soap,,3.97,each,,0.2406060606060606,100ml,True,True
-walmart,flyer,Equate,Equate Suncare,,7.47,each,,7.47,,True,True
-walmart,flyer,Equate,Equate Square,,7.47,each,,7.47,,True,True
-walmart,flyer,,Mastercard,,,each,,,,True,True
-walmart,flyer,onn,"onn 43"" 4K UHD HDR Roku Smart TV",,328.0,*,,328.0,,False,True
-walmart,flyer,onn.,"onn. 55"" 4K UHD HDR TV",,498.0,*,,498.0,,False,True
-walmart,flyer,HP,HP DeskJet 2723E All-in-One Printer,,69.98,*,,69.98,,False,True
-walmart,flyer,,Galaxy A53 Postpaid Phone,,0.0,¹ $ down % APR $28.75/mo. for 24 mo.,,0.0,,False,True
-walmart,flyer,Moto G,Moto G Pure Prepaid Phone,,169.0,each,,169.0,,True,True
-walmart,flyer,Philips,Philips LED 60W A19 Bulbs 3-Pack,,14.98,each,,14.98,,True,True
-walmart,flyer,3M,3M Large Picture Hanging Strips Value Packs,,11.77,each,,11.77,,True,True
-walmart,flyer,3M Command,3M Command Medium Utility Hooks,,11.77,each,,11.77,,True,True
-walmart,flyer,Mobil 1,Mobil 1 Synthetic Motor Oil,,34.97,each,,0.739323467230444,100ml,True,True
-walmart,flyer,,Valvoline Synthetic Motor Oil,,35.97,each,,0.7194,100ml,True,True
-walmart,flyer,Serta,Serta Sertapedic So Calm! Lavender Knit Pillow,,14.97,each,,14.97,,True,True
-walmart,flyer,Serta,Serta 5-in-1 Ultimate Mattress Pad,,49.97,each,,49.97,,True,True
-walmart,flyer,Beautyrest,Beautyrest Sheet Set,,19.88,each,,19.88,,True,True
-walmart,flyer,,Beautyrest Sheet Set,,19.88,each,,19.88,,True,True
-walmart,flyer,Beautyrest,Beautyrest Sheet Set,,19.88,each,,19.88,,True,True
-walmart,flyer,,Beautyrest Blanket,,29.88,each,,29.88,,True,True
-walmart,flyer,Serta,Serta So Fluffy! Antimicrobial Duvet,,94.97,each,,94.97,,True,True
-walmart,flyer,Beautyrest,Beautyrest Sheet Set,,19.88,each,,19.88,,True,True
-walmart,flyer,Beautyrest,Beautyrest Sheet Set,,19.88,each,,19.88,,True,True
-walmart,flyer,,Beautyrest Blanket,,29.88,each,,29.88,,True,True
-walmart,flyer,,Beauty Sheet Set,,19.88,each,,19.88,,True,True
-walmart,flyer,,Full Size Wax Warmer,,22.97,each,,22.97,,True,True
-walmart,flyer,,Full Size Wax Warmer,,22.97,each,,22.97,,True,True
-walmart,flyer,Hometrends,Hometrends Ribbed Bath Towels,,10.97,each,,10.97,,True,True
-walmart,flyer,Beautyrest,Beautyrest 7-Piece Bed in a Bag,,69.88,each,,69.88,,True,True
-walmart,flyer,Hometrends,Hometrends Ribbed Bath Towels,,10.97,each,,10.97,,True,True
-walmart,flyer,Hometrends,Hometrends Ribbed Bath Towels,,10.97,each,,10.97,,True,True
-walmart,flyer,,Walmart Canada,,,each,,,,True,True
-walmart,flyer,,Financial-services,,,each,,,,True,True
-walmart,flyer,Sistema,Sistema Bento Box,,9.87,each,,9.87,,True,True
-walmart,flyer,,Contigo Shake & Go Bottles,,15.97,each,,15.97,,True,True
-walmart,flyer,,Contigo Shake & Go Bottles,,15.97,each,,15.97,,True,True
-walmart,flyer,Sistema,Sistema Bento Box,,9.87,each,,9.87,,True,True
-walmart,flyer,Sterilite,Sterilite 26 L Latch Clear Tote,,7.97,each,,0.030653846153846157,100ml,True,True
-walmart,flyer,Sterilite,Sterilite 26 L Latch Clear Tote,,7.97,each,,0.030653846153846157,100ml,True,True
-walmart,flyer,,Mistral 19 L Classic Step Can,,13.57,each,,0.07142105263157895,100ml,True,True
-walmart,flyer,,Mistral 19 L Classic Step Can,,13.57,each,,0.07142105263157895,100ml,True,True
-walmart,flyer,Sterilite,Sterilite 70.5 L Hamper,,19.97,each,,0.028326241134751774,100ml,True,True
-walmart,flyer,,Sterilite 68 L Tuff1 Tote,,14.97,each,,0.022014705882352943,100ml,True,True
-walmart,flyer,Sterilite,Sterilite 10-Pack 5.7 L Totes,,14.97,each,,0.26263157894736844,100ml,True,True
-walmart,flyer,Sterilite,Sterilite 4-Pack 11.4 L Totes,,14.97,each,,0.13131578947368422,100ml,True,True
-walmart,flyer,Sterlite,Sterlite 47 L Wheeled Tote,,19.97,each,,0.04248936170212766,100ml,True,True
-walmart,flyer,Hamilton Beach,Hamilton Beach 0.7-cu. ft. Microwave,,69.97,each,,69.97,,True,True
-walmart,flyer,T-fal,T-fal Ultra 4.2 L Air Fryer,,98.97,each,,2.3564285714285713,100ml,True,True
-walmart,flyer,Kalorik,Kalorik 2-qt. Com act Air Fryer,,42.88,each,,42.88,,True,True
-walmart,flyer,Arctic King,Arctic King 3-cu. ft. Upright or 5-cu. ft. Chest Freezer,,197.97,each,,197.97,,True,True
-walmart,flyer,Arctic King,Arctic King 5-cu. ft. Chest Freezer,,197.97,each,,197.97,,True,True
-walmart,flyer,Brita,Brita 4-Pack Filters,,24.97,each,,24.97,,True,True
-walmart,flyer,,NutriBullet GO Portable Blender,,29.98,each,,29.98,,True,True
-walmart,flyer,Ninja,Ninja Twisti High Speed Blender Duo,,119.98,each,,119.98,,True,True
-walmart,flyer,Dirt Devil,Dirt Devil 4-in-1 Power Stick Vacuum with Removable Hand Vac,,49.98,each,,49.98,,True,True
-walmart,flyer,Hoover,Hoover Power Dash Carpet Cleaner,,129.98,each,,129.98,,True,True
-walmart,flyer,IAMS,IAMS Dry Dog Food,,14.97,each,,0.0047075471698113215,100g,True,True
-walmart,flyer,IAMS,IAMS Dry Dog Food,,14.97,each,,0.4707547169811321,100g,True,True
-walmart,flyer,IAMS,IAMS Dry Cat Food,,11.47,each,,0.7213836477987422,100g,True,True
-walmart,flyer,IAMS,IAMS Dry Cat Food,,11.47,each,,0.7213836477987422,100g,True,True
-walmart,flyer,,learn more,,,each,,,,True,True
-walmart,flyer,,Mastercard,,,each,,,,True,True
-walmart,flyer,,learn more,,,each,,,,True,True
-walmart,flyer,,Grocery Home Shopping,,,each,,,,True,True
-walmart,flyer,,Grocery,,,each,,,,True,True
-walmart,flyer,,Find a Pharmacy Near Me,,,each,,,,True,True
-walmart,flyer,,shop,,,each,,,,True,True
-walmart,flyer,,Centrum Men Multivitamins,,11.47,each,,11.47,,True,True
-walmart,flyer,Centrum,Centrum Women Multivitamins,,11.47,each,,11.47,,True,True
-walmart,flyer,Centrum,Centrum Women Multivitamins,,11.47,each,,11.47,,True,True
-walmart,flyer,Centrum,Centrum Men or Women Multivitamins,,11.47,each,,11.47,,True,True
-walmart,flyer,Emergen-C,Emergen-C Kidz Junior Immune+ Support,,22.0,or $13.97 each,,11.0,,False,True
-walmart,flyer,Emergen-C,Emergen-C Kidz Junior or Kidz Junior Immune+ Support,,22.0,or 13.97 each,,11.0,,False,True
-walmart,flyer,Centrum,Centrum Kid Chewable Tablets,,9.97,each,,9.97,,True,True
-walmart,flyer,Centrum,Centrum Kids Chewable Tablets,,9.97,each,,9.97,,True,True
-walmart,flyer,,Centrum Men or Women Minis Immunity,,11.47,each,,11.47,,True,True
-walmart,flyer,,Centrum Men or Women Minis Immunity*,,11.47,each,,11.47,,True,True
-walmart,flyer,Centrum,Centrum Select Multivitamins,,27.97,each,,27.97,,True,True
-walmart,flyer,Centrum,Centrum Select or Forte Multivitamins,,27.97,each,,27.97,,True,True
-walmart,flyer,,Emergen-C,,22.0,or $13.97 each,,11.0,,False,True
-walmart,flyer,Centrum,Centrum MultiGummies,,15.47,each,,15.47,,True,True
-walmart,flyer,Centrum,Centrum MultiGummies,,15.47,each,,15.47,,True,True
-walmart,flyer,Emergen-C,Emergen-C,,22.0,or $13.97 each,,11.0,,False,True
-walmart,flyer,,shop,,,each,,,,True,True
-walmart,flyer,Aveeno,Aveeno Baby Suncare Products,,16.47,each,,16.47,,True,True
-walmart,flyer,,Aveeno Baby Suncare Products,,16.47,each,,16.47,,True,True
-walmart,flyer,Aveeno,Aveeno Baby Value Size Wash & Shampoo,,21.97,each,,2.2533333333333334,100ml,True,True
-walmart,flyer,Aveeno,Aveeno Baby Eczema Cream,,18.97,each,,18.97,,True,True
-walmart,flyer,Aveeno,Aveeno Baby Lotion,,13.47,each,,13.47,,True,True
-walmart,flyer,Aveeno,Aveeno Baby Wash & Shampoo,,13.47,each,,13.47,,True,True
-walmart,flyer,Aveeno,Aveeno Shampoo or Conditioner,,10.18,each,,2.8757062146892656,100ml,True,True
-walmart,flyer,Aveeno,Aveeno Shampoo or Conditioner,,10.18,each,,2.8757062146892656,100ml,True,True
-walmart,flyer,Aveeno,Aveeno Hand or Body Lotion,,10.97,each,,10.97,,True,True
-walmart,flyer,Aveeno,Aveeno Hand or Body Lotion,,10.97,each,,10.97,,True,True
-walmart,flyer,Aveeno,Aveeno Body Wash,,8.77,each,,8.77,,True,True
-walmart,flyer,Aveeno,Aveeno Body Wash,,8.77,each,,8.77,,True,True
-walmart,flyer,Aveeno,Aveeno Skincare,,24.47,each,,24.47,,True,True
-walmart,flyer,Aveeno,Aveeno Skincare,,24.47,each,,24.47,,True,True
-walmart,flyer,,shop,,,each,,,,True,True
-walmart,flyer,fairlife,fairlife Milk,,4.17,each,,4.17,,True,True
-walmart,flyer,Fairlife,Fairlife Milk,,4.17,each,,4.17,,True,True
-walmart,flyer,Simply Orange,Simply Orange Juice,,4.47,each,,0.2902597402597402,100ml,True,True
-walmart,flyer,Simply Orange,Simply Orange Juice,,4.47,each,,0.2902597402597402,100ml,True,True
-walmart,flyer,Minute Maid,Minute Maid Orange Juice,,2.97,each,,2.97,,True,True
-walmart,flyer,Minute Maid,Minute Maid No Sugar Added Lemonade,,2.97,each,,2.97,,True,True
-walmart,flyer,Minute Maid,Minute Maid No Sugar Added Lemonade,,2.97,each,,0.1928571428571429,100ml,True,True
-walmart,flyer,Gold Peak,Gold Peak Lemon or Raspberry Tea,,6.18,each,,0.23498098859315592,100ml,True,True
-walmart,flyer,Honest,Honest Kids Organic Apple Juice,,2.77,each,,2.77,,True,True
-walmart,flyer,Gold Peak,Gold Peak Lemon Tea,,6.18,each,,0.23498098859315592,100ml,True,True
-walmart,flyer,,learn more,,,each,,,,True,True
-walmart,flyer,Coca-Cola,Coca-Cola® 500 ml,,1.98,each,,0.396,100ml,True,True
-walmart,flyer,Coca-Cola,Coca-Cola® Mini Cans 6 x 222 mL,,3.77,each,,3.77,,True,True
-walmart,flyer,Coca-Cola®,Coca-Cola® Zero Sugar 12 x 355 mL,,6.77,each,,6.77,,True,True
-walmart,flyer,Peace Tea®,Peace Tea® 12 x 341 mL,,6.47,each,,6.47,,True,True
-walmart,flyer,AHA™,AHA™ Sparkling Water Beverage 12 x 355 mL,,5.47,each,,5.47,,True,True
-walmart,flyer,,shop,,,each,,,,True,True
-walmart,flyer,Kraft,Kraft Hazelnut Spread 725 g,,10.0,or 5.77 to 5.88 each,,0.6896551724137931,100g,False,True
-walmart,flyer,,Kraft Peanut Butter 750 g - 1 kg,,10.0,or 5.77 to 5.88 each,,0.6666666666666667,100g,False,True
-walmart,flyer,Philiadelphia,Philiadelphia Cream Cheese,,7.5,or 4.28 each,,3.75,,False,True
-walmart,flyer,Philiadelphia,Philiadelphia Cream Cheese,,7.5,or 4.28 each,,3.75,,False,True
-walmart,flyer,Maxwell House,Maxwell House Single-Serve Coffee Pods 30s,,30.0,or 15.97 each,,15.0,,False,True
-walmart,flyer,,Maxwell House Single-Serve Coffee Pods 30s,,30.0,or 15.97 each,,15.0,,False,True
-walmart,flyer,Nabob,Nabob Single-Serve Coffee Pods 30s,,34.0,or 17.97 each,,17.0,,False,True
-walmart,flyer,Nabob,Nabob Single-Serve Coffee Pods 30s,,34.0,or 17.97 each,,17.0,,False,True
-walmart,flyer,Kraft,Kraft Salad Dressing,,3.27,each,,3.27,,True,True
-walmart,flyer,Kraft,Kraft Salad Dressing,,3.27,each,,3.27,,True,True
-walmart,flyer,Kraft,Kraft Dinner Singles,,5.0,or 1.57 each,,0.5555555555555556,100g,False,True
-walmart,flyer,Heinz,Heinz Seriously Good Mayo,,4.97,each,,4.97,,True,True
-walmart,flyer,Kraft,Kraft Miracle Whip,,4.97,each,,4.97,,True,True
-walmart,flyer,Kraft,Kraft Dinner KD Cups,,6.0,or 1.97 each,,1.5,,False,True
-walmart,flyer,Kraft,Kraft Dinner KD Cups,,6.0,or 1.97 each,,2.586206896551724,100g,False,True
-walmart,flyer,St. Louis,St. Louis Bar & Grill Garlic Dill Sauce,,3.97,each,,3.97,,True,True
-walmart,flyer,Heinz,Heinz Mayochup,,3.97,each,,3.97,,True,True
-walmart,flyer,,win,,,each,,,,True,True
-walmart,flyer,CHRISTIE,CHRISTIE OREO Cookies,,8.0,or $3.28 each,,0.9876543209876543,100g,False,True
-walmart,flyer,CHRISTIE,CHRISTIE CHIPS AHOY! Cookies,,8.0,or $3.28 each,,0.9876543209876543,100g,False,True
-walmart,flyer,,RITZ Original Crackers 200 g,,7.0,or 2.78 each,,1.1666666666666667,100g,False,True
-walmart,flyer,RITZ,RITZ Bits Sandwiches 180 g,,7.0,or 2.78 each,,1.2962962962962965,100g,False,True
-walmart,flyer,CADBURY,CADBURY DAIRY MILK,,6.0,or $2.48 each,,2.0,100g,False,True
-walmart,flyer,Cadbury,Cadbury Dairy Milk,,6.0,or $2.48 each,,2.0,100g,False,True
-walmart,flyer,CHRISTIE,CHRISTIE Mini Cookies,,7.0,or $2.78 each,,1.2962962962962965,100g,False,True
-walmart,flyer,CHRISTIE,CHRISTIE Mini Cookies,,7.0,or 2.78 each,,1.2962962962962965,100g,False,True
-walmart,flyer,,shop,,,each,,,,True,True
-walmart,flyer,Clorox,Clorox Disinfecting Wipes 35s,,2.47,each,,2.47,,True,True
-walmart,flyer,Clorox,Clorox Disinfecting Wipes 355,,2.47,each,,2.47,,True,True
-walmart,flyer,Clorox,Clorox Original Bleach,,2.47,each,,0.0019448818897637797,100ml,True,True
-walmart,flyer,Clorox,Clorox Toilet Bowl Cleaner,,2.47,each,,2.47,,True,True
-walmart,flyer,Clorox,Clorox Toilet Bowl Cleaner,,2.47,each,,0.3483779971791256,100ml,True,True
-walmart,flyer,Clorox,Clorox Clean-Up Disinfecting Bleach Cleaner,,3.97,each,,3.97,,True,True
-walmart,flyer,,Sign Up,,,each,,,,True,True
+store,category,brand,product,full_product_text,price,sale_price,price_unit,per_unit_price,sale_per_unit_price,units,price_per_1,is_sale
+walmart,flyer,,Cara Cara Oranges 3 lb,Cara Cara Oranges 3 lb,,2.44,each,,0.17930945284161393,100g,True,True
+walmart,flyer,,Cara Cara Blood Oranges 2 lb.,Cara Cara Blood Oranges 2 lb.,,2.44,each,,0.26896417926242083,100g,True,True
+walmart,flyer,,Fresh Pork Combination Chops,Fresh Pork Combination Chops,,1.97,lb.,,1.97,,False,True
+walmart,flyer,Ruffles,Ruffles Chips,Ruffles Chips,,2.97,each,,2.97,,True,True
+walmart,flyer,Ruffles,Ruffles Chips,Ruffles Chips,,2.97,each,,2.97,,True,True
+walmart,flyer,Nestlé,Nestlé Drumstick,Nestlé Drumstick,,4.44,each,,4.44,,True,True
+walmart,flyer,,Del Monte Novelties or Real Dairy Confectionery Tubs,Del Monte Novelties or Real Dairy Confectionery Tubs,,4.44,each,,4.44,,True,True
+walmart,flyer,Country Harvest,Country Harvest Grain Bread,Country Harvest Grain Bread,,2.77,each,,0.46166666666666667,100g,True,True
+walmart,flyer,Country Harvest,Country Harvest Grain Bread,Country Harvest Grain Bread,,2.77,each,,0.46166666666666667,100g,True,True
+walmart,flyer,Folgers,Folgers Ground Coffee,Folgers Ground Coffee,,8.97,each,,1.099264705882353,100g,True,True
+walmart,flyer,,Cashmere Bathroom Tissue,Cashmere Bathroom Tissue,,9.97,each,,0.4154166666666667,1ea,True,True
+walmart,flyer,,lunar,lunar,,,each,,,,True,True
+walmart,flyer,,Nappa Cabbage,Nappa Cabbage,,1.27,lb.,,1.27,,False,True
+walmart,flyer,,Nappa Cabbage or Lobok,Nappa Cabbage or Lobok,,1.27,lb.,,1.27,,False,True
+walmart,flyer,Aroy-D,Aroy-D Coconut Milk,Aroy-D Coconut Milk,,1.88,each,,0.4699999999999999,100ml,True,True
+walmart,flyer,Delicious Kitchen,Delicious Kitchen Coconut Milk or Coconut Water,Delicious Kitchen Coconut Milk or Coconut Water,,1.88,each,,0.188,100ml,True,True
+walmart,flyer,,Delicious Coconut Milk,Delicious Coconut Milk,,1.88,each,,1.88,,True,True
+walmart,flyer,Delicious Kitchen,Delicious Kitchen Jasmine Rice,Delicious Kitchen Jasmine Rice,,13.88,each,,0.1735,100g,True,True
+walmart,flyer,Great Value,Great Value Vegetable Oil,Great Value Vegetable Oil,,15.88,each,,0.3176,100ml,True,True
+walmart,flyer,Great Value,Great Value Canola Oil,Great Value Canola Oil,,15.88,each,,0.3176,100ml,True,True
+walmart,flyer,,Digital gift cards,Digital gift cards,,,each,,,,True,True
+walmart,flyer,,lunar,lunar,,,each,,,,True,True
+walmart,flyer,Lee Kum Kee,Lee Kum Kee Hoisin Sauce,Lee Kum Kee Hoisin Sauce,,2.48,each,,2.48,,True,True
+walmart,flyer,,Panda Oyster Sauce,Panda Oyster Sauce,,2.48,each,,2.48,,True,True
+walmart,flyer,,Marutai Noodles,Marutai Noodles,,2.98,each,,2.98,,True,True
+walmart,flyer,Marutai,Marutai Noodles,Marutai Noodles,,2.98,each,,2.98,,True,True
+walmart,flyer,ChaCheer,ChaCheer Sunflower Seeds,ChaCheer Sunflower Seeds,,2.28,each,,0.8769230769230769,100g,True,True
+walmart,flyer,Chacheer,Chacheer Sunflower Seeds,Chacheer Sunflower Seeds,,2.28,each,,2.28,,True,True
+walmart,flyer,,Lotte Koala's March Cookies,Lotte Koala's March Cookies,,4.88,each,,2.5025641025641026,100g,True,True
+walmart,flyer,Lotte Koala's,Lotte Koala's March Cookies,Lotte Koala's March Cookies,,4.88,each,,2.5025641025641026,100g,True,True
+walmart,flyer,,Fresh Angus Beef Stewing Cubes,Fresh Angus Beef Stewing Cubes,,7.88,lb.,,7.88,,False,True
+walmart,flyer,,Fresh Lean Ground Pork Value Pack,Fresh Lean Ground Pork Value Pack,,6.88,each,,6.88,,True,True
+walmart,flyer,,Siwin Dumplings,Siwin Dumplings,,3.98,each,,3.98,,True,True
+walmart,flyer,,Siwin Dumplings or Potstickers,Siwin Dumplings or Potstickers,,3.98,each,,3.98,,True,True
+walmart,flyer,O'Tasty,O'Tasty Dumplings,O'Tasty Dumplings,,4.48,each,,4.48,,True,True
+walmart,flyer,O'Tasty,O'Tasty Dumplings,O'Tasty Dumplings,,4.48,each,,0.7901234567901235,100g,True,True
+walmart,flyer,,Aqua Star Frozen Basa Fillet,Aqua Star Frozen Basa Fillet,,5.0,each,,1.25,100g,True,True
+walmart,flyer,,Joe's Tasty Travels Walnuts,Joe's Tasty Travels Walnuts,,11.0,each,,2.0,100g,True,True
+walmart,flyer,Joe's Tasty Travels,Joe's Tasty Travels Almonds,Joe's Tasty Travels Almonds,,11.0,each,,2.0,100g,True,True
+walmart,flyer,Salton,Salton 10-Cup Rice Cooker & Steamer,Salton 10-Cup Rice Cooker & Steamer,,21.98,each,,21.98,,True,True
+walmart,flyer,,Starfrit The Rock 3L Electric Dual-Sided Hot Pot,Starfrit The Rock 3L Electric Dual-Sided Hot Pot,,48.88,each,,48.88,,True,True
+walmart,flyer,Campbell's,Campbell's Broth,Campbell's Broth,,1.47,each,,1.47,,True,True
+walmart,flyer,Heinz,Heinz Ketchup,Heinz Ketchup,,3.97,each,,0.397,100ml,True,True
+walmart,flyer,Campbell's,Campbell's Broth,Campbell's Broth,,1.47,each,,1.47,,True,True
+walmart,flyer,Heinz,Heinz Ketchup,Heinz Ketchup,,3.97,each,,0.397,100ml,True,True
+walmart,flyer,Allen's,Allen's Juice or Drinks,Allen's Juice or Drinks,,1.97,each,,1.97,,True,True
+walmart,flyer,Yoplait,Yoplait Tubes 8 Pack Yogurt,Yoplait Tubes 8 Pack Yogurt,,1.88,each,,1.88,,True,True
+walmart,flyer,,Minigo 6-Pack Yogurt,Minigo 6-Pack Yogurt,,1.88,each,,1.88,,True,True
+walmart,flyer,Cheemo,Cheemo Perogies,Cheemo Perogies,,2.27,each,,0.25027563395810365,100g,True,True
+walmart,flyer,Cheemo,Cheemo Perogies,Cheemo Perogies,,2.27,each,,0.25027563395810365,100g,True,True
+walmart,flyer,Minute Maid,Minute Maid Drinks,Minute Maid Drinks,,2.97,each,,0.16971428571428573,100ml,True,True
+walmart,flyer,Minute Maid,Minute Maid Drinks,Minute Maid Drinks,,2.97,each,,0.1928571428571429,100ml,True,True
+walmart,flyer,,M&M's Milk Chocolate or Peanut Bowl Size,M&M's Milk Chocolate or Peanut Bowl Size,,6.97,each,,1.7425,100g,True,True
+walmart,flyer,Clif,Clif Bar,Clif Bar,,8.97,each,,13.191176470588237,100g,True,True
+walmart,flyer,,Clif Bar,Clif Bar,,8.97,each,,8.97,,True,True
+walmart,flyer,Pillsbury,Pillsbury Pizza Pops,Pillsbury Pizza Pops,,15.47,each,,0.5156666666666667,1ea,True,True
+walmart,flyer,Pillsbury,Pillsbury Pizza Pops,Pillsbury Pizza Pops,,15.47,each,,0.5156666666666667,1ea,True,True
+walmart,flyer,,Locked in low prices,Locked in low prices,,,each,,,,True,True
+walmart,flyer,Great Value,Great Value Pickles,Great Value Pickles,,2.47,each,,2.47,,True,True
+walmart,flyer,Great Value,Great Value Mac & Cheese,Great Value Mac & Cheese,,0.77,each,,0.3422222222222222,100g,True,True
+walmart,flyer,Great Value,Great Value Tuna,Great Value Tuna,,0.97,each,,0.5705882352941176,100g,True,True
+walmart,flyer,Great Value,Great Value Tuna,Great Value Tuna,,0.97,each,,0.5705882352941176,100g,True,True
+walmart,flyer,Coca-Cola,Coca-Cola,Coca-Cola,,6.0,or $2.47 each,,2.0,,False,True
+walmart,flyer,,Sprite,Sprite,,6.0,or $2.47 each,,0.1,100ml,False,True
+walmart,flyer,,Chef Boyardee,Chef Boyardee,,7.0,or $1.97 each,,1.75,,False,True
+walmart,flyer,Chef Boyardee,Chef Boyardee,Chef Boyardee,,7.0,or $1.97 each,,1.75,,False,True
+walmart,flyer,Activia,Activia Yogurt Tubs,Activia Yogurt Tubs,,10.0,or $4.18 each,,0.5128205128205128,100g,False,True
+walmart,flyer,Activia,Activia Yogurt Tubs,Activia Yogurt Tubs,,10.0,or 4.18 each,,0.5128205128205128,100g,False,True
+walmart,flyer,Christie,Christie Cookies,Christie Cookies,,8.0,or $3.28 each,,2.6666666666666665,,False,True
+walmart,flyer,Christie,Christie Cookies,Christie Cookies,,8.0,or 3.28 each,,2.6666666666666665,,False,True
+walmart,flyer,Orville Redenbacher,Orville Redenbacher Popcorn,Orville Redenbacher Popcorn,,9.0,or $5.27 each,,4.5,,False,True
+walmart,flyer,Orville Redenbacher,Orville Redenbacher Popcorn,Orville Redenbacher Popcorn,,9.0,or 5.27 each,,4.5,,False,True
+walmart,flyer,Danone,Danone Oikos Yogurt,Danone Oikos Yogurt,,11.0,or $4.28 each,,3.6666666666666665,100g,False,True
+walmart,flyer,Danone,Danone Oikos Yogurt,Danone Oikos Yogurt,,11.0,or $4.28 each,,3.6666666666666665,100g,False,True
+walmart,flyer,,Walmart,Walmart,,,each,,,,True,True
+walmart,flyer,,Site to Store,Site to Store,,,each,,,,True,True
+walmart,flyer,,Meals made easy,Meals made easy,,,each,,,,True,True
+walmart,flyer,Your Fresh Market,Your Fresh Market Meal Kits,Your Fresh Market Meal Kits,,9.97,each,,9.97,,True,True
+walmart,flyer,Your Fresh Market,Your Fresh Market Carrots,Your Fresh Market Carrots,,2.47,each,,0.18161764705882352,100g,True,True
+walmart,flyer,,Rainbow Peppers,Rainbow Peppers,,4.47,each,,1.49,1ea,True,True
+walmart,flyer,Great Value,Great Value Popcorn Chicken or Meatballs,Great Value Popcorn Chicken or Meatballs,,9.0,each,,9.0,,True,True
+walmart,flyer,Great Value,Great Value Meatballs,Great Value Meatballs,,9.0,each,,9.0,,True,True
+walmart,flyer,Marcangelo,Marcangelo Bacon-Wrapped Fine Herb Pork Sirloin Roast 600 g or BBQ Roast 800 g,Marcangelo Bacon-Wrapped Fine Herb Pork Sirloin Roast 600 g or BBQ Roast 800 g,,12.0,each,,2.0,100g,True,True
+walmart,flyer,Lou's Kitchen,Lou's Kitchen Fully Cooked Entrees,Lou's Kitchen Fully Cooked Entrees,,8.97,each,,8.97,,True,True
+walmart,flyer,Schneiders,Schneiders Pepperettes,Schneiders Pepperettes,,9.97,each,,3.3233333333333337,100g,True,True
+walmart,flyer,Your Fresh Market™,Your Fresh Market™ Sliced Deli Meats,Your Fresh Market™ Sliced Deli Meats,,3.47,each,,1.9828571428571429,100g,True,True
+walmart,flyer,Your Fresh Market™,Your Fresh Market™ Sliced Deli Meats,Your Fresh Market™ Sliced Deli Meats,,3.47,each,,1.9828571428571429,100g,True,True
+walmart,flyer,Furlani,Furlani Garlic Toast,Furlani Garlic Toast,,4.47,each,,0.7006269592476488,100g,True,True
+walmart,flyer,Your Fresh Market™,Your Fresh Market™ Cheese Slices,Your Fresh Market™ Cheese Slices,,5.97,each,,3.7312499999999997,100g,True,True
+walmart,flyer,Your Fresh Market™,Your Fresh Market™ Cheese Slices,Your Fresh Market™ Cheese Slices,,5.97,each,,3.7312499999999997,100g,True,True
+walmart,flyer,Furlani,Furlani Garlic Toast,Furlani Garlic Toast,,4.47,each,,0.7006269592476488,100g,True,True
+walmart,flyer,,Dempster's Bread or Hostess Value Snack Cakes,Dempster's Bread or Hostess Value Snack Cakes,,5.5,or $2.97 to $3.37 each,,2.75,,False,True
+walmart,flyer,Wonder,Wonder Bread,Wonder Bread,,5.5,or 2.97 to 3.37 each,,2.75,,False,True
+walmart,flyer,,Sara Lee Little Bites,Sara Lee Little Bites,,7.0,or 4.27 each,,1.4957264957264957,100g,False,True
+walmart,flyer,Sara Lee,Sara Lee Little Bites,Sara Lee Little Bites,,7.0,or $4.27 each,,1.4957264957264957,100g,False,True
+walmart,flyer,Your Fresh Market™,Your Fresh Market™ Chocolate Chip Cookies,Your Fresh Market™ Chocolate Chip Cookies,,6.0,each,,0.7326007326007326,100g,True,True
+walmart,flyer,Our Finest,Our Finest Frozen Entrees,Our Finest Frozen Entrees,,3.97,each,,3.97,,True,True
+walmart,flyer,Great Value,Great Value Frozen Fruit Cocktails,Great Value Frozen Fruit Cocktails,,4.47,each,,1.1175,100g,True,True
+walmart,flyer,Great Value,Great Value Frozen Fruit Cocktails,Great Value Frozen Fruit Cocktails,,4.47,each,,1.1175,100g,True,True
+walmart,flyer,Our Finest,Our Finest Frozen Entrees,Our Finest Frozen Entrees,,3.97,each,,1.1342857142857143,100g,True,True
+walmart,flyer,Huggies,Huggies 16x Wipes,Huggies 16x Wipes,,23.97,each,,23.97,,True,True
+walmart,flyer,,"Enfamil A+, A+ 2 or Geantlease A+ Ready to Feed","Enfamil A+, A+ 2 or Geantlease A+ Ready to Feed",,53.97,each,,53.97,,True,True
+walmart,flyer,,Rascal + Friends Jumbo Box Diapers,Rascal + Friends Jumbo Box Diapers,,26.97,each,,26.97,,True,True
+walmart,flyer,Rascal + Friends,Rascal + Friends CoComelon Training Pants,Rascal + Friends CoComelon Training Pants,,26.97,each,,26.97,,True,True
+walmart,flyer,Huggies,Huggies 16x Wipes,Huggies 16x Wipes,,23.97,each,,23.97,,True,True
+walmart,flyer,Enfamil,Enfamil A+ 2 Ready to Feed,Enfamil A+ 2 Ready to Feed,,53.97,each,,53.97,,True,True
+walmart,flyer,,Walmart Canada,Walmart Canada,,,each,,,,True,True
+walmart,flyer,Great Value,Great Value Frozen Organic Fruit,Great Value Frozen Organic Fruit,,6.97,each,,1.1616666666666666,100g,True,True
+walmart,flyer,Great Value,Great Value The Ultimate Meatless Burger,Great Value The Ultimate Meatless Burger,,8.97,each,,1.12125,1ea,True,True
+walmart,flyer,Great Value,Great Value Organic Eggs 12-Pack,Great Value Organic Eggs 12-Pack,,6.28,each,,6.28,,True,True
+walmart,flyer,Great Value,Great Value Oats,Great Value Oats,,2.47,each,,2.47,,True,True
+walmart,flyer,,Great Value Sauces,Great Value Sauces,,1.77,each,,1.5663716814159294,100g,True,True
+walmart,flyer,Great Value,Great Value Canned Pineapple,Great Value Canned Pineapple,,1.67,each,,1.67,,True,True
+walmart,flyer,Great Value,Great Value Canned Pineapple,Great Value Canned Pineapple,,1.67,each,,1.67,,True,True
+walmart,flyer,Great Value,Great Value Sauces,Great Value Sauces,,1.77,each,,1.5663716814159294,100g,True,True
+walmart,flyer,Great Value,Great Value Almond Beverage,Great Value Almond Beverage,,1.97,each,,1.97,,True,True
+walmart,flyer,Great Value,Great Value Almond Beverage,Great Value Almond Beverage,,1.97,each,,1.97,,True,True
+walmart,flyer,Great Value,Great Value Canned Beans,Great Value Canned Beans,,5.0,or $1.17 each,,1.25,,False,True
+walmart,flyer,Great Value,Great Value Canned Beans,Great Value Canned Beans,,5.0,or 1.17 each,,1.25,,False,True
+walmart,flyer,Great Value,Great Value Cheese Slices,Great Value Cheese Slices,,4.78,each,,4.78,,True,True
+walmart,flyer,Great Value,Great Value Nutri-Bowl Entrees,Great Value Nutri-Bowl Entrees,,3.47,each,,1.1566666666666667,100g,True,True
+walmart,flyer,Great Value,Great Value Cheese Slices,Great Value Cheese Slices,,4.78,each,,4.78,,True,True
+walmart,flyer,Great Value,Great Value Nutri-Bowl Entrees,Great Value Nutri-Bowl Entrees,,3.47,each,,1.1566666666666667,100g,True,True
+walmart,flyer,Great Value,Great Value Smoothie Yogurt Bars,Great Value Smoothie Yogurt Bars,,6.98,each,,6.98,,True,True
+walmart,flyer,Great Value,Great Value Drinkable Yogurt,Great Value Drinkable Yogurt,,4.48,each,,4.81720430107527,100ml,True,True
+walmart,flyer,Great Value,Great Value Smoothie Yogurt Bars,Great Value Smoothie Yogurt Bars,,6.98,each,,6.98,,True,True
+walmart,flyer,Great Value,Great Value Drinkable Yogurt,Great Value Drinkable Yogurt,,4.48,each,,4.48,,True,True
+walmart,flyer,SpongeTowels,SpongeTowels Ultra Paper Towels,SpongeTowels Ultra Paper Towels,,5.97,each,,0.995,1ea,True,True
+walmart,flyer,,Finish Quantum Ultimate Detergent Tabs,Finish Quantum Ultimate Detergent Tabs,,16.97,each,,16.97,,True,True
+walmart,flyer,Finish,Finish Quantum Max Detergent Tabs,Finish Quantum Max Detergent Tabs,,16.97,each,,16.97,,True,True
+walmart,flyer,Downy,Downy Unstopables,Downy Unstopables,,15.97,each,,2.123670212765958,100g,True,True
+walmart,flyer,Gain,Gain Scent Beads,Gain Scent Beads,,15.97,each,,2.123670212765958,100g,True,True
+walmart,flyer,Tide,Tide Liquid Laundry Detergent,Tide Liquid Laundry Detergent,,20.97,each,,20.97,,True,True
+walmart,flyer,Air Wick,Air Wick Essential Mist Kit,Air Wick Essential Mist Kit,,9.97,each,,9.97,,True,True
+walmart,flyer,Air Wick,Air Wick Scented Oil Refills,Air Wick Scented Oil Refills,,9.97,each,,9.97,,True,True
+walmart,flyer,Swiffer,Swiffer Sweeper Dry Cloths 105 - 36s,Swiffer Sweeper Dry Cloths 105 - 36s,,9.97,each,,9.97,,True,True
+walmart,flyer,Woolite,Woolite 2.96 Laundry Detergent,Woolite 2.96 Laundry Detergent,,13.97,each,,0.47195945945945944,100ml,True,True
+walmart,flyer,Lysol,Lysol Laundry Disinfectant 2.7 L,Lysol Laundry Disinfectant 2.7 L,,13.97,each,,0.5174074074074074,100ml,True,True
+walmart,flyer,,Swiffer Sweeper Wet Refills 12s -24s or Dry Cloths 10s -36s,Swiffer Sweeper Wet Refills 12s -24s or Dry Cloths 10s -36s,,9.97,each,,9.97,,True,True
+walmart,flyer,Great Value,Great Value Eco Towels,Great Value Eco Towels,,6.97,each,,1.1616666666666666,1ea,True,True
+walmart,flyer,Ziploc,Ziploc Freezer or Storage Bags,Ziploc Freezer or Storage Bags,,8.97,each,,8.97,,True,True
+walmart,flyer,Royale,Royale Facial Tissue,Royale Facial Tissue,,18.77,each,,1.0427777777777778,1ea,True,True
+walmart,flyer,Royale,Royale Facial Tissue,Royale Facial Tissue,,18.77,each,,1.0427777777777778,1ea,True,True
+walmart,flyer,Ziploc,Ziploc Freezer or Storage Bag,Ziploc Freezer or Storage Bag,,8.97,each,,8.97,,True,True
+walmart,flyer,AXE,AXE Body Spray,AXE Body Spray,,3.97,each,,3.97,,True,True
+walmart,flyer,Old Spice,Old Spice Deodorant 85 g,Old Spice Deodorant 85 g,,5.47,each,,6.435294117647058,100g,True,True
+walmart,flyer,,"Always Pads, Liners or Period Underwear or Tampax Tampons or L. Natural Tampons","Always Pads, Liners or Period Underwear or Tampax Tampons or L. Natural Tampons",,16.0,or 8.48 to 10.98 each,,8.0,,False,True
+walmart,flyer,AXE,AXE Deodorant,AXE Deodorant,,3.97,each,,3.97,,True,True
+walmart,flyer,,Secret Antiperspirant 73g or Old Spice Deodorant 85g,Secret Antiperspirant 73g or Old Spice Deodorant 85g,,5.47,each,,5.47,,True,True
+walmart,flyer,Tampax,Tampax Tampons,Tampax Tampons,,16.0,or 8.48 to 10.98 each,,8.0,,False,True
+walmart,flyer,L'Oréal,L'Oréal Paris Preference Hair Colour,L'Oréal Paris Preference Hair Colour,,10.97,each,,10.97,,True,True
+walmart,flyer,L'Oréal,L'Oréal Paris Preference Hair Colour,L'Oréal Paris Preference Hair Colour,,10.97,each,,10.97,,True,True
+walmart,flyer,,Aveeno or Neutrogena Hand or Body Lotion,Aveeno or Neutrogena Hand or Body Lotion,,10.97,each,,10.97,,True,True
+walmart,flyer,,Aveeno or Neutrogena Hand or Body Lotion,Aveeno or Neutrogena Hand or Body Lotion,,10.97,each,,10.97,,True,True
+walmart,flyer,Tylenol,Tylenol Pain Relief,Tylenol Pain Relief,,9.67,each,,9.67,,True,True
+walmart,flyer,Nexium,Nexium 24HR Antacid,Nexium 24HR Antacid,,12.97,each,,12.97,,True,True
+walmart,flyer,Jamieson,Jamieson Melatonin 60s,Jamieson Melatonin 60s,,11.17,each,,11.17,,True,True
+walmart,flyer,,Jamieson B50 Complex Vitamins,Jamieson B50 Complex Vitamins,,11.17,each,,11.17,,True,True
+walmart,flyer,Jamieson,Jamieson Calcium or Magnesium,Jamieson Calcium or Magnesium,,10.77,each,,10.77,,True,True
+walmart,flyer,Jamieson,Jamieson Magnesium,Jamieson Magnesium,,10.77,each,,10.77,,True,True
+walmart,flyer,Always,Always Discreet Underwear,Always Discreet Underwear,,52.0,or $28.97 each,,26.0,,False,True
+walmart,flyer,Scope,Crest Pro-Health Multi-Protection Mouthwash 1L,Crest Pro-Health Multi-Protection Mouthwash 1L,,5.97,each,,5.97,,True,True
+walmart,flyer,Garnier,Garnier Whole Blends Shampoo or Conditioner,Garnier Whole Blends Shampoo or Conditioner,,7.96,each,,7.96,,True,True
+walmart,flyer,L'Oréal,L'Oréal Paris Hair Expertise Shampoo or Conditioner,L'Oréal Paris Hair Expertise Shampoo or Conditioner,,9.37,each,,9.37,,True,True
+walmart,flyer,L'Oreal,"L'Oreal Paris Ever Pure, Hair Expertise Shampoo or Conditioner or Wonder Water","L'Oreal Paris Ever Pure, Hair Expertise Shampoo or Conditioner or Wonder Water",,9.37,each,,9.37,,True,True
+walmart,flyer,L'Oréal Paris,L'Oréal Paris Ever Pure Hair Expertise Shampoo,L'Oréal Paris Ever Pure Hair Expertise Shampoo,,9.37,each,,9.37,,True,True
+walmart,flyer,Crest,Crest GUM Toothpaste 110 mL,Crest GUM Toothpaste 110 mL,,5.97,each,,5.97,,True,True
+walmart,flyer,Colgate,Colgate MaxFresh 52 mL or Cavity Protection 95 mL Toothpaste,Colgate MaxFresh 52 mL or Cavity Protection 95 mL Toothpaste,,0.88,each,,0.88,,True,True
+walmart,flyer,Vaseline,Vaseline Intensive Care Hand or Body Lotion,Vaseline Intensive Care Hand or Body Lotion,,5.78,each,,1.959322033898305,100ml,True,True
+walmart,flyer,Softsoap,Softsoap Hand Soap Refill,Softsoap Hand Soap Refill,,5.97,each,,0.40612244897959177,100ml,True,True
+walmart,flyer,Softsoap,Softsoap Hand Soap Refill,Softsoap Hand Soap Refill,,5.97,each,,0.40612244897959177,100ml,True,True
+walmart,flyer,Colgate,Colgate Cavity Protection 95 mL Toothpaste,Colgate Cavity Protection 95 mL Toothpaste,,0.88,each,,0.88,,True,True
+walmart,flyer,,Dove Body Wash 354 mL,Dove Body Wash 354 mL,,4.97,each,,4.97,,True,True
+walmart,flyer,Dial,Dial Hand Soap Refills,Dial Hand Soap Refills,,4.97,each,,0.3248366013071895,100ml,True,True
+walmart,flyer,Dial,Dial Hand Soap Refills,Dial Hand Soap Refills,,4.97,each,,0.3248366013071895,100ml,True,True
+walmart,flyer,Neutrogena,Neutrogena Hydro Boost Gel Cream,Neutrogena Hydro Boost Gel Cream,,18.47,each,,18.47,,True,True
+walmart,flyer,Dove,"Dove Body Wash 354 mL, Men+Care 3 Bars or Body Wash 400 mL","Dove Body Wash 354 mL, Men+Care 3 Bars or Body Wash 400 mL",,4.97,each,,4.97,,True,True
+walmart,flyer,Maybelline,Maybelline Volum' Express The Falsies Mascara,Maybelline Volum' Express The Falsies Mascara,,5.98,each,,5.98,,True,True
+walmart,flyer,Garnier,Garnier Belle Color Hair Colour,Garnier Belle Color Hair Colour,,12.0,or 7.47 each,,6.0,,False,True
+walmart,flyer,Garnier,Garnier Belle Color Hair Colour,Garnier Belle Color Hair Colour,,12.0,or $7.47 each,,6.0,,False,True
+walmart,flyer,,CoverGirl Clean Fresh Skincare Serum,CoverGirl Clean Fresh Skincare Serum,,18.47,each,,18.47,,True,True
+walmart,flyer,CoverGirl,CoverGirl Clean Fresh Skincare Serum,CoverGirl Clean Fresh Skincare Serum,,18.47,each,,18.47,,True,True
+walmart,flyer,Equate,Equate Conditioner,Equate Conditioner,,3.97,each,,3.97,,True,True
+walmart,flyer,Equate,Equate Moisture Shampoo,Equate Moisture Shampoo,,3.97,each,,3.97,,True,True
+walmart,flyer,Equate,Equate Mouthwash,Equate Mouthwash,,5.98,each,,0.3986666666666667,100ml,True,True
+walmart,flyer,Equate,Equate Mouthwash,Equate Mouthwash,,5.98,each,,0.3986666666666667,100ml,True,True
+walmart,flyer,Equate,Equate Hand Soap,Equate Hand Soap,,3.97,each,,0.2406060606060606,100ml,True,True
+walmart,flyer,Equate,Equate Hand Soap,Equate Hand Soap,,3.97,each,,0.2406060606060606,100ml,True,True
+walmart,flyer,Equate,Equate Suncare,Equate Suncare,,7.47,each,,7.47,,True,True
+walmart,flyer,Equate,Equate Square,Equate Square,,7.47,each,,7.47,,True,True
+walmart,flyer,,Mastercard,Mastercard,,,each,,,,True,True
+walmart,flyer,onn,"onn 43"" 4K UHD HDR Roku Smart TV","onn 43"" 4K UHD HDR Roku Smart TV",,328.0,*,,328.0,,False,True
+walmart,flyer,onn.,"onn. 55"" 4K UHD HDR TV","onn. 55"" 4K UHD HDR TV",,498.0,*,,498.0,,False,True
+walmart,flyer,HP,HP DeskJet 2723E All-in-One Printer,HP DeskJet 2723E All-in-One Printer,,69.98,*,,69.98,,False,True
+walmart,flyer,,Galaxy A53 Postpaid Phone,Galaxy A53 Postpaid Phone,,0.0,¹ $ down % APR $28.75/mo. for 24 mo.,,0.0,,False,True
+walmart,flyer,Moto G,Moto G Pure Prepaid Phone,Moto G Pure Prepaid Phone,,169.0,each,,169.0,,True,True
+walmart,flyer,Philips,Philips LED 60W A19 Bulbs 3-Pack,Philips LED 60W A19 Bulbs 3-Pack,,14.98,each,,14.98,,True,True
+walmart,flyer,3M,3M Large Picture Hanging Strips Value Packs,3M Large Picture Hanging Strips Value Packs,,11.77,each,,11.77,,True,True
+walmart,flyer,3M Command,3M Command Medium Utility Hooks,3M Command Medium Utility Hooks,,11.77,each,,11.77,,True,True
+walmart,flyer,Mobil 1,Mobil 1 Synthetic Motor Oil,Mobil 1 Synthetic Motor Oil,,34.97,each,,0.739323467230444,100ml,True,True
+walmart,flyer,,Valvoline Synthetic Motor Oil,Valvoline Synthetic Motor Oil,,35.97,each,,0.7194,100ml,True,True
+walmart,flyer,Serta,Serta Sertapedic So Calm! Lavender Knit Pillow,Serta Sertapedic So Calm! Lavender Knit Pillow,,14.97,each,,14.97,,True,True
+walmart,flyer,Serta,Serta 5-in-1 Ultimate Mattress Pad,Serta 5-in-1 Ultimate Mattress Pad,,49.97,each,,49.97,,True,True
+walmart,flyer,Beautyrest,Beautyrest Sheet Set,Beautyrest Sheet Set,,19.88,each,,19.88,,True,True
+walmart,flyer,,Beautyrest Sheet Set,Beautyrest Sheet Set,,19.88,each,,19.88,,True,True
+walmart,flyer,Beautyrest,Beautyrest Sheet Set,Beautyrest Sheet Set,,19.88,each,,19.88,,True,True
+walmart,flyer,,Beautyrest Blanket,Beautyrest Blanket,,29.88,each,,29.88,,True,True
+walmart,flyer,Serta,Serta So Fluffy! Antimicrobial Duvet,Serta So Fluffy! Antimicrobial Duvet,,94.97,each,,94.97,,True,True
+walmart,flyer,Beautyrest,Beautyrest Sheet Set,Beautyrest Sheet Set,,19.88,each,,19.88,,True,True
+walmart,flyer,Beautyrest,Beautyrest Sheet Set,Beautyrest Sheet Set,,19.88,each,,19.88,,True,True
+walmart,flyer,,Beautyrest Blanket,Beautyrest Blanket,,29.88,each,,29.88,,True,True
+walmart,flyer,,Beauty Sheet Set,Beauty Sheet Set,,19.88,each,,19.88,,True,True
+walmart,flyer,,Full Size Wax Warmer,Full Size Wax Warmer,,22.97,each,,22.97,,True,True
+walmart,flyer,,Full Size Wax Warmer,Full Size Wax Warmer,,22.97,each,,22.97,,True,True
+walmart,flyer,Hometrends,Hometrends Ribbed Bath Towels,Hometrends Ribbed Bath Towels,,10.97,each,,10.97,,True,True
+walmart,flyer,Beautyrest,Beautyrest 7-Piece Bed in a Bag,Beautyrest 7-Piece Bed in a Bag,,69.88,each,,69.88,,True,True
+walmart,flyer,Hometrends,Hometrends Ribbed Bath Towels,Hometrends Ribbed Bath Towels,,10.97,each,,10.97,,True,True
+walmart,flyer,Hometrends,Hometrends Ribbed Bath Towels,Hometrends Ribbed Bath Towels,,10.97,each,,10.97,,True,True
+walmart,flyer,,Walmart Canada,Walmart Canada,,,each,,,,True,True
+walmart,flyer,,Financial-services,Financial-services,,,each,,,,True,True
+walmart,flyer,Sistema,Sistema Bento Box,Sistema Bento Box,,9.87,each,,9.87,,True,True
+walmart,flyer,,Contigo Shake & Go Bottles,Contigo Shake & Go Bottles,,15.97,each,,15.97,,True,True
+walmart,flyer,,Contigo Shake & Go Bottles,Contigo Shake & Go Bottles,,15.97,each,,15.97,,True,True
+walmart,flyer,Sistema,Sistema Bento Box,Sistema Bento Box,,9.87,each,,9.87,,True,True
+walmart,flyer,Sterilite,Sterilite 26 L Latch Clear Tote,Sterilite 26 L Latch Clear Tote,,7.97,each,,0.030653846153846157,100ml,True,True
+walmart,flyer,Sterilite,Sterilite 26 L Latch Clear Tote,Sterilite 26 L Latch Clear Tote,,7.97,each,,0.030653846153846157,100ml,True,True
+walmart,flyer,,Mistral 19 L Classic Step Can,Mistral 19 L Classic Step Can,,13.57,each,,0.07142105263157895,100ml,True,True
+walmart,flyer,,Mistral 19 L Classic Step Can,Mistral 19 L Classic Step Can,,13.57,each,,0.07142105263157895,100ml,True,True
+walmart,flyer,Sterilite,Sterilite 70.5 L Hamper,Sterilite 70.5 L Hamper,,19.97,each,,0.028326241134751774,100ml,True,True
+walmart,flyer,,Sterilite 68 L Tuff1 Tote,Sterilite 68 L Tuff1 Tote,,14.97,each,,0.022014705882352943,100ml,True,True
+walmart,flyer,Sterilite,Sterilite 10-Pack 5.7 L Totes,Sterilite 10-Pack 5.7 L Totes,,14.97,each,,0.26263157894736844,100ml,True,True
+walmart,flyer,Sterilite,Sterilite 4-Pack 11.4 L Totes,Sterilite 4-Pack 11.4 L Totes,,14.97,each,,0.13131578947368422,100ml,True,True
+walmart,flyer,Sterlite,Sterlite 47 L Wheeled Tote,Sterlite 47 L Wheeled Tote,,19.97,each,,0.04248936170212766,100ml,True,True
+walmart,flyer,Hamilton Beach,Hamilton Beach 0.7-cu. ft. Microwave,Hamilton Beach 0.7-cu. ft. Microwave,,69.97,each,,69.97,,True,True
+walmart,flyer,T-fal,T-fal Ultra 4.2 L Air Fryer,T-fal Ultra 4.2 L Air Fryer,,98.97,each,,2.3564285714285713,100ml,True,True
+walmart,flyer,Kalorik,Kalorik 2-qt. Com act Air Fryer,Kalorik 2-qt. Com act Air Fryer,,42.88,each,,42.88,,True,True
+walmart,flyer,Arctic King,Arctic King 3-cu. ft. Upright or 5-cu. ft. Chest Freezer,Arctic King 3-cu. ft. Upright or 5-cu. ft. Chest Freezer,,197.97,each,,197.97,,True,True
+walmart,flyer,Arctic King,Arctic King 5-cu. ft. Chest Freezer,Arctic King 5-cu. ft. Chest Freezer,,197.97,each,,197.97,,True,True
+walmart,flyer,Brita,Brita 4-Pack Filters,Brita 4-Pack Filters,,24.97,each,,24.97,,True,True
+walmart,flyer,,NutriBullet GO Portable Blender,NutriBullet GO Portable Blender,,29.98,each,,29.98,,True,True
+walmart,flyer,Ninja,Ninja Twisti High Speed Blender Duo,Ninja Twisti High Speed Blender Duo,,119.98,each,,119.98,,True,True
+walmart,flyer,Dirt Devil,Dirt Devil 4-in-1 Power Stick Vacuum with Removable Hand Vac,Dirt Devil 4-in-1 Power Stick Vacuum with Removable Hand Vac,,49.98,each,,49.98,,True,True
+walmart,flyer,Hoover,Hoover Power Dash Carpet Cleaner,Hoover Power Dash Carpet Cleaner,,129.98,each,,129.98,,True,True
+walmart,flyer,IAMS,IAMS Dry Dog Food,IAMS Dry Dog Food,,14.97,each,,0.0047075471698113215,100g,True,True
+walmart,flyer,IAMS,IAMS Dry Dog Food,IAMS Dry Dog Food,,14.97,each,,0.4707547169811321,100g,True,True
+walmart,flyer,IAMS,IAMS Dry Cat Food,IAMS Dry Cat Food,,11.47,each,,0.7213836477987422,100g,True,True
+walmart,flyer,IAMS,IAMS Dry Cat Food,IAMS Dry Cat Food,,11.47,each,,0.7213836477987422,100g,True,True
+walmart,flyer,,learn more,learn more,,,each,,,,True,True
+walmart,flyer,,Mastercard,Mastercard,,,each,,,,True,True
+walmart,flyer,,learn more,learn more,,,each,,,,True,True
+walmart,flyer,,Grocery Home Shopping,Grocery Home Shopping,,,each,,,,True,True
+walmart,flyer,,Grocery,Grocery,,,each,,,,True,True
+walmart,flyer,,Find a Pharmacy Near Me,Find a Pharmacy Near Me,,,each,,,,True,True
+walmart,flyer,,shop,shop,,,each,,,,True,True
+walmart,flyer,,Centrum Men Multivitamins,Centrum Men Multivitamins,,11.47,each,,11.47,,True,True
+walmart,flyer,Centrum,Centrum Women Multivitamins,Centrum Women Multivitamins,,11.47,each,,11.47,,True,True
+walmart,flyer,Centrum,Centrum Women Multivitamins,Centrum Women Multivitamins,,11.47,each,,11.47,,True,True
+walmart,flyer,Centrum,Centrum Men or Women Multivitamins,Centrum Men or Women Multivitamins,,11.47,each,,11.47,,True,True
+walmart,flyer,Emergen-C,Emergen-C Kidz Junior Immune+ Support,Emergen-C Kidz Junior Immune+ Support,,22.0,or $13.97 each,,11.0,,False,True
+walmart,flyer,Emergen-C,Emergen-C Kidz Junior or Kidz Junior Immune+ Support,Emergen-C Kidz Junior or Kidz Junior Immune+ Support,,22.0,or 13.97 each,,11.0,,False,True
+walmart,flyer,Centrum,Centrum Kid Chewable Tablets,Centrum Kid Chewable Tablets,,9.97,each,,9.97,,True,True
+walmart,flyer,Centrum,Centrum Kids Chewable Tablets,Centrum Kids Chewable Tablets,,9.97,each,,9.97,,True,True
+walmart,flyer,,Centrum Men or Women Minis Immunity,Centrum Men or Women Minis Immunity,,11.47,each,,11.47,,True,True
+walmart,flyer,,Centrum Men or Women Minis Immunity*,Centrum Men or Women Minis Immunity*,,11.47,each,,11.47,,True,True
+walmart,flyer,Centrum,Centrum Select Multivitamins,Centrum Select Multivitamins,,27.97,each,,27.97,,True,True
+walmart,flyer,Centrum,Centrum Select or Forte Multivitamins,Centrum Select or Forte Multivitamins,,27.97,each,,27.97,,True,True
+walmart,flyer,,Emergen-C,Emergen-C,,22.0,or $13.97 each,,11.0,,False,True
+walmart,flyer,Centrum,Centrum MultiGummies,Centrum MultiGummies,,15.47,each,,15.47,,True,True
+walmart,flyer,Centrum,Centrum MultiGummies,Centrum MultiGummies,,15.47,each,,15.47,,True,True
+walmart,flyer,Emergen-C,Emergen-C,Emergen-C,,22.0,or $13.97 each,,11.0,,False,True
+walmart,flyer,,shop,shop,,,each,,,,True,True
+walmart,flyer,Aveeno,Aveeno Baby Suncare Products,Aveeno Baby Suncare Products,,16.47,each,,16.47,,True,True
+walmart,flyer,,Aveeno Baby Suncare Products,Aveeno Baby Suncare Products,,16.47,each,,16.47,,True,True
+walmart,flyer,Aveeno,Aveeno Baby Value Size Wash & Shampoo,Aveeno Baby Value Size Wash & Shampoo,,21.97,each,,2.2533333333333334,100ml,True,True
+walmart,flyer,Aveeno,Aveeno Baby Eczema Cream,Aveeno Baby Eczema Cream,,18.97,each,,18.97,,True,True
+walmart,flyer,Aveeno,Aveeno Baby Lotion,Aveeno Baby Lotion,,13.47,each,,13.47,,True,True
+walmart,flyer,Aveeno,Aveeno Baby Wash & Shampoo,Aveeno Baby Wash & Shampoo,,13.47,each,,13.47,,True,True
+walmart,flyer,Aveeno,Aveeno Shampoo or Conditioner,Aveeno Shampoo or Conditioner,,10.18,each,,2.8757062146892656,100ml,True,True
+walmart,flyer,Aveeno,Aveeno Shampoo or Conditioner,Aveeno Shampoo or Conditioner,,10.18,each,,2.8757062146892656,100ml,True,True
+walmart,flyer,Aveeno,Aveeno Hand or Body Lotion,Aveeno Hand or Body Lotion,,10.97,each,,10.97,,True,True
+walmart,flyer,Aveeno,Aveeno Hand or Body Lotion,Aveeno Hand or Body Lotion,,10.97,each,,10.97,,True,True
+walmart,flyer,Aveeno,Aveeno Body Wash,Aveeno Body Wash,,8.77,each,,8.77,,True,True
+walmart,flyer,Aveeno,Aveeno Body Wash,Aveeno Body Wash,,8.77,each,,8.77,,True,True
+walmart,flyer,Aveeno,Aveeno Skincare,Aveeno Skincare,,24.47,each,,24.47,,True,True
+walmart,flyer,Aveeno,Aveeno Skincare,Aveeno Skincare,,24.47,each,,24.47,,True,True
+walmart,flyer,,shop,shop,,,each,,,,True,True
+walmart,flyer,fairlife,fairlife Milk,fairlife Milk,,4.17,each,,4.17,,True,True
+walmart,flyer,Fairlife,Fairlife Milk,Fairlife Milk,,4.17,each,,4.17,,True,True
+walmart,flyer,Simply Orange,Simply Orange Juice,Simply Orange Juice,,4.47,each,,0.2902597402597402,100ml,True,True
+walmart,flyer,Simply Orange,Simply Orange Juice,Simply Orange Juice,,4.47,each,,0.2902597402597402,100ml,True,True
+walmart,flyer,Minute Maid,Minute Maid Orange Juice,Minute Maid Orange Juice,,2.97,each,,2.97,,True,True
+walmart,flyer,Minute Maid,Minute Maid No Sugar Added Lemonade,Minute Maid No Sugar Added Lemonade,,2.97,each,,2.97,,True,True
+walmart,flyer,Minute Maid,Minute Maid No Sugar Added Lemonade,Minute Maid No Sugar Added Lemonade,,2.97,each,,0.1928571428571429,100ml,True,True
+walmart,flyer,Gold Peak,Gold Peak Lemon or Raspberry Tea,Gold Peak Lemon or Raspberry Tea,,6.18,each,,0.23498098859315592,100ml,True,True
+walmart,flyer,Honest,Honest Kids Organic Apple Juice,Honest Kids Organic Apple Juice,,2.77,each,,2.77,,True,True
+walmart,flyer,Gold Peak,Gold Peak Lemon Tea,Gold Peak Lemon Tea,,6.18,each,,0.23498098859315592,100ml,True,True
+walmart,flyer,,learn more,learn more,,,each,,,,True,True
+walmart,flyer,Coca-Cola,Coca-Cola® 500 ml,Coca-Cola® 500 ml,,1.98,each,,0.396,100ml,True,True
+walmart,flyer,Coca-Cola,Coca-Cola® Mini Cans 6 x 222 mL,Coca-Cola® Mini Cans 6 x 222 mL,,3.77,each,,3.77,,True,True
+walmart,flyer,Coca-Cola®,Coca-Cola® Zero Sugar 12 x 355 mL,Coca-Cola® Zero Sugar 12 x 355 mL,,6.77,each,,6.77,,True,True
+walmart,flyer,Peace Tea®,Peace Tea® 12 x 341 mL,Peace Tea® 12 x 341 mL,,6.47,each,,6.47,,True,True
+walmart,flyer,AHA™,AHA™ Sparkling Water Beverage 12 x 355 mL,AHA™ Sparkling Water Beverage 12 x 355 mL,,5.47,each,,5.47,,True,True
+walmart,flyer,,shop,shop,,,each,,,,True,True
+walmart,flyer,Kraft,Kraft Hazelnut Spread 725 g,Kraft Hazelnut Spread 725 g,,10.0,or 5.77 to 5.88 each,,0.6896551724137931,100g,False,True
+walmart,flyer,,Kraft Peanut Butter 750 g - 1 kg,Kraft Peanut Butter 750 g - 1 kg,,10.0,or 5.77 to 5.88 each,,0.6666666666666667,100g,False,True
+walmart,flyer,Philiadelphia,Philiadelphia Cream Cheese,Philiadelphia Cream Cheese,,7.5,or 4.28 each,,3.75,,False,True
+walmart,flyer,Philiadelphia,Philiadelphia Cream Cheese,Philiadelphia Cream Cheese,,7.5,or 4.28 each,,3.75,,False,True
+walmart,flyer,Maxwell House,Maxwell House Single-Serve Coffee Pods 30s,Maxwell House Single-Serve Coffee Pods 30s,,30.0,or 15.97 each,,15.0,,False,True
+walmart,flyer,,Maxwell House Single-Serve Coffee Pods 30s,Maxwell House Single-Serve Coffee Pods 30s,,30.0,or 15.97 each,,15.0,,False,True
+walmart,flyer,Nabob,Nabob Single-Serve Coffee Pods 30s,Nabob Single-Serve Coffee Pods 30s,,34.0,or 17.97 each,,17.0,,False,True
+walmart,flyer,Nabob,Nabob Single-Serve Coffee Pods 30s,Nabob Single-Serve Coffee Pods 30s,,34.0,or 17.97 each,,17.0,,False,True
+walmart,flyer,Kraft,Kraft Salad Dressing,Kraft Salad Dressing,,3.27,each,,3.27,,True,True
+walmart,flyer,Kraft,Kraft Salad Dressing,Kraft Salad Dressing,,3.27,each,,3.27,,True,True
+walmart,flyer,Kraft,Kraft Dinner Singles,Kraft Dinner Singles,,5.0,or 1.57 each,,0.5555555555555556,100g,False,True
+walmart,flyer,Heinz,Heinz Seriously Good Mayo,Heinz Seriously Good Mayo,,4.97,each,,4.97,,True,True
+walmart,flyer,Kraft,Kraft Miracle Whip,Kraft Miracle Whip,,4.97,each,,4.97,,True,True
+walmart,flyer,Kraft,Kraft Dinner KD Cups,Kraft Dinner KD Cups,,6.0,or 1.97 each,,1.5,,False,True
+walmart,flyer,Kraft,Kraft Dinner KD Cups,Kraft Dinner KD Cups,,6.0,or 1.97 each,,2.586206896551724,100g,False,True
+walmart,flyer,St. Louis,St. Louis Bar & Grill Garlic Dill Sauce,St. Louis Bar & Grill Garlic Dill Sauce,,3.97,each,,3.97,,True,True
+walmart,flyer,Heinz,Heinz Mayochup,Heinz Mayochup,,3.97,each,,3.97,,True,True
+walmart,flyer,,win,win,,,each,,,,True,True
+walmart,flyer,CHRISTIE,CHRISTIE OREO Cookies,CHRISTIE OREO Cookies,,8.0,or $3.28 each,,0.9876543209876543,100g,False,True
+walmart,flyer,CHRISTIE,CHRISTIE CHIPS AHOY! Cookies,CHRISTIE CHIPS AHOY! Cookies,,8.0,or $3.28 each,,0.9876543209876543,100g,False,True
+walmart,flyer,,RITZ Original Crackers 200 g,RITZ Original Crackers 200 g,,7.0,or 2.78 each,,1.1666666666666667,100g,False,True
+walmart,flyer,RITZ,RITZ Bits Sandwiches 180 g,RITZ Bits Sandwiches 180 g,,7.0,or 2.78 each,,1.2962962962962965,100g,False,True
+walmart,flyer,CADBURY,CADBURY DAIRY MILK,CADBURY DAIRY MILK,,6.0,or $2.48 each,,2.0,100g,False,True
+walmart,flyer,Cadbury,Cadbury Dairy Milk,Cadbury Dairy Milk,,6.0,or $2.48 each,,2.0,100g,False,True
+walmart,flyer,CHRISTIE,CHRISTIE Mini Cookies,CHRISTIE Mini Cookies,,7.0,or $2.78 each,,1.2962962962962965,100g,False,True
+walmart,flyer,CHRISTIE,CHRISTIE Mini Cookies,CHRISTIE Mini Cookies,,7.0,or 2.78 each,,1.2962962962962965,100g,False,True
+walmart,flyer,,shop,shop,,,each,,,,True,True
+walmart,flyer,Clorox,Clorox Disinfecting Wipes 35s,Clorox Disinfecting Wipes 35s,,2.47,each,,2.47,,True,True
+walmart,flyer,Clorox,Clorox Disinfecting Wipes 355,Clorox Disinfecting Wipes 355,,2.47,each,,2.47,,True,True
+walmart,flyer,Clorox,Clorox Original Bleach,Clorox Original Bleach,,2.47,each,,0.0019448818897637797,100ml,True,True
+walmart,flyer,Clorox,Clorox Toilet Bowl Cleaner,Clorox Toilet Bowl Cleaner,,2.47,each,,2.47,,True,True
+walmart,flyer,Clorox,Clorox Toilet Bowl Cleaner,Clorox Toilet Bowl Cleaner,,2.47,each,,0.3483779971791256,100ml,True,True
+walmart,flyer,Clorox,Clorox Clean-Up Disinfecting Bleach Cleaner,Clorox Clean-Up Disinfecting Bleach Cleaner,,3.97,each,,3.97,,True,True
+walmart,flyer,,Sign Up,Sign Up,,,each,,,,True,True
