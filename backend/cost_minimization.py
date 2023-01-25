@@ -59,23 +59,26 @@ def n_store_selection(n, results_dict, subtotal_results = {}, PUP_subtotal_resul
         subtotal_results[combin] = subtotal
         output_results[combin] = optimal_selection
 
-    return final_json(PUP_subtotal_results, subtotal_results, output_results)
+    return final_json(n, PUP_subtotal_results, subtotal_results, output_results)
 
     # return subtotal_results, output_results
 
 
-def final_json(PUP_subtotal_results, subtotal_results, output_results):
+def final_json(n, PUP_subtotal_results, subtotal_results, output_results):
     output = {}
 
     sorted_dict = dict(sorted(PUP_subtotal_results.items(), key=lambda item: item[1]))
 
     keys_in_order = list(sorted_dict.keys())
 
-    for i in range(3):
+    for i in range(n):
         store_s = keys_in_order[i]
 
-        df_results = output_results[store_s].drop(columns=['Unnamed: 0'])
-
+        # clean up results to be returned 
+        df_results = output_results[store_s]
+        df_results = df_results.drop(columns=['store', 'similarity', 'comparable_PUP', 'sale_price', 'price',
+                        'sale_per_unit_price', 'per_unit_price', 'min_cost', 'price_per_1']).rename(columns = {'comparable_price':'price'})
+        df_results = df_results[['list_item', 'category', 'brand', 'product', 'price', 'price_unit', 'is_sale']]
 
         output[i+1] = {'store': store_s
                     , 'subtotal': subtotal_results[store_s]
