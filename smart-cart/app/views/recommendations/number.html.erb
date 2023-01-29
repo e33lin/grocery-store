@@ -1,2 +1,8 @@
 <h1>SmartCart</h1>
-<h2><%= $store_name %></h2>
+<h2><%= $current_recommendation.store %></h2>
+<p> subtotal: <%= $current_recommendation.subtotal %></p>
+<p> here is your list: </p>
+
+<% $current_recommendation.rec.each do |key, value| %>
+    <%= value %>
+<% end %>
