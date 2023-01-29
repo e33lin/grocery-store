@@ -1,5 +1,7 @@
 <h1>SmartCart</h1>
 
-<p><%= link_to $hash['1']['store'], "/recommendations/1" %></p>
-<p><%= link_to $hash['2']['store'], "/recommendations/2" %></p>
-<p><%= link_to $hash['3']['store'], "/recommendations/3" %></p>
+<p><%= link_to $stores[0], "/recommendations/1", :query => $hash %></p>
+<p><%= link_to $stores[1], "/recommendations/2", :query => $hash %></p>
+<p><%= link_to $stores[2], "/recommendations/3", :query => $hash %></p>
+
+<%= $hash %>
