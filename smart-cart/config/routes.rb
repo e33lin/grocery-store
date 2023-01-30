@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get "lists", to: "lists#show"
   get "stores", to: "stores#show"
   get "instructions", to: "instructions#show"
-  post "add-item", to: "lists#add-item"
+  post "add-item", to: "lists#add-item", as: "add_item"
   get "recommendations", to: "recommendations#show"
   get "recommendations/:id", to: "recommendations#number" #route to show specific recommendation
   delete "delete-item", to: "lists#delete-item"

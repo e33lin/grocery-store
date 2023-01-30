@@ -16,8 +16,8 @@ class ListsController < ApplicationController
 
   # GET /lists/new
   def new
-    # @list = List.new
-    @list = []
+    @list = List.new
+    # @list = []
   end
 
   # GET /lists/1/edit
@@ -46,6 +46,11 @@ class ListsController < ApplicationController
       $list.push(params[:item]) 
       redirect_to lists_path, notice: 'List was successfully created.'
     end
+
+    @list = List.new(params.require(:list).permit(:item))
+
+    
+
   end
 
   # PATCH/PUT /lists/1 or /lists/1.json
@@ -77,6 +82,13 @@ class ListsController < ApplicationController
   end
 
   def add_item
+    @list = List.new(list_params)
+    
+    if @list.save
+      redirect_to list_url(1), notice: 'List was successfully updated.'
+    else
+
+    end
   end 
 
   def delete_item
