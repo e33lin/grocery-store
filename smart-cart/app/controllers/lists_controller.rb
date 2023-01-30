@@ -7,6 +7,8 @@ class ListsController < ApplicationController
     # @lists = List.all
     @list = []
     @current_list = $list
+    session[:current_user_id] = 1234567
+    $session_id = session[:current_user_id]
   end
 
   # GET /lists/1 or /lists/1.json
@@ -38,7 +40,9 @@ class ListsController < ApplicationController
     #     format.json { render json: @list.errors, status: :unprocessable_entity }
     #   end
     # end
-   
+
+    List.create(list_id: $session_id, item: params[:item])
+
     if ($list.length >= 1) 
       $list.push(params[:item])
       redirect_to lists_path, notice: 'List was successfully updated.'
@@ -47,7 +51,7 @@ class ListsController < ApplicationController
       redirect_to lists_path, notice: 'List was successfully created.'
     end
 
-    @list = List.new(params.require(:list).permit(:item))
+    # @list = List.new(params.require(:list).permit(:item))
 
     
 
@@ -82,13 +86,13 @@ class ListsController < ApplicationController
   end
 
   def add_item
-    @list = List.new(list_params)
+    # @list = List.new(list_params)
     
-    if @list.save
-      redirect_to list_url(1), notice: 'List was successfully updated.'
-    else
+    # if @list.save
+    #   redirect_to list_url(1), notice: 'List was successfully updated.'
+    # else
 
-    end
+    # end
   end 
 
   def delete_item
