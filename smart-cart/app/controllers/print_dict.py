@@ -6,18 +6,27 @@ grocery_list = ast.literal_eval(sys.argv[1]) # read argument
 d = {
    "1":{
       "store":"store1",
-      "cost":5.0,
-      "list":grocery_list
+      "subtotal":5.0,
+      "results":{
+         "list_item1": "milk",
+         "list_item2": "eggs",
+      }
    },
    "2":{
       "store":"store2",
-      "cost":10.0,
-      "list":grocery_list
+      "subtotal":10.0,
+      "results":{
+         "list_item1": "milk",
+         "list_item2": "eggs",
+      }
    },
    "3":{
       "store":"store3",
-      "cost":15.0,
-      "list":grocery_list
+      "subtotal":15.0,
+      "results":{
+         "list_item1": "milk",
+         "list_item2": "eggs",
+      }
    }
 }
 
