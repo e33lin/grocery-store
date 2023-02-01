@@ -59,16 +59,23 @@ def search(grocery_list, ps):
             data = store_data
 
             # pulls obs that have product name most similar to the list item 
-            # truncate at 30
-            most_similar = process.extract(item, data['product'], scorer=jaccard_similarity, limit=30)  
+            # truncate at 20
+            most_similar = process.extract(item, data['product'], scorer=jaccard_similarity, limit=20)  
 
             # collect indexes for most similar obs 
             idxs = []
             sims = []
             for product in most_similar: 
-                if product[1] >= 52: 
+                if product[1] >= 50: 
                     idxs.append(product[2])
                     sims.append(product[1])
+
+            # secondary search 
+            if len(idxs) == 0: # try with lower sim threshold
+                for product in most_similar: 
+                    if product[1] >= 25: 
+                        idxs.append(product[2])
+                        sims.append(product[1])
 
             selected_data = data.iloc[idxs]
             
@@ -80,16 +87,45 @@ def search(grocery_list, ps):
             selected_data['comparable_PUP'] = np.where(selected_data['is_sale'] == True, selected_data['sale_per_unit_price'], selected_data['per_unit_price'])
             selected_data['comparable_price'] = np.where(selected_data['is_sale'] == True, selected_data['sale_price'], selected_data['price'])
 
-
             try:
                 # take the cheapest item 
                 cheapest_item = selected_data.sort_values(by=['comparable_PUP', 'similarity'], ascending = [True, False])
-                final_selection = final_selection.append(dict(cheapest_item.iloc[0]), ignore_index=True)
+
+                if len(cheapest_item) != 0:
+                    cheapest_item = cheapest_item.iloc[0]
+                    cheapest_item['missing'] = False
+                    final_selection = final_selection.append(dict(cheapest_item), ignore_index=True)
+                else:  # no item found
+                    final_selection = final_selection.append({'store': store
+                            , 'category': None
+                            , 'brand': None
+                            , 'product': None
+                            , 'full_product_text':None
+                            , 'price': None
+                            , 'sale_price': None
+                            , 'price_unit': None
+                            , 'per_unit_price': None
+                            , 'sale_per_unit_price': None
+                            , 'units': None
+                            , 'price_per_1': None
+                            , 'is_sale': None
+                            , 'list_price': None
+                            , 'list_item': item
+                            , 'similarity': None
+                            , 'comparable_PUP': 0
+                            , 'comparable_price': 0
+                            , 'missing': True
+                            }, ignore_index=True)
             except: continue
 
                 
         globals()[f"{store}_results"] = final_selection
-    
+
+        # cast booleans to be consistent 
+        globals()[f"{store}_results"]['is_sale'].replace({0: False, 1: True}, inplace=True)
+        globals()[f"{store}_results"]['missing'].replace({0: False, 1: True}, inplace=True)
+
+        # FOR TESTING 
         # dump results to csv 
         # globals()[f"{store}_results"].to_csv(f'{store}_results.csv', index=False)
     
@@ -105,8 +141,9 @@ def search(grocery_list, ps):
 
 results_dict = search(grocery_list, ps)
 
-output = cost_min.n_store_selection(n_stores, results_dict)
+output = cost_min.n_store_selection(n_stores, results_dict, grocery_list)
 
+ # FOR TESTING 
 # with open("output.json", "w") as outfile:
 #     json.dump(output, outfile, indent=4)
 
