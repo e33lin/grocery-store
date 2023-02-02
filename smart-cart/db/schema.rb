@@ -13,6 +13,7 @@
 ActiveRecord::Schema[7.0].define(version: 2023_01_29_001357) do
   create_table "lists", force: :cascade do |t|
     t.integer "list_id"
+    t.integer "quantity"
     t.string "item"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
