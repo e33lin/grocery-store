@@ -2,7 +2,6 @@ class RecommendationsController < ApplicationController
     
 
     def show
-        session[:current_user_id] = 1234567
         session_id = session[:current_user_id]
 
         # check if there is already an entry in Recommendations for the current user

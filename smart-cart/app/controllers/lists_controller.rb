@@ -7,7 +7,6 @@ class ListsController < ApplicationController
     # @lists = List.all
     @list = []
     @current_list = $list
-    session[:current_user_id] = 1234567
     $session_id = session[:current_user_id]
   end
 
