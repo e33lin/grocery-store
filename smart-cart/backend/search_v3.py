@@ -51,7 +51,11 @@ def search(grocery_list, ps):
     for store in stores: # retrieval for each store 
         
         # load data
+<<<<<<< HEAD
         store_data = pd.read_csv(f'../../data/{store}/{store}_data.csv')
+=======
+        store_data = pd.read_csv(f'../data/{store}/{store}_data.csv')
+>>>>>>> b14d76d (script is working)
         
         final_selection = pd.DataFrame()
 
