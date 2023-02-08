@@ -11,9 +11,9 @@ class RecommendationsController < ApplicationController
             require 'json'
             list_objects = List.where(list_id: session_id)
             list = List.list_as_array(list_objects)
+            n_stores = 1 # TODO: reference the number of stores from create list form
 
-            l = ['milk', 'eggs']
-            result = `python3 #{ENV["PWD"] + "/app/controllers/print_dict.py"} "'#{l}'"` # pass l as an argument 
+            result = `python3 #{ENV["PWD"] + "/backend/search_v3.py"} "'#{list}'" "'#{n_stores}'"` # pass l as an argument 
             hash = JSON.parse(result.gsub("'", "\"")) # turn string result into a hash
             $stores = [hash['1']['store'], hash['2']['store'], hash['3']['store']]
 
