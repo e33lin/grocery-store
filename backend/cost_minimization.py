@@ -80,7 +80,7 @@ def final_json(PUP_subtotal_results, subtotal_results, output_results, results =
                         'sale_per_unit_price', 'per_unit_price', 'min_cost', 'price_per_1'])
         df_results = df_results[['list_item', 'store', 'category', 'brand', 'product', 'full_product_text', 'price', 'price_unit', 'is_sale']]
 
-        output[i+1] = {'store': store_s
+        output[f"{i+1}"] = {'store': store_s
                     , 'subtotal': subtotal_results[store_s]
                     , 'results': df_results.to_dict('list')
                     }
