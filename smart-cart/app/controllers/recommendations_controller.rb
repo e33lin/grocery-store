@@ -13,6 +13,7 @@ class RecommendationsController < ApplicationController
             n_stores = 1 # TODO: reference the number of stores from create list form
 
             result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
+            print result
             hash = JSON.parse(result) # turn string result into a hash result.gsub("'", "\"")
             $stores = [hash['1']['store'], hash['2']['store'], hash['3']['store']]
 
