@@ -1,10 +1,29 @@
 <h1>SmartCart</h1>
 <h2><%= $current_recommendation.store %></h2>
 <p> subtotal: <%= $current_recommendation.subtotal %></p>
-<p> here is your list: </p>
 
-<% $current_recommendation.rec.each do |key, value| %>
-    <%= value %>
+<p> here is your list: </p>
+<%= $list %>
+
+<p> here is your recommendation: </p>
+<table>
+<tbody>
+    <tr>
+        <th> BRAND </th>
+        <th> PRODUCT </th>
+        <th> PRICES </th>
+        <th> IS_SALE </th>
+    </tr>
+
+<% for x in 0..$brands.length()-1%>
+    <tr>
+        <td> <%= $brands[x] %> </td>
+        <td> <%= $products[x] %> </td>
+        <td> <%= $prices[x] %> </td>
+        <td> <%= $is_sale[x] %> </td>
+    </tr>
 <% end %>
+</tbody>
+</table>
 
 <p><%= link_to 'Return to all recommendations', recommendations_path %></p>
