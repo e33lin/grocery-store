@@ -4,9 +4,9 @@ class ListsController < ApplicationController
   $list = []
   # GET /lists or /lists.json
   def index
-    # @lists = List.all
-    @list = []
-    @current_list = $list
+    @lists = List.all
+    # @list = []
+    # @current_list = $list
     $session_id = session[:current_user_id]
   end
 
@@ -23,7 +23,7 @@ class ListsController < ApplicationController
 
   # GET /lists/1/edit
   def edit
-    @current_list = $list[params[:id].to_i]
+    
   end
 
   # POST /lists or /lists.json
@@ -58,6 +58,11 @@ class ListsController < ApplicationController
 
   # PATCH/PUT /lists/1 or /lists/1.json
   def update
+   
+    @list = List.find_by(list_id: $session_id, item: params[:item])
+    @list.update(list_params)
+    redirect_to lists_path
+
     # respond_to do |format|
     #   if @list.update(list_params)
     #     format.html { redirect_to list_url(@list), notice: "List was successfully updated." }
@@ -67,19 +72,15 @@ class ListsController < ApplicationController
     #     format.json { render json: @list.errors, status: :unprocessable_entity }
     #   end
     # end
-
-    @current_list = $list[params[:id].to_i]
-    @current_list << [params[:item]]
-    $list.push(@current_list)
-    redirect_to list_url(1), notice: 'List was successfully updated.'
   end
 
   # DELETE /lists/1 or /lists/1.json
   def destroy
+    @list = List.find_by(list_id: $session_id, item: params[:item])
     @list.destroy
 
     respond_to do |format|
-      format.html { redirect_to lists_url, notice: "List was successfully destroyed." }
+      format.html { redirect_to lists_url, notice: "Item was successfully deleted." }
       format.json { head :no_content }
     end
   end
@@ -105,7 +106,7 @@ class ListsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def list_params
-      params.fetch(:list, {})
+      params.require(:list).permit(:item, :quantity, :list_id)
     end
 
 end

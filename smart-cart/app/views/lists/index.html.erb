@@ -2,22 +2,41 @@
 
 <h1>SmartCart</h1>
 
-<%
-=begin%>
- <div id="lists">
-  <% @lists.each do |list| %>
-    <%= render list %>
-    <p>
-      <%= link_to "Show this list", list %>
-    </p>
-  <% end %>
-</div> 
-<%
-=end%>
-
 <%= render "form", list: @list %>
+
+<table>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th colspan="3"></th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        <% @lists.each do |list| %>
+        <tr>
+            <td><%= list.item %></td>
+            <td><%= list.quantity%></td>
+            <td><%= form_with model: list, method: :patch, local: true do |f| %>
+            <%= hidden_field_tag 'item', list.item%>
+            <%= f.select :quantity, [1,2,3,4,5], {}, {value: list.quantity, class: 'form-control', onchange: 'this.form.submit();'} %>
+            <% end %>
+            <td><%= form_with model: list, method: :delete, local: true do |f| %>
+            <%= hidden_field_tag 'item', list.item%>
+            <%= f.submit 'Delete' %>
+            <% end %>
+            </td>
+            
+        </tr>
+        <% end %>
+        
+    </tbody>
+</table>
+
+
 <br>
-<%= @current_list %>
+<%# <%= @current_list %>
 <br>
 <%# <%= link_to "Instructions",  %> 
 <br>
