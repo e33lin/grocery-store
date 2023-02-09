@@ -83,4 +83,4 @@ production:
   <<: *default
   database: smart_cart_production
   username: smart_cart
-  password: <%= ENV["SMART_CART_DATABASE_PASSWORD"] %>
+  password: <%= ENV['DATABASE_URL'] %>
