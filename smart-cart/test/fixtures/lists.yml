@@ -3,7 +3,9 @@
 one:
   list_id: 1
   item: MyString
+  quantity: 1
 
 two:
   list_id: 1
   item: MyString
+  quantity: 1
