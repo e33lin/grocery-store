@@ -4,35 +4,39 @@
 
 <%= render "form", list: @list %>
 
-<table>
-    <thead>
-        <tr>
-            <th>Item</th>
-            <th>Quantity</th>
-            <th colspan="3"></th>
-        </tr>
-    </thead>
-    
-    <tbody>
-        <% @lists.each do |list| %>
-        <tr>
-            <td><%= list.item %></td>
-            <td><%= list.quantity%></td>
-            <td><%= form_with model: list, method: :patch, local: true do |f| %>
-            <%= hidden_field_tag 'item', list.item%>
-            <%= f.select :quantity, [1,2,3,4,5], {}, {value: list.quantity, class: 'form-control', onchange: 'this.form.submit();'} %>
-            <% end %>
-            <td><%= form_with model: list, method: :delete, local: true do |f| %>
-            <%= hidden_field_tag 'item', list.item%>
-            <%= f.submit 'Delete' %>
-            <% end %>
-            </td>
-            
-        </tr>
-        <% end %>
+<% if !@current_list.nil? %>
+    <table>
+        <%# <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th colspan="3"></th>
+            </tr>
+        </thead> %>
         
-    </tbody>
-</table>
+        <tbody>
+            <% @current_list.each do |list| %>
+            <tr>
+                <td><%= list.item %></td>
+                
+                <td><%= form_with model: list, method: :patch, local: true do |f| %>
+                <%= hidden_field_tag 'item', list.item %>
+                <%= f.select :quantity, [1,2,3,4,5], {}, {value: list.quantity, class: 'form-control', onchange: 'this.form.submit();'} %>
+                <% end %>
+
+                <td><%= form_with model: list, method: :delete, local: true do |f| %>
+                <%= hidden_field_tag 'item', list.item%>
+                <%= f.submit 'Delete' %>
+                <% end %>
+
+                </td>
+                
+            </tr>
+            <% end %>
+            
+        </tbody>
+    </table>
+<% end %>
 
 
 <br>
