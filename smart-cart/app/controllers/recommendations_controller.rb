@@ -34,15 +34,13 @@ class RecommendationsController < ApplicationController
 
         # if there is an entry in Recommendations for the current user,
         # then we will query for it in Recommendations table and simply show these   
-        #else
-        #    first_rec = Recommendation.find_by(list_id: session_id, rec_num: 1)
-        #    second_rec = Recommendation.find_by(list_id: session_id, rec_num: 2)
-        #    third_rec = Recommendation.find_by(list_id: session_id, rec_num: 3)
+        else
+            first_rec = Recommendation.find_by(list_id: session_id, rec_num: 1)
+            second_rec = Recommendation.find_by(list_id: session_id, rec_num: 2)
+            third_rec = Recommendation.find_by(list_id: session_id, rec_num: 3)
 
-            #$stores = [first_rec.store, second_rec.store, third_rec.store]
-        #end
-        
-       
+            $stores = [first_rec.store, second_rec.store, third_rec.store]
+        end
     end
 
     def number
