@@ -4,7 +4,7 @@
 
 <%= render "form", list: @list %>
 
-<% if !@current_list.nil? %>
+<% if !@current_list.empty? %>
     <table>
         <%# <thead>
             <tr>
@@ -36,12 +36,15 @@
             
         </tbody>
     </table>
+<% else %>
+Your list is empty. Add something!
 <% end %>
-
 
 <br>
 <%# <%= @current_list %>
 <br>
-<%# <%= link_to "Instructions",  %> 
+<%= link_to "Instructions and stores", instructions_path%> 
 <br>
-<%= link_to "List of stores", stores_path %>
+<% if !@current_list.empty? %>
+<%= link_to "See my recommendations!", recommendations_path %>
+<% end %>

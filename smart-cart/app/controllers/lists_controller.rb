@@ -8,6 +8,7 @@ class ListsController < ApplicationController
     # @list = []
     $session_id = session[:current_user_id]
     @current_list = List.where(list_id: $session_id)
+    print @current_list.empty?
   end
 
   # GET /lists/1 or /lists/1.json
