@@ -7,10 +7,9 @@ Rails.application.routes.draw do
   root "home#show"
 
   get "lists", to: "lists#show"
-  get "stores", to: "stores#show"
   get "instructions", to: "instructions#show"
   get "recommendations", to: "recommendations#show"
-  post "recommendations", to: "recommendations#show", as: "recommendations_path"
+  post "recommendations", to: "recommendations#stores", as: "stores_path"
   get "recommendations/:id", to: "recommendations#number" #route to show specific recommendation
   delete "delete-item", to: "lists#delete-item"
 

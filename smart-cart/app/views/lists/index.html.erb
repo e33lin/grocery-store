@@ -43,7 +43,7 @@ Your list is empty. Add something!
 <% if !@current_list.empty? %>
 <%# <%= link_to "See my recommendations!", recommendations_path %> 
 
-    <%= form_with url: recommendations_path do |f| %>
+    <%= form_with url: stores_path_url do |f| %>
         <%= f.radio_button :n_stores, 1 , :checked => true%>
         <%= f.label :n_stores, "1 Store" %>
         <%= f.radio_button :n_stores, 2  %>
