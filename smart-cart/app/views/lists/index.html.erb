@@ -40,13 +40,18 @@
 Your list is empty. Add something!
 <% end %>
 
-<%= form_with url: recommendations_path do |f| %>
-    <%= f.radio_button :n_stores, 1 %>
-    <%= f.label :n_stores, "1 Store" %>
-    <%= f.radio_button :n_stores, 2  %>
-    <%= f.label :n_stores, "2 stores" %>
-    <br>
-    <%= f.submit 'See Recommendations' %>
+<% if !@current_list.empty? %>
+<%# <%= link_to "See my recommendations!", recommendations_path %> 
+
+    <%= form_with url: recommendations_path do |f| %>
+        <%= f.radio_button :n_stores, 1 , :checked => true%>
+        <%= f.label :n_stores, "1 Store" %>
+        <%= f.radio_button :n_stores, 2  %>
+        <%= f.label :n_stores, "2 stores" %>
+        <br>
+        <%= f.submit 'See Recommendations' %>
+    <% end %>
+
 <% end %>
 
 <br>
@@ -54,6 +59,3 @@ Your list is empty. Add something!
 <br>
 <%= link_to "Instructions and stores", instructions_path%> 
 <br>
-<% if !@current_list.empty? %>
-<%= link_to "See my recommendations!", recommendations_path %>
-<% end %>
