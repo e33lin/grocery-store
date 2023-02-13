@@ -40,6 +40,15 @@
 Your list is empty. Add something!
 <% end %>
 
+<%= form_with url: recommendations_path do |f| %>
+    <%= f.radio_button :n_stores, 1 %>
+    <%= f.label :n_stores, "1 Store" %>
+    <%= f.radio_button :n_stores, 2  %>
+    <%= f.label :n_stores, "2 stores" %>
+    <br>
+    <%= f.submit 'See Recommendations' %>
+<% end %>
+
 <br>
 <%# <%= @current_list %>
 <br>

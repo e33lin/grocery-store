@@ -10,7 +10,7 @@ class RecommendationsController < ApplicationController
             require 'json'
             list_objects = List.where(list_id: session_id)
             list = List.list_as_array(list_objects)
-            n_stores = 1 # TODO: reference the number of stores from create list form
+            n_stores = params[:n_stores] 
 
             result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
             print result
