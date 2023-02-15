@@ -7,8 +7,8 @@ bundle exec rake assets:precompile
 bundle exec rake assets:clean
 bundle exec rake db:migrate
 
-python3 --version
-pip3 --version
+# python3 --version
+# pip3 --version
 
 pip3 install -r backend/requirements.txt
 
