@@ -37,6 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+
 VIRTUAL_ENV="/Users/emmalin/Documents/school/fydp/grocery-store/smart-cart/env"
 export VIRTUAL_ENV
 
