@@ -8,3 +8,4 @@ bundle exec rake assets:clean
 bundle exec rake db:migrate
 
 source env/bin/activate
+pip install -r backend/requirements.txt
