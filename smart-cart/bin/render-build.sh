@@ -10,7 +10,7 @@ bundle exec rake db:migrate
 python3 --version
 pip3 --version
 
-pip3 install backend/requirements.txt
+pip3 install -r backend/requirements.txt
 
 # source env/bin/activate
 # env/bin/pip3 install -r backend/requirements.txt
