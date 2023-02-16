@@ -20,10 +20,10 @@ class RecommendationsController < ApplicationController
             echo = `echo venv: $VIRTUAL_ENV`
             print echo
 
-            echo = `pip freeze`
+            echo = `pip3 freeze`
             print echo
 
-            echo = `python --version && which python`
+            echo = `python3 --version && which python`
             print echo
             
             result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
