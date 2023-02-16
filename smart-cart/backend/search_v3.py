@@ -15,6 +15,8 @@ import os
 
 sys.path.append('/smart-cart/venv/lib/python3.8/site-packages')
 
+print(sys.path)
+
 import pandas as pd
 import numpy as np
 from nltk.stem import PorterStemmer
