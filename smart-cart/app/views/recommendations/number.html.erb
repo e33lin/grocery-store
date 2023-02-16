@@ -13,6 +13,7 @@
         <th> PRODUCT </th>
         <th> PRICES </th>
         <th> IS_SALE </th>
+        <th> STORE </th>
     </tr>
 
 <% for x in 0..$brands.length()-1%>
@@ -21,6 +22,7 @@
         <td> <%= $products[x] %> </td>
         <td> <%= $prices[x] %> </td>
         <td> <%= $is_sale[x] %> </td>
+        <td> <%= $stores[x] %> </td>
     </tr>
 <% end %>
 </tbody>

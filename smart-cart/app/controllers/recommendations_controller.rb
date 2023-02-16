@@ -16,6 +16,7 @@ class RecommendationsController < ApplicationController
             list_objects = List.where(list_id: session_id)
             list = List.list_as_array(list_objects)
             n_stores = $n_stores
+            print $n_stores
 
             result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
             print result
@@ -58,6 +59,7 @@ class RecommendationsController < ApplicationController
         $products = []
         $prices = []
         $is_sale = []
+        $stores = []
         $current_recommendation.rec.each do |key, value|
             if (key == "brand")
                 $brands = value
@@ -69,6 +71,8 @@ class RecommendationsController < ApplicationController
                 $is_sale = value
             elsif (key == "list_item")
                 $list = value
+            elsif (key == "store")
+                $stores = value
             end
         end
     end
