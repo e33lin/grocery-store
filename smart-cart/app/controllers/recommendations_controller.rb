@@ -17,7 +17,7 @@ class RecommendationsController < ApplicationController
             list = List.list_as_array(list_objects)
             n_stores = $n_stores
 
-            result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
+            result = `venv/bin/python3.8 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
             print result
             hash = JSON.parse(result) # turn string result into a hash result.gsub("'", "\"")
             $stores = [hash['1']['store'], hash['2']['store'], hash['3']['store']]
