@@ -9,7 +9,7 @@ bundle exec rake db:migrate
 
 export PATH="/opt/render/.local/bin:$PATH"
 
-python3 -m venv venv
+# python3 -m venv venv
 
 source venv/bin/activate
 
