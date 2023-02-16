@@ -10,8 +10,8 @@ bundle exec rake db:migrate
 # export PATH=/opt/render/project/src/smart-cart/
 
 # echo $PATH
-source venv/bin/activate
-alias python3='/opt/render/project/src/smart-cart/venv/bin/python3'
+# source venv/bin/activate
+# alias python3='/opt/render/project/src/smart-cart/venv/bin/python3'
 
 # which python3 
 # python3 --version
