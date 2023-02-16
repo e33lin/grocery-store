@@ -17,18 +17,18 @@ class RecommendationsController < ApplicationController
             list = List.list_as_array(list_objects)
             n_stores = $n_stores
 
-            echo = `echo venv: $VIRTUAL_ENV`
-            print echo
+            # echo = `echo venv: $VIRTUAL_ENV`
+            # print echo
 
-            `export PATH=/opt/render/project/src/smart-cart:/Users/jillianexconde/grocery-store/smart-cart/venv/bin`
-            echo = `echo $PATH`
-            print echo
+            # `export PATH=/opt/render/project/src/smart-cart:/Users/jillianexconde/grocery-store/smart-cart/venv/bin`
+            # echo = `echo $PATH`
+            # print echo
             
-            echo = `pip3 freeze`
-            print echo
+            # echo = `pip3 freeze`
+            # print echo
 
-            echo = `python3 --version && which python`
-            print echo
+            # echo = `python3 --version && which python`
+            # print echo
 
             
             result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
