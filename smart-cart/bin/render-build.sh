@@ -7,7 +7,7 @@ bundle exec rake assets:precompile
 bundle exec rake assets:clean
 bundle exec rake db:migrate
 
-export PATH="/opt/render/.local/bin:$PATH"
+export PATH="/opt/render/project/src/smart-cart/venv"
 
 source venv/bin/activate
 pip3 install -r backend/requirements.txt 
