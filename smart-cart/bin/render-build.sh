@@ -9,16 +9,19 @@ bundle exec rake db:migrate
 
 export PATH="/opt/render/.local/bin:$PATH"
 
+# export PYTHONPATH=$PYTHONPATH:/venv/lib/python3.8/site-packages
+
+
 # python3 -m venv venv
 
-source venv/bin/activate
+# source venv/bin/activate
 
-python -m pip install --upgrade pip
+# python -m pip install --upgrade pip
 
-pip install -r backend/requirements.txt 
+# venv/bin/pip3 install -r backend/requirements.txt 
 
-pip freeze
+# pip freeze
 
-# source env/bin/activate
-# env/bin/pip3 install -r backend/requirements.txt
+source env/bin/activate
+env/bin/pip3 install -r backend/requirements.txt
 #source .env/bin/activate && pip install -r backend/requirements.txt
