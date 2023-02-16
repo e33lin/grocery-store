@@ -9,9 +9,11 @@ bundle exec rake db:migrate
 
 export PATH="/opt/render/.local/bin:$PATH"
 
-pip3 install -r backend/requirements.txt
+python -m venv venv
 
-pip3 install pandas 
+source venv/bin/activate
+
+pip3 install -r backend/requirements.txt 
 
 # source env/bin/activate
 # env/bin/pip3 install -r backend/requirements.txt
