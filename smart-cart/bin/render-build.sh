@@ -20,6 +20,8 @@ source venv/bin/activate
 
 pip3 install -r backend/requirements.txt 
 
+python -m pip install pandas
+
 # pip freeze
 
 # source env/bin/activate
