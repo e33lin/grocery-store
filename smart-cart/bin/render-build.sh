@@ -10,7 +10,8 @@ bundle exec rake db:migrate
 export PATH="/opt/render/.local/bin:$PATH"
 
 source venv/bin/activate
-pip3 install -r requirements.txt 
+pip3 install -r backend/requirements.txt 
+pip3 freeze
 
 # source env/bin/activate
 # env/bin/pip3 install -r backend/requirements.txt
