@@ -13,7 +13,10 @@ export PATH="/opt/render/.local/bin:$PATH"
 
 source venv/bin/activate
 
-pip3 install -r backend/requirements.txt 
+
+pip install -r backend/requirements.txt 
+
+pip freeze
 
 # source env/bin/activate
 # env/bin/pip3 install -r backend/requirements.txt
