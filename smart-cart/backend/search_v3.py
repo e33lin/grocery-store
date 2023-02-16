@@ -22,6 +22,8 @@ for path in remove_paths:
     if path in sys.path:
         sys.path.remove(path)
 
+sys.path.append('/opt/render/.local/bin')
+
 print(sys.path)
 
 import pandas as pd
