@@ -19,6 +19,8 @@ class RecommendationsController < ApplicationController
 
             echo = `echo $VIRTUAL_ENV`
             print echo
+
+            `pip3 install pandas`
             
             result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
             print result
