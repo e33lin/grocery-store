@@ -1,4 +1,4 @@
-#!/usr/bin/venv bash
+#!/bin/bash
 # exit on error
 set -o errexit
 
