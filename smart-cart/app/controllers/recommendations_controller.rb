@@ -20,11 +20,16 @@ class RecommendationsController < ApplicationController
             echo = `echo venv: $VIRTUAL_ENV`
             print echo
 
+            `export PATH=/opt/render/project/src/smart-cart/venv:/Users/jillianexconde/grocery-store/smart-cart/venv/bin`
+            echo = `echo $PATH`
+            print echo
+            
             echo = `pip3 freeze`
             print echo
 
             echo = `python3 --version && which python`
             print echo
+
             
             result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
             print result
