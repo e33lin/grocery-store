@@ -26,14 +26,14 @@ import subprocess
 # os.environ['VIRTUAL_ENV'] = '/Users/jillianexconde/grocery-store/smart-cart/venv'
 
 
-if 'VIRTUAL_ENV' in os.environ.keys():
-    if os.environ['VIRTUAL_ENV'] == '':
-        print('venv not active')
-    else: 
-        print('venv active')
-        print(os.environ['VIRTUAL_ENV'])
-else:
-    print('venv not active')
+# if 'VIRTUAL_ENV' in os.environ.keys():
+#     if os.environ['VIRTUAL_ENV'] == '':
+#         print('venv not active')
+#     else: 
+#         print('venv active')
+#         print(os.environ['VIRTUAL_ENV'])
+# else:
+#     print('venv not active')
 
 # print(sys.executable)
 
