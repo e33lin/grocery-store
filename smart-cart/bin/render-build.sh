@@ -9,11 +9,6 @@ bundle exec rake db:migrate
 
 export PATH="/opt/render/.local/bin:$PATH"
 
-
-# python3 --version
-# pip3 --version
-
-pip3 uninstall -y -r backend/requirements.txt
 pip3 install -r backend/requirements.txt
 
 # source env/bin/activate
