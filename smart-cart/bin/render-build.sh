@@ -12,7 +12,7 @@ export PATH="/opt/render/.local/bin:$PATH"
 source venv/bin/activate
 pip3 install -r backend/requirements.txt 
 
-python3 backend/search_v3.py "['apples]" 1
+python3 backend/search_v3.py "['apples']" 1
 
 echo "/opt/render/.local/bin:$PATH"
 
