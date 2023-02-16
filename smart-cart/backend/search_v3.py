@@ -13,7 +13,15 @@ grocery_list must be passed with " " around the actual list object
 import sys
 import os
 
-# sys.path.append('/venv/lib/python3.8/site-packages')
+
+def get_base_prefix_compat():
+    """Get base/real prefix, or sys.prefix if there is none."""
+    return getattr(sys, "base_prefix", None) or getattr(sys, "real_prefix", None) or sys.prefix
+
+def in_virtualenv():
+    return get_base_prefix_compat() != sys.prefix
+
+print(in_virtualenv())
 
 print(sys.executable)
 
@@ -24,8 +32,6 @@ remove_paths = ['/opt/render/project/src/smart-cart/$PYTHONPATH', '/usr/lib/pyth
 for path in remove_paths:
     if path in sys.path:
         sys.path.remove(path)
-
-sys.path.append('/opt/render/.local/bin')
 
 print(sys.path)
 
