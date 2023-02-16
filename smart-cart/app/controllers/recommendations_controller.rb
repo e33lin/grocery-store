@@ -17,7 +17,8 @@ class RecommendationsController < ApplicationController
             list = List.list_as_array(list_objects)
             n_stores = $n_stores
 
-            `echo $VIRTUAL_ENV`
+            echo = `echo $VIRTUAL_ENV`
+            print echo
             
             result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
             print result
