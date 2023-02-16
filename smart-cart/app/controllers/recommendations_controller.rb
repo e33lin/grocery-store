@@ -27,8 +27,10 @@ class RecommendationsController < ApplicationController
             # echo = `pip3 freeze`
             # print echo
 
-            # echo = `python3 --version && which python`
-            # print echo
+            echo = `python3 --version && which python`
+            print echo
+
+            `alias python3=venv/bin/python3`
 
             
             result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 

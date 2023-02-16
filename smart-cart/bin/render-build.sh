@@ -9,6 +9,10 @@ bundle exec rake db:migrate
 
 # export PATH=/opt/render/project/src/smart-cart/
 
-echo $PATH
+# echo $PATH
 source venv/bin/activate
+alias python3='venv/bin/python3'
+
+# which python3 
+# python3 --version
 pip3 install -r backend/requirements.txt 
