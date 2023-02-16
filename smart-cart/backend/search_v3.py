@@ -12,7 +12,8 @@ grocery_list must be passed with " " around the actual list object
 
 import sys
 import os
-print(sys.executable)
+
+sys.path.append('/home/render/smart-cart/venv/lib/python3.8/site-packages')
  
 import pandas as pd
 import numpy as np
