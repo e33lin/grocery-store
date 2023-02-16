@@ -14,14 +14,14 @@ export PATH="/opt/render/.local/bin:$PATH"
 
 # python3 -m venv venv
 
-# source venv/bin/activate
+source venv/bin/activate
 
 # python -m pip install --upgrade pip
 
-# venv/bin/pip3 install -r backend/requirements.txt 
+pip3 install -r backend/requirements.txt 
 
 # pip freeze
 
-source env/bin/activate
-env/bin/pip3 install -r backend/requirements.txt
+# source env/bin/activate
+# env/bin/pip3 install -r backend/requirements.txt
 #source .env/bin/activate && pip install -r backend/requirements.txt
