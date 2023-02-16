@@ -20,7 +20,7 @@ class RecommendationsController < ApplicationController
             echo = `echo venv: $VIRTUAL_ENV`
             print echo
 
-            `export PATH=/opt/render/project/src/smart-cart/venv:/Users/jillianexconde/grocery-store/smart-cart/venv/bin`
+            `export PATH=/opt/render/project/src/smart-cart:/Users/jillianexconde/grocery-store/smart-cart/venv/bin`
             echo = `echo $PATH`
             print echo
             
