@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/venv bash
 # exit on error
 set -o errexit
 
@@ -11,7 +11,7 @@ export PATH="/opt/render/.local/bin"
 
 # export PYTHONPATH=$PYTHONPATH:/venv/lib/python3.8/site-packages
 
-source env/bin/activate
+source venv/bin/activate
 pip3 install -r backend/requirements.txt 
 
 # pip3 freeze
