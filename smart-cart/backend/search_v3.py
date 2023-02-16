@@ -13,9 +13,8 @@ grocery_list must be passed with " " around the actual list object
 import sys
 import os
 
-sys.path.append('/home/render/smart-cart/venv/lib/python3.8/site-packages')
+sys.path.append('/smart-cart/venv/lib/python3.8/site-packages')
 
- 
 import pandas as pd
 import numpy as np
 from nltk.stem import PorterStemmer
