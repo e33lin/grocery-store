@@ -12,7 +12,7 @@ export PATH="/opt/render/.local/bin"
 # export PYTHONPATH=$PYTHONPATH:/venv/lib/python3.8/site-packages
 
 source venv/bin/activate
-pip3 install -r backend/requirements.txt 
+venv/bin/pip3 install -r backend/requirements.txt 
 
 
 # source env/bin/activate
