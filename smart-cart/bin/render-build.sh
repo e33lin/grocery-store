@@ -2,12 +2,14 @@
 # exit on error
 set -o errexit
 
-bundle install
-bundle exec rake assets:precompile
-bundle exec rake assets:clean
-bundle exec rake db:migrate
+# bundle install
+# bundle exec rake assets:precompile
+# bundle exec rake assets:clean
+# bundle exec rake db:migrate
 
-export PATH=/opt/render/project/src/smart-cart/
+# export PATH=/opt/render/project/src/smart-cart/
+
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/render/project/src/smart-cart/"
 
 
 source venv/bin/activate
