@@ -15,5 +15,5 @@ source venv/bin/activate
 echo $PATH
 # which python3 
 # python3 --version
-pip3 install -r backend/requirements.txt 
-pip3 freeze
+venv/bin/pip3 install -r backend/requirements.txt 
+venv/bin/pip3 freeze
