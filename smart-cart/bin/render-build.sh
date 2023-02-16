@@ -11,7 +11,7 @@ export PATH="/opt/render/.local/bin"
 
 # export PYTHONPATH=$PYTHONPATH:/venv/lib/python3.8/site-packages
 
-source venv/bin/activate
+source env/bin/activate
 pip3 install -r backend/requirements.txt 
 
 pip3 freeze
