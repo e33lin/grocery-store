@@ -7,7 +7,7 @@ bundle exec rake assets:precompile
 bundle exec rake assets:clean
 bundle exec rake db:migrate
 
-export PATH="/opt/render/.local/bin:$PATH"
+export PATH="/opt/render/.local/bin"
 
 # export PYTHONPATH=$PYTHONPATH:/venv/lib/python3.8/site-packages
 
