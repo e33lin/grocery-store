@@ -23,7 +23,7 @@ import subprocess
 # command = f'source {activate_path}'
 # subprocess.call(command, shell=True)
 
-os.environ['VIRTUAL_ENV'] = '/Users/jillianexconde/grocery-store/smart-cart/venv'
+# os.environ['VIRTUAL_ENV'] = '/Users/jillianexconde/grocery-store/smart-cart/venv'
 
 
 if 'VIRTUAL_ENV' in os.environ.keys():
