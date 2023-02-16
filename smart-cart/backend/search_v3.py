@@ -14,7 +14,7 @@ import sys
 import os
 print(sys.executable)
  
-import pandas as pd
+# import pandas as pd
 import numpy as np
 from nltk.stem import PorterStemmer
 from nltk.metrics.distance import jaccard_distance
