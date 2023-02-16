@@ -1,18 +1,18 @@
-#!/usr/bin/env bash
+#!/usr/bin/venv bash
 # exit on error
 set -o errexit
 
-bundle install
-bundle exec rake assets:precompile
-bundle exec rake assets:clean
-bundle exec rake db:migrate
+# bundle install
+# bundle exec rake assets:precompile
+# bundle exec rake assets:clean
+# bundle exec rake db:migrate
 
-export PATH="/opt/render/.local/bin"
-
-# export PYTHONPATH=$PYTHONPATH:/venv/lib/python3.8/site-packages
+export PATH="/opt/render/.local/bin:$PATH"
 
 source venv/bin/activate
-venv/bin/pip3 install -r backend/requirements.txt 
+pip3 install -r backend/requirements.txt 
+
+echo "/opt/render/.local/bin:$PATH"
 
 
 # source env/bin/activate
