@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/venv bash
 # exit on error
 set -o errexit
 
@@ -11,18 +11,9 @@ export PATH="/opt/render/.local/bin:$PATH"
 
 # export PYTHONPATH=$PYTHONPATH:/venv/lib/python3.8/site-packages
 
-
-# python3 -m venv venv
-
 source venv/bin/activate
-
-# python -m pip install --upgrade pip
-
 pip3 install -r backend/requirements.txt 
 
-python -m pip install pandas
-
-# pip freeze
 
 # source env/bin/activate
 # env/bin/pip3 install -r backend/requirements.txt
