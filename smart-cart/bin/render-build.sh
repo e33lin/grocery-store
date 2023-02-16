@@ -12,8 +12,8 @@ export PATH=/opt/render/project/src/smart-cart/
 
 source venv/bin/activate
 # alias python3='/opt/render/project/src/smart-cart/venv/bin/python3'
-echo $PATH
+# echo $PATH
 # which python3 
 # python3 --version
-venv/bin/pip3 install -r backend/requirements.txt 
-venv/bin/pip3 freeze
+pip3 install -r backend/requirements.txt 
+# venv/bin/pip3 freeze
