@@ -13,17 +13,29 @@ grocery_list must be passed with " " around the actual list object
 import sys
 import os
 
+import subprocess
 
-def get_base_prefix_compat():
-    """Get base/real prefix, or sys.prefix if there is none."""
-    return getattr(sys, "base_prefix", None) or getattr(sys, "real_prefix", None) or sys.prefix
+# Run a command and wait for it to finish
 
-def in_virtualenv():
-    return get_base_prefix_compat() != sys.prefix
+# venv_path = 'venv'
+# activate_path = f'{venv_path}/bin/activate'
 
-print(in_virtualenv())
+# command = f'source {activate_path}'
+# subprocess.call(command, shell=True)
 
-print(sys.executable)
+os.environ['VIRTUAL_ENV'] = '/Users/jillianexconde/grocery-store/smart-cart/venv'
+
+
+if 'VIRTUAL_ENV' in os.environ.keys():
+    if os.environ['VIRTUAL_ENV'] == '':
+        print('venv not active')
+    else: 
+        print('venv active')
+        print(os.environ['VIRTUAL_ENV'])
+else:
+    print('venv not active')
+
+# print(sys.executable)
 
 
 remove_paths = ['/opt/render/project/src/smart-cart/$PYTHONPATH', '/usr/lib/python37.zip', '/usr/lib/python3.7'
@@ -33,7 +45,7 @@ for path in remove_paths:
     if path in sys.path:
         sys.path.remove(path)
 
-print(sys.path)
+# print(sys.path)
 
 import pandas as pd
 import numpy as np
