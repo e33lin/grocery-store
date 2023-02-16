@@ -10,12 +10,7 @@ set -o errexit
 export PATH="/opt/render/.local/bin:$PATH"
 
 source venv/bin/activate
-pip3 install -r backend/requirements.txt 
-
-python3 backend/search_v3.py "['apples']" 1
-
-echo "/opt/render/.local/bin:$PATH"
-
+pip3 install -r requirements.txt 
 
 # source env/bin/activate
 # env/bin/pip3 install -r backend/requirements.txt
