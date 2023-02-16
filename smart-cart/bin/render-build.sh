@@ -14,6 +14,8 @@ export PATH="/opt/render/.local/bin"
 source venv/bin/activate
 pip3 install -r backend/requirements.txt 
 
+pip3 freeze
+
 
 # source env/bin/activate
 # env/bin/pip3 install -r backend/requirements.txt
