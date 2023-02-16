@@ -13,7 +13,7 @@ grocery_list must be passed with " " around the actual list object
 import sys
 import os
 
-# sys.path.append('/smart-cart/venv/lib/python3.8/site-packages')
+sys.path.append('/venv/lib/python3.8/site-packages')
 
 # print(sys.path)
 
