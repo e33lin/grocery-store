@@ -9,14 +9,14 @@ EX: python search_v3.py "['2% milk', 'Cheddar Cheese', 'white sliced bread']" 2
 grocery_list must be passed with " " around the actual list object 
 
 '''
- 
+
+import sys
+import os
 import pandas as pd
-import numpy as np
 from nltk.stem import PorterStemmer
 from nltk.metrics.distance import jaccard_distance
 from fuzzywuzzy import process
 import time
-import sys
 import ast
 from pickle import load
 import json 
@@ -84,8 +84,8 @@ def search(grocery_list, ps):
             selected_data['similarity']= sims
 
             # comparable price: sale_price if is_sale, price if not is_sale
-            selected_data['comparable_PUP'] = np.where(selected_data['is_sale'] == True, selected_data['sale_per_unit_price'], selected_data['per_unit_price'])
-            selected_data['comparable_price'] = np.where(selected_data['is_sale'] == True, selected_data['sale_price'], selected_data['price'])
+            selected_data['comparable_PUP'] = selected_data.apply(lambda row: row['sale_per_unit_price'] if row.is_sale else row['per_unit_price'], axis=1)
+            selected_data['comparable_price'] = selected_data.apply(lambda row: row['sale_price'] if row.is_sale else row['price'], axis=1)
 
             try:
                 # take the cheapest item 
@@ -147,7 +147,6 @@ output = cost_min.n_store_selection(n_stores, results_dict, grocery_list)
 # with open("output.json", "w") as outfile:
 #     json.dump(output, outfile, indent=4)
 
-#print(output)
 print(json.dumps(output, indent = 4))
-
+    
 # print(f'completed in {time.time() - start_time} seconds')
