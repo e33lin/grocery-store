@@ -22,8 +22,10 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
-  <<: *default
-  database: smart_cart_development
+  adapter: postgresql
+  host: localhost
+  username: user
+  database: app-dev
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -79,8 +81,8 @@ test:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
-# production:
-#   <<: *default
-#   database: smart_cart_production
-#   username: smart_cart
-#   password: <%= ENV['DATABASE_URL'] %>
+production:
+  <<: *default
+  database: smart_cart_production
+  username: smart_cart
+  password: <%= ENV['DATABASE_URL'] %>
