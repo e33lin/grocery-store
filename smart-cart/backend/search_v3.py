@@ -31,8 +31,8 @@ ps = PorterStemmer() # stemming for better results
 
 
 # take arguments from terminal 
-grocery_list = ast.literal_eval(sys.argv[0])
-n_stores = ast.literal_eval(sys.argv[1])
+grocery_list = ast.literal_eval(sys.argv[1])
+n_stores = ast.literal_eval(sys.argv[2])
 
 
 # https://www.educative.io/answers/what-is-the-jaccard-similarity-measure-in-nlp
