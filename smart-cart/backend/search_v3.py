@@ -51,7 +51,7 @@ def search(grocery_list, ps):
     for store in stores: # retrieval for each store 
         
         # load data
-        file_path = os.path.join(os.getcwd(), 'data', f'{store}', f'{store}_data.csv')
+        file_path = os.path.join(os.getcwd(), 'app', 'data', f'{store}', f'{store}_data.csv')
         store_data = pd.read_csv(file_path)
 
         # store_data = pd.read_csv(f'../app/data/{store}/{store}_data.csv')
