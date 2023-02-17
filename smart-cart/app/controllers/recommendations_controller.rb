@@ -1,7 +1,7 @@
 class RecommendationsController < ApplicationController
 
     def stores
-        $n_stores = params[:n_stores] 
+        @n_stores = params[:n_stores] 
         redirect_to recommendations_path
     end
     
@@ -15,8 +15,8 @@ class RecommendationsController < ApplicationController
             require 'json'
             list_objects = List.where(list_id: session_id)
             list = List.list_as_array(list_objects)
-            n_stores = $n_stores
-            print $n_stores
+            n_stores = @n_stores
+            print @n_stores
 
             result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
             print result
