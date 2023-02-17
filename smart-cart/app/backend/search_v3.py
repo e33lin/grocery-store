@@ -11,7 +11,6 @@ grocery_list must be passed with " " around the actual list object
 '''
  
 import pandas as pd
-import numpy as np
 from nltk.stem import PorterStemmer
 from nltk.metrics.distance import jaccard_distance
 from fuzzywuzzy import process
@@ -84,8 +83,8 @@ def search(grocery_list, ps):
             selected_data['similarity']= sims
 
             # comparable price: sale_price if is_sale, price if not is_sale
-            selected_data['comparable_PUP'] = np.where(selected_data['is_sale'] == True, selected_data['sale_per_unit_price'], selected_data['per_unit_price'])
-            selected_data['comparable_price'] = np.where(selected_data['is_sale'] == True, selected_data['sale_price'], selected_data['price'])
+            selected_data['comparable_PUP'] = selected_data.apply(lambda row: row['sale_per_unit_price'] if row.is_sale else row['per_unit_price'], axis=1)
+            selected_data['comparable_price'] = selected_data.apply(lambda row: row['sale_price'] if row.is_sale else row['price'], axis=1)
 
             try:
                 # take the cheapest item 
