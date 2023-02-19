@@ -84,8 +84,13 @@ def search(grocery_list, ps):
             selected_data['similarity']= sims
 
             # comparable price: sale_price if is_sale, price if not is_sale
-            selected_data['comparable_PUP'] = np.where(selected_data['is_sale'] == True, selected_data['sale_per_unit_price'], selected_data['per_unit_price'])
-            selected_data['comparable_price'] = np.where(selected_data['is_sale'] == True, selected_data['sale_price'], selected_data['price'])
+            if len(selected_data) > 0: # if items are found
+                selected_data['comparable_PUP'] = selected_data.apply(lambda row: row['sale_per_unit_price'] if row.is_sale else row['per_unit_price'], axis=1)
+                selected_data['comparable_price'] = selected_data.apply(lambda row: row['sale_price'] if row.is_sale else row['price'], axis=1)
+            else:
+                selected_data['comparable_PUP'] = None
+                selected_data['comparable_price'] = None
+
 
             try:
                 # take the cheapest item 
