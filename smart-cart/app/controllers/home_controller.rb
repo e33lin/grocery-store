@@ -8,5 +8,15 @@ class HomeController < ApplicationController
                 found_unique_id = true # breaks the loop
             end
         end
+
+        # purge all lists and recommendations created in the last week
+        date = DateTime.now()
+        range = (date - 7.days)..(date - 1.day)
+        for x in List.where(created_at: range)
+            x.destroy
+        end
+        for x in Recommendation.where(created_at: range)
+            x.destroy
+        end
     end
 end
