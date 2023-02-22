@@ -15,12 +15,12 @@ class RecommendationsController < ApplicationController
             require 'json'
             list_objects = List.where(list_id: session_id)
             list = List.list_as_array(list_objects)
+            quantities = List.item_quantities_as_array(list_objects)
             n_stores = $n_stores
-            print $n_stores
 
             result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
             print result
-            hash = JSON.parse(result, { allow_nan: true }) # turn string result into a hash result.gsub("'", "\"")
+            hash = JSON.parse(result, { allow_nan: true }) # turn string result into a hash
             $stores = [hash['1']['store'], hash['2']['store'], hash['3']['store']]
 
             store = ""
@@ -34,6 +34,20 @@ class RecommendationsController < ApplicationController
                         subtotal = value
                     else
                         results = value
+                    end
+                end
+                results.each do |key, value|
+                    if (key == "price")
+                        prices = value
+                        i = 0
+                        for x in quantities
+                            if (x > 1) # if the quantity of an item is > 1
+                                item_price = prices[i] # grab the per unit price
+                                additional_item_price = item_price * (x-1) # multiply by x-1. if x = 2, additional_item_price is the same as item_price
+                                subtotal += additional_item_price # tack on the additional_item_price to subtotal
+                            end
+                            i += 1
+                        end
                     end
                 end
                 Recommendation.create(list_id: session_id, rec_num:rank, store:store, subtotal:subtotal, rec:results)
@@ -52,6 +66,8 @@ class RecommendationsController < ApplicationController
 
     def number
         session_id = session[:current_user_id]
+        list_objects = List.where(list_id: session_id)
+        $quantities = List.item_quantities_as_array(list_objects)
         rec_num = params[:rec_num]
         $current_recommendation = Recommendation.find_by(list_id: session_id, rec_num: params[:id])
         $list = []

@@ -34,7 +34,11 @@
             <% if ($prices[x].nil?) %>
                 <td>no price available sorry</td>
             <% else %>
-                <td><%= $prices[x] %> </td>
+                <% if ($quantities[x] > 1) %>
+                    <td><%= $prices[x] %> x <%= $quantities[x] %></td>
+                <% else %>
+                    <td><%= $prices[x] %> </td>
+                <% end %>
             <% end %>
             <% if ($is_sale[x].nil?) %>
                 <td>not available sorry</td>
