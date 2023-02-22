@@ -71,15 +71,12 @@ class RecommendationsController < ApplicationController
         rec_num = params[:rec_num]
         $current_recommendation = Recommendation.find_by(list_id: session_id, rec_num: params[:id])
         $list = []
-        $brands = []
         $products = []
         $prices = []
         $is_sale = []
         $stores = []
         $current_recommendation.rec.each do |key, value|
-            if (key == "brand")
-                $brands = value
-            elsif (key == "product")
+            if (key == "full_product_text")
                 $products = value
             elsif (key == "price")
                 $prices = value
