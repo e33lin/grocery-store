@@ -78,7 +78,7 @@ def final_json(PUP_subtotal_results, subtotal_results, output_results, results =
         df_results = output_results[store_s]
         df_results = df_results.drop(columns=['similarity', 'comparable_PUP', 'sale_price',
                         'sale_per_unit_price', 'per_unit_price', 'min_cost', 'price_per_1'])
-        df_results = df_results[['list_item', 'store', 'category', 'brand', 'product', 'full_product_text', 'comparable_price', 'price_unit', 'is_sale']].rename(columns={'comparable_price': 'price'})
+        df_results = df_results[['list_item', 'store', 'category', 'brand', 'product', 'full_product_text', 'comparable_price', 'price_unit', 'is_sale', 'sale_valid_until', 'data_last_refreshed_at']].rename(columns={'comparable_price': 'price'})
 
 
         output[f"{i+1}"] = {'store': store_s

@@ -114,6 +114,8 @@ def search(grocery_list, ps):
                             , 'units': None
                             , 'price_per_1': None
                             , 'is_sale': None
+                            , 'sale_valid_until': None
+                            , 'data_last_refreshed_at': None
                             , 'list_price': None
                             , 'list_item': item
                             , 'similarity': None
