@@ -1,28 +1,62 @@
-<h1>Instructions</h1>
+<head>
+  <link rel="stylesheet" href="instructions.css">
+  <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 
-<p><b>How this works:</b></p>
+</head>
 
-<ol>
-<li>Select how many stores you’re willing to visit</li>
-<li>Enter items into your grocery list (for better results, be descriptive and put item specification AFTER item name e.g. milk 2%)</li>
-<li>View your options based on price breakdown</li>
-</ol>
+<div class="subhead">
+  <b>How this works:</b>
+</div>
 
-<p>Note: We recommend that you use this tool on the same day (or soon before) you plan to go grocery shopping for the freshest recommendations!</p>
+<div class = "text">
+  <ol>
+  <li>Select how many stores you want to visit to purchase the items on your list (only 1 store or up to 2 stores)</li>
+  <li>Add items to create your grocery list</li>
+  <br>
+  For better results, be as descriptive as possible. For example: 2% milk, gluten-free sliced bread, medium cheddar cheese.
+  <br>
+  <br>
+  <li>You’ll view your options for which store(s) to go to based on the price breakdown</li>
+  
+  </ol>
+    We recommend that you use this tool on the same day (or soon before) you plan to go grocery shopping for the freshest recommendations! Data will be updated weekly on Thursdays.
+    <br>
+    <br>
+</div>
 
-<h1>Store List</h1>
+<div class="subhead">
+  <b>Stores we consider:</b>
+</div>
 
-<p>Below are the stores that will be considered when making recommendations about where to shop!</p>
+<div class = "text">
+  Below are the stores that we currently have pricing data for and will consider in our recommendations!
+</div>
 
-<li>Loblaws</li>
-<li>Walmart</li>
-<li>Zehrs</li>
-<li>Valumart</li>
+
+<ul class="columns" data-columns="2">
+  <li>No Frills</li>
+  <li>Walmart</li>
+  <li>Zehrs</li>
+  <li>Valumart</li>
+  <li>Freshco</li>
+  <li>Sobeys</li>
+  <li>Food Basics</li>
+</ul>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="hapshop">
+  <b>Happy shopping!</b>
+</div>
 
 <br>
 
-<p><b>Happy shopping!</b></p>
 
-<div>
-  <%= link_to "Back to lists", lists_path %>
-</div>
+  <%= link_to "Build My Grocery List", lists_path, class: "tolist" %>

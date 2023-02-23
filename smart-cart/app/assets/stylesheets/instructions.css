@@ -1,0 +1,40 @@
+
+
+.subhead {
+    font-size: 20px;
+    font-weight: 600;
+    color: #666666
+}
+
+.text {
+    font-size: 16px;
+    color: #666666
+}
+
+.columns {
+    columns: 2;
+    float: left;
+    position: relative;
+    margin-right: 20px;
+    color: #666666
+}
+
+.hapshop {
+    color: #28A745;
+    font-size: 16px;
+}
+
+.tolist {
+    height: 39px;
+    width: 313px;
+    border-radius: 4px;
+    background-color: #28A745;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    padding: 10px 16px;
+}
+  
+  
+  
