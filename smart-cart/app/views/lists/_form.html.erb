@@ -1,21 +1,10 @@
-<%= form_with url: lists_path do |form| %>
-  <%
-=begin%>
- <% if list.errors.any? %>
-    <div style="color: red">
-      <h2><%= pluralize(list.errors.count, "error") %> prohibited this list from being saved:</h2>
+<%= form_with model: list, url: lists_path do |form| %>
 
-      <ul>
-        <% list.errors.each do |error| %>
-          <li><%= error.full_message %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %> 
-<%
-=end%>
 
   <%= form.text_field :item %>
+  <%# <%= hidden_field_tag 'quantity', 1 %> 
+  <%# <%= hidden_field_tag 'list_id', $session_id %>
+
 
   <div>
     <%= form.submit "Add Item" %>

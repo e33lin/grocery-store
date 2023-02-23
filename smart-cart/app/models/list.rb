@@ -1,5 +1,9 @@
 class List < ApplicationRecord
 
+    validates_presence_of :list_id
+    validates_presence_of :item
+    validates_presence_of :quantity
+
     # generates an array of the items the current user has added to their list
     def self.list_as_array(list)
         a = []

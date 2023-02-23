@@ -41,7 +41,7 @@ class ListsController < ApplicationController
     #   end
     # end
 
-    List.create(list_id: $session_id, item: params[:item], quantity: 1)
+    @list = List.create(list_id: $session_id, item: params[:item], quantity: 1)
 
     if ($list.length >= 1) 
       $list.push(params[:item])
