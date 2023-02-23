@@ -9,23 +9,17 @@
 <table>
 <tbody>
     <tr>
-        <th> BRAND </th>
         <th> PRODUCT </th>
         <th> PRICES </th>
         <th> IS_SALE </th>
         <th> STORE </th>
     </tr>
 
-<% for x in 0..$brands.length()-1%>
+<% for x in 0..$products.length()-1%>
     <tr>
-        <% if ($brands[x].nil? && $products[x].nil? && $prices[x].nil? && $is_sale[x].nil?)%>
+        <% if ($products[x].nil? && $prices[x].nil? && $is_sale[x].nil?)%>
             <td> Sorry, we couldn't find your product! </td>
         <% else %>
-            <% if ($brands[x].nil?) %>
-                <td>no brand available sorry</td>
-            <% else %>
-                <td><%= $brands[x] %> </td>
-            <% end %>
             <% if ($products[x].nil?) %>
                 <td>no product available sorry</td>
             <% else %>
@@ -34,7 +28,11 @@
             <% if ($prices[x].nil?) %>
                 <td>no price available sorry</td>
             <% else %>
-                <td><%= $prices[x] %> </td>
+                <% if ($quantities[x] > 1) %>
+                    <td><%= $prices[x] %> x <%= $quantities[x] %></td>
+                <% else %>
+                    <td><%= $prices[x] %> </td>
+                <% end %>
             <% end %>
             <% if ($is_sale[x].nil?) %>
                 <td>not available sorry</td>
