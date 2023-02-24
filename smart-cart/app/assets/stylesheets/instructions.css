@@ -5,6 +5,7 @@
     font-weight: 600;
     color: #666666;
     font-family: Poppins;
+
 }
 
 .text {
@@ -20,12 +21,14 @@
     margin-right: 20px;
     color: #666666;
     font-family: 'Inter';
+
 }
 
 .hapshop {
     color: #28A745;
     font-size: 16px;
     font-family: 'Inter';
+
 }
 
 .tolist {
@@ -42,6 +45,7 @@
     justify-content: center;
     margin: auto;
     font-family: 'Inter';
+
 }
   
   
