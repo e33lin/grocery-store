@@ -40,6 +40,16 @@ class ListsController < ApplicationController
     #     format.json { render json: @list.errors, status: :unprocessable_entity }
     #   end
     # end
+   
+    raw_item = params[:item]
+    text_item = raw_item.gsub(/[^0-9a-z ]/i, '') # removes special characters
+    raw_tokens = text_item.split # breaks at every space, returns an array: granny smith apples -> ["granny", "smith", "apples"]
+    stemmed_tokens = []
+    for t in raw_tokens
+      stemmed_tokens.append(t.stem) # stems each token: ["granny", "smith", "apples"] -> ["granni", "smith", "appl"]
+    end
+    stemmed_item = stemmed_tokens * " " # joins each token into a single string: ["granni", "smith", "appl"] -> "granni smith appl"
+    print stemmed_item
 
     @list = List.create(list_id: $session_id, item: params[:item], quantity: 1)
 

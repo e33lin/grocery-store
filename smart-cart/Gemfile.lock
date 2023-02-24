@@ -180,6 +180,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    stemmify (0.0.2)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
     thor (1.2.1)
@@ -222,6 +223,7 @@ DEPENDENCIES
   rails (~> 7.0.4, >= 7.0.4.2)
   selenium-webdriver
   sprockets-rails
+  stemmify (~> 0.0.2)
   stimulus-rails
   turbo-rails
   tzinfo-data
@@ -232,4 +234,4 @@ RUBY VERSION
    ruby 3.0.1p64
 
 BUNDLED WITH
-   2.4.4
+   2.4.7
