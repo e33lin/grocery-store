@@ -75,6 +75,8 @@ class RecommendationsController < ApplicationController
         $prices = []
         $is_sale = []
         $stores = []
+        $sale_dates = []
+        $last_data_refresh = []
         $current_recommendation.rec.each do |key, value|
             if (key == "full_product_text")
                 $products = value
@@ -86,6 +88,10 @@ class RecommendationsController < ApplicationController
                 $list = value
             elsif (key == "store")
                 $stores = value
+            elsif (key == "sale_valid_until")
+                $sale_dates = value
+            elsif (key == "data_last_refreshed_at")
+                $last_data_refresh = value
             end
         end
     end
