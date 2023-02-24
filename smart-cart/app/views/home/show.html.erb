@@ -1,6 +1,55 @@
-<h1>SmartCart</h1>
+<head>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
-<p>The current version supports shoppers within the Waterloo, Ontario region.</p>
+</head>
 
-<p><%= link_to 'Find me the cheapest groceries', lists_path %></p>
-<p><%= link_to 'Instructions and Stores', instructions_path %></p>
+<div class="info">
+<%= link_to instructions_path do %>
+   <%= image_tag "info.png", width: 40, height: 40%>
+<% end %>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="logo">
+    <img src="<%= asset_path('logo.png') %>" width="300" height="130">
+</div>
+
+<br>
+<br>
+
+<div class="home-text">
+    Helping you find the cheapest places to buy your groceries!
+</div>
+
+<br>
+<br>
+
+<%= link_to "Build My Grocery List", lists_path, class: "grocerylist" %>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="waterloo">
+    The current version supports shoppers within the Waterloo, Ontario region.
+</div>
+
+

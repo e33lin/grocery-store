@@ -1,34 +1,31 @@
-
-
-.subhead {
-    font-size: 20px;
-    font-weight: 600;
-    color: #666666;
-    font-family: Poppins;
+.logo {
+    display: flex;
+    justify-content: center;
 }
 
-.text {
+.info {
+    float: right;
+}
+
+.home-text {
     font-size: 16px;
     color: #666666;
+    text-align: center;
     font-family: 'Inter';
+    width: 350px;
+    margin: auto;
 }
 
-.columns {
-    columns: 2;
-    float: left;
-    position: relative;
-    margin-right: 20px;
-    color: #666666;
-    font-family: 'Inter';
-}
-
-.hapshop {
-    color: #28A745;
+.waterloo{
     font-size: 16px;
+    color: #666666;
+    text-align: center;
     font-family: 'Inter';
+    width: 350px;
+    margin: auto;
 }
 
-.tolist {
+.grocerylist {
     height: 39px;
     width: 313px;
     border-radius: 4px;
@@ -37,12 +34,8 @@
     text-decoration: none;
     text-align: center;
     align-items: center;
-    padding: 10px 16px;
     display: flex;
     justify-content: center;
     margin: auto;
     font-family: 'Inter';
 }
-  
-  
-  
