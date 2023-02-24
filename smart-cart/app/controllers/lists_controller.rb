@@ -49,17 +49,22 @@ class ListsController < ApplicationController
       stemmed_tokens.append(t.stem) # stems each token: ["granny", "smith", "apples"] -> ["granni", "smith", "appl"]
     end
     stemmed_item = stemmed_tokens * " " # joins each token into a single string: ["granni", "smith", "appl"] -> "granni smith appl"
-    print stemmed_item
 
-    @list = List.create(list_id: $session_id, item: params[:item], quantity: 1)
+    if (!List.find_by(list_id: $session_id, stemmed_item: stemmed_item).blank?)
+      redirect_to lists_path, notice: 'You already have that item on your list! Please add something else.'
+    else
+      @list = List.create(list_id: $session_id, item: params[:item], quantity: 1, stemmed_item: stemmed_item)
 
-    if ($list.length >= 1) 
-      $list.push(params[:item])
-      redirect_to lists_path, notice: 'List was successfully updated.'
-    else 
-      $list.push(params[:item]) 
-      redirect_to lists_path, notice: 'List was successfully created.'
+      if ($list.length >= 1) 
+        $list.push(params[:item])
+        redirect_to lists_path, notice: 'List was successfully updated.'
+      else 
+        $list.push(params[:item]) 
+        redirect_to lists_path, notice: 'List was successfully created.'
+      end
     end
+
+    
 
     # @list = List.new(params.require(:list).permit(:item))
 
