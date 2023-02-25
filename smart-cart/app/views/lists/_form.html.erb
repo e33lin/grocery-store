@@ -1,12 +1,19 @@
+<head>
+  <link rel="stylesheet" href="list.css">
+  <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
 <%= form_with model: list, url: lists_path do |form| %>
 
-
-  <%= form.text_field :item %>
+ <div class = "form">
+  <%= form.text_field :item, placeholder: "Enter an item", class: "textbox"%>
   <%# <%= hidden_field_tag 'quantity', 1 %> 
   <%# <%= hidden_field_tag 'list_id', $session_id %>
 
 
-  <div>
-    <%= form.submit "Add Item" %>
+ 
+    <%= form.submit "Add" , class: "add"%>
   </div>
 <% end %>

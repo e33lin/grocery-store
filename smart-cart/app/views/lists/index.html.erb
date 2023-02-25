@@ -1,11 +1,31 @@
+<head>
+  <link rel="stylesheet" href="list.css">
+  <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
 <p style="color: green"><%= notice %></p>
 
-<h1>SmartCart</h1>
+<div class="info">
+<%= link_to instructions_path do %>
+   <%= image_tag "info.png", width: 40, height: 40%>
+<% end %>
+</div>
+
+<div class = "mylist">
+    My List
+</div>
+
+<br>
 
 <%= render "form", list: @list %>
 
 
 <% if !@current_list.empty? %>
+<br>
+<div class = "table">
     <table>
         <%# <thead>
             <tr>
@@ -18,7 +38,9 @@
         <tbody>
             <% @current_list.each do |list| %>
             <tr>
-                <td><%= list.item %></td>
+               
+                <td class = "listitem"><%= list.item %></td>
+                
                 
                 <td><%= form_with model: list, method: :patch, local: true do |f| %>
                 <%= hidden_field_tag 'item', list.item %>
@@ -27,18 +49,36 @@
 
                 <td><%= form_with model: list, method: :delete, local: true do |f| %>
                 <%= hidden_field_tag 'item', list.item%>
-                <%= f.submit 'Delete' %>
+                <%= image_submit_tag("delete.png", class: "trash")%>
+                <%# <%= f.submit 'Delete' %> 
                 <% end %>
 
                 </td>
+
+              
                 
             </tr>
             <% end %>
             
         </tbody>
     </table>
+</div>
 <% else %>
-Your list is empty. Add something!
+<div class = "empty">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    Your list is empty. Add something!
+
+    <br>
+    <br>
+
+    For better results, be as descriptive as possible. For example: 2% milk, gluten-free sliced bread, medium cheddar cheese.
+</div>
 <% end %>
 
 <% if !@current_list.empty? %>
