@@ -9,11 +9,10 @@ class Recommendation < ApplicationRecord
     def self.find_name(store)
         store_name = ""
         if (store == "no_frills")
-            print "hello"
             store_name = "No Frills"
         elsif (store == "food_basics")
             store_name = "Food Basics"
-        elsif (store == "frescho")
+        elsif (store == "freshco")
             store_name = "FreshCo"
         elsif (store == "sobeys")
             store_name = "Sobeys"

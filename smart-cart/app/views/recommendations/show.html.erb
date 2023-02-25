@@ -13,17 +13,43 @@
 <br>
 <br>
 
-<%= $stores %>
-
-<% if ($stores[0].length == 1)%>
-length is 1
-<% else %>
-length is 2
+<% i = 0 %>
+<% for x in $stores %>
+    <% if (x.length == 1) %>
+        <div class="rec-tile">
+            <div class="store-name"><%= Recommendation.find_name(x[0]) %></div>
+            <a href="/recommendations/<%= i + 1 %>">
+            <span class="link"></span>
+            </a>
+            <% if (x == $stores[0])%>
+                <%= image_submit_tag("trophy.png", class: "trophy")%>
+            <% end %>
+            <p class="subtotal">$<%= $subtotals[i]%></p>
+            <%= image_submit_tag("chevron.png", class: "chevron")%>
+        </div>
+        <% i = i + 1 %>
+        <% if (x != $stores[2])%>
+            <hr>
+        <% end %>
+    <% else %>
+        <div class="rec-tile">
+            <div class="store-name"><%= Recommendation.find_name(x[0]) %></div>
+            <div class="second-store-name"><%= Recommendation.find_name(x[1]) %></div>
+            <a href="/recommendations/<%= i + 1 %>">
+            <span class="link"></span>
+            </a>
+            <% if (x == $stores[0])%>
+                <%= image_submit_tag("trophy.png", class: "trophy")%>
+            <% end %>
+            <p class="subtotal">$<%= $subtotals[i]%></p>
+            <%= image_submit_tag("chevron.png", class: "chevron")%>
+        </div>
+        <% i = i + 1 %>
+        <% if (x != $stores[2])%>
+            <hr>
+        <% end %>
+    <% end %>
 <% end %>
-<%= $stores[0] %>
 
-<p class="rec-tile"><%= link_to Recommendation.find_name($stores[0][0]), "/recommendations/1" %></p> 
-<p class="rec-tile"><%= link_to $stores[1], "/recommendations/2" %></p> 
-<p class="rec-tile"><%= link_to $stores[2], "/recommendations/3" %></p> 
 
 <%= $hash %>

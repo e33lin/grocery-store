@@ -25,6 +25,7 @@ class RecommendationsController < ApplicationController
 
             store = ""
             subtotal = ""
+            $subtotals = []
             results = ""
             hash.each do |rank, rec_data|
                 rec_data.each do |key, value|
@@ -50,6 +51,8 @@ class RecommendationsController < ApplicationController
                         end
                     end
                 end
+                subtotal = subtotal.round(2)
+                $subtotals.append(subtotal)
                 Recommendation.create(list_id: session_id, rec_num:rank, store:store, subtotal:subtotal, rec:results)
             end
 
@@ -60,6 +63,7 @@ class RecommendationsController < ApplicationController
             second_rec = Recommendation.find_by(list_id: session_id, rec_num: 2)
             third_rec = Recommendation.find_by(list_id: session_id, rec_num: 3)
 
+            $subtotals = [first_rec.subtotal, second_rec.subtotal, third_rec.subtotal]
             $stores = [first_rec.store, second_rec.store, third_rec.store]
         end
     end
