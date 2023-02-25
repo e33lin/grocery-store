@@ -5,6 +5,9 @@
 <p> here is your list: </p>
 <%= $list %>
 
+<p> this data was last refreshed at: </p>
+<%= $last_data_refresh[0] %>
+
 <p> here is your recommendation: </p>
 <table>
 <tbody>
@@ -37,7 +40,11 @@
             <% if ($is_sale[x].nil?) %>
                 <td>not available sorry</td>
             <% else %>
-                <td><%= $is_sale[x] %> </td>
+                <% if ($is_sale[x] == true) %>
+                    <td><%= $is_sale[x] %>, until <%= $sale_dates[x] %></td>
+                <% else %>
+                    <td><%= $is_sale[x] %></td>
+                <% end %>
             <% end %>
             <td><%= $stores[x] %> </td>
         <% end %>
