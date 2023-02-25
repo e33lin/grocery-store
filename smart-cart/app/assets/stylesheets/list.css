@@ -27,7 +27,7 @@
     width: 83px;
     height: 30px;
     font-family: 'Inter';
-    
+    cursor: pointer;
 }
 
 .form {
@@ -69,4 +69,54 @@ select {
     margin: auto;
     display: flex;
     justify-content: center;
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 25px;
+}
+  
+.radio-buttons label {
+    
+    cursor: pointer;
+    font-size: 14px;
+    color:  #2E8C49;
+    font-family: 'Inter';
+    border: 1.5px solid #28A745;
+    border-radius: 16px;
+    width: 125px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.radio-buttons input[type="radio"] {
+   opacity: 0;
+   
+}
+
+.radio-buttons input[type="radio"]:checked + label {
+    background-color: #EBF9EF !important;
+  }
+  
+.submit-button {
+    background-color: #28A745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Inter';
+    margin-left: 43px;
+}
+  
+.storeform {
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
