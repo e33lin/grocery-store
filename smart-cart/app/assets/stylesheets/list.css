@@ -158,3 +158,13 @@ html,body{
     left: 0;
     bottom: 0; 
 }
+
+.error{
+    color: #CB0808;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}

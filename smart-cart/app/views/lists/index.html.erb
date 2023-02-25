@@ -87,6 +87,7 @@
     <% if !@current_list.empty? %>
     <br>
     <hr>
+    <p class="error"><%= notice %></p>
     <div class = "storeform">
         
         <%= form_with url: stores_path_url do |f| %>
