@@ -1,0 +1,170 @@
+.mylist {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.info {
+    float: right;
+}
+
+.textbox {
+    font-family: 'Inter';
+    border-radius: 5px;
+    border: 1.5px solid #28A745;
+    height: 25px;
+    width: 200px;
+    margin-right: 5px;
+    color: #1E202D80;
+}
+
+.add {
+    background-color: #28A745;
+    border-radius: 5px;
+    border: 1.5px solid #28A745;
+    color: white;
+    width: 83px;
+    height: 30px;
+    font-family: 'Inter';
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.empty {
+    font-family: 'Inter';
+    color: #666666;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+}
+
+.listitem{
+    font-family: 'Inter';
+    color: #666666;
+    font-size: 14px;
+    padding-right: 135px;
+}
+
+select {
+    font-family: 'Inter';
+    color: #6C757D;
+    border: 0.7px solid #6C757D;
+    border-radius: 3px;
+    height: 25px;
+}
+
+.trash {
+    width: 22px;
+    height: 26px;
+    vertical-align: middle;
+}
+
+.table {
+    width: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 25px;
+}
+  
+.radio-buttons label {
+    
+    cursor: pointer;
+    font-size: 14px;
+    color:  #2E8C49;
+    font-family: 'Inter';
+    border: 1.5px solid #28A745;
+    border-radius: 16px;
+    width: 125px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.radio-buttons input[type="radio"] {
+   opacity: 0;
+   
+}
+
+.radio-buttons input[type="radio"]:checked + label {
+    background-color: #EBF9EF !important;
+  }
+  
+.submit-button {
+    background-color: #28A745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Inter';
+    margin-left: 43px;
+}
+
+.submit-button-fake {
+    background-color: #80858A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Inter';
+    margin-left: 43px;
+}
+  
+.storeform {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+hr {
+    width: 290px;
+}
+
+
+html,body{
+    height: 95%
+}
+
+.holder{
+    min-height: 95%;
+    position:relative;
+}
+
+#body{
+    padding-bottom: 90px;    /* height of footer */
+}
+
+.bottom{
+    height: 90px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+}
+
+.error{
+    color: #CB0808;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}

@@ -57,10 +57,10 @@ class ListsController < ApplicationController
 
       if ($list.length >= 1) 
         $list.push(params[:item])
-        redirect_to lists_path, notice: 'List was successfully updated.'
+        redirect_to lists_path #, notice: 'List was successfully updated.'
       else 
         $list.push(params[:item]) 
-        redirect_to lists_path, notice: 'List was successfully created.'
+        redirect_to lists_path #, notice: 'List was successfully created.'
       end
     end
 

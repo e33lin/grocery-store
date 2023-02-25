@@ -1,11 +1,30 @@
-<p style="color: green"><%= notice %></p>
+<head>
+  <link rel="stylesheet" href="list.css">
+  <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
-<h1>SmartCart</h1>
+</head>
+
+<div class="holder">
+<div class="info">
+<%= link_to instructions_path do %>
+   <%= image_tag "info.png", width: 40, height: 40%>
+<% end %>
+</div>
+
+<div class = "mylist">
+    My List
+</div>
+
+<br>
 
 <%= render "form", list: @list %>
 
 
 <% if !@current_list.empty? %>
+<br>
+<div class = "table">
     <table>
         <%# <thead>
             <tr>
@@ -18,7 +37,9 @@
         <tbody>
             <% @current_list.each do |list| %>
             <tr>
-                <td><%= list.item %></td>
+               
+                <td class = "listitem"><%= list.item %></td>
+                
                 
                 <td><%= form_with model: list, method: :patch, local: true do |f| %>
                 <%= hidden_field_tag 'item', list.item %>
@@ -27,36 +48,84 @@
 
                 <td><%= form_with model: list, method: :delete, local: true do |f| %>
                 <%= hidden_field_tag 'item', list.item%>
-                <%= f.submit 'Delete' %>
+                <%= image_submit_tag("delete.png", class: "trash")%>
+                <%# <%= f.submit 'Delete' %> 
                 <% end %>
 
                 </td>
+
+              
                 
             </tr>
             <% end %>
             
         </tbody>
     </table>
+</div>
 <% else %>
-Your list is empty. Add something!
+<div class = "empty">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    Your list is empty. Add something!
+
+    <br>
+    <br>
+
+    For better results, be as descriptive as possible. For example: 2% milk, gluten-free sliced bread, medium cheddar cheese.
+</div>
 <% end %>
 
-<% if !@current_list.empty? %>
-<%# <%= link_to "See my recommendations!", recommendations_path %> 
-
-    <%= form_with url: stores_path_url do |f| %>
-        <%= f.radio_button :n_stores, 1 , :checked => true%>
-        <%= f.label :n_stores, "1 Store" %>
-        <%= f.radio_button :n_stores, 2  %>
-        <%= f.label :n_stores, "2 stores" %>
+<div class="bottom">
+    <% if !@current_list.empty? %>
+    <br>
+    <hr>
+    <p class="error"><%= notice %></p>
+    <div class = "storeform">
+        
+        <%= form_with url: stores_path_url do |f| %>
         <br>
-        <%= f.submit 'See Recommendations' %>
+            <div class="radio-buttons">
+            <%= f.radio_button :n_stores, 1, id: "one-store", checked: true %>
+            <label for="one-store">1 store only</label>
+            <%= f.radio_button :n_stores, 2, id: "two-stores" %>
+            <label for="two-stores">up to 2 stores</label>
+            </div>
+            <br>
+            <%= f.submit 'See Recommended Stores', class: 'submit-button' %>
+        <% end %>
+
+    </div>
+    <% else %>
+        <br>
+        <hr>
+        <div class = "storeform">
+            <%= form_with url: stores_path_url do |f| %>
+                <br>
+                    <div class="radio-buttons">
+                    <%= f.radio_button :n_stores, 1, id: "one-store", checked: true %>
+                    <label for="one-store">1 store only</label>
+                    <%= f.radio_button :n_stores, 2, id: "two-stores" %>
+                    <label for="two-stores">up to 2 stores</label>
+                    </div>
+                    <br>
+                    <%= f.submit 'See Recommended Stores', class: 'submit-button-fake', disabled: true %>
+                    
+            <% end %>
+        </div>
+
     <% end %>
 
-<% end %>
+</div>
 
 <br>
-<%# <%= @current_list %>
-<br>
-<%= link_to "Instructions and stores", instructions_path%> 
-<br>
+
+
+</div>
