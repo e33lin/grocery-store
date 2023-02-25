@@ -1,7 +1,29 @@
-<h1>SmartCart</h1>
+<head>
+  <link rel="stylesheet" href="all_recommendations.css">
+  <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
-<p><%= link_to $stores[0], "/recommendations/1" %></p> 
-<p><%= link_to $stores[1], "/recommendations/2" %></p> 
-<p><%= link_to $stores[2], "/recommendations/3" %></p> 
+</head>
+
+<div class = "recommendations">
+    Recommendations
+</div>
+
+<br>
+<br>
+
+<%= $stores %>
+
+<% if ($stores[0].length == 1)%>
+length is 1
+<% else %>
+length is 2
+<% end %>
+<%= $stores[0] %>
+
+<p class="rec-tile"><%= link_to Recommendation.find_name($stores[0][0]), "/recommendations/1" %></p> 
+<p class="rec-tile"><%= link_to $stores[1], "/recommendations/2" %></p> 
+<p class="rec-tile"><%= link_to $stores[2], "/recommendations/3" %></p> 
 
 <%= $hash %>
