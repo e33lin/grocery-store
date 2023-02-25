@@ -114,9 +114,47 @@ select {
     font-family: 'Inter';
     margin-left: 43px;
 }
+
+.submit-button-fake {
+    background-color: #80858A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Inter';
+    margin-left: 43px;
+}
   
 .storeform {
     display: flex;
     justify-content: center;
     margin: auto;
+}
+
+hr {
+    width: 290px;
+}
+
+
+html,body{
+    height: 95%
+}
+
+.holder{
+    min-height: 95%;
+    position:relative;
+}
+
+#body{
+    padding-bottom: 90px;    /* height of footer */
+}
+
+.bottom{
+    height: 90px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
 }

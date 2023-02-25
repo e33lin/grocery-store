@@ -6,6 +6,7 @@
 
 </head>
 
+<div class="holder">
 <div class="info">
 <%= link_to instructions_path do %>
    <%= image_tag "info.png", width: 40, height: 40%>
@@ -69,6 +70,9 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
 
     Your list is empty. Add something!
 
@@ -79,27 +83,48 @@
 </div>
 <% end %>
 
-<% if !@current_list.empty? %>
-
-<div class = "storeform">
-    
-    <%= form_with url: stores_path_url do |f| %>
+<div class="bottom">
+    <% if !@current_list.empty? %>
     <br>
-        <div class="radio-buttons">
-        <%= f.radio_button :n_stores, 1, id: "one-store", checked: true %>
-        <label for="one-store">1 store only</label>
-        <%= f.radio_button :n_stores, 2, id: "two-stores" %>
-        <label for="two-stores">up to 2 stores</label>
-        </div>
+    <hr>
+    <div class = "storeform">
+        
+        <%= form_with url: stores_path_url do |f| %>
         <br>
-        <%= f.submit 'See Recommended Stores', class: 'submit-button' %>
+            <div class="radio-buttons">
+            <%= f.radio_button :n_stores, 1, id: "one-store", checked: true %>
+            <label for="one-store">1 store only</label>
+            <%= f.radio_button :n_stores, 2, id: "two-stores" %>
+            <label for="two-stores">up to 2 stores</label>
+            </div>
+            <br>
+            <%= f.submit 'See Recommended Stores', class: 'submit-button' %>
+        <% end %>
+
+    </div>
+    <% else %>
+        <br>
+        <hr>
+        <div class = "storeform">
+            <%= form_with url: stores_path_url do |f| %>
+                <br>
+                    <div class="radio-buttons">
+                    <%= f.radio_button :n_stores, 1, id: "one-store", checked: true %>
+                    <label for="one-store">1 store only</label>
+                    <%= f.radio_button :n_stores, 2, id: "two-stores" %>
+                    <label for="two-stores">up to 2 stores</label>
+                    </div>
+                    <br>
+                    <%= f.submit 'See Recommended Stores', class: 'submit-button-fake', disabled: true %>
+                    
+            <% end %>
+        </div>
+
     <% end %>
 
 </div>
-  
-
-<% end %>
 
 <br>
 
 
+</div>
