@@ -18,37 +18,37 @@
 }
 
 .rec-tile{
-    text-decoration: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
     position: relative;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 350px;
+    margin: auto;
 }
 
 .store-name{
-    float:left;
+    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 17px;
     color: #152536;
+    
 }
 
 .second-store-name{
-    float:left;
+    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 17px;
     color: #152536;
 }
 
-hr {
-    background: #FFFFFF;
-    border: 1px solid #DEE2E6;
+.line {
+    width: 350px;
 }
 
 .subtotal{
@@ -56,15 +56,17 @@ hr {
     font-style: normal;
     font-weight: 600;
     font-size: 17px;
-    line-height: 17px;
     color: #000000;
     text-decoration: none;
+    position: absolute;
+    right: 30px;
 }
 
 .trophy{
     width: 22px;
     height: 22px;
-    text-align: right;
+    position: absolute;
+    right: 100px;
 }
 
 .chevron {
