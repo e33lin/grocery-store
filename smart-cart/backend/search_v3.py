@@ -11,12 +11,12 @@ grocery_list must be passed with " " around the actual list object
 '''
  
 import pandas as pd
-import numpy as np
 from nltk.stem import PorterStemmer
 from nltk.metrics.distance import jaccard_distance
 from fuzzywuzzy import process
 import time
 import sys
+import os 
 import ast
 from pickle import load
 import json 
@@ -51,7 +51,9 @@ def search(grocery_list, ps):
     for store in stores: # retrieval for each store 
         
         # load data
-        store_data = pd.read_csv(f'../data/{store}/{store}_data.csv')
+        # store_data = pd.read_csv(f'app/data/{store}/{store}_data.csv')
+        file_path = os.path.join(os.getcwd(), 'app', 'data', f'{store}', f'{store}_data.csv')
+        store_data = pd.read_csv(file_path)
         
         final_selection = pd.DataFrame()
 
