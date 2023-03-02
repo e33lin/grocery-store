@@ -1,35 +1,36 @@
-<h1>SmartCart</h1>
-<h2><%= $current_recommendation.store %></h2>
-<p> subtotal: <%= $current_recommendation.subtotal %></p>
+<head>
+  <link rel="stylesheet" href="number.css">
+  <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
-<p> here is your list: </p>
-<%= $list %>
+</head>
+
+<div class="store">
+    <%= $current_recommendation.store %>
+</div>
+
 
 <p> this data was last refreshed at: </p>
 <%= $last_data_refresh[0] %>
 
-<p> here is your recommendation: </p>
 <table>
 <tbody>
-    <tr>
-        <th> PRODUCT </th>
-        <th> PRICES </th>
-        <th> IS_SALE </th>
-        <th> STORE </th>
-    </tr>
+   
+<%# INITIALIZE UNKNOWN PRODUCTS ARRAY HERE %>
 
 <% for x in 0..$products.length()-1%>
     <tr>
         <% if ($products[x].nil? && $prices[x].nil? && $is_sale[x].nil?)%>
-            <td> Sorry, we couldn't find your product! </td>
+           <%# ADD UNFOUND PRODUCTS TO ARRAY HERE (or maybe this should be done in controller?)%>
         <% else %>
             <% if ($products[x].nil?) %>
-                <td>no product available sorry</td>
+                
             <% else %>
                 <td><%= $products[x] %> </td>
             <% end %>
             <% if ($prices[x].nil?) %>
-                <td>no price available sorry</td>
+                
             <% else %>
                 <% if ($quantities[x] > 1) %>
                     <td><%= $prices[x] %> x <%= $quantities[x] %></td>
@@ -38,19 +39,44 @@
                 <% end %>
             <% end %>
             <% if ($is_sale[x].nil?) %>
-                <td>not available sorry</td>
+                
             <% else %>
                 <% if ($is_sale[x] == true) %>
-                    <td><%= $is_sale[x] %>, until <%= $sale_dates[x] %></td>
+                    <td><%= $is_sale[x] %>, until <%= $sale_dates[x] %></td> 
                 <% else %>
-                    <td><%= $is_sale[x] %></td>
+                    
                 <% end %>
             <% end %>
-            <td><%= $stores[x] %> </td>
+            
         <% end %>
     </tr>
+
+    <% if ($products[x].nil?) %>
+        <td> can't find </td>
+    <% end %>
+
 <% end %>
 </tbody>
 </table>
+
+<% for x in 0..$list_items.length()-1 %>
+    <%= $list_items[x]%>
+    <%= $products[x] %>
+    <% if $products.include?($list_items[x]) %>
+        we have it
+    <% end %>
+<% end %>
+
+
+
+<div class = "total-price">
+    <div class="total">
+        Total: 
+    </div>
+
+    <div class="price">
+        <%= $current_recommendation.subtotal %>
+    </div>
+</div>
 
 <p><%= link_to 'Return to all recommendations', recommendations_path %></p>

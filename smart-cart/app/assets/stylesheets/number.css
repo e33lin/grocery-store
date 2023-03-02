@@ -1,0 +1,24 @@
+.store {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.total {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 900;
+    padding-right: 150px;
+}
+
+.price {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.total-price {
+    display: flex;
+    justify-content: center;
+}

@@ -71,6 +71,7 @@ class RecommendationsController < ApplicationController
     def number
         session_id = session[:current_user_id]
         list_objects = List.where(list_id: session_id)
+        $list_items = List.list_as_array(list_objects)
         $quantities = List.item_quantities_as_array(list_objects)
         rec_num = params[:rec_num]
         $current_recommendation = Recommendation.find_by(list_id: session_id, rec_num: params[:id])
