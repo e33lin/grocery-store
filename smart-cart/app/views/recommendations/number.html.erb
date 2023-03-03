@@ -11,18 +11,18 @@
 </div>
 
 
-<p> this data was last refreshed at: </p>
-<%= $last_data_refresh[0] %>
+<%# <p> this data was last refreshed at: </p>
+<%= $last_data_refresh[0] %> 
 
 <table>
 <tbody>
    
-<%# INITIALIZE UNKNOWN PRODUCTS ARRAY HERE %>
+<% unknown = [] %>
 
 <% for x in 0..$products.length()-1%>
     <tr>
-        <% if ($products[x].nil? && $prices[x].nil? && $is_sale[x].nil?)%>
-           <%# ADD UNFOUND PRODUCTS TO ARRAY HERE (or maybe this should be done in controller?)%>
+        <% if ($products[x].nil?)%>
+           <% unknown.push($list[x]) %>
         <% else %>
             <% if ($products[x].nil?) %>
                 
@@ -51,23 +51,9 @@
         <% end %>
     </tr>
 
-    <% if ($products[x].nil?) %>
-        <td> can't find </td>
-    <% end %>
-
 <% end %>
 </tbody>
 </table>
-
-<% for x in 0..$list_items.length()-1 %>
-    <%= $list_items[x]%>
-    <%= $products[x] %>
-    <% if $products.include?($list_items[x]) %>
-        we have it
-    <% end %>
-<% end %>
-
-
 
 <div class = "total-price">
     <div class="total">
@@ -78,5 +64,23 @@
         <%= $current_recommendation.subtotal %>
     </div>
 </div>
+
+<div class = "not-found">
+    Note: 
+    <% for x in 0..unknown.length()-1%>
+
+        <% if x != unknown.length()-1%>
+            <%= unknown[x] %>,
+        <% elsif x == unknown.length()-1 %>
+            and <%= unknown[x] %>  
+        <% else %>
+            <%= unknown[x] %>
+        <% end %>
+
+    <% end %>
+    not found at <%= $current_recommendation.store %>
+</div>
+
+
 
 <p><%= link_to 'Return to all recommendations', recommendations_path %></p>

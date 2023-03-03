@@ -22,3 +22,10 @@
     display: flex;
     justify-content: center;
 }
+
+.not-found {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
