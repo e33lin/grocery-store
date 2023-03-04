@@ -6,54 +6,73 @@
 
 </head>
 
+<%= link_to recommendations_path do %>
+   <%= image_tag "back.png", width: 40, height: 40%>
+<% end %>
+
 <div class="store">
     <%= $current_recommendation.store %>
 </div>
+
+<br>
+<br>
 
 
 <%# <p> this data was last refreshed at: </p>
 <%= $last_data_refresh[0] %> 
 
-<table>
-<tbody>
-   
-<% unknown = [] %>
+<div class="list">
+    <table>
+    <tbody>
+    
+    <% unknown = [] %>
 
-<% for x in 0..$products.length()-1%>
-    <tr>
-        <% if ($products[x].nil?)%>
-           <% unknown.push($list[x]) %>
-        <% else %>
-            <% if ($products[x].nil?) %>
-                
+    <% for x in 0..$products.length()-1%>
+        <tr>
+            <% if ($products[x].nil?)%>
+            <% unknown.push($list[x]) %>
             <% else %>
-                <td><%= $products[x] %> </td>
-            <% end %>
-            <% if ($prices[x].nil?) %>
-                
-            <% else %>
-                <% if ($quantities[x] > 1) %>
-                    <td><%= $prices[x] %> x <%= $quantities[x] %></td>
-                <% else %>
-                    <td><%= $prices[x] %> </td>
-                <% end %>
-            <% end %>
-            <% if ($is_sale[x].nil?) %>
-                
-            <% else %>
-                <% if ($is_sale[x] == true) %>
-                    <td><%= $is_sale[x] %>, until <%= $sale_dates[x] %></td> 
-                <% else %>
+                <% if ($products[x].nil?) %>
                     
+                <% else %>
+                    <td><%= $products[x] %> </td>
                 <% end %>
+                <% if ($quantities[x] > 1) %>
+                    <td> (<%= $quantities[x] %>) </td>
+                <% else %>
+                    <td> <%= "   " %> </td>
+                <% end %>
+                <% if ($prices[x].nil?) %>
+                    
+                <% else %>
+                    <% if ($quantities[x] > 1) %>
+                        <% price = $prices[x] * $quantities[x] %>
+                        <td> <%= price %> </td>
+                    <% else %>
+                        <td><%= $prices[x] %> </td>
+                    <% end %>
+                <% end %>
+                <% if ($is_sale[x].nil?) %>
+                    
+                <% else %>
+                    <% if ($is_sale[x] == true) %>
+                        <td><%= $is_sale[x] %>, until <%= $sale_dates[x] %></td> 
+                    <% else %>
+                        
+                    <% end %>
+                <% end %>
+                
             <% end %>
-            
-        <% end %>
-    </tr>
+        </tr>
 
-<% end %>
-</tbody>
-</table>
+    <% end %>
+    </tbody>
+    </table>
+
+</div>
+
+<br>
+<br>
 
 <div class = "total-price">
     <div class="total">
@@ -65,14 +84,14 @@
     </div>
 </div>
 
+<br>
+
 <div class = "not-found">
     Note: 
     <% for x in 0..unknown.length()-1%>
 
         <% if x != unknown.length()-1%>
-            <%= unknown[x] %>,
-        <% elsif x == unknown.length()-1 %>
-            and <%= unknown[x] %>  
+            <%= unknown[x] %>, 
         <% else %>
             <%= unknown[x] %>
         <% end %>
@@ -82,5 +101,7 @@
 </div>
 
 
+<div class = "save">
+    Take a screenshot of this page to save it for later!
+</div>
 
-<p><%= link_to 'Return to all recommendations', recommendations_path %></p>
