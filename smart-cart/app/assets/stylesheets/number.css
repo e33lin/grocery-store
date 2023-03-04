@@ -49,3 +49,24 @@
     display: flex;
     justify-content: center;
 }
+
+.sale {
+    align-items: center;
+    text-align: center;
+}
+
+.sale-tag {
+    display: inline;
+    align-items: center;
+    text-align: center;
+}
+
+.until {
+    display: inline;
+    align-items: center;
+    text-align: center;
+}
+
+.amount {
+    padding-left: 10px;
+}

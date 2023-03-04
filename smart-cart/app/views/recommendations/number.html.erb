@@ -45,18 +45,27 @@
                 <% if ($prices[x].nil?) %>
                     
                 <% else %>
+                    
                     <% if ($quantities[x] > 1) %>
                         <% price = $prices[x] * $quantities[x] %>
                         <td> <%= price %> </td>
                     <% else %>
                         <td><%= $prices[x] %> </td>
                     <% end %>
+                
                 <% end %>
                 <% if ($is_sale[x].nil?) %>
                     
                 <% else %>
                     <% if ($is_sale[x] == true) %>
-                        <td><%= $is_sale[x] %>, until <%= $sale_dates[x] %></td> 
+                        <div class = "sale">
+                            <div class = "sale-tag">
+                                <td> <img src="<%= asset_path('sale.png') %>" width="20" height="20"> </td>
+                            </div>
+                            <div class = "until">
+                                <td> until <%= $sale_dates[x] %></td> 
+                            </div>
+                        </div>
                     <% else %>
                         
                     <% end %>
