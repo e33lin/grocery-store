@@ -75,7 +75,7 @@ def search(grocery_list, ps):
             # secondary search 
             if len(idxs) == 0: # try with lower sim threshold
                 for product in most_similar: 
-                    if product[1] >= 25: 
+                    if product[1] >= 30: 
                         idxs.append(product[2])
                         sims.append(product[1])
 
