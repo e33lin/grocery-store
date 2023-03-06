@@ -1,56 +1,118 @@
-<h1>SmartCart</h1>
-<h2><%= $current_recommendation.store %></h2>
-<p> subtotal: <%= $current_recommendation.subtotal %></p>
+<head>
+  <link rel="stylesheet" href="number.css">
+  <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
-<p> here is your list: </p>
-<%= $list %>
+</head>
 
-<p> this data was last refreshed at: </p>
-<%= $last_data_refresh[0] %>
-
-<p> here is your recommendation: </p>
-<table>
-<tbody>
-    <tr>
-        <th> PRODUCT </th>
-        <th> PRICES </th>
-        <th> IS_SALE </th>
-        <th> STORE </th>
-    </tr>
-
-<% for x in 0..$products.length()-1%>
-    <tr>
-        <% if ($products[x].nil? && $prices[x].nil? && $is_sale[x].nil?)%>
-            <td> Sorry, we couldn't find your product! </td>
-        <% else %>
-            <% if ($products[x].nil?) %>
-                <td>no product available sorry</td>
-            <% else %>
-                <td><%= $products[x] %> </td>
-            <% end %>
-            <% if ($prices[x].nil?) %>
-                <td>no price available sorry</td>
-            <% else %>
-                <% if ($quantities[x] > 1) %>
-                    <td><%= $prices[x] %> x <%= $quantities[x] %></td>
-                <% else %>
-                    <td><%= $prices[x] %> </td>
-                <% end %>
-            <% end %>
-            <% if ($is_sale[x].nil?) %>
-                <td>not available sorry</td>
-            <% else %>
-                <% if ($is_sale[x] == true) %>
-                    <td><%= $is_sale[x] %>, until <%= $sale_dates[x] %></td>
-                <% else %>
-                    <td><%= $is_sale[x] %></td>
-                <% end %>
-            <% end %>
-            <td><%= $stores[x] %> </td>
-        <% end %>
-    </tr>
+<%= link_to recommendations_path do %>
+   <%= image_tag "back.png", width: 40, height: 40%>
 <% end %>
-</tbody>
-</table>
 
-<p><%= link_to 'Return to all recommendations', recommendations_path %></p>
+<div class="store">
+    <%= Recommendation.find_name($current_recommendation.store[0]) %>
+</div>
+
+<br>
+<br>
+
+
+<%# <p> this data was last refreshed at: </p>
+<%= $last_data_refresh[0] %> 
+
+<div class="list">
+    <table>
+    <tbody>
+    
+    <% unknown = [] %>
+
+    <% for x in 0..$products.length()-1%>
+        <tr>
+            <% if ($products[x].nil?)%>
+            <% unknown.push($list[x]) %>
+            <% else %>
+                <% if ($products[x].nil?) %>
+                    
+                <% else %>
+                    <td><%= $products[x] %> </td>
+                <% end %>
+                <% if ($quantities[x] > 1) %>
+                    <td> (<%= $quantities[x] %>) </td>
+                <% else %>
+                    <td> <%= "   " %> </td>
+                <% end %>
+                <% if ($prices[x].nil?) %>
+                    
+                <% else %>
+                    
+                    <% if ($quantities[x] > 1) %>
+                        <% price = $prices[x].round(2) * $quantities[x] %>
+                        <td> <%= price %> </td>
+                    <% else %>
+                        <td><%= $prices[x].round(2) %> </td>
+                    <% end %>
+                
+                <% end %>
+                <% if ($is_sale[x].nil?) %>
+                    
+                <% else %>
+                    <% if ($is_sale[x] == true) %>
+                        <div class = "sale">
+                            <div class = "sale-tag">
+                                <td> <img src="<%= asset_path('sale.png') %>" width="20" height="20"> </td>
+                            </div>
+                            <div class = "until">
+                                <td> until <%= $sale_dates[x] %></td> 
+                            </div>
+                        </div>
+                    <% else %>
+                        
+                    <% end %>
+                <% end %>
+                
+            <% end %>
+        </tr>
+
+    <% end %>
+    </tbody>
+    </table>
+
+</div>
+
+<br>
+<br>
+
+<div class = "total-price">
+    <div class="total">
+        Total: 
+    </div>
+
+    <div class="price">
+        <%= $current_recommendation.subtotal %>
+    </div>
+</div>
+
+<br>
+
+<% if unknown.length() > 0%>
+<div class = "not-found">
+    Note: 
+    <% for x in 0..unknown.length()-1%>
+
+        <% if x != unknown.length()-1%>
+            <%= unknown[x] %>, 
+        <% else %>
+            <%= unknown[x] %>
+        <% end %>
+
+    <% end %>
+    not found at <%= Recommendation.find_name($current_recommendation.store[0]) %>
+</div>
+<% end %>
+
+
+<div class = "save">
+    Take a screenshot of this page to save it for later!
+</div>
+

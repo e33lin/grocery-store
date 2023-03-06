@@ -1,0 +1,72 @@
+.store {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.total {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 900;
+    padding-right: 150px;
+}
+
+.price {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.total-price {
+    display: flex;
+    justify-content: center;
+}
+
+.not-found {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+.save {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 25px;
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+}
+
+.list {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #666666;
+    display: flex;
+    justify-content: center;
+}
+
+.sale {
+    align-items: center;
+    text-align: center;
+}
+
+.sale-tag {
+    display: inline;
+    align-items: center;
+    text-align: center;
+}
+
+.until {
+    display: inline;
+    align-items: center;
+    text-align: center;
+}
+
+.amount {
+    padding-left: 10px;
+}
