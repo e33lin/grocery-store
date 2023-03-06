@@ -47,10 +47,10 @@
                 <% else %>
                     
                     <% if ($quantities[x] > 1) %>
-                        <% price = $prices[x] * $quantities[x] %>
+                        <% price = $prices[x].round(2) * $quantities[x] %>
                         <td> <%= price %> </td>
                     <% else %>
-                        <td><%= $prices[x] %> </td>
+                        <td><%= $prices[x].round(2) %> </td>
                     <% end %>
                 
                 <% end %>
