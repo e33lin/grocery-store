@@ -73,7 +73,6 @@ class RecommendationsController < ApplicationController
         list_objects = List.where(list_id: session_id)
         $list_items = List.list_as_array(list_objects)
         $quantities = List.item_quantities_as_array(list_objects)
-        rec_num = params[:rec_num]
         $current_recommendation = Recommendation.find_by(list_id: session_id, rec_num: params[:id])
         $list = []
         $products = []
@@ -82,7 +81,7 @@ class RecommendationsController < ApplicationController
         $stores = []
         $sale_dates = []
         $last_data_refresh = []
-        $current_recommendation.rec.each do |key, value|
+        $current_recommendation.rec.each do |key, value| # parses all the information, used as-is for 1 store view
             if (key == "full_product_text")
                 $products = value
             elsif (key == "price")
@@ -97,6 +96,37 @@ class RecommendationsController < ApplicationController
                 $sale_dates = value
             elsif (key == "data_last_refreshed_at")
                 $last_data_refresh = value
+            end
+        end
+
+        $first_store_products = []
+        $second_store_products = []
+        $first_store_prices = []
+        $second_store_prices = []
+        $first_store_is_sale = []
+        $second_store_is_sale = []
+        $first_store_sale_date = []
+        $second_store_sale_date = []
+        $first_store_quantities = []
+        $second_store_quantities = []
+        i = 0
+        if ($current_recommendation.store.length() > 1)
+            for store in $stores
+                if (store == $current_recommendation.store[0])
+                    print "hello"
+                    $first_store_products.append($products[i])
+                    $first_store_prices.append($prices[i])
+                    $first_store_is_sale.append($is_sale[i])
+                    $first_store_sale_date.append($sale_dates[i])
+                    $first_store_quantities.append($quantities[i])
+                else
+                    $second_store_products.append($products[i])
+                    $second_store_prices.append($prices[i])
+                    $second_store_is_sale.append($is_sale[i])
+                    $second_store_sale_date.append($sale_dates[i])
+                    $second_store_quantities.append($quantities[i])
+                end
+                i += 1
             end
         end
     end
