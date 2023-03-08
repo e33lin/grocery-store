@@ -27,7 +27,13 @@ class RecommendationsController < ApplicationController
             subtotal = ""
             $subtotals = []
             results = ""
+            
+            $unknown_1 = []
+            $unknown_2 = []
+            $unknown_3 = []
             hash.each do |rank, rec_data|
+                $products = []
+                $list = []
                 rec_data.each do |key, value|
                     if (key == "store")
                         store = value
@@ -37,7 +43,9 @@ class RecommendationsController < ApplicationController
                         results = value
                     end
                 end
+                a=1
                 results.each do |key, value|
+                    
                     if (key == "price")
                         prices = value
                         i = 0
@@ -49,7 +57,29 @@ class RecommendationsController < ApplicationController
                             end
                             i += 1
                         end
+                    elsif (key == "full_product_text")
+                        $products = value
+                        for y in 0..$products.length()-1 
+                            
+                            if ($products[y].nil?)
+                                print a
+                                if (a == 1)
+                                    print "hello"
+                                    $unknown_1.push($list[y])
+                                elsif (a == 2)
+                                    $unknown_2.push($list[y])
+                                else 
+                                    $unknown_3.push($list[y])
+                                end
+                            end
+                        end
+                    elsif (key == "list_item")
+                        $list = value
+                        print $list
                     end
+                    
+                    
+                    a+= 1
                 end
                 subtotal = subtotal.round(2)
                 $subtotals.append(subtotal)

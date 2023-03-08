@@ -83,11 +83,16 @@
 </div>
 <% end %>
 
+<p class="error"><%= notice %></p>
+
 <div class="bottom">
     <% if !@current_list.empty? %>
     <br>
     <hr>
-    <p class="error"><%= notice %></p>
+    
+    <div class = "how">
+        How many stores are you willing to visit?
+    </div>
     <div class = "storeform">
         
         <%= form_with url: stores_path_url do |f| %>
@@ -106,6 +111,9 @@
     <% else %>
         <br>
         <hr>
+        <div class = "how">
+            How many stores are you willing to visit?
+        </div>
         <div class = "storeform">
             <%= form_with url: stores_path_url do |f| %>
                 <br>

@@ -76,3 +76,20 @@
     position: absolute;
     right: 5px;
 }
+
+.text {
+    font-family: 'Inter'; 
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+.note {
+    font-family: 'Inter'; 
+    font-weight: 400;
+    font-size: 12px;
+    color: #666666;
+    position: absolute;
+    bottom: 0px;
+}

@@ -168,3 +168,11 @@ html,body{
     line-height: 20px;
     text-align: center;
 }
+
+.how {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+}
