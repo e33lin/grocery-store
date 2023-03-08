@@ -33,8 +33,10 @@
         <% end %>
     <% else %>
         <div class="rec-tile">
-            <div class="store-name"><%= Recommendation.find_name(x[0]) %></div>
-            <div class="second-store-name"><%= Recommendation.find_name(x[1]) %></div>
+            <div>
+                <div class="store-name"><%= Recommendation.find_name(x[0]) %></div>
+                <div class="second-store-name"><%= Recommendation.find_name(x[1]) %></div>
+            </div>
             <a href="/recommendations/<%= i + 1 %>">
             <span class="link"></span>
             </a>
