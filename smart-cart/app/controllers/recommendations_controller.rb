@@ -29,6 +29,12 @@ class RecommendationsController < ApplicationController
             results = ""
             $last_data_refresh = []
             $unknown = []
+
+            $unknown[0] = []
+            $unknown[1] = []
+            $unknown[2] = []
+
+            a=0
             
             hash.each do |rank, rec_data|
                 $products = []
@@ -42,10 +48,6 @@ class RecommendationsController < ApplicationController
                         results = value
                     end
                 end
-                a=0
-                $unknown[0] = []
-                $unknown[1] = []
-                $unknown[2] = []
                 
                 results.each do |key, value|
                     if (key == "price")
@@ -81,16 +83,17 @@ class RecommendationsController < ApplicationController
                     elsif (key == "list_item")
                         $list = value
                     end
-                    a+= 1
 
                     
                 end
                 subtotal = subtotal.round(2)
                 $subtotals.append(subtotal)
                 Recommendation.create(list_id: session_id, rec_num:rank, store:store, subtotal:subtotal, rec:results)
+
+                a+= 1
             end
             print "what"
-            print $unknown[0]
+            print $unknown
 
         # if there is an entry in Recommendations for the current user,
         # then we will query for it in Recommendations table and simply show these   
