@@ -70,3 +70,10 @@
 .amount {
     padding-left: 10px;
 }
+
+.save2 {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
