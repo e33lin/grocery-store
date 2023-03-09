@@ -27,10 +27,9 @@ class RecommendationsController < ApplicationController
             subtotal = ""
             $subtotals = []
             results = ""
-            
-            $unknown_1 = []
-            $unknown_2 = []
-            $unknown_3 = []
+            $last_data_refresh = []
+            $unknown = []
+
             hash.each do |rank, rec_data|
                 $products = []
                 $list = []
@@ -43,9 +42,9 @@ class RecommendationsController < ApplicationController
                         results = value
                     end
                 end
-                a=1
+                a=0
                 results.each do |key, value|
-                    
+                    $unknown[a] = []
                     if (key == "price")
                         prices = value
                         i = 0
@@ -57,34 +56,28 @@ class RecommendationsController < ApplicationController
                             end
                             i += 1
                         end
+                    elsif (key == "data_last_refreshed_at")
+                        $last_data_refresh = value
+                        
                     elsif (key == "full_product_text")
                         $products = value
                         for y in 0..$products.length()-1 
-                            
                             if ($products[y].nil?)
-                                print a
-                                if (a == 1)
-                                    print "hello"
-                                    $unknown_1.push($list[y])
-                                elsif (a == 2)
-                                    $unknown_2.push($list[y])
-                                else 
-                                    $unknown_3.push($list[y])
-                                end
+                                $unknown[a].push($list[y]) 
+                                print $unknown[a]
                             end
                         end
                     elsif (key == "list_item")
                         $list = value
-                        print $list
                     end
-                    
-                    
                     a+= 1
                 end
                 subtotal = subtotal.round(2)
                 $subtotals.append(subtotal)
                 Recommendation.create(list_id: session_id, rec_num:rank, store:store, subtotal:subtotal, rec:results)
             end
+
+            
 
         # if there is an entry in Recommendations for the current user,
         # then we will query for it in Recommendations table and simply show these   

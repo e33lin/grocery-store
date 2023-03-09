@@ -10,6 +10,10 @@
     Recommendations
 </div>
 
+<div class = refresh>
+    Based on data as of <%= $last_data_refresh[0] %> 
+</div>
+
 <br>
 <br>
 
@@ -40,8 +44,10 @@
             <br>
 
             <div class = "note">
-                Note: <%= $unknown_1%> not found at this store.
+                Note: <%= $unknown[0]%> not found at this store.
             </div>
+
+            
         </div>
         <% i = i + 1 %>
         <% if (x != $stores[2])%>
@@ -72,3 +78,6 @@
 
 <%= $hash %>
 
+<div class = "unit-price">
+    Subtotals are constructed based on per-unit pricing.
+</div>

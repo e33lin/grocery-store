@@ -165,8 +165,11 @@ html,body{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
     text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 65px; 
 }
 
 .how {
