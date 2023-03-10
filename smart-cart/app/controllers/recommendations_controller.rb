@@ -17,6 +17,7 @@ class RecommendationsController < ApplicationController
             list = List.list_as_array(list_objects)
             quantities = List.item_quantities_as_array(list_objects)
             n_stores = $n_stores
+            print n_stores
 
             result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
             print result
@@ -276,6 +277,8 @@ class RecommendationsController < ApplicationController
         $second_store_quantities = []
         $first_store_prod = []
         $second_store_prod = []
+        $first_store_list = []
+        $second_store_list = []
         i = 0
         if ($current_recommendation.store.length() > 1)
             for store in $stores
@@ -286,14 +289,16 @@ class RecommendationsController < ApplicationController
                     $first_store_is_sale.append($is_sale[i])
                     $first_store_sale_date.append($sale_dates[i])
                     $first_store_quantities.append($quantities[i])
-                    $first_store_list.append($prod[i])
+                    $first_store_list.append($list[i])
+                    $first_store_prod.append($prod[i])
                 else
                     $second_store_products.append($products[i])
                     $second_store_prices.append($prices[i])
                     $second_store_is_sale.append($is_sale[i])
                     $second_store_sale_date.append($sale_dates[i])
                     $second_store_quantities.append($quantities[i])
-                    $second_store_list.append($prod[i])
+                    $second_store_list.append($list[i])
+                    $second_store_prod.append($prod[i])
                 end
                 i += 1
             end
