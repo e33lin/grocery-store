@@ -2,9 +2,9 @@
 Script to search each stores catologe of data for a users specified grocery list 
 
 Format to run:
-python search_v3.py <grocery_list> <n_stores>
+python search_v4.py <grocery_list> <n_stores>
 
-EX: python search_v3.py "['2% milk', 'Cheddar Cheese', 'white sliced bread']" 2
+EX: python search_v4.py "['2% milk', 'Cheddar Cheese', 'white sliced bread']" 2
 
 grocery_list must be passed with " " around the actual list object 
 
@@ -39,16 +39,18 @@ n_stores = ast.literal_eval(sys.argv[2])
 def jaccard_similarity(string1, string2):
     return (1 - jaccard_distance(set(string1.lower().split(' ')), set(string2.lower().split(' ')))) * 100
 
-# def get_rel(search_item, product):
-#     rel = 0
-#     try:
-#         for word in search_item.split(' '):
-#             rel += (ps.stem(product).lower().replace(',', '').split(' ').index(word)+1) / len(product.split(' '))
+def get_rel(search_item, product):
 
-#         rel = rel / len(search_item.split(' '))
-#     except: 
-#         rel = 0
-#     return rel
+    try:
+        cat_item = search_item.replace(' ', '-')
+        product = product.replace(search_item, cat_item)
+
+        prod_list = product.split(' ')
+
+        return (prod_list.index(cat_item)+1) / len(prod_list)
+    except: 
+        print(search_item, product)
+        return 0
 
 
 def search(grocery_list, ps):
@@ -65,59 +67,54 @@ def search(grocery_list, ps):
         # store_data = pd.read_csv(f'app/data/{store}/{store}_data.csv')
         file_path = os.path.join(os.getcwd(), 'app', 'data', f'{store}', f'{store}_data.csv')
         store_data = pd.read_csv(file_path)
+
+        store_index = load(open(os.path.join(os.getcwd(), 'app', 'catalogue_index', f'{store}_index.pkl'),'rb'))
         
         final_selection = pd.DataFrame()
 
+
         for item in grocery_list:
-            # item = ps.stem(item)
-
-            if 'frozen' in item:  # solves frozen problem 
-                data = store_data.loc[store_data['category'] == 'frozen'].reset_index()
-                search_item = item.replace('frozen', '').strip()
-            else: 
-                data = store_data
-                search_item = item
-
-            # pulls obs that have product name most similar to the list item 
-            # truncate at 10
-            # most_similar = process.extract(item, data['product'], scorer=jaccard_similarity, limit=20)  
-            most_similar = process.extract(search_item, data['product'],  limit=10)
-            
-            # collect indexes for most similar obs 
+            stem_item = ps.stem(item)
             idxs = []
-            sims = []
-            # rels = []
-            for product in most_similar: 
 
-                if product[1] >= 60: 
-                    idxs.append(product[2])
-                    sims.append(product[1])
-                    # rels.append(get_rel(search_item, product[0]))
+            for word in stem_item.split():
+                try: # list item word not in index
+                    word_idxs = store_index[word]
+                    idxs.extend(word_idxs)
+                except: continue
 
-            # secondary search 
-            if len(idxs) == 0: # try with lower sim threshold    
-                for product in most_similar: 
+        if not idxs: # no indicies returned
+            store_df = pd.DataFrame() # no results: return empty df
+        else:
+            store_df = store_data.iloc[idxs]
 
-                    if product[1] >= 50: 
-                        idxs.append(product[2])
-                        sims.append(product[1])
-                        # rels.append(get_rel(search_item, product[0]))
 
-            selected_data = data.iloc[idxs]
+        sims = []
+        ##### search items #####
+        for index, row in store_df.iterrows():
             
-            selected_data['list_item']= item
+            product_name = row['product']
 
-            selected_data['similarity']= sims
+            rel_score = get_rel(ps.stem(item), ps.stem(product_name))
 
-            # selected_data['relevance'] = rels
+            if rel_score > 0.5:
+                sims.append(rel_score)
 
-            # comparable price: sale_price if is_sale, price if not is_sale
-            if len(selected_data) > 0: # if items are found
-                selected_data['comparable_PUP'] = selected_data.apply(lambda row: row['sale_per_unit_price'] if row.is_sale else row['per_unit_price'], axis=1)
-                selected_data['comparable_price'] = selected_data.apply(lambda row: row['sale_price'] if row.is_sale else row['price'], axis=1)
-            else:
-                selected_data['comparable_PUP'] = None
-                selected_data['comparable_price'] = None
+
+        selected_data = store_df
+            
+        selected_data['list_item'] = item
+
+        selected_data['similarity'] = sims
+
+
+        # comparable price: sale_price if is_sale, price if not is_sale
+        if len(selected_data) > 0: # if items are found
+            selected_data['comparable_PUP'] = selected_data.apply(lambda row: row['sale_per_unit_price'] if row.is_sale else row['per_unit_price'], axis=1)
+            selected_data['comparable_price'] = selected_data.apply(lambda row: row['sale_price'] if row.is_sale else row['price'], axis=1)
+        else:
+            selected_data['comparable_PUP'] = None
+            selected_data['comparable_price'] = None
 
             # selected_data['weight'] = (1 - selected_data.similarity + 0.1) * selected_data.comparable_PUP
 
