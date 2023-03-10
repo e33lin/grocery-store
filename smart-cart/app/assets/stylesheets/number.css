@@ -71,6 +71,9 @@
     padding-left: 10px;
 }
 
+.list-item {
+    padding-right: 130px;
+}
 .save2 {
     font-family: 'Inter';
     font-size: 14px;

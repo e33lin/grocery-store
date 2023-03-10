@@ -5,22 +5,28 @@
     font-weight: 600;
     color: #666666;
     font-family: Poppins;
-
+    text-align: center;
 }
 
 .text {
     font-size: 16px;
     color: #666666;
     font-family: 'Inter';
+    text-align: center;
+    width: 313px;
+    justify-content: center;
+    margin: auto;
 }
 
 .columns {
     columns: 2;
-    float: left;
     position: relative;
-    margin-right: 20px;
+    margin: auto;
+    padding-top: 15px;
+    justify-content: center;
     color: #666666;
     font-family: 'Inter';
+   
 
 }
 
@@ -28,6 +34,7 @@
     color: #28A745;
     font-size: 16px;
     font-family: 'Inter';
+    text-align: center;
 
 }
 
@@ -48,5 +55,7 @@
 
 }
   
-  
+.close {
+    float: right;
+}
   

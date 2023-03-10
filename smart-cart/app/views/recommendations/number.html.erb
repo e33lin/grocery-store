@@ -22,7 +22,7 @@
         <% elsif Recommendation.find_name($current_recommendation.store[0])== "Sobeys" %>
             <img src="<%= asset_path('Sobeys.png') %>" width="310" height="120">
         <% elsif Recommendation.find_name($current_recommendation.store[0])== "Valu-mart" %>
-            <img src="<%= asset_path('Valumart.png') %>" width="310" height="30">
+            <img src="<%= asset_path('Valumart.png') %>" width="310" height="45">
          <% elsif Recommendation.find_name($current_recommendation.store[0])== "Walmart" %>
             <img src="<%= asset_path('Walmart.webp') %>" width="310" height="75">
          <% elsif Recommendation.find_name($current_recommendation.store[0])== "Zehrs" %>
@@ -53,7 +53,12 @@
                     <% if ($products[x].nil?) %>
                         
                     <% else %>
-                        <td><%= $products[x] %> </td>
+                        <% if Recommendation.find_name($current_recommendation.store[0]) == "Sobeys" || Recommendation.find_name($current_recommendation.store[0]) == "Freshco" || Recommendation.find_name($current_recommendation.store[0]) == "Food Basics" || Recommendation.find_name($current_recommendation.store[0]) == "FreshCo" || Recommendation.find_name($current_recommendation.store[0]) == "Walmart" %>
+                            <td class = "list-item"><%= $prod[x] %> </td>
+                        <% else %>
+                            <td><%= $products[x] %> </td>
+                        <% end %>
+                       
                     <% end %>
                     <% if ($quantities[x] > 1) %>
                         <td> (<%= $quantities[x] %>) </td>
@@ -141,7 +146,7 @@
         <% elsif Recommendation.find_name($current_recommendation.store[0])== "Sobeys" %>
             <img src="<%= asset_path('Sobeys.png') %>" width="310" height="120">
         <% elsif Recommendation.find_name($current_recommendation.store[0])== "Valu-mart" %>
-            <img src="<%= asset_path('Valumart.png') %>" width="310" height="50">
+            <img src="<%= asset_path('Valumart.png') %>" width="310" height="45">
          <% elsif Recommendation.find_name($current_recommendation.store[0])== "Walmart" %>
             <img src="<%= asset_path('Walmart.webp') %>" width="310" height="75">
          <% elsif Recommendation.find_name($current_recommendation.store[0])== "Zehrs" %>
@@ -167,7 +172,11 @@
                     <% if ($first_store_products[x].nil?) %>
                         
                     <% else %>
-                        <td><%= $first_store_products[x] %> </td>
+                        <% if Recommendation.find_name($current_recommendation.store[0]) == "Sobeys" || Recommendation.find_name($current_recommendation.store[0]) == "Freshco" || Recommendation.find_name($current_recommendation.store[0]) == "Food Basics" || Recommendation.find_name($current_recommendation.store[0]) == "FreshCo" || Recommendation.find_name($current_recommendation.store[0]) == "Walmart" %>
+                            <td class = "list-item"><%= $first_store_prod[x] %> </td>
+                        <% else %>
+                            <td><%= $first_store_products[x] %> </td>
+                        <% end %>
                     <% end %>
                     <% if ($first_store_quantities[x] > 1) %>
                         <td> (<%= $first_store_quantities[x] %>) </td>
@@ -237,7 +246,7 @@
         <% elsif Recommendation.find_name($current_recommendation.store[1])== "Sobeys" %>
             <img src="<%= asset_path('Sobeys.png') %>" width="310" height="120">
         <% elsif Recommendation.find_name($current_recommendation.store[1])== "Valu-mart" %>
-            <img src="<%= asset_path('Valumart.png') %>" width="310" height="50">
+            <img src="<%= asset_path('Valumart.png') %>" width="310" height="45">
          <% elsif Recommendation.find_name($current_recommendation.store[1])== "Walmart" %>
             <img src="<%= asset_path('Walmart.webp') %>" width="310" height="75">
          <% elsif Recommendation.find_name($current_recommendation.store[1])== "Zehrs" %>
@@ -262,7 +271,12 @@
                     <% if ($second_store_products[x].nil?) %>
                         
                     <% else %>
-                        <td><%= $second_store_products[x] %> </td>
+                        <% if Recommendation.find_name($current_recommendation.store[1]) == "Sobeys" || Recommendation.find_name($current_recommendation.store[1]) == "Freshco" || Recommendation.find_name($current_recommendation.store[1]) == "Food Basics" || Recommendation.find_name($current_recommendation.store[1]) == "FreshCo" || Recommendation.find_name($current_recommendation.store[1]) == "Walmart" %>
+                            <td class = "list-item"><%= $second_store_prod[x] %> </td>
+                        <% else %>
+                            <td><%= $second_store_products[x] %> </td>
+                        <% end %>
+                        
                     <% end %>
                     <% if ($second_store_quantities[x] > 1) %>
                         <td> (<%= $second_store_quantities[x] %>) </td>
