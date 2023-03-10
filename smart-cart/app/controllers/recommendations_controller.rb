@@ -118,6 +118,8 @@ class RecommendationsController < ApplicationController
                             end
                         end
                     end
+
+                    
                     subtotal = subtotal.round(2)
                     $subtotals.append(subtotal)
                     Recommendation.create(list_id: session_id, rec_num:rank, store:store, subtotal:subtotal, rec:results)

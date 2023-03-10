@@ -72,3 +72,4 @@ group :test do
 end
 
 gem "stemmify", "~> 0.0.2"
+
