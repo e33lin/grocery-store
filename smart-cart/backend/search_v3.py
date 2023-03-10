@@ -41,7 +41,7 @@ def jaccard_similarity(string1, string2):
 
 
 def search(grocery_list, ps):
-    stores = ['zehrs', 'no_frills', 'valu_mart', 'sobeys', 'freshco'] #, 'walmart', 'food_basics']
+    stores = ['zehrs', 'no_frills', 'valu_mart', 'sobeys', 'freshco', 'walmart', 'food_basics']
 
     # make variables 
     for store in stores:
@@ -143,8 +143,8 @@ def search(grocery_list, ps):
         , 'valu_mart': valu_mart_results
         , 'sobeys': sobeys_results
         , 'freshco': freshco_results
-        # , 'walmart': walmart_results
-        # , 'food_basics': food_basics_results
+        , 'walmart': walmart_results
+        , 'food_basics': food_basics_results
         }
 
 
