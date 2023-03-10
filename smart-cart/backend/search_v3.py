@@ -1,13 +1,9 @@
 '''
 Script to search each stores catologe of data for a users specified grocery list 
-
 Format to run:
 python search_v3.py <grocery_list> <n_stores>
-
 EX: python search_v3.py "['2% milk', 'Cheddar Cheese', 'white sliced bread']" 2
-
 grocery_list must be passed with " " around the actual list object 
-
 '''
  
 import pandas as pd
@@ -41,7 +37,7 @@ def jaccard_similarity(string1, string2):
 
 
 def search(grocery_list, ps):
-    stores = ['zehrs', 'no_frills', 'valu_mart', 'sobeys', 'freshco', 'walmart', 'food_basics']
+    stores = ['zehrs', 'no_frills', 'valu_mart', 'sobeys', 'freshco']#, 'walmart', 'food_basics']
 
     # make variables 
     for store in stores:
@@ -62,7 +58,7 @@ def search(grocery_list, ps):
 
             # pulls obs that have product name most similar to the list item 
             # truncate at 20
-            most_similar = process.extract(item, data['product'], scorer=jaccard_similarity, limit=20)  
+            most_similar = process.extract(item, data['product'], limit=10)  
 
             # collect indexes for most similar obs 
             idxs = []
@@ -143,8 +139,8 @@ def search(grocery_list, ps):
         , 'valu_mart': valu_mart_results
         , 'sobeys': sobeys_results
         , 'freshco': freshco_results
-        , 'walmart': walmart_results
-        , 'food_basics': food_basics_results
+        # , 'walmart': walmart_results
+        # , 'food_basics': food_basics_results
         }
 
 
