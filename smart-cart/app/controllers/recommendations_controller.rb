@@ -113,9 +113,42 @@ class RecommendationsController < ApplicationController
             $stores = [first_rec.store, second_rec.store, third_rec.store]
 
             list_items = []
+            $last_data_refresh = []
             first_rec.rec.each do |key, value|
                 if (key == "list_item")
                     list_items = value
+                elsif (key == "data_last_refreshed_at")
+                    $last_data_refresh = value
+                    print $last_data_refresh
+                elsif (key == "full_product_text")
+                    products = value
+                    for y in 0..products.length()-1 
+                        if (products[y].nil?)
+                            $unknown[0].push(list_items[y])  
+                        end
+                    end
+                end
+            end
+
+            second_rec.rec.each do |key, value|
+                if (key == "full_product_text")
+                    products = value
+                    for y in 0..products.length()-1 
+                        if (products[y].nil?)
+                            $unknown[1].push(list_items[y])  
+                        end
+                    end
+                end
+            end
+
+            third_rec.rec.each do |key, value|
+                if (key == "full_product_text")
+                    products = value
+                    for y in 0..products.length()-1 
+                        if (products[y].nil?)
+                            $unknown[2].push(list_items[y])  
+                        end
+                    end
                 end
             end
 
@@ -160,6 +193,28 @@ class RecommendationsController < ApplicationController
                                 end
                                 i += 1
                             end
+                        elsif (key == "data_last_refreshed_at")
+                            $last_data_refresh = value
+                            
+                        elsif (key == "full_product_text")
+                            $products = value
+                            for y in 0..$products.length()-1 
+                                if ($products[y].nil?)
+                                    if (a==0)
+                                        $unknown[0].push($list[y]) 
+                                        print $unknown[0]
+                                    elsif (a==1)
+                                        $unknown[1].push($list[y]) 
+                                        print $unknown[1]
+                                    elsif  
+                                        $unknown[2].push($list[y]) 
+                                        print $unknown[2]
+                                    end
+                                end
+                            end
+                        elsif (key == "list_item")
+                            $list = value
+                            
                         end
                     end
                     subtotal = subtotal.round(2)
