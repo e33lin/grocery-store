@@ -13,8 +13,25 @@
 <% if $current_recommendation.store.length() == 1%> 
 
     <div class="store">
-        <%= Recommendation.find_name($current_recommendation.store[0]) %>
+        <% if Recommendation.find_name($current_recommendation.store[0])== "No Frills" %>
+            <img src="<%= asset_path('NoFrills.svg.png') %>" width="310" height="50">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "Food Basics" %>
+            <img src="<%= asset_path('FoodBasics.png') %>" width="310" height="270">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "FreshCo" %>
+            <img src="<%= asset_path('FreshCo.png') %>" width="295" height="75">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "Sobeys" %>
+            <img src="<%= asset_path('Sobeys.png') %>" width="310" height="120">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "Valu-mart" %>
+            <img src="<%= asset_path('Valumart.png') %>" width="310" height="30">
+         <% elsif Recommendation.find_name($current_recommendation.store[0])== "Walmart" %>
+            <img src="<%= asset_path('Walmart.webp') %>" width="310" height="75">
+         <% elsif Recommendation.find_name($current_recommendation.store[0])== "Zehrs" %>
+            <img src="<%= asset_path('Zehrs.webp') %>" width="310" height="100">
+        <% end %>
     </div>
+
+
+
 
     <br>
     <br>
@@ -120,7 +137,21 @@
 <% else %>
 
     <div class="store">
-        <%= Recommendation.find_name($current_recommendation.store[0]) %>
+        <% if Recommendation.find_name($current_recommendation.store[0])== "No Frills" %>
+            <img src="<%= asset_path('NoFrills.svg.png') %>" width="310" height="50">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "Food Basics" %>
+            <img src="<%= asset_path('FoodBasics.png') %>" width="310" height="270">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "FreshCo" %>
+            <img src="<%= asset_path('FreshCo.png') %>" width="295" height="75">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "Sobeys" %>
+            <img src="<%= asset_path('Sobeys.png') %>" width="310" height="120">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "Valu-mart" %>
+            <img src="<%= asset_path('Valumart.png') %>" width="310" height="50">
+         <% elsif Recommendation.find_name($current_recommendation.store[0])== "Walmart" %>
+            <img src="<%= asset_path('Walmart.webp') %>" width="310" height="75">
+         <% elsif Recommendation.find_name($current_recommendation.store[0])== "Zehrs" %>
+            <img src="<%= asset_path('Zehrs.webp') %>" width="310" height="100">
+        <% end %>
     </div>
 
     <br>
@@ -206,7 +237,21 @@
     </div>
 
     <div class="store" style="padding-top: 40px;">
-        <%= Recommendation.find_name($current_recommendation.store[1]) %>
+        <% if Recommendation.find_name($current_recommendation.store[1])== "No Frills" %>
+            <img src="<%= asset_path('NoFrills.svg.png') %>" width="310" height="50">
+        <% elsif Recommendation.find_name($current_recommendation.store[1])== "Food Basics" %>
+            <img src="<%= asset_path('FoodBasics.png') %>" width="310" height="270">
+        <% elsif Recommendation.find_name($current_recommendation.store[1])== "FreshCo" %>
+            <img src="<%= asset_path('FreshCo.png') %>" width="295" height="75">
+        <% elsif Recommendation.find_name($current_recommendation.store[1])== "Sobeys" %>
+            <img src="<%= asset_path('Sobeys.png') %>" width="310" height="120">
+        <% elsif Recommendation.find_name($current_recommendation.store[1])== "Valu-mart" %>
+            <img src="<%= asset_path('Valumart.png') %>" width="310" height="50">
+         <% elsif Recommendation.find_name($current_recommendation.store[1])== "Walmart" %>
+            <img src="<%= asset_path('Walmart.webp') %>" width="310" height="75">
+         <% elsif Recommendation.find_name($current_recommendation.store[1])== "Zehrs" %>
+            <img src="<%= asset_path('Zehrs.webp') %>" width="310" height="100">
+        <% end %>
     </div>
 
     <br>
@@ -324,8 +369,14 @@
 
 <% end %>
 
-
-<div class = "save">
-    Take a screenshot of this page to save it for later!
-</div>
+<% if $current_recommendation.store.length() == 1 %>
+     <div class = "save">
+        Take a screenshot of this page to save it for later!
+    </div>
+<% else %>
+    <br>
+    <div class = "save2">
+        Take a screenshot of this page to save it for later!
+    </div>
+<% end %>
 
