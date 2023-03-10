@@ -37,7 +37,7 @@ def jaccard_similarity(string1, string2):
 
 
 def search(grocery_list, ps):
-    stores = ['zehrs', 'no_frills', 'valu_mart', 'sobeys', 'freshco']#, 'walmart', 'food_basics']
+    stores = ['zehrs', 'no_frills', 'valu_mart', 'sobeys', 'freshco'] #, 'walmart', 'food_basics']
 
     # make variables 
     for store in stores:
@@ -58,7 +58,7 @@ def search(grocery_list, ps):
 
             # pulls obs that have product name most similar to the list item 
             # truncate at 20
-            most_similar = process.extract(item, data['product'], limit=10)  
+            most_similar = process.extract(item, data['product'], scorer=jaccard_similarity, limit=20)  
 
             # collect indexes for most similar obs 
             idxs = []
