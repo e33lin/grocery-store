@@ -98,6 +98,11 @@ class RecommendationsController < ApplicationController
         # if there is an entry in Recommendations for the current user,
         # then we will query for it in Recommendations table and simply show these   
         else
+            $unknown = []
+            $unknown[0] = []
+            $unknown[1] = []
+            $unknown[2] = []
+            
             first_rec = Recommendation.find_by(list_id: session_id, rec_num: 1)
             second_rec = Recommendation.find_by(list_id: session_id, rec_num: 2)
             third_rec = Recommendation.find_by(list_id: session_id, rec_num: 3)
@@ -120,6 +125,7 @@ class RecommendationsController < ApplicationController
         $stores = []
         $sale_dates = []
         $last_data_refresh = []
+        $prod = []
         $current_recommendation.rec.each do |key, value| # parses all the information, used as-is for 1 store view
             if (key == "full_product_text")
                 $products = value
@@ -135,8 +141,13 @@ class RecommendationsController < ApplicationController
                 $sale_dates = value
             elsif (key == "data_last_refreshed_at")
                 $last_data_refresh = value
+            elsif (key == "product")
+                $prod = value
+
             end
         end
+
+        print $last_data_refresh
 
         $first_store_products = []
         $second_store_products = []
@@ -148,8 +159,8 @@ class RecommendationsController < ApplicationController
         $second_store_sale_date = []
         $first_store_quantities = []
         $second_store_quantities = []
-        $first_store_list = []
-        $second_store_list = []
+        $first_store_prod = []
+        $second_store_prod = []
         i = 0
         if ($current_recommendation.store.length() > 1)
             for store in $stores
@@ -160,14 +171,14 @@ class RecommendationsController < ApplicationController
                     $first_store_is_sale.append($is_sale[i])
                     $first_store_sale_date.append($sale_dates[i])
                     $first_store_quantities.append($quantities[i])
-                    $first_store_list.append($list[i])
+                    $first_store_list.append($prod[i])
                 else
                     $second_store_products.append($products[i])
                     $second_store_prices.append($prices[i])
                     $second_store_is_sale.append($is_sale[i])
                     $second_store_sale_date.append($sale_dates[i])
                     $second_store_quantities.append($quantities[i])
-                    $second_store_list.append($list[i])
+                    $second_store_list.append($prod[i])
                 end
                 i += 1
             end

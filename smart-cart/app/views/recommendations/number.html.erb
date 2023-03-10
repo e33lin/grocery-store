@@ -37,7 +37,7 @@
                         
                     <% else %>
                         <% if Recommendation.find_name($current_recommendation.store[0]) == "Sobeys" || Recommendation.find_name($current_recommendation.store[0]) == "Freshco" || Recommendation.find_name($current_recommendation.store[0]) == "Food Basics" || Recommendation.find_name($current_recommendation.store[0]) == "FreshCo" || Recommendation.find_name($current_recommendation.store[0]) == "Walmart" %>
-                            <td class = "list-item"><%= $list[x] %> </td>
+                            <td class = "list-item"><%= $prod[x] %> </td>
                         <% else %>
                             <td><%= $products[x] %> </td>
                         <% end %>
@@ -142,7 +142,7 @@
                         
                     <% else %>
                         <% if Recommendation.find_name($current_recommendation.store[0]) == "Sobeys" || Recommendation.find_name($current_recommendation.store[0]) == "Freshco" || Recommendation.find_name($current_recommendation.store[0]) == "Food Basics" || Recommendation.find_name($current_recommendation.store[0]) == "FreshCo" || Recommendation.find_name($current_recommendation.store[0]) == "Walmart" %>
-                            <td class = "list-item"><%= $first_store_list[x] %> </td>
+                            <td class = "list-item"><%= $first_store_prod[x] %> </td>
                         <% else %>
                             <td><%= $first_store_products[x] %> </td>
                         <% end %>
@@ -227,7 +227,7 @@
                         
                     <% else %>
                         <% if Recommendation.find_name($current_recommendation.store[1]) == "Sobeys" || Recommendation.find_name($current_recommendation.store[1]) == "Freshco" || Recommendation.find_name($current_recommendation.store[1]) == "Food Basics" || Recommendation.find_name($current_recommendation.store[1]) == "FreshCo" || Recommendation.find_name($current_recommendation.store[1]) == "Walmart" %>
-                            <td class = "list-item"><%= $second_store_list[x] %> </td>
+                            <td class = "list-item"><%= $second_store_prod[x] %> </td>
                         <% else %>
                             <td><%= $second_store_products[x] %> </td>
                         <% end %>

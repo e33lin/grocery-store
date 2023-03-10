@@ -24,8 +24,6 @@
 
 <% i = 0 %>
 <% for x in $stores %>
-  
-
     <% if (x.length == 1) %>
         <div class="rec-tile">
             <div class="store-name"><%= Recommendation.find_name(x[0]) %></div>
@@ -42,10 +40,19 @@
             <br>
             <br>
             <br>
-
-            <div class = "note">
-                Note:  not found at this store.
-            </div>
+            <% if $unknown[i].length >=1 %>
+                <div class = "note">
+                    Note: 
+                    <% for j in 0..$unknown[i].length-1 %> 
+                        <% if j== $unknown[i].length-1%>
+                            <%= $unknown[i][j] %>
+                        <% else %>
+                            <%= $unknown[i][j] %>,
+                        <% end %>
+                    <% end%> 
+                    not found at this store.
+                </div>
+            <% end %>
 
             
         </div>
@@ -53,6 +60,7 @@
         <% if (x != $stores[2])%>
             <hr class="line">
         <% end %>
+
     <% else %>
         <div class="rec-tile">
             <div>
@@ -67,7 +75,22 @@
             <% end %>
             <p class="subtotal">$<%= $subtotals[i]%></p>
             <%= image_submit_tag("chevron.png", class: "chevron")%>
+
+             <% if $unknown[i].length >=1 %>
+                <div class = "note">
+                    Note: 
+                    <% for j in 0..$unknown[i].length-1 %> 
+                        <% if j== $unknown[i].length-1%>
+                            <%= $unknown[i][j] %>
+                        <% else %>
+                            <%= $unknown[i][j] %>,
+                        <% end %>
+                    <% end%> 
+                    not found at this store.
+                </div>
+            <% end %>
         </div>
+
         <% i = i + 1 %>
         <% if (x != $stores[2])%>
             <hr class="line">
