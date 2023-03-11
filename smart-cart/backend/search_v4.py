@@ -1,9 +1,13 @@
 '''
 Script to search each stores catologe of data for a users specified grocery list 
+
 Format to run:
-python search_v3.py <grocery_list> <n_stores>
-EX: python search_v3.py "['2% milk', 'Cheddar Cheese', 'white sliced bread']" 2
+python search_v4.py <grocery_list> <n_stores>
+
+EX: python search_v4.py "['2% milk', 'Cheddar Cheese', 'white sliced bread']" 2
+
 grocery_list must be passed with " " around the actual list object 
+
 '''
  
 import pandas as pd
@@ -35,16 +39,18 @@ n_stores = ast.literal_eval(sys.argv[2])
 def jaccard_similarity(string1, string2):
     return (1 - jaccard_distance(set(string1.lower().split(' ')), set(string2.lower().split(' ')))) * 100
 
-# def get_rel(search_item, product):
-#     rel = 0
-#     try:
-#         for word in search_item.split(' '):
-#             rel += (ps.stem(product).lower().replace(',', '').split(' ').index(word)+1) / len(product.split(' '))
+def get_rel(search_item, product):
 
-#         rel = rel / len(search_item.split(' '))
-#     except: 
-#         rel = 0
-#     return rel
+    try:
+        cat_item = search_item.replace(' ', '-')
+        product = product.replace(search_item, cat_item)
+
+        prod_list = product.split(' ')
+
+        return (prod_list.index(cat_item)+1) / len(prod_list)
+    except: 
+        # print(search_item, product)
+        return 0
 
 
 def search(grocery_list, ps):
@@ -61,51 +67,51 @@ def search(grocery_list, ps):
         # store_data = pd.read_csv(f'app/data/{store}/{store}_data.csv')
         file_path = os.path.join(os.getcwd(), 'app', 'data', f'{store}', f'{store}_data.csv')
         store_data = pd.read_csv(file_path)
+        store_index = load(open(os.path.join(os.getcwd(), 'app', 'catalogue_index', f'{store}_index.pkl'),'rb'))
+
+        store_data['is_sale'].replace({'0.0': False, '1.0': True}, inplace=True)
         
+        # set df 
         final_selection = pd.DataFrame()
 
+
         for item in grocery_list:
-            # item = ps.stem(item)
+            stem_item = ps.stem(item)
+            idxs = [] # indexes of relevant items 
 
-            if 'frozen' in item:  # solves frozen problem 
-                data = store_data.loc[store_data['category'] == 'frozen'].reset_index()
-                search_item = item.replace('frozen', '').strip()
-            else: 
-                data = store_data
-                search_item = item
+            # find all rel products based on stemmed item 
+            for word in stem_item.split():
+                try: # list item word not in index
+                    word_idxs = store_index[word]
+                    idxs.extend(word_idxs)
+                except: continue
 
-            # pulls obs that have product name most similar to the list item 
-            # truncate at 10
-            # most_similar = process.extract(item, data['product'], scorer=jaccard_similarity, limit=20)  
-            most_similar = process.extract(search_item, data['product'],  limit=10)
-            
-            # collect indexes for most similar obs 
-            idxs = []
+            # filter for those rel products 
+            if not idxs: # no indicies returned
+                store_df = pd.DataFrame() # no results: return empty df
+                return
+            else:
+                store_df = store_data.iloc[idxs].reset_index()
+
+
+            # calculates the "relevance" score of the product based on the item 
             sims = []
-            # rels = []
-            for product in most_similar: 
+            idxs = []
+            ##### search items #####
+            for index, row in store_df.iterrows():
+                
+                product_name = row['product']
 
-                if product[1] >= 60: 
-                    idxs.append(product[2])
-                    sims.append(product[1])
-                    # rels.append(get_rel(search_item, product[0]))
+                rel_score = get_rel(ps.stem(item), ps.stem(product_name))
 
-            # secondary search 
-            if len(idxs) == 0: # try with lower sim threshold    
-                for product in most_similar: 
+                if rel_score > 0.6:
+                    sims.append(rel_score)
+                    idxs.append(index)
 
-                    if product[1] >= 50: 
-                        idxs.append(product[2])
-                        sims.append(product[1])
-                        # rels.append(get_rel(search_item, product[0]))
-
-            selected_data = data.iloc[idxs]
-            
-            selected_data['list_item']= item
-
-            selected_data['similarity']= sims
-
-            # selected_data['relevance'] = rels
+            # take all items that have high rel scroe 
+            selected_data = store_df.iloc[idxs]
+            selected_data['list_item'] = item
+            selected_data['similarity'] = sims
 
             # comparable price: sale_price if is_sale, price if not is_sale
             if len(selected_data) > 0: # if items are found
@@ -115,13 +121,10 @@ def search(grocery_list, ps):
                 selected_data['comparable_PUP'] = None
                 selected_data['comparable_price'] = None
 
-            # selected_data['weight'] = (1 - selected_data.similarity + 0.1) * selected_data.comparable_PUP
 
             try:
                 # take the cheapest item 
-                # cheapest_item = selected_data.sort_values(by=['comparable_PUP','similarity'], ascending = [True, False])
                 cheapest_item = selected_data.sort_values(by=['similarity', 'comparable_PUP'], ascending = [False, True])
-                # cheapest_item = selected_data.sort_values(by=['weight'], ascending = True)
 
                 # print(cheapest_item)
 
@@ -154,8 +157,9 @@ def search(grocery_list, ps):
                             }, ignore_index=True)
             except: continue
 
-        print(final_selection.columns)   
+     
         globals()[f"{store}_results"] = final_selection
+
 
         # cast booleans to be consistent 
         globals()[f"{store}_results"]['is_sale'].replace({0: False, 1: True}, inplace=True)
@@ -184,6 +188,7 @@ output = cost_min.n_store_selection(n_stores, results_dict, grocery_list)
 #     json.dump(output, outfile, indent=4)
 
 #print(output)
+
 print(json.dumps(output, indent = 4))
 
 # print(f'completed in {time.time() - start_time} seconds')
