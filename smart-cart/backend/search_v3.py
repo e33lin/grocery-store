@@ -1,13 +1,9 @@
 '''
 Script to search each stores catologe of data for a users specified grocery list 
-
 Format to run:
 python search_v3.py <grocery_list> <n_stores>
-
 EX: python search_v3.py "['2% milk', 'Cheddar Cheese', 'white sliced bread']" 2
-
 grocery_list must be passed with " " around the actual list object 
-
 '''
  
 import pandas as pd

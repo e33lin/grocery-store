@@ -1,56 +1,382 @@
-<h1>SmartCart</h1>
-<h2><%= $current_recommendation.store %></h2>
-<p> subtotal: <%= $current_recommendation.subtotal %></p>
+<head>
+  <link rel="stylesheet" href="number.css">
+  <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
-<p> here is your list: </p>
-<%= $list %>
+</head>
 
-<p> this data was last refreshed at: </p>
-<%= $last_data_refresh[0] %>
-
-<p> here is your recommendation: </p>
-<table>
-<tbody>
-    <tr>
-        <th> PRODUCT </th>
-        <th> PRICES </th>
-        <th> IS_SALE </th>
-        <th> STORE </th>
-    </tr>
-
-<% for x in 0..$products.length()-1%>
-    <tr>
-        <% if ($products[x].nil? && $prices[x].nil? && $is_sale[x].nil?)%>
-            <td> Sorry, we couldn't find your product! </td>
-        <% else %>
-            <% if ($products[x].nil?) %>
-                <td>no product available sorry</td>
-            <% else %>
-                <td><%= $products[x] %> </td>
-            <% end %>
-            <% if ($prices[x].nil?) %>
-                <td>no price available sorry</td>
-            <% else %>
-                <% if ($quantities[x] > 1) %>
-                    <td><%= $prices[x] %> x <%= $quantities[x] %></td>
-                <% else %>
-                    <td><%= $prices[x] %> </td>
-                <% end %>
-            <% end %>
-            <% if ($is_sale[x].nil?) %>
-                <td>not available sorry</td>
-            <% else %>
-                <% if ($is_sale[x] == true) %>
-                    <td><%= $is_sale[x] %>, until <%= $sale_dates[x] %></td>
-                <% else %>
-                    <td><%= $is_sale[x] %></td>
-                <% end %>
-            <% end %>
-            <td><%= $stores[x] %> </td>
-        <% end %>
-    </tr>
+<%= link_to recommendations_path do %>
+   <%= image_tag "back.png", width: 40, height: 40%>
 <% end %>
-</tbody>
-</table>
 
-<p><%= link_to 'Return to all recommendations', recommendations_path %></p>
+<% if $current_recommendation.store.length() == 1%> 
+
+    <div class="store">
+        <% if Recommendation.find_name($current_recommendation.store[0])== "No Frills" %>
+            <img src="<%= asset_path('NoFrills.svg.png') %>" width="310" height="50">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "Food Basics" %>
+            <img src="<%= asset_path('FoodBasics.png') %>" width="310" height="270">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "FreshCo" %>
+            <img src="<%= asset_path('FreshCo.png') %>" width="295" height="75">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "Sobeys" %>
+            <img src="<%= asset_path('Sobeys.png') %>" width="310" height="120">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "Valu-mart" %>
+            <img src="<%= asset_path('Valumart.png') %>" width="310" height="45">
+         <% elsif Recommendation.find_name($current_recommendation.store[0])== "Walmart" %>
+            <img src="<%= asset_path('Walmart.webp') %>" width="310" height="75">
+         <% elsif Recommendation.find_name($current_recommendation.store[0])== "Zehrs" %>
+            <img src="<%= asset_path('Zehrs.webp') %>" width="310" height="100">
+        <% end %>
+    </div>
+
+
+
+
+    <br>
+    <br>
+
+    <%# <p> this data was last refreshed at: </p>
+    <%= $last_data_refresh[0] %> 
+
+    <div class="list">
+        <table>
+        <tbody>
+        
+        <% unknown = [] %>
+
+        <% for x in 0..$products.length()-1%>
+            <tr>
+                <% if ($products[x].nil?)%>
+                <% unknown.push($list[x]) %>
+                <% else %>
+                    <% if ($products[x].nil?) %>
+                        
+                    <% else %>
+                        <% if Recommendation.find_name($current_recommendation.store[0]) == "Sobeys" || Recommendation.find_name($current_recommendation.store[0]) == "Freshco" || Recommendation.find_name($current_recommendation.store[0]) == "Food Basics" || Recommendation.find_name($current_recommendation.store[0]) == "FreshCo" || Recommendation.find_name($current_recommendation.store[0]) == "Walmart" %>
+                            <td class = "list-item"><%= $prod[x] %> </td>
+                        <% else %>
+                            <td><%= $products[x] %> </td>
+                        <% end %>
+                       
+                    <% end %>
+                    <% if ($quantities[x] > 1) %>
+                        <td> (<%= $quantities[x] %>) </td>
+                    <% else %>
+                        <td> <%= "   " %> </td>
+                    <% end %>
+                    <% if ($prices[x].nil?) %>
+                        
+                    <% else %>
+                        
+                        <% if ($quantities[x] > 1) %>
+                            <% price = $prices[x].round(2) * $quantities[x] %>
+                            <td> $<%= price %> </td>
+                        <% else %>
+                            <td>$<%= $prices[x].round(2) %> </td>
+                        <% end %>
+                    
+                    <% end %>
+                    <% if ($is_sale[x].nil?) %>
+                        
+                    <% else %>
+                        <% if ($is_sale[x] == true) %>
+                            <div class = "sale">
+                                <div class = "sale-tag">
+                                    <td> <img src="<%= asset_path('sale.png') %>" width="20" height="20"> </td>
+                                </div>
+                                <div class = "until">
+                                    <td> until <%= $sale_dates[x] %></td> 
+                                </div>
+                            </div>
+                        <% else %>
+                            
+                        <% end %>
+                    <% end %>
+                    
+                <% end %>
+            </tr>
+
+        <% end %>
+        </tbody>
+        </table>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class = "total-price">
+        <div class="total">
+            Total: 
+        </div>
+
+        <div class="price">
+            $<%= $current_recommendation.subtotal %>
+        </div>
+    </div>
+
+    <br>
+
+    <% if unknown.length() > 0%>
+    <div class = "not-found">
+        Note: 
+        <% for x in 0..unknown.length()-1%>
+
+            <% if x != unknown.length()-1%>
+                <%= unknown[x] %>, 
+            <% else %>
+                <%= unknown[x] %>
+            <% end %>
+
+        <% end %>
+        not found at <%= Recommendation.find_name($current_recommendation.store[0]) %>
+    </div>
+    <% end %>
+
+<% else %>
+
+    <div class="store">
+        <% if Recommendation.find_name($current_recommendation.store[0])== "No Frills" %>
+            <img src="<%= asset_path('NoFrills.svg.png') %>" width="310" height="50">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "Food Basics" %>
+            <img src="<%= asset_path('FoodBasics.png') %>" width="310" height="270">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "FreshCo" %>
+            <img src="<%= asset_path('FreshCo.png') %>" width="295" height="75">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "Sobeys" %>
+            <img src="<%= asset_path('Sobeys.png') %>" width="310" height="120">
+        <% elsif Recommendation.find_name($current_recommendation.store[0])== "Valu-mart" %>
+            <img src="<%= asset_path('Valumart.png') %>" width="310" height="45">
+         <% elsif Recommendation.find_name($current_recommendation.store[0])== "Walmart" %>
+            <img src="<%= asset_path('Walmart.webp') %>" width="310" height="75">
+         <% elsif Recommendation.find_name($current_recommendation.store[0])== "Zehrs" %>
+            <img src="<%= asset_path('Zehrs.webp') %>" width="310" height="100">
+        <% end %>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="list">
+        <table>
+        <tbody>
+        
+        <% unknown = [] %>
+        <% first_store_subtotal = 0 %>
+
+        <% for x in 0..$first_store_products.length()-1%>
+            <tr>
+                <% if ($first_store_products[x].nil?)%>
+                <% unknown.push($list[x]) %>
+                <% else %>
+                    <% if ($first_store_products[x].nil?) %>
+                        
+                    <% else %>
+                        <% if Recommendation.find_name($current_recommendation.store[0]) == "Sobeys" || Recommendation.find_name($current_recommendation.store[0]) == "Freshco" || Recommendation.find_name($current_recommendation.store[0]) == "Food Basics" || Recommendation.find_name($current_recommendation.store[0]) == "FreshCo" || Recommendation.find_name($current_recommendation.store[0]) == "Walmart" %>
+                            <td class = "list-item"><%= $first_store_prod[x] %> </td>
+                        <% else %>
+                            <td><%= $first_store_products[x] %> </td>
+                        <% end %>
+                    <% end %>
+                    <% if ($first_store_quantities[x] > 1) %>
+                        <td> (<%= $first_store_quantities[x] %>) </td>
+                    <% else %>
+                        <td> <%= "   " %> </td>
+                    <% end %>
+                    <% if ($first_store_prices[x].nil?) %>
+                        
+                    <% else %>
+                        
+                        <% if ($first_store_quantities[x] > 1) %>
+                            <% price = $first_store_prices[x].round(2) * $first_store_quantities[x] %>
+                            <td>$<%= price %> </td>
+                            <% first_store_subtotal += price %>
+                        <% else %>
+                            <td>$<%= $first_store_prices[x].round(2) %> </td>
+                            <% first_store_subtotal += $first_store_prices[x].round(2) %>
+                        <% end %>
+                    
+                    <% end %>
+                    <% if ($first_store_is_sale[x].nil?) %>
+                        
+                    <% else %>
+                        <% if ($first_store_is_sale[x] == true) %>
+                            <div class = "sale">
+                                <div class = "sale-tag">
+                                    <td> <img src="<%= asset_path('sale.png') %>" width="20" height="20"> </td>
+                                </div>
+                                <div class = "until">
+                                    <td> until <%= $first_store_sale_date[x] %></td> 
+                                </div>
+                            </div>
+                        <% else %>
+                            
+                        <% end %>
+                    <% end %>
+                    
+                <% end %>
+            </tr>
+
+        <% end %>
+        </tbody>
+        </table>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class = "total-price">
+        <div class="total">
+            Subtotal: 
+        </div>
+
+        <div class="price">
+            $<%= first_store_subtotal %>
+        </div>
+    </div>
+
+    <div class="store" style="padding-top: 40px;">
+        <% if Recommendation.find_name($current_recommendation.store[1])== "No Frills" %>
+            <img src="<%= asset_path('NoFrills.svg.png') %>" width="310" height="50">
+        <% elsif Recommendation.find_name($current_recommendation.store[1])== "Food Basics" %>
+            <img src="<%= asset_path('FoodBasics.png') %>" width="310" height="270">
+        <% elsif Recommendation.find_name($current_recommendation.store[1])== "FreshCo" %>
+            <img src="<%= asset_path('FreshCo.png') %>" width="295" height="75">
+        <% elsif Recommendation.find_name($current_recommendation.store[1])== "Sobeys" %>
+            <img src="<%= asset_path('Sobeys.png') %>" width="310" height="120">
+        <% elsif Recommendation.find_name($current_recommendation.store[1])== "Valu-mart" %>
+            <img src="<%= asset_path('Valumart.png') %>" width="310" height="45">
+         <% elsif Recommendation.find_name($current_recommendation.store[1])== "Walmart" %>
+            <img src="<%= asset_path('Walmart.webp') %>" width="310" height="75">
+         <% elsif Recommendation.find_name($current_recommendation.store[1])== "Zehrs" %>
+            <img src="<%= asset_path('Zehrs.webp') %>" width="310" height="100">
+        <% end %>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="list">
+        <table>
+        <tbody>
+
+        <% second_store_subtotal = 0 %>
+
+        <% for x in 0..$second_store_products.length()-1%>
+            <tr>
+                <% if ($second_store_products[x].nil?)%>
+                <% unknown.push($list[x]) %>
+                <% else %>
+                    <% if ($second_store_products[x].nil?) %>
+                        
+                    <% else %>
+                        <% if Recommendation.find_name($current_recommendation.store[1]) == "Sobeys" || Recommendation.find_name($current_recommendation.store[1]) == "Freshco" || Recommendation.find_name($current_recommendation.store[1]) == "Food Basics" || Recommendation.find_name($current_recommendation.store[1]) == "FreshCo" || Recommendation.find_name($current_recommendation.store[1]) == "Walmart" %>
+                            <td class = "list-item"><%= $second_store_prod[x] %> </td>
+                        <% else %>
+                            <td><%= $second_store_products[x] %> </td>
+                        <% end %>
+                        
+                    <% end %>
+                    <% if ($second_store_quantities[x] > 1) %>
+                        <td> (<%= $second_store_quantities[x] %>) </td>
+                    <% else %>
+                        <td> <%= "   " %> </td>
+                    <% end %>
+                    <% if ($second_store_prices[x].nil?) %>
+                        
+                    <% else %>
+                        
+                        <% if ($second_store_quantities[x] > 1) %>
+                            <% price = $second_store_prices[x].round(2) * $second_store_quantities[x] %>
+                            <td> $<%= price %> </td>
+                            <% second_store_subtotal += price %>
+                        <% else %>
+                            <td>$<%= $second_store_prices[x].round(2) %> </td>
+                            <% second_store_subtotal += $second_store_prices[x].round(2) %>
+                        <% end %>
+                    
+                    <% end %>
+                    <% if ($second_store_is_sale[x].nil?) %>
+                        
+                    <% else %>
+                        <% if ($second_store_is_sale[x] == true) %>
+                            <div class = "sale">
+                                <div class = "sale-tag">
+                                    <td> <img src="<%= asset_path('sale.png') %>" width="20" height="20"> </td>
+                                </div>
+                                <div class = "until">
+                                    <td> until <%= $second_store_sale_date[x] %></td> 
+                                </div>
+                            </div>
+                        <% else %>
+                            
+                        <% end %>
+                    <% end %>
+                    
+                <% end %>
+            </tr>
+
+        <% end %>
+        </tbody>
+        </table>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class = "total-price">
+        <div class="total">
+            Subtotal: 
+        </div>
+
+        <div class="price">
+            $<%= second_store_subtotal %>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class = "total-price">
+        <div class="total">
+            Total: 
+        </div>
+
+        <div class="price">
+            $<%= $current_recommendation.subtotal %>
+        </div>
+    </div>
+
+    <br>
+
+    <% if unknown.length() > 0%>
+    <div class = "not-found">
+        Note: 
+        <% for x in 0..unknown.length()-1%>
+
+            <% if x != unknown.length()-1%>
+                <%= unknown[x] %>, 
+            <% else %>
+                <%= unknown[x] %>
+            <% end %>
+
+        <% end %>
+        not found at <%= Recommendation.find_name($current_recommendation.store[0]) %> and <%= Recommendation.find_name($current_recommendation.store[1]) %>
+    </div>
+    <% end %>
+
+<% end %>
+
+<% if $current_recommendation.store.length() == 1 %>
+     <div class = "save">
+        Take a screenshot of this page to save it for later!
+    </div>
+<% else %>
+    <br>
+    <div class = "save2">
+        Take a screenshot of this page to save it for later!
+    </div>
+<% end %>
+
