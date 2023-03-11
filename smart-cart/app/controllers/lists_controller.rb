@@ -93,7 +93,7 @@ class ListsController < ApplicationController
   # DELETE /lists/1 or /lists/1.json
   def destroy
     @list = List.find_by(list_id: $session_id, item: params[:item])
-    print $session_id
+    #print $session_id
     @list.destroy
 
     respond_to do |format|
