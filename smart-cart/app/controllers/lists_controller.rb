@@ -116,7 +116,11 @@ class ListsController < ApplicationController
     # end
   end 
 
-  def delete_item
+  def delete_item # reusing this to purge list
+    $session_id = session[:current_user_id]
+    current_list = List.where(list_id: $session_id)
+    current_list.destroy_all
+    redirect_to lists_path
   end
 
   private
