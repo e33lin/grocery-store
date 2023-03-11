@@ -19,7 +19,7 @@ class RecommendationsController < ApplicationController
             n_stores = $n_stores
             print n_stores
 
-            result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
+            result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v4.py"} '#{list}' #{n_stores}` # pass l as an argument 
             print result
             hash = JSON.parse(result, { allow_nan: true }) # turn string result into a hash
             $stores = [hash['1']['store'], hash['2']['store'], hash['3']['store']]
@@ -163,7 +163,7 @@ class RecommendationsController < ApplicationController
                 quantities = List.item_quantities_as_array(list_objects)
                 n_stores = $n_stores
 
-                result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v3.py"} '#{list}' #{n_stores}` # pass l as an argument 
+                result = `python3 -W ignore #{ENV["PWD"] + "/backend/search_v4.py"} '#{list}' #{n_stores}` # pass l as an argument 
                 print result
                 hash = JSON.parse(result, { allow_nan: true }) # turn string result into a hash
                 $stores = [hash['1']['store'], hash['2']['store'], hash['3']['store']]
