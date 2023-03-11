@@ -49,7 +49,7 @@ def get_rel(search_item, product):
 
         return (prod_list.index(cat_item)+1) / len(prod_list)
     except: 
-        print(search_item, product)
+        # print(search_item, product)
         return 0
 
 
@@ -67,62 +67,64 @@ def search(grocery_list, ps):
         # store_data = pd.read_csv(f'app/data/{store}/{store}_data.csv')
         file_path = os.path.join(os.getcwd(), 'app', 'data', f'{store}', f'{store}_data.csv')
         store_data = pd.read_csv(file_path)
-
         store_index = load(open(os.path.join(os.getcwd(), 'app', 'catalogue_index', f'{store}_index.pkl'),'rb'))
+
+        store_data['is_sale'].replace({'0.0': False, '1.0': True}, inplace=True)
         
+        # set df 
         final_selection = pd.DataFrame()
 
 
         for item in grocery_list:
             stem_item = ps.stem(item)
-            idxs = []
+            idxs = [] # indexes of relevant items 
 
+            # find all rel products based on stemmed item 
             for word in stem_item.split():
                 try: # list item word not in index
                     word_idxs = store_index[word]
                     idxs.extend(word_idxs)
                 except: continue
 
-        if not idxs: # no indicies returned
-            store_df = pd.DataFrame() # no results: return empty df
-        else:
-            store_df = store_data.iloc[idxs]
+            # filter for those rel products 
+            if not idxs: # no indicies returned
+                store_df = pd.DataFrame() # no results: return empty df
+                return
+            else:
+                store_df = store_data.iloc[idxs].reset_index()
 
 
-        sims = []
-        ##### search items #####
-        for index, row in store_df.iterrows():
-            
-            product_name = row['product']
+            # calculates the "relevance" score of the product based on the item 
+            sims = []
+            idxs = []
+            ##### search items #####
+            for index, row in store_df.iterrows():
+                
+                product_name = row['product']
 
-            rel_score = get_rel(ps.stem(item), ps.stem(product_name))
+                rel_score = get_rel(ps.stem(item), ps.stem(product_name))
 
-            if rel_score > 0.5:
-                sims.append(rel_score)
+                if rel_score > 0.6:
+                    sims.append(rel_score)
+                    idxs.append(index)
 
+            # take all items that have high rel scroe 
+            selected_data = store_df.iloc[idxs]
+            selected_data['list_item'] = item
+            selected_data['similarity'] = sims
 
-        selected_data = store_df
-            
-        selected_data['list_item'] = item
+            # comparable price: sale_price if is_sale, price if not is_sale
+            if len(selected_data) > 0: # if items are found
+                selected_data['comparable_PUP'] = selected_data.apply(lambda row: row['sale_per_unit_price'] if row.is_sale else row['per_unit_price'], axis=1)
+                selected_data['comparable_price'] = selected_data.apply(lambda row: row['sale_price'] if row.is_sale else row['price'], axis=1)
+            else:
+                selected_data['comparable_PUP'] = None
+                selected_data['comparable_price'] = None
 
-        selected_data['similarity'] = sims
-
-
-        # comparable price: sale_price if is_sale, price if not is_sale
-        if len(selected_data) > 0: # if items are found
-            selected_data['comparable_PUP'] = selected_data.apply(lambda row: row['sale_per_unit_price'] if row.is_sale else row['per_unit_price'], axis=1)
-            selected_data['comparable_price'] = selected_data.apply(lambda row: row['sale_price'] if row.is_sale else row['price'], axis=1)
-        else:
-            selected_data['comparable_PUP'] = None
-            selected_data['comparable_price'] = None
-
-            # selected_data['weight'] = (1 - selected_data.similarity + 0.1) * selected_data.comparable_PUP
 
             try:
                 # take the cheapest item 
-                # cheapest_item = selected_data.sort_values(by=['comparable_PUP','similarity'], ascending = [True, False])
                 cheapest_item = selected_data.sort_values(by=['similarity', 'comparable_PUP'], ascending = [False, True])
-                # cheapest_item = selected_data.sort_values(by=['weight'], ascending = True)
 
                 # print(cheapest_item)
 
@@ -155,8 +157,9 @@ def search(grocery_list, ps):
                             }, ignore_index=True)
             except: continue
 
-                
+     
         globals()[f"{store}_results"] = final_selection
+
 
         # cast booleans to be consistent 
         globals()[f"{store}_results"]['is_sale'].replace({0: False, 1: True}, inplace=True)
@@ -185,6 +188,7 @@ output = cost_min.n_store_selection(n_stores, results_dict, grocery_list)
 #     json.dump(output, outfile, indent=4)
 
 #print(output)
+
 print(json.dumps(output, indent = 4))
 
 # print(f'completed in {time.time() - start_time} seconds')

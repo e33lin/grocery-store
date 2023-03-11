@@ -158,7 +158,7 @@ def search(grocery_list, ps):
                             }, ignore_index=True)
             except: continue
 
-                
+        print(final_selection.columns)   
         globals()[f"{store}_results"] = final_selection
 
         # cast booleans to be consistent 

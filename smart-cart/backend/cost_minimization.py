@@ -102,6 +102,9 @@ def n_store_selection(n, results_dict, grocery_list):
     # go through n combination stores 
     # possibilities = list(combinations(results_dict.keys(), n))
     possibilities = list(chain.from_iterable(combinations(results_dict.keys(), m) for m in range(1, n+1))) # up to n stores 
+
+    # print(possibilities)
+
     for combin in possibilities:
         
         # place all dfs in list 
