@@ -7,8 +7,6 @@ class ListsController < ApplicationController
     @lists = List.all
     # @list = []
     $session_id = session[:current_user_id]
-    print "this is the person in the list"
-    print $session_id
     @current_list = List.where(list_id: $session_id)
     print @current_list.empty?
   end
@@ -44,8 +42,6 @@ class ListsController < ApplicationController
     # end
    
     $session_id = session[:current_user_id]
-    print "this is the person when we create"
-    print $session_id
     raw_item = params[:item]
     text_item = raw_item.gsub(/[^0-9a-z ]/i, '') # removes special characters
     raw_tokens = text_item.split # breaks at every space, returns an array: granny smith apples -> ["granny", "smith", "apples"]
@@ -80,6 +76,7 @@ class ListsController < ApplicationController
   # PATCH/PUT /lists/1 or /lists/1.json
   def update
    
+    $session_id = session[:current_user_id]
     @list = List.find_by(list_id: $session_id, item: params[:item])
     @list.update(list_params)
     redirect_to lists_path
@@ -97,6 +94,7 @@ class ListsController < ApplicationController
 
   # DELETE /lists/1 or /lists/1.json
   def destroy
+    $session_id = session[:current_user_id]
     @list = List.find_by(list_id: $session_id, item: params[:item])
     print @list
     #print $session_id
