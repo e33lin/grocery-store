@@ -89,7 +89,7 @@ def search(grocery_list, ps):
             # filter for those rel products 
             if not idxs: # no indicies returned
                 store_df = pd.DataFrame() # no results: return empty df
-                return
+                # return
             else:
                 store_df = store_data.iloc[idxs].reset_index()
 
