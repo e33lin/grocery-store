@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   get "recommendations", to: "recommendations#show"
   post "recommendations", to: "recommendations#stores", as: "stores_path"
   get "recommendations/:id", to: "recommendations#number" #route to show specific recommendation
-  delete "delete-item", to: "lists#delete-item"
+  delete "delete_item", to: "lists#delete_item"
 
 end
 

@@ -24,6 +24,9 @@
 
 <% if !@current_list.empty? %>
 <br>
+
+<%= button_to "Clear list", delete_item_path, method: :delete %>
+
 <div class = "table">
     <table>
         <%# <thead>
