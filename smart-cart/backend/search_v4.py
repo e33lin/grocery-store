@@ -32,7 +32,9 @@ ps = PorterStemmer() # stemming for better results
 
 # take arguments from terminal 
 grocery_list = ast.literal_eval(sys.argv[1])
+# quantities = ast.literal_eval(sys.argv[2])
 n_stores = ast.literal_eval(sys.argv[2])
+
 
 
 # https://www.educative.io/answers/what-is-the-jaccard-similarity-measure-in-nlp
@@ -178,7 +180,6 @@ def search(grocery_list, ps):
         , 'food_basics': food_basics_results
         }
 
-
 results_dict = search(grocery_list, ps)
 
 output = cost_min.n_store_selection(n_stores, results_dict, grocery_list)
@@ -187,7 +188,7 @@ output = cost_min.n_store_selection(n_stores, results_dict, grocery_list)
 # with open("output.json", "w") as outfile:
 #     json.dump(output, outfile, indent=4)
 
-#print(output)
+print(output)
 
 print(json.dumps(output, indent = 4))
 
