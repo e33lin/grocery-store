@@ -47,6 +47,13 @@ def get_rel(search_item, product):
         cat_item = search_item.replace(' ', '-')
         product = product.replace(search_item, cat_item)
 
+        # comma usually is used for descriptors - move descriptors to front 
+        # ex: frozen perogies, pizza - is usally labelled as pizza but really its perogies
+        # to fix we ust rearrange into pizza frozen perogies 
+        if ', ' in product:
+            x = product.split(', ')
+            product = x[1] + x[0]
+
         prod_list = product.split(' ')
 
         return (prod_list.index(cat_item)+1) / len(prod_list)
@@ -89,11 +96,18 @@ def search(grocery_list, ps):
                 except: continue
 
             # filter for those rel products 
-            if not idxs: # no indicies returned
-                store_df = pd.DataFrame() # no results: return empty df
-                return
+            if 'frozen' in item: 
+                # frozen items usall dont have the word frozen in it, need to explicity tell 
+                # the system that we want frozen category items 
+                store_df = store_data.loc[store_data['category'] == 'frozen'].reset_index()
+                search_item = item.replace('frozen', '').strip()
             else:
-                store_df = store_data.iloc[idxs].reset_index()
+                if not idxs: # no indicies returned
+                    store_df = pd.DataFrame() # no results: return empty df
+                    search_item = item
+                else:
+                    store_df = store_data.iloc[idxs].reset_index()
+                    search_item = item
 
 
             # calculates the "relevance" score of the product based on the item 
@@ -104,7 +118,7 @@ def search(grocery_list, ps):
                 
                 product_name = row['product']
 
-                rel_score = get_rel(ps.stem(item), ps.stem(product_name))
+                rel_score = get_rel(ps.stem(search_item), ps.stem(product_name))
 
                 if rel_score > 0.6:
                     sims.append(rel_score)
