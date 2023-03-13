@@ -1,0 +1,53 @@
+<head>
+  <link rel="stylesheet" href="instructions.css">
+  <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+
+</head>
+
+<div class = "header">
+    <div class="logo">
+      <%= link_to root_path do %>
+      <%= image_tag "logo.png", width: 90, height: 38%>
+      <% end %>
+    </div>
+
+    <div class="close">
+      <%= link_to lists_path do %>
+      <%= image_tag "x.png", width: 30, height: 30%>
+      <% end %>
+    </div>
+</div>
+
+<br>
+
+<div class="subhead">
+  <b>Terms and Conditions</b>
+</div>
+
+<br>
+
+<div class = "text">
+    We aim to provide the most fresh and accurate data as possible! By using our app, you acknowledge that we do not guarantee the accuracy or availability of data, and that any decisions you make based on our recommendations are your own responsibility. 
+    <br> 
+    <br>
+    On each recommendation page, you will be able to submit feedback if you notice any discrepancies between the listed prices and the prices you see in-store.
+    <br> 
+    <br>
+    Additionally, prices and availability of items may vary by location and are subject to change.
+</div>
+
+<br>
+
+<div class="hapshop">
+  <b>Happy shopping!</b>
+</div>
+
+<br>
+
+<div class = "buttons">
+    <%= link_to "Back", instr_stores_path, class: "back" %>
+    <%= link_to "Build List", lists_path, class: "next" %>
+</div>
