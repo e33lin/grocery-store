@@ -32,3 +32,5 @@
 
 # Ignore cache files
 /backend/__pycache__/*
+
+.DS_Store

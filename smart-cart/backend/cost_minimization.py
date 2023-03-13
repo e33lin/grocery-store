@@ -34,7 +34,7 @@ def check_for_missing_items(grocery_list, results_dict, manipulated_results_dict
 
 
 
-def item_selection(dfs):
+def item_selection(dfs, grocery_list):
     '''Select if item x shoudl come from store A or store B'''
     
     # append all dfs
@@ -42,20 +42,24 @@ def item_selection(dfs):
     dfs.remove(dfs[0])
     for df_n in dfs:
         df = df.append(df_n, ignore_index=True)
-
+    
     # group by list_items 
     df_grp = df.groupby('list_item')['comparable_PUP']
 
     # add col indicating min cost out of the n store dfs 
     df = df.assign(min_cost=df_grp.transform(min))
-
+    
     # filter rows where the row corresponds to the min cost 
     # df = df[df['comparable_PUP'] == df['min_cost']]
-    df = df.sort_values(by=['list_item','comparable_PUP'])
+    # df = df.sort_values(by=['list_item','comparable_PUP'])
+    df = df.sort_values(by=['comparable_PUP'])
     df = df.groupby('list_item').nth(0).reset_index()
 
     per_unit_subtotal = sum(df['comparable_PUP'])
     subtotal = sum(df['comparable_price'])
+
+    df['list_item'] = pd.Categorical(df['list_item'], categories=grocery_list, ordered=True)
+    df = df.sort_values('list_item')
 
     return df, per_unit_subtotal, subtotal 
 
@@ -115,8 +119,8 @@ def n_store_selection(n, results_dict, grocery_list):
             dfs.append(results_dict[store])
 
         # item selection 
-        optimal_selection, per_unit_subtotal, subtotal = item_selection(dfs)
-        manipulated_optimal_selection, manipulated_per_unit_subtotal, manipulated_subtotal = item_selection(manipulated_dfs)
+        optimal_selection, per_unit_subtotal, subtotal = item_selection(dfs, grocery_list)
+        manipulated_optimal_selection, manipulated_per_unit_subtotal, manipulated_subtotal = item_selection(manipulated_dfs, grocery_list)
 
         # add to results dict 
         stores = tuple(optimal_selection.store.unique())

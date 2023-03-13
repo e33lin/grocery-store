@@ -32,7 +32,9 @@ ps = PorterStemmer() # stemming for better results
 
 # take arguments from terminal 
 grocery_list = ast.literal_eval(sys.argv[1])
+# quantities = ast.literal_eval(sys.argv[2])
 n_stores = ast.literal_eval(sys.argv[2])
+
 
 
 # https://www.educative.io/answers/what-is-the-jaccard-similarity-measure-in-nlp
@@ -177,7 +179,6 @@ def search(grocery_list, ps):
         , 'walmart': walmart_results
         , 'food_basics': food_basics_results
         }
-
 
 results_dict = search(grocery_list, ps)
 
