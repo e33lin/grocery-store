@@ -1,7 +1,8 @@
 class RecommendationsController < ApplicationController
 
     def stores
-        $n_stores = params[:n_stores] 
+        $n_stores = params[:n_stores]
+        session[:from_list_page] = true
         redirect_to recommendations_path
     end
     
@@ -19,7 +20,6 @@ class RecommendationsController < ApplicationController
         if (Recommendation.find_by(list_id: session_id).blank?)
             require 'json'
             magic(session_id, list, n_stores, quantities)
-            set_n_stores(n_stores)
 
         # if there is an entry in Recommendations for the current user,
         # then we will query for it in Recommendations table and simply show these   
@@ -36,10 +36,8 @@ class RecommendationsController < ApplicationController
                 end
             end
 
-            list_items_test = list_items.dup
-            list_test = list.dup
-            # if the list is the same and the quantities are the same
-            if (list_items_test.sort == list_test.sort && same_quantities(list_objects) && same_n_stores(n_stores))
+            # if the user did not come from the list builder page
+            if (session[:from_list_page].nil?)
                 $subtotals = [first_rec.subtotal, second_rec.subtotal, third_rec.subtotal]
                 $stores = [first_rec.store, second_rec.store, third_rec.store]
 
@@ -85,20 +83,15 @@ class RecommendationsController < ApplicationController
                     end
                 end
             
-            else #if the list has changed in any way, we re-run the script
+            else #if the user did come from the list builder page, re-run the search script
                 first_rec.destroy
                 second_rec.destroy
                 third_rec.destroy
-
-                print "here is the n_stores at 90"
-                print n_stores
-                print "here are the quantities"
-                print quantities
-                print "this is the list"
-                print list
+                
                 magic(session_id, list, n_stores, quantities)
             end
-        end    
+        end 
+        session.delete(:from_list_page)
     end
 
     def number
@@ -254,32 +247,5 @@ class RecommendationsController < ApplicationController
 
             a+= 1
         end
-    end
-
-    def same_quantities(list_objects)
-        print "same_quantities method"
-        list_objects.each do |item|
-            if (item.updated_at > item.created_at)
-                print "same_quantites is false"
-              return false
-            end
-        end
-        return true
-    end
-
-    def set_n_stores(n_stores) # this might be another problem
-        $prev_n_stores = n_stores
-    end
-
-    def same_n_stores(new_n_stores)
-        if ($prev_n_stores != new_n_stores)
-            print "this is prev_n_stores"
-            print $prev_n_stores
-            print "this is new_n_stores"
-            print new_n_stores
-            $prev_n_stores = new_n_stores
-            return false
-        end
-        return true
     end
 end
