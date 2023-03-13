@@ -188,7 +188,7 @@ output = cost_min.n_store_selection(n_stores, results_dict, grocery_list)
 # with open("output.json", "w") as outfile:
 #     json.dump(output, outfile, indent=4)
 
-print(output)
+# print(output)
 
 print(json.dumps(output, indent = 4))
 

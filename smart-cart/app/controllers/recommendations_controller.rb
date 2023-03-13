@@ -19,6 +19,7 @@ class RecommendationsController < ApplicationController
         if (Recommendation.find_by(list_id: session_id).blank?)
             require 'json'
             magic(session_id, list, n_stores, quantities)
+            set_n_stores(n_stores)
 
         # if there is an entry in Recommendations for the current user,
         # then we will query for it in Recommendations table and simply show these   
@@ -38,7 +39,7 @@ class RecommendationsController < ApplicationController
             list_items_test = list_items.dup
             list_test = list.dup
             # if the list is the same and the quantities are the same
-            if (list_items_test.sort == list_test.sort && same_quantities(list_objects))
+            if (list_items_test.sort == list_test.sort && same_quantities(list_objects) && same_n_stores(n_stores))
                 $subtotals = [first_rec.subtotal, second_rec.subtotal, third_rec.subtotal]
                 $stores = [first_rec.store, second_rec.store, third_rec.store]
 
@@ -155,7 +156,6 @@ class RecommendationsController < ApplicationController
         if ($current_recommendation.store.length() > 1)
             for store in $stores
                 if (store == $current_recommendation.store[0])
-                    print "hello"
                     $first_store_products.append($products[i])
                     $first_store_prices.append($prices[i])
                     $first_store_is_sale.append($is_sale[i])
@@ -263,6 +263,22 @@ class RecommendationsController < ApplicationController
                 print "same_quantites is false"
               return false
             end
+        end
+        return true
+    end
+
+    def set_n_stores(n_stores) # this might be another problem
+        $prev_n_stores = n_stores
+    end
+
+    def same_n_stores(new_n_stores)
+        if ($prev_n_stores != new_n_stores)
+            print "this is prev_n_stores"
+            print $prev_n_stores
+            print "this is new_n_stores"
+            print new_n_stores
+            $prev_n_stores = new_n_stores
+            return false
         end
         return true
     end
