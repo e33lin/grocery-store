@@ -3,24 +3,24 @@
 .subhead {
     font-size: 20px;
     font-weight: 600;
-    color: #666666;
     font-family: Poppins;
-    text-align: center;
+    width: 270px;
+    justify-content: center;
+    margin: auto;
 }
 
 .text {
     font-size: 16px;
     color: #666666;
     font-family: 'Inter';
-    text-align: center;
-    width: 313px;
+    width: 270px;
     justify-content: center;
     margin: auto;
+    text-align: left;
 }
 
 .columns {
-    columns: 2;
-    position: relative;
+    width: 270px;
     margin: auto;
     padding-top: 15px;
     justify-content: center;
@@ -34,13 +34,43 @@
     color: #28A745;
     font-size: 16px;
     font-family: 'Inter';
-    text-align: center;
+    justify-content: center;
+    margin: auto;
+    text-align: left;
+    width: 270px;
 
 }
 
-.tolist {
-    height: 39px;
+
+  
+.close {
+    display: inline-block;
+}
+  
+.steps {
+    font-size: 16px;
+    color: #666666;
+    font-family: 'Inter';
     width: 313px;
+    justify-content: center;
+    margin: auto;
+}
+
+.logo {
+   display: inline-block;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 280px;
+}
+
+.next {
+    height: 20px;
+    width: 95px;
     border-radius: 4px;
     background-color: #28A745;
     color: white;
@@ -48,14 +78,32 @@
     text-align: center;
     align-items: center;
     padding: 10px 16px;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     margin: auto;
     font-family: 'Inter';
+}
 
+.back {
+    height: 20px;
+    width: 95px;
+    border-radius: 4px;
+    color: #28A745;
+    border: 1.5px solid #28A745;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    padding: 10px 16px;
+    display: inline-block;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Inter';
 }
-  
-.close {
-    float: right;
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    margin: auto;
 }
-  
+
