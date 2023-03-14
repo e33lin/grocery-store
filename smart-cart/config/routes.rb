@@ -8,6 +8,9 @@ Rails.application.routes.draw do
 
   get "lists", to: "lists#show"
   get "instructions", to: "instructions#show"
+  get "instructions/how", to: "instructions#how", as: "how"
+  get "instructions/stores", to: "instructions#stores", as: "instr_stores"
+  get "instructions/terms", to: "instructions#terms", as: "terms"
   get "recommendations", to: "recommendations#show"
   post "recommendations", to: "recommendations#stores", as: "stores_path"
   get "recommendations/:id", to: "recommendations#number" #route to show specific recommendation
