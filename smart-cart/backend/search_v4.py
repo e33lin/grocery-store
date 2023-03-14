@@ -126,7 +126,7 @@ def search(grocery_list, ps):
 
                 rel_score = get_rel(ps.stem(search_item), ps.stem(product_name))
 
-                if rel_score == 0.6:
+                if rel_score > 0.8:
                     sims.append(rel_score)
                     idxs.append(index)
 
