@@ -96,11 +96,13 @@ def search(grocery_list, ps):
                 except: continue
 
             # filter for those rel products 
+
             if 'frozen' in item: 
                 # frozen items usall dont have the word frozen in it, need to explicity tell 
                 # the system that we want frozen category items 
                 store_df = store_data.loc[store_data['category'] == 'frozen'].reset_index()
                 search_item = item.replace('frozen', '').strip()
+
             else:
                 if not idxs: # no indicies returned
                     store_df = pd.DataFrame() # no results: return empty df
@@ -202,7 +204,7 @@ output = cost_min.n_store_selection(n_stores, results_dict, grocery_list)
 # with open("output.json", "w") as outfile:
 #     json.dump(output, outfile, indent=4)
 
-print(output)
+# print(output)
 
 print(json.dumps(output, indent = 4))
 
