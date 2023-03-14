@@ -56,7 +56,7 @@ def get_rel(search_item, product):
         elif 'with' in product:
             x = product.split('with ')
             product = x[1] + x[0]
-        elif '-' in product:
+        elif '- ' in product:
             x = product.split('- ')
             product = x[1] + x[0]
 
@@ -126,7 +126,7 @@ def search(grocery_list, ps):
 
                 rel_score = get_rel(ps.stem(search_item), ps.stem(product_name))
 
-                if rel_score == 1:
+                if rel_score == 0.8:
                     sims.append(rel_score)
                     idxs.append(index)
 
