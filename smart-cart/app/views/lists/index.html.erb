@@ -25,8 +25,6 @@
 <% if !@current_list.empty? %>
 <br>
 
-<%= button_to "Clear list", delete_item_path, method: :delete %>
-
 <div class = "table">
     <table>
         <%# <thead>
@@ -97,7 +95,6 @@
         How many stores are you willing to visit?
     </div>
     <div class = "storeform">
-        
         <%= form_with url: stores_path_url do |f| %>
         <br>
             <div class="radio-buttons">
@@ -107,9 +104,11 @@
             <label for="two-stores">up to 2 stores</label>
             </div>
             <br>
-            <%= f.submit 'See Recommended Stores', class: 'submit-button' %>
+            <%= f.submit 'See Recommended Stores', class: 'submit-button', style: 'left: 2px;' %>
         <% end %>
-
+    </div>
+    <div class = "clear-list">
+        <%= button_to "Clear List", delete_item_path, method: :delete, class: 'clear-list-button' %>
     </div>
     <% else %>
         <br>
@@ -131,7 +130,10 @@
                     
             <% end %>
         </div>
-
+        
+        <div class = "clear-list">
+            <%= button_to "Clear List", delete_item_path, method: :delete, class: 'clear-list-fake', disabled: true %>
+        </div> 
     <% end %>
 
 </div>
