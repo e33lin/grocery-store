@@ -107,30 +107,69 @@ select {
     background-color: #28A745;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
     font-family: 'Inter';
-    margin-left: 43px;
+    margin-left: 10px;
+    width: 313px;
+    height: 39px;
+    /* margin: auto; */
 }
 
 .submit-button-fake {
     background-color: #80858A;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
     font-family: 'Inter';
-    margin-left: 43px;
+    margin-left: 10px;
+    width: 313px;
+    height: 39px;
+}
+
+.clear-list-button {
+    background-color: #fff;
+    color: #28A745; 
+    border: 1px solid #28A745;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Inter';
+    margin-left: 10px;
+    width: 313px;
+    height: 39px;
+}
+
+.clear-list-fake {
+    background-color: #FFFFFF;
+    color: #80858A;
+    border: 1px solid #80858A;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Inter';
+    margin-left: 10px;
+    width: 313px;
+    height: 39px;
 }
   
 .storeform {
     display: flex;
     justify-content: center;
     margin: auto;
+}
+
+.clear-list{
+    display: flex;
+    justify-content: center;
+    /* margin: auto;  */
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 hr {
@@ -152,7 +191,7 @@ html,body{
 }
 
 .bottom{
-    height: 90px; 
+    height: 110px; 
     width:100%;
     position: absolute;
     left: 0;
