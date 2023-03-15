@@ -372,11 +372,15 @@
 <% if $current_recommendation.store.length() == 1 %>
      <div class = "save">
         Take a screenshot of this page to save it for later!
+        <br>
+        See something wrong? Submit feedback <%= link_to "here", feedback_path %>
     </div>
 <% else %>
     <br>
     <div class = "save2">
         Take a screenshot of this page to save it for later!
+        <br>
+        See something wrong? Submit feedback <%= link_to "here", feedback_path %>
     </div>
 <% end %>
 
