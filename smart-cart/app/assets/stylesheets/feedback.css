@@ -52,12 +52,12 @@
 
 .drop {
     display: inline-block;
-    margin-right: 150px;
+    position: absolute;
+    left: 630px;
 }
 
 .item {
     width: 270px;
-    justify-content: center;
     margin: auto;
     display: flex;
 }

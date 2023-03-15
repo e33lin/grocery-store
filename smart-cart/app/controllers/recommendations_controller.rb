@@ -104,6 +104,7 @@ class RecommendationsController < ApplicationController
         $list_items = List.list_as_array(list_objects)
         $quantities = List.item_quantities_as_array(list_objects)
         $current_recommendation = Recommendation.find_by(list_id: session_id, rec_num: params[:id]) #idk why the params[:id] isnt returning anything
+        $num = params[:id]
         $list = []
         $products = []
         $prices = []

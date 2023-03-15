@@ -8,7 +8,7 @@
 
 <div class = "header">
   <div class="close">
-    <%= link_to recommendations_path do %>
+    <%= link_to number_path(id: params[:id]) do %>
     <%= image_tag "x.png", width: 30, height: 30%>
     <% end %>
   </div>
@@ -30,13 +30,13 @@
 
   <div class = "form">
     
-    <%= form_with model: @feedback, url: feedback_path, local: true do |f| %> 
+    <%= form_with model: @feedback, url: create_feedback_url, local: true do |f| %> 
       <div class = "item">
         <div class = "field-labels">
           <b> Item: </b>
         </div>
         <div class = "drop">
-          <%= f.select :item, ['item1', 'item2'] %>
+          <%= f.select :item, $list %>
         </div>
       </div>
 
@@ -44,7 +44,7 @@
       
       <div class = "price">
         <div class = "price-labels">
-          <b> Observed Price: </b>
+          <b> Observed Price Was... </b>
         </div>
         <div class="radio-buttons">
           <%= f.radio_button :change, "higher", id: "higher", checked: true %>
