@@ -44,28 +44,55 @@ def jaccard_similarity(string1, string2):
 def get_rel(search_item, product):
 
     try:
+
+        if search_item == product:
+            return 2
+
         cat_item = search_item.replace(' ', '-')
-        product = product.replace(search_item, cat_item)
+        product2 = product.replace(search_item, cat_item)
+
 
         # comma usually is used for descriptors - move descriptors to front 
         # ex: frozen perogies, pizza - is usally labelled as pizza but really its perogies
         # to fix we ust rearrange into pizza frozen perogies 
-        if ', ' in product:
-            x = product.split(', ')
-            product = x[1] + x[0]
-        elif 'with' in product:
-            x = product.split('with ')
-            product = x[1] + x[0]
+        if ', ' in product2:
+            x = product2.split(', ')
+            product2 = x[1] + x[0]
+        elif 'with' in product2:
+            x = product2.split('with ')
+            product2 = x[1] + x[0]
         elif '- ' in product:
-            x = product.split('- ')
-            product = x[1] + x[0]
+            x = product2.split('- ')
+            product2 = x[1] + x[0]
 
-        prod_list = product.split(' ')
+        # hardcode rules
+        if search_item == 'butter' and 'peanut butter' in product:
+            return 0
 
-        return (prod_list.index(cat_item)+1) / len(prod_list)
+        prod_list = product2.split(' ')
+
+        loc = (prod_list.index(cat_item)+1) / len(prod_list)
+
+        # if product == 'basil':
+        #     print(prod_list, loc)
+
+        if loc == 1:
+            return 1
+        else:
+            return 0
+
+        # return (prod_list.index(cat_item)+1) / len(prod_list)
     except: 
-        # print(search_item, product)
+
         return 0
+
+def score(rel_score, query, product):
+    penalty = abs(len(query.split(' ')) - len(product.split(' ')))
+    if penalty == 0:
+        return rel_score
+    else:
+        return (1/penalty)*rel_score
+
 
 
 def search(grocery_list, ps):
@@ -119,6 +146,7 @@ def search(grocery_list, ps):
             # calculates the "relevance" score of the product based on the item 
             sims = []
             idxs = []
+            scores = []
             ##### search items #####
             for index, row in store_df.iterrows():
                 
@@ -126,14 +154,16 @@ def search(grocery_list, ps):
 
                 rel_score = get_rel(ps.stem(search_item), ps.stem(product_name))
 
-                if rel_score > 0.6:
+                if rel_score >= 1.0:
                     sims.append(rel_score)
                     idxs.append(index)
+                    scores.append(score(rel_score, search_item, product_name))
 
             # take all items that have high rel scroe 
             selected_data = store_df.iloc[idxs]
             selected_data['list_item'] = item
             selected_data['similarity'] = sims
+            selected_data['score'] = scores
 
             # comparable price: sale_price if is_sale, price if not is_sale
             if len(selected_data) > 0: # if items are found
@@ -148,7 +178,6 @@ def search(grocery_list, ps):
                 # take the cheapest item 
                 cheapest_item = selected_data.sort_values(by=['similarity', 'comparable_PUP'], ascending = [False, True])
 
-                # print(cheapest_item)
 
                 if len(cheapest_item) != 0:
                     cheapest_item = cheapest_item.iloc[0]
