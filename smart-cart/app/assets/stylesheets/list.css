@@ -106,7 +106,7 @@ select {
 .submit-button {
     background-color: #28A745;
     color: #fff;
-    border: none;
+    border: 1px solid #fff;
     /* padding: 10px 20px; */
     border-radius: 4px;
     font-size: 16px;
@@ -121,7 +121,7 @@ select {
 .submit-button-fake {
     background-color: #80858A;
     color: #fff;
-    border: none;
+    border: 1px solid #fff;
     /* padding: 10px 20px; */
     border-radius: 4px;
     font-size: 16px;
