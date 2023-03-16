@@ -4,6 +4,27 @@ class FeedbackController < ApplicationController
         
         list_objects = List.where(list_id: session_id)
         $list = List.list_as_array(list_objects)
+
+        current_recommendation = Recommendation.find_by(list_id: session_id, rec_num: params[:id])
+        products = []
+
+        current_recommendation.rec.each do |key, value|
+            if (key == "product")
+                products = value
+            end
+        end
+
+        for y in 0..products.length()-1 
+            if (products[y].nil?)
+                $list[y] = 0  
+            end
+        end
+
+        for y in 0..$list.length()-1 
+            if ($list[y] == 0)
+                $list.delete_at(y)
+            end
+        end
         
     end
 
