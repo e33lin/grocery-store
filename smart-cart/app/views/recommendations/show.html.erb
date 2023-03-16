@@ -84,7 +84,7 @@
         <% end %>
 
     <% else %>
-        <div class="rec-tile">
+        <div class="rec-tile2">
             <div>
                 <div class="store-name">
                     <% if Recommendation.find_name(x[0])== "No Frills" %>
@@ -131,8 +131,8 @@
             <p class="subtotal">$<%= $subtotals[i]%></p>
             <%= image_submit_tag("chevron.png", class: "chevron")%>
 
-             <% if $unknown[i].length >=1 %>
-                <div class = "note">
+            <% if $unknown[i].length >=1 %>
+                <div class = "note2">
                     Note: 
                     <% for j in 0..$unknown[i].length-1 %> 
                         <% if j== $unknown[i].length-1%>
