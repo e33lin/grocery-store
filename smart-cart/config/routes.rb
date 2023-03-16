@@ -13,8 +13,11 @@ Rails.application.routes.draw do
   get "instructions/terms", to: "instructions#terms", as: "terms"
   get "recommendations", to: "recommendations#show"
   post "recommendations", to: "recommendations#stores", as: "stores_path"
-  get "recommendations/:id", to: "recommendations#number" #route to show specific recommendation
+  get "recommendations/:id", to: "recommendations#number", as: "number" #route to show specific recommendation
   delete "delete_item", to: "lists#delete_item"
+  get "feedback/:id", to: "feedback#show"
+  post "create/:id", to: "feedback#create", as: "create_feedback"
 
 end
 
+ 

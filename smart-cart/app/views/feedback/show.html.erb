@@ -1,0 +1,63 @@
+<head>
+  <link rel="stylesheet" href="feedback.css">
+  <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
+<div class = "header">
+  <div class="close">
+    <%= link_to number_path(id: params[:id]) do %>
+    <%= image_tag "x.png", width: 30, height: 30%>
+    <% end %>
+  </div>
+</div>
+
+<div class="subhead">
+  <b>Feedback</b>
+</div>
+
+<br>
+
+<div class = "text">
+  Thank you for keeping our data fresh so we can keep your fridge fresher! 
+</div>
+
+<br>
+
+
+
+  <div class = "form">
+    
+    <%= form_with model: @feedback, url: create_feedback_url, local: true do |f| %> 
+      <div class = "item">
+        <div class = "field-labels">
+          <b> Item: </b>
+        </div>
+        <div class = "drop">
+          <%= f.select :item, $list %>
+        </div>
+      </div>
+
+      <br>
+      
+      <div class = "price">
+        <div class = "price-labels">
+          <b> Observed Price Was... </b>
+        </div>
+        <div class="radio-buttons">
+          <%= f.radio_button :change, "higher", id: "higher", checked: true %>
+          <label for="higher"> Higher </label>
+          <%= f.radio_button :change, "lower", id: "lower" %>
+          <label for="lower">Lower</label>
+        </div>
+      </div>
+      <br>
+      <%= f.submit "Submit" , class: "submit" %>
+    <% end %>
+   
+  </div>
+
+<br>
+
