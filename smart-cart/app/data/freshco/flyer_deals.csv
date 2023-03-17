@@ -1,214 +1,205 @@
 store,category,brand,product,full_product_text,price,sale_price,price_unit,per_unit_price,sale_per_unit_price,units,price_per_1,is_sale,data_last_refreshed_at,sale_valid_until
-freshco,flyer,,High Liner Signature or Pan-Sear 500-750 g,High Liner Signature or Pan-Sear 500-750 g,,8.99,each,,1.798,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Kohinoor Silver Extra Fine Rice 4.54 kg,Kohinoor Silver Extra Fine Rice 4.54 kg,,10.99,each,,0.2420704845814978,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Gay Lea Grass-fed Butter 250 g,Gay Lea Grass-fed Butter 250 g,,3.99,each,,1.596,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Asparagus product of Mexico No 1 Grade 4.39/kg,Asparagus product of Mexico No 1 Grade 4.39/kg,,1.99,/lb,,1.99,,False,True,03/09/2023,03/15
-freshco,flyer,,Coco-Cola or Pepsi Soft Drinks 2 L Selected Varieties,Coco-Cola or Pepsi Soft Drinks 2 L Selected Varieties,,1.25,each,,0.0625,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,Raspberries 170 g Product of Mexico Kiwi 600 g Product of Greece,Raspberries 170 g Product of Mexico Kiwi 600 g Product of Greece,,1.99,each,,1.1705882352941177,100g,True,True,03/09/2023,03/15
-freshco,flyer,,ND Medjool Dates 2 lb product of USA 907 g,ND Medjool Dates 2 lb product of USA 907 g,,7.99,each,,0.8807474558634192,100g,True,True,03/09/2023,03/15
-freshco,flyer,,"Schneiders Bacon 375 g, Blue Ribbon Bologna 375-500 g, Mini Meat Pies 330-400 g or Frozen Sausages 375 g","Schneiders Bacon 375 g, Blue Ribbon Bologna 375-500 g, Mini Meat Pies 330-400 g or Frozen Sausages 375 g",,3.99,with Scene+ Card,,1.064,100g,False,True,03/09/2023,03/15
-freshco,flyer,,KraftDinner 12 pk,KraftDinner 12 pk,,8.88,with Scene+ Card,,0.7400000000000001,1ea,False,True,03/09/2023,03/15
-freshco,flyer,,Green Seedless Grapes Product of Peru of No. 1 Grade 6.59/kg,Green Seedless Grapes Product of Peru of No. 1 Grade 6.59/kg,,2.99,/lb,,2.99,,False,True,03/09/2023,03/15
-freshco,flyer,,Mini Seedless Cucumbers 6 pk product of Ontario Canada No 1 Grapes Tomatoes Pint Product of USA or Mexico,Mini Seedless Cucumbers 6 pk product of Ontario Canada No 1 Grapes Tomatoes Pint Product of USA or Mexico,,2.99,each,,0.49833333333333335,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Ataulfo Mangoes or Avocados Product of Mexico,Ataulfo Mangoes or Avocados Product of Mexico,,1.29,ea,,1.29,,False,True,03/09/2023,03/15
-freshco,flyer,,Bartlett Pears product of South Africa Extra Fancy Grade 3.95/kg,Bartlett Pears product of South Africa Extra Fancy Grade 3.95/kg,,1.79,/lb,,1.79,,False,True,03/09/2023,03/15
-freshco,flyer,,Yams or Sweet Potato Product of Ontario 2.18/kg,Yams or Sweet Potato Product of Ontario 2.18/kg,,0.99,/lb,,0.99,,False,True,03/09/2023,03/15
-freshco,flyer,,Romaine Heart 3 pk product of USA,Romaine Heart 3 pk product of USA,,3.99,each,,1.33,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Cantaloupe Product of Guatemala or Costa Rice NO.1 Grade,Cantaloupe Product of Guatemala or Costa Rice NO.1 Grade,,2.99,each,,2.99,,True,True,03/09/2023,03/15
-freshco,flyer,,Bagged Seedless Oranges product of Spain 1.36 kg Compliments Bagged red Delicious Apples Product of Ontario Canada Fancy 1.36 kg,Bagged Seedless Oranges product of Spain 1.36 kg Compliments Bagged red Delicious Apples Product of Ontario Canada Fancy 1.36 kg,,3.99,each,,0.2933823529411765,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Green or Red Sweet Bell Peppers 4 pk,Green or Red Sweet Bell Peppers 4 pk,,3.99,each,,0.9975,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Eat Smart Salad Kits Product of USA 283-340 g,Eat Smart Salad Kits Product of USA 283-340 g,,4.49,each,,1.5865724381625441,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Fresh Atlantic Salmon Fillets 26.43/kg,Fresh Atlantic Salmon Fillets 26.43/kg,,11.99,/lb,,11.99,,False,True,03/09/2023,03/15
-freshco,flyer,,Pork Back Ribs frozen Cryovac 15.41/kg,Pork Back Ribs frozen Cryovac 15.41/kg,,6.99,/lb,,6.99,,False,True,03/09/2023,03/15
-freshco,flyer,,"Gold Label Peameal Bacon, Cured Boneless Pork Loin Rolled in Cornmeal 6.59/kg","Gold Label Peameal Bacon, Cured Boneless Pork Loin Rolled in Cornmeal 6.59/kg",,2.99,/lb,,2.99,,False,True,03/09/2023,03/15
-freshco,flyer,,Schneiders Hot Rod Snack pack 160 g,Schneiders Hot Rod Snack pack 160 g,,4.99,each,,3.11875,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Prime Raised without Antibiotics Breaded Chicken Frozen 560-581 g Scheiders Chicken Wings Frozen 615 g,Prime Raised without Antibiotics Breaded Chicken Frozen 560-581 g Scheiders Chicken Wings Frozen 615 g,,9.99,each,,1.7839285714285713,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Janes Pub Style Turkey Frozen 600 g Catch of the Day Fish Fillets frozen 580-800 g,Janes Pub Style Turkey Frozen 600 g Catch of the Day Fish Fillets frozen 580-800 g,,9.99,each,,1.6650000000000003,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Eight Treasures Tilapia Frozen 1.36 kg Anchor's Bay 31/40 Frozen 400 g,Eight Treasures Tilapia Frozen 1.36 kg Anchor's Bay 31/40 Frozen 400 g,,7.99,each,,0.5875,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Main Street Deli Sliced meat 200-250 g,Main Street Deli Sliced meat 200-250 g,,4.99,each,,2.495,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Dempster's Whole Grain Bread 600 g dempster's bagels 5-6 pk,Dempster's Whole Grain Bread 600 g dempster's bagels 5-6 pk,,2.99,each,,0.49833333333333335,100g,True,True,03/09/2023,03/15
-freshco,flyer,,The Laughing Cow 8 pk Cheese Dipper,The Laughing Cow 8 pk Cheese Dipper,,2.99,each,,0.37375,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Tre Stelle feta 200 g Castello Creamy Cheese 150 g,Tre Stelle feta 200 g Castello Creamy Cheese 150 g,,4.49,each,,2.245,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Green Onions Product of Mexico,Green Onions Product of Mexico,,0.99,each,,0.99,,True,True,03/09/2023,03/15
-freshco,flyer,,Italian or Curly Parsley product of USA,Italian or Curly Parsley product of USA,,0.99,each,,0.99,,True,True,03/09/2023,03/15
-freshco,flyer,,Double Fresh Guaranteed,Double Fresh Guaranteed,,,each,,,,True,True,03/09/2023,03/15
-freshco,flyer,,Romaine Heart 3 pk product of USA,Romaine Heart 3 pk product of USA,,3.99,each,,1.33,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Eight Treasures Tilapia Frozen 1.36 kg Anchor's Bay 31/40 Frozen 400 g,Eight Treasures Tilapia Frozen 1.36 kg Anchor's Bay 31/40 Frozen 400 g,,7.99,each,,0.5875,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Starbuck's Roast and Ground Coffee 793 g Whole Bean Coffee 907 g or K-Cups 24 pk,Starbuck's Roast and Ground Coffee 793 g Whole Bean Coffee 907 g or K-Cups 24 pk,,18.99,each,,2.3947036569987388,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Doritos 155-280 g Ruffles 180-200 g,Doritos 155-280 g Ruffles 180-200 g,,6.5,each,,2.0967741935483875,100g,True,True,03/09/2023,03/15
-freshco,flyer,,We Price Match,We Price Match,,,each,,,,True,True,03/09/2023,03/15
-freshco,flyer,,Tetley Orange Pekoe Tea 72 pk,Tetley Orange Pekoe Tea 72 pk,,3.99,each,,0.05541666666666667,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Lavazza Rossa bricks 250 g,Lavazza Rossa bricks 250 g,,3.99,each,,1.596,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Orville Redenbacher microwave Popcorn 6-8 pk,Orville Redenbacher microwave Popcorn 6-8 pk,,9.0,each,,0.75,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Red Bull Energy Drinks 250 mL,Red Bull Energy Drinks 250 mL,,8.0,each,,2.0,,True,True,03/09/2023,03/15
-freshco,flyer,,Campbell's Broth 900 mL,Campbell's Broth 900 mL,,1.79,each,,1.79,,True,True,03/09/2023,03/15
-freshco,flyer,,Clover Leaf Tuna 142 g Brunswick Sardine Fillets 92-100 g,Clover Leaf Tuna 142 g Brunswick Sardine Fillets 92-100 g,,1.49,each,,1.0492957746478873,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Cheetos Mac'N Cheese 164-170 g,Cheetos Mac'N Cheese 164-170 g,,1.69,each,,1.0304878048780488,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Voortman Cookie Wafers 300 g,Voortman Cookie Wafers 300 g,,2.69,each,,0.8966666666666666,100g,True,True,03/09/2023,03/15
-freshco,flyer,,McCain Fries 800-900 g,McCain Fries 800-900 g,,2.29,each,,0.28625,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Delissio Rising Crust or Pizzeria 519-888 g,Delissio Rising Crust or Pizzeria 519-888 g,,5.99,each,,1.1541425818882467,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Kraft Peanut Butter 750 g-1 kg Or Hazelnut Spread 725 g,Kraft Peanut Butter 750 g-1 kg Or Hazelnut Spread 725 g,,5.99,with Scene+ Card,,0.7986666666666666,100g,False,True,03/09/2023,03/15
-freshco,flyer,,Post Jumbo Cereal 1.1-1.24 kg,Post Jumbo Cereal 1.1-1.24 kg,,8.99,each,,0.8172727272727273,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Tic Tac Mints 29 g,Tic Tac Mints 29 g,,1.49,each,,5.137931034482759,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Mars Bowl Size Chocolate 300-400 g,Mars Bowl Size Chocolate 300-400 g,,7.5,ea,,2.5,100g,False,True,03/09/2023,03/15
-freshco,flyer,,Mars Wrigley's Peppermint Gum 3 pk,Mars Wrigley's Peppermint Gum 3 pk,,3.29,each,,1.0966666666666667,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Alcan Foil Wrap 100 ft or Non-Stick Foil Wrap 50 ft,Alcan Foil Wrap 100 ft or Non-Stick Foil Wrap 50 ft,,4.99,each,,4.99,,True,True,03/09/2023,03/15
-freshco,flyer,,Colgate Toothpaste 70 ml Softsoap Hand Soap 221 ml,Colgate Toothpaste 70 ml Softsoap Hand Soap 221 ml,,1.99,each,,2.842857142857143,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,Axe body Spray 76-113 g Axe Body Wash 473 ml,Axe body Spray 76-113 g Axe Body Wash 473 ml,,4.49,each,,5.907894736842105,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Scotties Facial Tissue 12 pk,Scotties Facial Tissue 12 pk,,13.99,each,,1.1658333333333333,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Tide Pods 63-112 pk,Tide Pods 63-112 pk,,29.99,each,,0.47603174603174603,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Mina Supreme Crunch Frozen 600-720 g,Mina Supreme Crunch Frozen 600-720 g,,9.99,each,,1.6650000000000003,100g,True,True,03/09/2023,03/15
-freshco,flyer,,San Daniele Mortadella 175 g Mastro Capocollo or Prosciutto Cotto 125 g,San Daniele Mortadella 175 g Mastro Capocollo or Prosciutto Cotto 125 g,,3.99,each,,2.2800000000000002,100g,True,True,03/09/2023,03/15
-freshco,flyer,,We Price Match,We Price Match,,,each,,,,True,True,03/09/2023,03/15
-freshco,flyer,,Cilantro or Mint Bunch product of USA or Mexico,Cilantro or Mint Bunch product of USA or Mexico,,0.99,each,,0.99,,True,True,03/09/2023,03/15
-freshco,flyer,,Long Squash Product of Dominican 3.28/kg,Long Squash Product of Dominican 3.28/kg,,1.49,/lb,,1.49,,False,True,03/09/2023,03/15
-freshco,flyer,,Compliments Red onions 3 lb Bag product of Ontario Canada No. 1 1.36 kg,Compliments Red onions 3 lb Bag product of Ontario Canada No. 1 1.36 kg,,2.99,each,,0.21972756721164985,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Methi Leaf Bunch Product of Mexico Bunch Spinach Product of USA,Methi Leaf Bunch Product of Mexico Bunch Spinach Product of USA,,1.99,each,,1.99,,True,True,03/09/2023,03/15
-freshco,flyer,,Roma Tomatoes product of Mexico No 1 Grade 3.73/kg,Roma Tomatoes product of Mexico No 1 Grade 3.73/kg,,1.69,/lb,,1.69,,False,True,03/09/2023,03/15
-freshco,flyer,,Nanak Desi Ghee PET 1.6 kg,Nanak Desi Ghee PET 1.6 kg,,22.99,each,,1.436875,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Happy Dairy Paneer 300 g,Happy Dairy Paneer 300 g,,3.99,each,,1.33,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Surati Punjabi Snacks 250-341 g Selected Varieties,Surati Punjabi Snacks 250-341 g Selected Varieties,,2.29,each,,0.9159999999999999,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Tea Valley Orange pekoe 216 pk,Tea Valley Orange pekoe 216 pk,,6.99,each,,0.03236111111111111,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Rubicon Juice drinks 1 L Selected Varieties,Rubicon Juice drinks 1 L Selected Varieties,,1.99,each,,0.199,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,Mirch Masala Plain Paratha Family Pack 2 kg,Mirch Masala Plain Paratha Family Pack 2 kg,,7.99,each,,0.3995,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Britannia Milk Rusk Biscuits 560 g,Britannia Milk Rusk Biscuits 560 g,,3.99,each,,0.7125,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Aman's Chana Daal 1.81 kg,Aman's Chana Daal 1.81 kg,,4.99,each,,0.27569060773480664,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Aman's Super Fine Besan 1.81 kg,Aman's Super Fine Besan 1.81 kg,,5.99,each,,0.33093922651933705,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Nanak Gulabjamun 908 g,Nanak Gulabjamun 908 g,,6.99,each,,0.7698237885462555,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Mother's Magic Lotus Seeds 75 g Selected Varieties,Mother's Magic Lotus Seeds 75 g Selected Varieties,,3.69,each,,4.92,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Mother's Magic Momos Duo Pack 700 g,Mother's Magic Momos Duo Pack 700 g,,9.99,each,,1.4271428571428573,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Nanak Rasmalai 850 g Selected varieties,Nanak Rasmalai 850 g Selected varieties,,7.99,each,,0.9400000000000001,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Brar's Samosas 624 g Selected Varieties,Brar's Samosas 624 g Selected Varieties,,4.99,each,,0.7996794871794872,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Casablanca Pound Cake 400 g,Casablanca Pound Cake 400 g,,3.0,each,,0.75,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Crispy Roti 750 g,Crispy Roti 750 g,,3.49,each,,0.4653333333333334,100g,True,True,03/09/2023,03/15
-freshco,flyer,,DEL MONTE FRUIT CUPS 20pk 112.5 ml,DEL MONTE FRUIT CUPS 20pk 112.5 ml,,14.99,each,,13.324444444444444,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,DEL MONTE FRUIT CUPS 4 pk 107-112.5 ml,DEL MONTE FRUIT CUPS 4 pk 107-112.5 ml,,2.99,each,,0.7475,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Tea Valley Orange pekoe 216 pk,Tea Valley Orange pekoe 216 pk,,6.99,each,,0.03236111111111111,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Aman's Chana Daal 1.81 kg,Aman's Chana Daal 1.81 kg,,4.99,each,,0.27569060773480664,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Mother's Magic Momos Duo Pack 700 g,Mother's Magic Momos Duo Pack 700 g,,9.99,each,,1.4271428571428573,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Crispy Roti 750 g,Crispy Roti 750 g,,3.49,each,,0.4653333333333334,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Liberté Greek Yogourt 650-750 g Yoplait Source Yogourt 16 pk,Liberté Greek Yogourt 650-750 g Yoplait Source Yogourt 16 pk,,5.49,each,,0.8446153846153847,100g,True,True,03/09/2023,03/15
-freshco,flyer,,McCafe Coffee K-Cup Pods 30 pk,McCafe Coffee K-Cup Pods 30 pk,,19.99,each,,0.6663333333333333,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Compliments Cereal 400-794 g,Compliments Cereal 400-794 g,,5.0,each,,1.25,100g,True,True,03/09/2023,03/15
-freshco,flyer,,"Fibre 1, Nature Valley, Fruit by the Foot or Mott's Snacks 637 g-1.28 kg","Fibre 1, Nature Valley, Fruit by the Foot or Mott's Snacks 637 g-1.28 kg",,10.99,each,,1.7252747252747254,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Nestle Gerber Organic Puree 99-128 ml,Nestle Gerber Organic Puree 99-128 ml,,,each,,,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,Nestle Tablets 95-120 g,Nestle Tablets 95-120 g,,2.5,each,,2.631578947368421,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Monster Singles 444-473 mL,Monster Singles 444-473 mL,,2.49,each,,2.49,,True,True,03/09/2023,03/15
-freshco,flyer,,Starbucks Creamers 828 mL,Starbucks Creamers 828 mL,,6.49,each,,6.49,,True,True,03/09/2023,03/15
-freshco,flyer,,Pine-Sol Cleaner 1.41 L,Pine-Sol Cleaner 1.41 L,,4.99,each,,0.35390070921985817,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,Kellogg's Cereal Selected 227-440 g,Kellogg's Cereal Selected 227-440 g,,3.49,each,,1.537444933920705,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Montana's BBQ Sauce 350 ml,Montana's BBQ Sauce 350 ml,,3.99,each,,1.1400000000000001,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,Compliments Cranberry Cocktail 1.89 L,Compliments Cranberry Cocktail 1.89 L,,,each,,,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,Clover leaf Baby Clams 142 g,Clover leaf Baby Clams 142 g,,2.49,each,,1.7535211267605635,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Swanson Stemfresh Vegetables 283 g,Swanson Stemfresh Vegetables 283 g,,3.49,each,,1.2332155477031803,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Clever Leaf Smoked Oysters or Mussels 85 g,Clever Leaf Smoked Oysters or Mussels 85 g,,1.79,each,,2.1058823529411765,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Clorox Bleach 2.4 l,Clorox Bleach 2.4 l,,4.99,each,,4.99,,True,True,03/09/2023,03/15
-freshco,flyer,,Ziploc Storage or Freezer Bags 10-90 pk Ziploc Compostable Retail Sandwich Bags 20 pk,Ziploc Storage or Freezer Bags 10-90 pk Ziploc Compostable Retail Sandwich Bags 20 pk,,4.99,each,,0.499,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Dr. Oetker Momenti or Giuseppe Garlic Fingers 160-317 g,Dr. Oetker Momenti or Giuseppe Garlic Fingers 160-317 g,,3.79,each,,2.36875,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Fruitopia Drinks 1.75 l,Fruitopia Drinks 1.75 l,,,each,,,,True,True,03/09/2023,03/15
-freshco,flyer,,Nestle Juniors 9-10 pk,Nestle Juniors 9-10 pk,,2.25,each,,0.25,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Haagen-Dazs Ice Cream Tubs 400-500 mL or Novelties 3-4 pk,Haagen-Dazs Ice Cream Tubs 400-500 mL or Novelties 3-4 pk,,4.99,each,,1.6633333333333333,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Lay's Potato Chips 177-235 g or Poppables 130 g Cheetos 180-285 g Takis 190-280 g,Lay's Potato Chips 177-235 g or Poppables 130 g Cheetos 180-285 g Takis 190-280 g,,5.5,each,,1.5536723163841808,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Bonne Maman Jam 250 mL,Bonne Maman Jam 250 mL,,5.49,each,,5.49,,True,True,03/09/2023,03/15
-freshco,flyer,,Gatorade 6x591 mL or 8x355 mL,Gatorade 6x591 mL or 8x355 mL,,11.0,each,,5.5,,True,True,03/09/2023,03/15
-freshco,flyer,,Allen's Apple Juice 1.89 L Oasis or Arizona Iced tea drinks Boxes 8 x 200 ml,Allen's Apple Juice 1.89 L Oasis or Arizona Iced tea drinks Boxes 8 x 200 ml,,2.49,each,,0.13174603174603175,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,7Days Bake It Puff Pastry 850 g Fino Fine Foods 440 g,7Days Bake It Puff Pastry 850 g Fino Fine Foods 440 g,,5.49,each,,0.6458823529411765,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Folgers K-Cups 12 pk Maxwell House Coffee K-Cups 12 pk Nabob Bagged Coffee 300 g,Folgers K-Cups 12 pk Maxwell House Coffee K-Cups 12 pk Nabob Bagged Coffee 300 g,,6.99,each,,0.5825,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Dare Bear Paws Cookies 336-480 g Or Grissol Melba Toast 350-400 g,Dare Bear Paws Cookies 336-480 g Or Grissol Melba Toast 350-400 g,,3.99,each,,1.1875,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Leclerc Celebration Cookies 240 g,Leclerc Celebration Cookies 240 g,,2.49,each,,1.0375,100g,True,True,03/09/2023,03/15
-freshco,flyer,,PeachTree Valley Peaches 1.7 L,PeachTree Valley Peaches 1.7 L,,5.99,each,,0.3523529411764706,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,Kraft Salad Dressing 475 ml,Kraft Salad Dressing 475 ml,,2.99,each,,0.6294736842105264,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,Liberte Greek Yogurt 4 Pk,Liberte Greek Yogurt 4 Pk,,2.99,each,,2.99,,True,True,03/09/2023,03/15
-freshco,flyer,,Old El Paso Seasoning Mix 24 g,Old El Paso Seasoning Mix 24 g,,5.0,each,,5.208333333333334,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Fino Fine Foods Fire Roasted red peppers 1.5 L,Fino Fine Foods Fire Roasted red peppers 1.5 L,,7.99,each,,0.5326666666666667,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,Oasis Juices Arizona Iced Tea or Del Monte Nectars 960 ml,Oasis Juices Arizona Iced Tea or Del Monte Nectars 960 ml,,1.33,with Scene+ Card,,0.13854166666666667,100ml,False,True,03/09/2023,03/15
-freshco,flyer,,Sponge Towels Mega 6=12,Sponge Towels Mega 6=12,,12.99,with Scene+ Card,,12.99,,False,True,03/09/2023,03/15
-freshco,flyer,,7 Days Bake It Mini Twists 1 kg,7 Days Bake It Mini Twists 1 kg,,7.99,each,,0.799,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Salem Foods Freekeh Roasted Green Durum Wheat Kernels,Salem Foods Freekeh Roasted Green Durum Wheat Kernels,,6.49,each,,6.49,,True,True,03/09/2023,03/15
-freshco,flyer,,Ahmad Tea 454 g Selected Varieties,Ahmad Tea 454 g Selected Varieties,,8.99,each,,1.9801762114537447,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Alshifa Natural Honey 500 g,Alshifa Natural Honey 500 g,,6.99,each,,1.3980000000000001,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Royal Gala Apples product of Ontario Canada Extra Fancy 3.28/kg,Royal Gala Apples product of Ontario Canada Extra Fancy 3.28/kg,,1.49,/lb,,1.49,,False,True,03/09/2023,03/15
-freshco,flyer,,Garlic 5 pk Product of China,Garlic 5 pk Product of China,,0.99,each,,0.198,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Limes Product of Mexico or Brazil Lemons Product of South Africa,Limes Product of Mexico or Brazil Lemons Product of South Africa,,1.0,each,,0.5,,True,True,03/09/2023,03/15
-freshco,flyer,,Puck 23% Thickened Creamy 160 g,Puck 23% Thickened Creamy 160 g,,1.69,each,,1.05625,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Puck Creamy Dairy Spread 500 g,Puck Creamy Dairy Spread 500 g,,9.99,each,,1.9980000000000002,100g,True,True,03/09/2023,03/15
-freshco,flyer,,ETi Tea Biscuits 400 g,ETi Tea Biscuits 400 g,,1.99,each,,0.49750000000000005,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Sunwhite Calrose Rice 4.5 kg,Sunwhite Calrose Rice 4.5 kg,,13.99,each,,0.3108888888888889,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Salem Foods Pickled Cucumbers 1 kg,Salem Foods Pickled Cucumbers 1 kg,,3.99,each,,0.399,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Salem Foods Nablus Olives 2 kg,Salem Foods Nablus Olives 2 kg,,7.99,each,,0.3995,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Salem Foods Pickled Vine Leaves 454g,Salem Foods Pickled Vine Leaves 454g,,3.99,each,,3.99,,True,True,03/09/2023,03/15
-freshco,flyer,,Taj Foods Sugar Cubes 250 g Selected Varieties,Taj Foods Sugar Cubes 250 g Selected Varieties,,2.99,each,,1.196,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Salem Foods Freekeh Roasted Green Durum Wheat Kernels,Salem Foods Freekeh Roasted Green Durum Wheat Kernels,,6.49,each,,6.49,,True,True,03/09/2023,03/15
-freshco,flyer,,Salem Foods Tomato Paste 700 g,Salem Foods Tomato Paste 700 g,,2.99,each,,0.42714285714285716,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Patak's Butter Chicken Cooking Sauce 400 ml,Patak's Butter Chicken Cooking Sauce 400 ml,,4.99,each,,1.2475,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,Zabiha Halal Chicken Bologna or 375 g,Zabiha Halal Chicken Bologna or 375 g,,1.99,each,,0.5306666666666667,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Salem Foods Bulger and Semolina 907-908 g Selected varieties,Salem Foods Bulger and Semolina 907-908 g Selected varieties,,2.29,each,,0.2524807056229328,100g,True,True,03/09/2023,03/15
-freshco,flyer,,"Al Safa Chicken Tenderz, Nuggets or Burgers Frozen 400-600 g","Al Safa Chicken Tenderz, Nuggets or Burgers Frozen 400-600 g",,6.99,each,,1.7475,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Kasih Premium Halva Pistachio or Vanilla 450 g,Kasih Premium Halva Pistachio or Vanilla 450 g,,3.99,each,,0.8866666666666667,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Teashop Ma'amoul Cookies with 480 g,Teashop Ma'amoul Cookies with 480 g,,3.99,each,,0.83125,100g,True,True,03/09/2023,03/15
-freshco,flyer,,"EARN REWARDS FASTER WITH UP TO 10,000 BONUS POINTS","EARN REWARDS FASTER WITH UP TO 10,000 BONUS POINTS",,,each,,,,True,True,03/09/2023,03/15
-freshco,flyer,,Sukri Dates 500 g Product of Saudi,Sukri Dates 500 g Product of Saudi,,5.99,each,,1.1980000000000002,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Parnoosh Pitted dates product of Iran 907 g,Parnoosh Pitted dates product of Iran 907 g,,5.99,each,,0.6604189636163176,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Rabia Dates 500 g Product of Saudi Arabia,Rabia Dates 500 g Product of Saudi Arabia,,5.99,each,,1.1980000000000002,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Mabroom dates 500 g product of Saudi Arabia,Mabroom dates 500 g product of Saudi Arabia,,6.99,each,,1.3980000000000001,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Khudri Dates 1 kg product of Saudi Arabia,Khudri Dates 1 kg product of Saudi Arabia,,6.99,each,,0.6990000000000001,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Safawi Dates 500 g Product of Saudi Arabia,Safawi Dates 500 g Product of Saudi Arabia,,6.99,each,,1.3980000000000001,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Deglet Pitted Dates 1 kg product of Algeria,Deglet Pitted Dates 1 kg product of Algeria,,6.49,each,,0.649,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Ajwa Dates 500 g Product of Saudi Arabia,Ajwa Dates 500 g Product of Saudi Arabia,,10.99,each,,2.198,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Dried Figs 200 g Product of Turkey,Dried Figs 200 g Product of Turkey,,1.79,each,,0.895,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Dried Apricots 200 g Product of Turkey,Dried Apricots 200 g Product of Turkey,,2.49,each,,1.245,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Barni Dates 1 kg Product of Saudi Arabia Dates,Barni Dates 1 kg Product of Saudi Arabia Dates,,5.49,each,,0.549,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Larabar Snack bars 5 pk 225-240 g Selected varieties,Larabar Snack bars 5 pk 225-240 g Selected varieties,,6.99,each,,1.3980000000000001,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,Natrel Organic Milk 2 L Selected Varieties,Natrel Organic Milk 2 L Selected Varieties,,5.99,each,,0.29950000000000004,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,Olympic Organic Yogurt 650 g,Olympic Organic Yogurt 650 g,,4.49,each,,0.6907692307692308,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Simply Snacks 156-241 g Off The Eaten Path Snacks 149-177 g Selected Varieties,Simply Snacks 156-241 g Off The Eaten Path Snacks 149-177 g Selected Varieties,,3.79,each,,2.4294871794871797,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Annie's Snacks 115-213 g Selected varieties,Annie's Snacks 115-213 g Selected varieties,,3.99,each,,3.4695652173913043,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Annie's Cereal 235-260 g Selected Varieties,Annie's Cereal 235-260 g Selected Varieties,,4.49,each,,1.9106382978723406,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Nature's Path Cereal 750-907 g Selected Varieties,Nature's Path Cereal 750-907 g Selected Varieties,,8.99,each,,1.1986666666666665,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Christie Oreo Cookies Gluten Free 342-376 g Biscuits,Christie Oreo Cookies Gluten Free 342-376 g Biscuits,,5.99,each,,1.7514619883040938,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Kettle Chips 198 g Selected Varieties,Kettle Chips 198 g Selected Varieties,,2.99,each,,1.5101010101010104,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Earth's Own Oat Milk 946 mL Selected Varieties,Earth's Own Oat Milk 946 mL Selected Varieties,,2.99,each,,2.99,,True,True,03/09/2023,03/15
-freshco,flyer,,Kellogg's Nutri-Grain Bars 295 g Pop-tarts 384 g Rice Krispies Squares 176-198 g or Special Bars 125 g Selected Varieties,Kellogg's Nutri-Grain Bars 295 g Pop-tarts 384 g Rice Krispies Squares 176-198 g or Special Bars 125 g Selected Varieties,,2.99,each,,1.0135593220338983,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Black Diamond Cheestrings 168 g,Black Diamond Cheestrings 168 g,,3.99,each,,2.375,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Heineken 0.0% Non-Alcoholic Beer 6x300 mL,Heineken 0.0% Non-Alcoholic Beer 6x300 mL,,9.99,each,,9.99,,True,True,03/09/2023,03/15
-freshco,flyer,,Betty Crocker Potatoes 141-215 g,Betty Crocker Potatoes 141-215 g,,1.99,each,,1.4113475177304964,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Kinder Surprise Chocolate Egg 20 g Kinder Bueno Chocolate Bar 39-43 g,Kinder Surprise Chocolate Egg 20 g Kinder Bueno Chocolate Bar 39-43 g,,1.29,each,,6.45,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Compliments Peanut Butter 2 kg,Compliments Peanut Butter 2 kg,,7.49,each,,0.3745,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Piller's Salami 125 g,Piller's Salami 125 g,,3.29,each,,2.632,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Pedigree healthy Vitality Adult Dog food 8 kg,Pedigree healthy Vitality Adult Dog food 8 kg,,22.99,each,,0.287375,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Irish Spring Body Wash 591 mL Softsoap Body Wash 591 mL,Irish Spring Body Wash 591 mL Softsoap Body Wash 591 mL,,,each,,,,True,True,03/09/2023,03/15
-freshco,flyer,,Compliments Value Size Potato Chips 750 g,Compliments Value Size Potato Chips 750 g,,4.49,each,,0.5986666666666667,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Compliments Mixed Nuts or Cashews Roasted & Salted 1.13 kg,Compliments Mixed Nuts or Cashews Roasted & Salted 1.13 kg,,21.99,each,,1.9460176991150442,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Compliments Jelly Beans or Scotch Mints 700 g,Compliments Jelly Beans or Scotch Mints 700 g,,3.99,each,,0.5700000000000001,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Compliments Peanut Butter 2 kg,Compliments Peanut Butter 2 kg,,7.49,each,,0.3745,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Compliments Pancake Mix 1.8 kg,Compliments Pancake Mix 1.8 kg,,5.99,each,,0.3327777777777778,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Compliments Liquid Fabric Softener 4.41 l,Compliments Liquid Fabric Softener 4.41 l,,5.99,each,,5.99,,True,True,03/09/2023,03/15
-freshco,flyer,,GREEN GRANT Canned or Frozen Vegetables 341 mL or 750 g,GREEN GRANT Canned or Frozen Vegetables 341 mL or 750 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,BOB'S Red Gluten Free Old Fashioned Rolled Oats 907 g,BOB'S Red Gluten Free Old Fashioned Rolled Oats 907 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,CAMPBELL'S Goldfish Cracker 180-200 g,CAMPBELL'S Goldfish Cracker 180-200 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,Compliments Jelly Beans or Scotch Mints 700 g,Compliments Jelly Beans or Scotch Mints 700 g,,3.99,each,,0.5700000000000001,100g,True,True,03/09/2023,03/15
-freshco,flyer,,COCA-COLA Mini 8x300 mL,COCA-COLA Mini 8x300 mL,,,each,,,,True,True,03/09/2023,03/15
-freshco,flyer,,SIMPLY Not From Concentrate Orange Juice or lemonade 1.54-2.63 L,SIMPLY Not From Concentrate Orange Juice or lemonade 1.54-2.63 L,,,each,,,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,CLOVER LEAF Flaked Skipjack Tuna 170 g,CLOVER LEAF Flaked Skipjack Tuna 170 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,ORVILLE REDNBACHER Popcorn 6x 82 g,ORVILLE REDNBACHER Popcorn 6x 82 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,VH SAUCE Honey Garlic 341 mL,VH SAUCE Honey Garlic 341 mL,,,each,,,,True,True,03/09/2023,03/15
-freshco,flyer,,DANONE Go! Strawberry 190 ml,DANONE Go! Strawberry 190 ml,,,each,,,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,BEAR Paws Veggies + Fruits 168 g,BEAR Paws Veggies + Fruits 168 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,QUAKER Harvest Crunch 475 g,QUAKER Harvest Crunch 475 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,MADE GOOD Chocolate Chip Granola Bars 5x24 g,MADE GOOD Chocolate Chip Granola Bars 5x24 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,SAVOR Grass Fed Salted or Unsalted Butter 250 g,SAVOR Grass Fed Salted or Unsalted Butter 250 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,BECEL Margarine 850 g or Plant-Based Bricks 454 g,BECEL Margarine 850 g or Plant-Based Bricks 454 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,KELLOGG'S Raisin Bran 425 g,KELLOGG'S Raisin Bran 425 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,SPONGE TOWELS Ultra Pro Double 3 rolls,SPONGE TOWELS Ultra Pro Double 3 rolls,,,each,,,,True,True,03/09/2023,03/15
-freshco,flyer,,BLACK DIAMOND Cheestrings 16 pk,BLACK DIAMOND Cheestrings 16 pk,,,each,,,1ea,True,True,03/09/2023,03/15
-freshco,flyer,,LINDT Excellence 70% Cacoa Dark Chocolate bar 100 g,LINDT Excellence 70% Cacoa Dark Chocolate bar 100 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,MAPLE LEAF Natural Selections Sliced meats 175 g,MAPLE LEAF Natural Selections Sliced meats 175 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,KELLOGG'S Rice Krispies 340 g,KELLOGG'S Rice Krispies 340 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,KRAFT Hazelnut or Peanut Butter Spread 725 g-1 kg,KRAFT Hazelnut or Peanut Butter Spread 725 g-1 kg,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,FRANK'S RedHot Sauce Or Thick RedHot Sauce 354 mL,FRANK'S RedHot Sauce Or Thick RedHot Sauce 354 mL,,,each,,,,True,True,03/09/2023,03/15
-freshco,flyer,,"MCCAIN Breakfast Pockets egg, bacon, cheese or egg and cheese 600 g","MCCAIN Breakfast Pockets egg, bacon, cheese or egg and cheese 600 g",,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,OREO Original 270 g,OREO Original 270 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,NATURE'S PATH ORGANIC Heritage Flakes Cereal 907 g,NATURE'S PATH ORGANIC Heritage Flakes Cereal 907 g,,,each,,,100g,True,True,03/09/2023,03/15
-freshco,flyer,,NESTLE Nesquick Chocolate Syrup 700 mL,NESTLE Nesquick Chocolate Syrup 700 mL,,,each,,,,True,True,03/09/2023,03/15
-freshco,flyer,,BUBLY Sparkling Water 12 x 355 ml,BUBLY Sparkling Water 12 x 355 ml,,,each,,,100ml,True,True,03/09/2023,03/15
-freshco,flyer,,Email Acquisition,Email Acquisition,,,each,,,,True,True,03/09/2023,03/15
+freshco,flyer,,Prime Raised Without Antibiotics Boneless Skinless Chicken Breasts 3 pieces or Mina Halal Boneless Skinless Chicken Breasts 4 pieces,Prime Raised Without Antibiotics Boneless Skinless Chicken Breasts 3 pieces or Mina Halal Boneless Skinless Chicken Breasts 4 pieces,,10.0,each,,10.0,,True,True,03/16/2023,03/22
+freshco,flyer,,Mr. Goudas Par-Boiled or Long Grain Rice 8 kg,Mr. Goudas Par-Boiled or Long Grain Rice 8 kg,,12.99,each,,0.162375,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Strawberries 454 g Product of Mexico or USA No. 1 Grade,Strawberries 454 g Product of Mexico or USA No. 1 Grade,,1.99,each,,0.43832599118942733,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Khudri Dates 1 kg Product of Saudi Arabia,Khudri Dates 1 kg Product of Saudi Arabia,,5.99,each,,0.5990000000000001,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Simply Orange Juice 1.54 L Becel Margarine 427 g,Simply Orange Juice 1.54 L Becel Margarine 427 g,,3.99,each,,0.2590909090909091,100ml,True,True,03/16/2023,03/22
+freshco,flyer,,Broccoli Crowns Product of USA or Mexico 4.39/kg,Broccoli Crowns Product of USA or Mexico 4.39/kg,,1.99,/lb,,1.99,,False,True,03/16/2023,03/22
+freshco,flyer,,Unico Vegetable Oil 3 L,Unico Vegetable Oil 3 L,,9.88,each,,0.32933333333333337,100ml,True,True,03/16/2023,03/22
+freshco,flyer,,Scheiders Juicy Jumbos or Smoked Sausages 375-450 g,Scheiders Juicy Jumbos or Smoked Sausages 375-450 g,,3.99,with Scene+ Card,,1.064,100g,False,True,03/16/2023,03/22
+freshco,flyer,,Cashmere Bathroom Tissue 12-36 rolls,Cashmere Bathroom Tissue 12-36 rolls,,9.99,with Scene+ Card,,9.99,,False,True,03/16/2023,03/22
+freshco,flyer,,Red Seedless Grape Product of Peru or Chile No. Grade 6.59/kg,Red Seedless Grape Product of Peru or Chile No. Grade 6.59/kg,,2.99,/lb,,2.99,,False,True,03/16/2023,03/22
+freshco,flyer,,Roma Tomatoes Product of Mexico No. 1 Grade 3.73/kg,Roma Tomatoes Product of Mexico No. 1 Grade 3.73/kg,,1.69,/lb,,1.69,,False,True,03/16/2023,03/22
+freshco,flyer,,Stem & Leaf Clementines Product of Spain 6.59/kg,Stem & Leaf Clementines Product of Spain 6.59/kg,,2.99,/lb,,2.99,,False,True,03/16/2023,03/22
+freshco,flyer,,Yellow Flesh Peaches Product of Chile No. 1 Grade 5.49/kg,Yellow Flesh Peaches Product of Chile No. 1 Grade 5.49/kg,,2.49,/lb,,2.49,,False,True,03/16/2023,03/22
+freshco,flyer,,Eggplants or Zucchini Product of USA or Mexico 4.39/kg,Eggplants or Zucchini Product of USA or Mexico 4.39/kg,,1.99,/lb,,1.99,,False,True,03/16/2023,03/22
+freshco,flyer,,Compliments mini Peeled Carrots 340 g Product of USA Seedless Cucumbers Product of Ontario Canada No. 1 or Product of Mexico No. 1 Grade,Compliments mini Peeled Carrots 340 g Product of USA Seedless Cucumbers Product of Ontario Canada No. 1 or Product of Mexico No. 1 Grade,,1.49,each,,0.4382352941176471,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Compliments Bagged Gala or Red Delicious Apples 3 lb Product of Ontario Canada Fancy 1.36 kg,Compliments Bagged Gala or Red Delicious Apples 3 lb Product of Ontario Canada Fancy 1.36 kg,,3.99,each,,0.29321504788444247,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Bartlett Pears Product of South Africa Extra Fancy Grade Red Plums Product of Chile 3.95/kg,Bartlett Pears Product of South Africa Extra Fancy Grade Red Plums Product of Chile 3.95/kg,,1.79,/lb,,1.79,,False,True,03/16/2023,03/22
+freshco,flyer,,Celery Product of USA or Mexico No. 1 Grade,Celery Product of USA or Mexico No. 1 Grade,,2.49,each,,2.49,,True,True,03/16/2023,03/22
+freshco,flyer,,Sweet Bell Peppers 4 pk Product of Mexico,Sweet Bell Peppers 4 pk Product of Mexico,,3.99,each,,0.9975,1ea,True,True,03/16/2023,03/22
+freshco,flyer,,Lean Ground Beef 375 g,Lean Ground Beef 375 g,,5.0,each,,1.3333333333333335,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Marcangelo Bacon Wrapped Pork or Chicken 300-350 g,Marcangelo Bacon Wrapped Pork or Chicken 300-350 g,,8.0,each,,2.666666666666667,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Gold Label Sliced Meats 55 g,Gold Label Sliced Meats 55 g,,0.99,each,,1.7999999999999998,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Schneiders Pepperettes 250-375 g,Schneiders Pepperettes 250-375 g,,7.99,each,,3.196,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Marcangelo Gyro Kits Frozen 788 g Select Valley Foods Chicken Legs Back Attached Frozen 3 kg,Marcangelo Gyro Kits Frozen 788 g Select Valley Foods Chicken Legs Back Attached Frozen 3 kg,,12.0,each,,1.5228426395939088,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Best Buy Seafood Mix Frozen 900 g or Breaded Popcorn Shrimp Frozen 908 g,Best Buy Seafood Mix Frozen 900 g or Breaded Popcorn Shrimp Frozen 908 g,,10.0,each,,1.1111111111111112,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Eight Treasures Cooked Shrimp Frozen 340 g,Eight Treasures Cooked Shrimp Frozen 340 g,,6.99,each,,2.0558823529411763,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Sara Lee Little Bites 234 g Kimberley's Cookies 383 g,Sara Lee Little Bites 234 g Kimberley's Cookies 383 g,,3.29,each,,1.4059829059829059,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Dempster's Signature Buns 6-8 pk or Tortillas 366-610 g,Dempster's Signature Buns 6-8 pk or Tortillas 366-610 g,,3.29,each,,0.5483333333333333,1ea,True,True,03/16/2023,03/22
+freshco,flyer,,Summer Fresh Dips or Hummus 227 g Tre Stelle Feta in Oil 100 g or Ricotta 280 g,Summer Fresh Dips or Hummus 227 g Tre Stelle Feta in Oil 100 g or Ricotta 280 g,,2.99,each,,1.3171806167400884,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Compliments Sliced Meat 175 g,Compliments Sliced Meat 175 g,,3.99,each,,2.2800000000000002,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Green Onions Product of Mexico,Green Onions Product of Mexico,,0.99,ea,,0.99,,False,True,03/16/2023,03/22
+freshco,flyer,,Rapini Product of USA or Mexico,Rapini Product of USA or Mexico,,3.49,each,,3.49,,True,True,03/16/2023,03/22
+freshco,flyer,,Double Fresh Guaranteed,Double Fresh Guaranteed,,,each,,,,True,True,03/16/2023,03/22
+freshco,flyer,,Gold Label Sliced Meats 55 g,Gold Label Sliced Meats 55 g,,0.99,each,,1.7999999999999998,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Rapini Product of USA or Mexico,Rapini Product of USA or Mexico,,3.49,each,,3.49,,True,True,03/16/2023,03/22
+freshco,flyer,,We Price Match,We Price Match,,,each,,,,True,True,03/16/2023,03/22
+freshco,flyer,,"Frito-Lay Value Size Potato Chips , Tortilla Chips, Snacks or Popcorn 275-480 g","Frito-Lay Value Size Potato Chips , Tortilla Chips, Snacks or Popcorn 275-480 g",,5.0,each,,1.8181818181818181,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Quaker Crispy Minis 100 g or Rice Cakes 127-199 g,Quaker Crispy Minis 100 g or Rice Cakes 127-199 g,,2.49,each,,2.49,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Tim Hortons Single Serve K-Cups 30 pk or Ground Coffee 875-930 g,Tim Hortons Single Serve K-Cups 30 pk or Ground Coffee 875-930 g,,19.99,each,,0.6663333333333333,1ea,True,True,03/16/2023,03/22
+freshco,flyer,,Christie Ritz Wheat Thins or Triscuit Crackers 175-304 g,Christie Ritz Wheat Thins or Triscuit Crackers 175-304 g,,5.0,each,,1.4285714285714286,100g,True,True,03/16/2023,03/22
+freshco,flyer,,"Old EI Paso Taco Shells 125-133 g, Flour Tortillas 144-334 g or Taco for 2 Kits 94-155 g","Old EI Paso Taco Shells 125-133 g, Flour Tortillas 144-334 g or Taco for 2 Kits 94-155 g",,2.5,ea,,1.0,100g,False,True,03/16/2023,03/22
+freshco,flyer,,Fruité Drink 2 L,Fruité Drink 2 L,,1.69,each,,0.08449999999999999,100ml,True,True,03/16/2023,03/22
+freshco,flyer,,Delissio Rising Crust or Pizzeria Pizza 519-888 g,Delissio Rising Crust or Pizzeria Pizza 519-888 g,,5.99,each,,1.1541425818882467,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Kraft Salad Dressing 475 mL,Kraft Salad Dressing 475 mL,,2.99,each,,2.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Head & Shoulders 2-in-1 or Pantene Shampoo or Conditioner 308-400 mL,Head & Shoulders 2-in-1 or Pantene Shampoo or Conditioner 308-400 mL,,4.99,each,,4.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Silk Beverage 1.75-1.89 L,Silk Beverage 1.75-1.89 L,,3.99,each,,0.22799999999999998,100ml,True,True,03/16/2023,03/22
+freshco,flyer,,Van Houtte Coffee K-Cup Pods 24 pk,Van Houtte Coffee K-Cup Pods 24 pk,,14.99,each,,0.6245833333333334,1ea,True,True,03/16/2023,03/22
+freshco,flyer,,General Mills Cereal Selected 300-450 g,General Mills Cereal Selected 300-450 g,,3.5,ea,,0.5833333333333334,100g,False,True,03/16/2023,03/22
+freshco,flyer,,Janes Ultimates Chicken Fillets Frozen 720 g,Janes Ultimates Chicken Fillets Frozen 720 g,,11.99,each,,1.6652777777777776,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Annie's Macaroni & Cheese 156-170 g Yoplait Tubes 8 pk Yoplait Minigo 6 pk,Annie's Macaroni & Cheese 156-170 g Yoplait Tubes 8 pk Yoplait Minigo 6 pk,,2.49,each,,1.5961538461538465,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Danino Yogurt Drinks 8 pk,Danino Yogurt Drinks 8 pk,,3.49,each,,0.43625,1ea,True,True,03/16/2023,03/22
+freshco,flyer,,Mott's Clamato or Garden Cocktail 1.89 L,Mott's Clamato or Garden Cocktail 1.89 L,,7.0,each,,0.1851851851851852,100ml,True,True,03/16/2023,03/22
+freshco,flyer,,Janes Ultimates Boneless Chicken Bites Frozen 710 g,Janes Ultimates Boneless Chicken Bites Frozen 710 g,,10.99,each,,1.5478873239436621,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Betty Crocker Potatoes 141-215 g,Betty Crocker Potatoes 141-215 g,,1.99,each,,1.4113475177304964,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Nature Valley Bars 420-525 g Fruit by the Foot or Fruit Gushers Snacks 340-368 g Selected Varieties,Nature Valley Bars 420-525 g Fruit by the Foot or Fruit Gushers Snacks 340-368 g Selected Varieties,,6.99,each,,1.6642857142857144,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Two Good Yogourt 625 g,Two Good Yogourt 625 g,,3.99,each,,0.6384,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Corona Sunbrew 0% Non-Alcoholic Beer 6x330 mL,Corona Sunbrew 0% Non-Alcoholic Beer 6x330 mL,,9.99,each,,9.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Janes Pub Style Turkey Frozen 600 g,Janes Pub Style Turkey Frozen 600 g,,8.99,each,,1.4983333333333333,100g,True,True,03/16/2023,03/22
+freshco,flyer,,"Mina Halal Chicken Nuggets, Strips or Burgers Frozen 552-600 g","Mina Halal Chicken Nuggets, Strips or Burgers Frozen 552-600 g",,6.99,each,,1.2663043478260871,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Marcangelo Sliced Meat 100 g,Marcangelo Sliced Meat 100 g,,4.99,each,,4.99,100g,True,True,03/16/2023,03/22
+freshco,flyer,,We Price Match,We Price Match,,,each,,,,True,True,03/16/2023,03/22
+freshco,flyer,,Bunch Spinach Product of USA Methi Leaf Bunch Product of Mexico,Bunch Spinach Product of USA Methi Leaf Bunch Product of Mexico,,1.99,each,,1.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Yellow Dates Product of Peru 13.21/kg,Yellow Dates Product of Peru 13.21/kg,,5.99,/lb,,5.99,,False,True,03/16/2023,03/22
+freshco,flyer,,Bhindi Product of India 8.80/kg,Bhindi Product of India 8.80/kg,,3.99,/lb,,3.99,,False,True,03/16/2023,03/22
+freshco,flyer,,Long Squash Product of Dominican Republic 3.28/kg,Long Squash Product of Dominican Republic 3.28/kg,,1.49,/lb,,1.49,,False,True,03/16/2023,03/22
+freshco,flyer,,Karela (Indian Bitter Melon) Product of Dominican Republic 4.39/kg,Karela (Indian Bitter Melon) Product of Dominican Republic 4.39/kg,,1.99,/lb,,1.99,,False,True,03/16/2023,03/22
+freshco,flyer,,Aman's Lentils 1.81 kg Selected Varieties,Aman's Lentils 1.81 kg Selected Varieties,,4.49,each,,0.24806629834254146,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Heer Durum Flour Atta 9.07 kg,Heer Durum Flour Atta 9.07 kg,,11.99,each,,0.13219404630650497,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Mirch Masala Plain Paratha Family Pack 2 kg,Mirch Masala Plain Paratha Family Pack 2 kg,,7.99,each,,0.3995,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Mother's Magic Lotus Seeds 75 g Selected Varieties,Mother's Magic Lotus Seeds 75 g Selected Varieties,,3.69,each,,4.92,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Tea Valley Orange Pekoe Tea 216 Bags 685 g,Tea Valley Orange Pekoe Tea 216 Bags 685 g,,6.99,each,,1.0204379562043797,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Brar's Milk Cake 400 g,Brar's Milk Cake 400 g,,7.99,each,,1.9975,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Brar's Samosas 624 g Selected Varieties,Brar's Samosas 624 g Selected Varieties,,4.99,each,,0.7996794871794872,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Aman's Super Fine Besan 1.81 kg,Aman's Super Fine Besan 1.81 kg,,5.99,each,,0.33093922651933705,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Deluxe Biscuits or Cookies 1 kg Selected Varieties,Deluxe Biscuits or Cookies 1 kg Selected Varieties,,4.49,each,,0.449,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Basma Frozen Green Okra 400 g,Basma Frozen Green Okra 400 g,,2.99,each,,0.7475,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Brar's Rasmalai 850-908 g Selected Varieties,Brar's Rasmalai 850-908 g Selected Varieties,,7.99,each,,0.9400000000000001,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Tandoori Oven Samosas Frozen 350 g,Tandoori Oven Samosas Frozen 350 g,,5.99,each,,1.7114285714285713,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Tandoori Oven Kebabs Frozen 240-300 g,Tandoori Oven Kebabs Frozen 240-300 g,,5.99,each,,2.4958333333333336,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Cedar Pita 330 g Selected Stores,Cedar Pita 330 g Selected Stores,,1.0,each,,0.30303030303030304,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Yellow Yams Product of Jamaica 6.59/kg,Yellow Yams Product of Jamaica 6.59/kg,,2.99,/lb,,2.99,,False,True,03/16/2023,03/22
+freshco,flyer,,Sweet Potatoes Product of Ontario 2.84/kg,Sweet Potatoes Product of Ontario 2.84/kg,,1.29,/lb,,1.29,,False,True,03/16/2023,03/22
+freshco,flyer,,Grace Regular or Hot Chicken Vienna Sausages 130 g,Grace Regular or Hot Chicken Vienna Sausages 130 g,,1.0,each,,0.7692307692307693,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Grace Bouillon Cubes 60 g Selected Varieties,Grace Bouillon Cubes 60 g Selected Varieties,,2.0,each,,1.111111111111111,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Grace Hot Pepper Sauce 170 mL,Grace Hot Pepper Sauce 170 mL,,3.0,each,,1.5,,True,True,03/16/2023,03/22
+freshco,flyer,,Ribena Juice 850 mL,Ribena Juice 850 mL,,9.0,each,,9.0,,True,True,03/16/2023,03/22
+freshco,flyer,,Grace Soup 42-60 g Selected Varieties,Grace Soup 42-60 g Selected Varieties,,3.0,each,,1.7857142857142856,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Grace Mid or Hot Jerk Chicken Patties 600 g,Grace Mid or Hot Jerk Chicken Patties 600 g,,5.0,each,,0.8333333333333334,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Grace Virgin Coconut Oil 500 mL,Grace Virgin Coconut Oil 500 mL,,7.0,each,,7.0,,True,True,03/16/2023,03/22
+freshco,flyer,,Happy Dairy Paneer 300 g,Happy Dairy Paneer 300 g,,3.99,each,,1.33,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Brar's Desi Ghee 800 g,Brar's Desi Ghee 800 g,,11.99,each,,1.49875,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Parmalat Halal or Dahi Yogourt 750 g,Parmalat Halal or Dahi Yogourt 750 g,,1.99,each,,0.26533333333333337,100g,True,True,03/16/2023,03/22
+freshco,flyer,,The Laughing Cow Kiri Plain Cheese 144 g,The Laughing Cow Kiri Plain Cheese 144 g,,10.0,each,,2.314814814814815,100g,True,True,03/16/2023,03/22
+freshco,flyer,,One World Foods Shawarma Pockets Frozen 360g,One World Foods Shawarma Pockets Frozen 360g,,3.99,each,,3.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Clic Chickpeas or Red Kidney Beans 796 mL or Basma Frozen Minced Green Molokhia 400 g,Clic Chickpeas or Red Kidney Beans 796 mL or Basma Frozen Minced Green Molokhia 400 g,,1.49,each,,0.3725,100g,True,True,03/16/2023,03/22
+freshco,flyer,,California Garden Fava Beans 450 g,California Garden Fava Beans 450 g,,1.69,each,,0.37555555555555553,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Deluxe Biscuits or Cookies 1 kg Selected Varieties,Deluxe Biscuits or Cookies 1 kg Selected Varieties,,4.49,each,,0.449,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Basma Frozen Green Okra 400 g,Basma Frozen Green Okra 400 g,,2.99,each,,0.7475,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Içim Halloumi Cheese 250 g,Içim Halloumi Cheese 250 g,,4.99,each,,1.9960000000000002,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Icim Turkish Labneh Cheese 550 g,Icim Turkish Labneh Cheese 550 g,,5.99,each,,1.089090909090909,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Cedar Pita 330 g Selected Stores,Cedar Pita 330 g Selected Stores,,1.0,each,,0.30303030303030304,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Yamama Grenadine Molasses 1000 g,Yamama Grenadine Molasses 1000 g,,5.49,each,,0.549,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Salem Foods Freekeh 800 g,Salem Foods Freekeh 800 g,,6.49,each,,0.81125,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Deglet Pitted Dates 500 g Product of Algeria,Deglet Pitted Dates 500 g Product of Algeria,,3.49,each,,0.698,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Parnoosh Pitted Dates 907 g Product of Iran,Parnoosh Pitted Dates 907 g Product of Iran,,5.99,each,,0.6604189636163176,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Okra Product of Mexico 8.80/kg,Okra Product of Mexico 8.80/kg,,3.99,/lb,,3.99,,False,True,03/16/2023,03/22
+freshco,flyer,,Cassava Product of Costa Rica 3.28/kg,Cassava Product of Costa Rica 3.28/kg,,1.49,/lb,,1.49,,False,True,03/16/2023,03/22
+freshco,flyer,,Ribena Juice 850 mL,Ribena Juice 850 mL,,9.0,each,,9.0,,True,True,03/16/2023,03/22
+freshco,flyer,,Grace Coconut Water 500 mL Selected Varieties,Grace Coconut Water 500 mL Selected Varieties,,3.0,each,,1.5,,True,True,03/16/2023,03/22
+freshco,flyer,,Grace Plantain Chips 85 g Selected Varieties,Grace Plantain Chips 85 g Selected Varieties,,1.0,each,,1.1764705882352942,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Grace Jamaican Jerk Seasoning Mild or Hot 312 g,Grace Jamaican Jerk Seasoning Mild or Hot 312 g,,7.0,each,,1.1217948717948718,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Vita Malt 330 mL Selected Varieties,Vita Malt 330 mL Selected Varieties,,5.0,each,,1.25,,True,True,03/16/2023,03/22
+freshco,flyer,,Pearl Milling Company Pancake Mix 905 g,Pearl Milling Company Pancake Mix 905 g,,3.49,each,,0.38563535911602215,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Nutella Spread 1 kg,Nutella Spread 1 kg,,7.99,each,,0.799,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Mr. Goudas Table Salt 1 kg,Mr. Goudas Table Salt 1 kg,,0.99,each,,0.099,100g,True,True,03/16/2023,03/22
+freshco,flyer,,"Lantic Icing, Yellow or Brown Sugar 1 kg","Lantic Icing, Yellow or Brown Sugar 1 kg",,1.99,each,,0.199,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Coca-Cola Soft Drinks 12x355 mL Selected Varieties,Coca-Cola Soft Drinks 12x355 mL Selected Varieties,,6.29,each,,6.29,,True,True,03/16/2023,03/22
+freshco,flyer,,Hershey's Multipack (172-232 g),Hershey's Multipack (172-232 g),,3.99,each,,2.3197674418604652,100g,True,True,03/16/2023,03/22
+freshco,flyer,,"Minute Maid, Five Alive or Nestea Iced Tea Beverages 8x200 mL, 10x200 mL","Minute Maid, Five Alive or Nestea Iced Tea Beverages 8x200 mL, 10x200 mL",,2.99,each,,2.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Five Roses or Robin Hood Flour 5 kg,Five Roses or Robin Hood Flour 5 kg,,8.88,each,,0.17760000000000004,100g,True,True,03/16/2023,03/22
+freshco,flyer,,"Christie Cookies 224-303 g Peek Freans 275-350 g Dare Breton or Vinta Crackers 200-250 g, Dare Veggie Crisps or Bold 'n Baked 100-150 g","Christie Cookies 224-303 g Peek Freans 275-350 g Dare Breton or Vinta Crackers 200-250 g, Dare Veggie Crisps or Bold 'n Baked 100-150 g",,5.0,each,,1.1160714285714286,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Smucker's Jam 310-500 mL Selected Varieties,Smucker's Jam 310-500 mL Selected Varieties,,3.99,each,,3.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Kellogg's Cereal Selected 227-440 g,Kellogg's Cereal Selected 227-440 g,,3.49,each,,1.537444933920705,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Carnation Evaporated Milk 354 mL,Carnation Evaporated Milk 354 mL,,1.99,each,,1.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Miss Vickie's 190-200 g,Miss Vickie's 190-200 g,,7.0,each,,1.8421052631578945,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Cheemo Perogies 815-907 g,Cheemo Perogies 815-907 g,,2.49,each,,0.30552147239263805,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Jif Peanut Butter 1 kg,Jif Peanut Butter 1 kg,,4.99,each,,0.49900000000000005,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Eagle Brand Condensed Milk 300 mL,Eagle Brand Condensed Milk 300 mL,,2.99,each,,2.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Betty Crocker Hamburger Helper 142-218 g,Betty Crocker Hamburger Helper 142-218 g,,5.0,each,,1.1737089201877935,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Pampers Super Econo Pack 88-174 pk,Pampers Super Econo Pack 88-174 pk,,37.99,each,,0.43170454545454545,1ea,True,True,03/16/2023,03/22
+freshco,flyer,,Palmolive Dish Soap 591-828 mL,Palmolive Dish Soap 591-828 mL,,2.49,each,,2.49,,True,True,03/16/2023,03/22
+freshco,flyer,,Betty Crocker Cake Mix 432-461 g Betty Crocker Frosting 340-450 g,Betty Crocker Cake Mix 432-461 g Betty Crocker Frosting 340-450 g,,1.69,each,,0.39120370370370366,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Hershey's Allan Easter Chocolate Bunnies (150 g),Hershey's Allan Easter Chocolate Bunnies (150 g),,2.99,each,,1.9933333333333334,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Hershey's King Size Bars (62-85 g),Hershey's King Size Bars (62-85 g),,1.49,each,,2.403225806451613,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Hershey's Family Bars (90-120 g),Hershey's Family Bars (90-120 g),,2.0,ea,,1.1111111111111112,100g,False,True,03/16/2023,03/22
+freshco,flyer,,Hershey's Multipack (172-232 g),Hershey's Multipack (172-232 g),,3.99,each,,2.3197674418604652,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Jolly Rancher Candy Peg Bag (182-198 g),Jolly Rancher Candy Peg Bag (182-198 g),,2.29,each,,1.2582417582417582,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Hershey's Allan Easter Chocolate Bunnies (150 g),Hershey's Allan Easter Chocolate Bunnies (150 g),,2.99,each,,1.9933333333333334,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Hershey's Chipits (175-270 g),Hershey's Chipits (175-270 g),,3.49,each,,1.9942857142857144,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Hershey's Eggies or Assorted Easter (350-400 g),Hershey's Eggies or Assorted Easter (350-400 g),,6.99,each,,1.997142857142857,100g,True,True,03/16/2023,03/22
+freshco,flyer,,"EARN REWARDS FASTER WITH UP TO 10,000 BONUS POINTS","EARN REWARDS FASTER WITH UP TO 10,000 BONUS POINTS",,,each,,,,True,True,03/16/2023,03/22
+freshco,flyer,,Hershey's Chipits (175-270 g),Hershey's Chipits (175-270 g),,3.49,each,,1.9942857142857144,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Eight Treasures Jasmine Rice 2 kg,Eight Treasures Jasmine Rice 2 kg,,4.88,each,,0.244,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Eight Treasures Jasmine Rice 8 kg,Eight Treasures Jasmine Rice 8 kg,,16.88,each,,0.211,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Eight Treasures Sesame Oil 185 mL,Eight Treasures Sesame Oil 185 mL,,2.88,each,,2.88,,True,True,03/16/2023,03/22
+freshco,flyer,,Eight Treasures Coconut Milk 400 mL,Eight Treasures Coconut Milk 400 mL,,1.38,each,,1.38,,True,True,03/16/2023,03/22
+freshco,flyer,,Eight Treasures Sweetened Condensed Milk 300 mL,Eight Treasures Sweetened Condensed Milk 300 mL,,2.48,each,,2.48,,True,True,03/16/2023,03/22
+freshco,flyer,,Lindt Gold Bunny 100 g Ferrero Rocher Squirrel 90 g,Lindt Gold Bunny 100 g Ferrero Rocher Squirrel 90 g,,4.99,each,,4.99,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Hershey's Chocolate Easter Bunnies 113-170 g,Hershey's Chocolate Easter Bunnies 113-170 g,,4.99,each,,4.4159292035398225,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Compliments Easter Eggs or Mini Chocolate Eggs 200-250 g,Compliments Easter Eggs or Mini Chocolate Eggs 200-250 g,,3.29,each,,1.645,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Nestlé Easter Bunnies 85-100 g,Nestlé Easter Bunnies 85-100 g,,3.99,each,,4.694117647058824,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Kinder Easter Eggs Assorted 80-200 g,Kinder Easter Eggs Assorted 80-200 g,,4.99,each,,6.2375,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Cadbury Easter Singles 33-34 g,Cadbury Easter Singles 33-34 g,,1.09,each,,3.3030303030303036,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Nestle or Hershey's Easter Singles 25-45 g,Nestle or Hershey's Easter Singles 25-45 g,,0.99,each,,3.9599999999999995,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Ferrero Rocher Chocolate Rabbit 142-162.5 g,Ferrero Rocher Chocolate Rabbit 142-162.5 g,,8.99,each,,5.532307692307692,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Cadbury Creme Eggs or Mini Solid Eggs 148-154 g,Cadbury Creme Eggs or Mini Solid Eggs 148-154 g,,4.99,each,,3.371621621621622,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Nestlé Easter Cellos 100-150 g,Nestlé Easter Cellos 100-150 g,,4.49,each,,4.49,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Toffifee Candy 123 g,Toffifee Candy 123 g,,2.99,each,,2.4308943089430897,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Peeps Marshmallow Candy 85 g,Peeps Marshmallow Candy 85 g,,2.49,each,,2.9294117647058826,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Boursin Garlic & Herbs 250 g Piller's Sliced Meat 300-350 g,Boursin Garlic & Herbs 250 g Piller's Sliced Meat 300-350 g,,7.99,each,,3.196,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Cadbury Mini Eggs 943 g,Cadbury Mini Eggs 943 g,,17.99,each,,1.9077412513255565,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Hershey's Egg Hunt 388 g Compliments Mini Milk Chocolate Eggs 650 g,Hershey's Egg Hunt 388 g Compliments Mini Milk Chocolate Eggs 650 g,,8.49,each,,2.1881443298969074,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Kinder Kinder Surprise Maxi Eggs 150 g,Kinder Kinder Surprise Maxi Eggs 150 g,,9.99,each,,6.660000000000001,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Grape Tomatoes 680 g Product of Ontario or USA or Mexico,Grape Tomatoes 680 g Product of Ontario or USA or Mexico,,5.99,each,,0.8808823529411764,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Romaine Hearts 3 pk Product of USA,Romaine Hearts 3 pk Product of USA,,3.99,each,,1.33,1ea,True,True,03/16/2023,03/22
+freshco,flyer,,Compliments Baby Spinach or Spring Mix 312 g,Compliments Baby Spinach or Spring Mix 312 g,,4.99,each,,1.5993589743589745,100g,True,True,03/16/2023,03/22
+freshco,flyer,,"Avocado, Red or Ataulfo Mango Product of Mexico","Avocado, Red or Ataulfo Mango Product of Mexico",,1.29,each,,1.29,,True,True,03/16/2023,03/22
+freshco,flyer,,Wonderful Pistachios 450 g Roasted & Salted Product of USA,Wonderful Pistachios 450 g Roasted & Salted Product of USA,,8.99,each,,1.9977777777777779,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Ocean Spray Dried Cranberries 1.36 kg,Ocean Spray Dried Cranberries 1.36 kg,,9.99,each,,0.7345588235294118,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Planters Roasted Peanuts 2 kg Product of USA,Planters Roasted Peanuts 2 kg Product of USA,,11.99,each,,0.5995,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Boursin Garlic & Herbs 250 g Piller's Sliced Meat 300-350 g,Boursin Garlic & Herbs 250 g Piller's Sliced Meat 300-350 g,,7.99,each,,3.196,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Compliments Feta 1 Kg,Compliments Feta 1 Kg,,15.99,each,,15.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Dragon Fruit Product of Ecuador,Dragon Fruit Product of Ecuador,,2.99,each,,2.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Jumbo Golden Pineapples Product of Costa Rica,Jumbo Golden Pineapples Product of Costa Rica,,3.99,each,,3.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Contaloupe Product of Guatemala or Brazil No. 1 Grade,Contaloupe Product of Guatemala or Brazil No. 1 Grade,,3.49,each,,3.49,,True,True,03/16/2023,03/22
+freshco,flyer,,"Avocado, Red or Ataulfo Mango Product of Mexico","Avocado, Red or Ataulfo Mango Product of Mexico",,1.29,each,,1.29,,True,True,03/16/2023,03/22
+freshco,flyer,,Papaya Product of Coast Rica,Papaya Product of Coast Rica,,4.99,each,,4.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Mini Seedless Watermelon Product of USA,Mini Seedless Watermelon Product of USA,,4.99,each,,4.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Mangosteen Product of Columbia,Mangosteen Product of Columbia,,1.49,each,,1.49,,True,True,03/16/2023,03/22
+freshco,flyer,,Planters Roasted Peanuts 2 kg Product of USA,Planters Roasted Peanuts 2 kg Product of USA,,11.99,each,,0.5995,100g,True,True,03/16/2023,03/22
+freshco,flyer,,RS Premium Natural Almonds 300 g Product of USA,RS Premium Natural Almonds 300 g Product of USA,,3.99,each,,1.33,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Compass Walnut Halves & Pieces 300 g Product of USA,Compass Walnut Halves & Pieces 300 g Product of USA,,3.99,each,,1.33,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Wonderful Pistachios No Shells Assorted 155-170g,Wonderful Pistachios No Shells Assorted 155-170g,,5.99,each,,5.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Dried Figs 200 g Product of Turkey,Dried Figs 200 g Product of Turkey,,1.79,each,,0.895,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Dried Apricots 200 g Product of Turkey,Dried Apricots 200 g Product of Turkey,,2.49,each,,1.245,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Barni Dates 1 kg Product of Saudi Arabia,Barni Dates 1 kg Product of Saudi Arabia,,5.49,each,,0.549,100g,True,True,03/16/2023,03/22
+freshco,flyer,,"Hyacinth 4"" Pot","Hyacinth 4"" Pot",,2.99,each,,2.99,,True,True,03/16/2023,03/22
+freshco,flyer,,3-Stem Hyacinth Bouquets,3-Stem Hyacinth Bouquets,,3.99,each,,3.99,,True,True,03/16/2023,03/22
+freshco,flyer,,"Wheat Grass 6"" Pot","Wheat Grass 6"" Pot",,5.99,each,,5.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Goodnites Youth Pants 28-44 pk Huggies Pull-Ups 56-74 pk Huggies Giga Pack Diapers 36-108 pk,Goodnites Youth Pants 28-44 pk Huggies Pull-Ups 56-74 pk Huggies Giga Pack Diapers 36-108 pk,,26.99,each,,0.9639285714285714,1ea,True,True,03/16/2023,03/22
+freshco,flyer,,Pampers Super Pack Diapers 48-120 pk,Pampers Super Pack Diapers 48-120 pk,,27.99,each,,0.583125,1ea,True,True,03/16/2023,03/22
+freshco,flyer,,Pampers Baby Wipes 56-72 pk,Pampers Baby Wipes 56-72 pk,,3.49,each,,0.062321428571428576,1ea,True,True,03/16/2023,03/22
+freshco,flyer,,Baby Gourmet Snacks 23-42 g,Baby Gourmet Snacks 23-42 g,,,each,,,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Nestlé Gerber Organic Purée 99-128 mL,Nestlé Gerber Organic Purée 99-128 mL,,,each,,,,True,True,03/16/2023,03/22
+freshco,flyer,,Baby Gourmet Squoosh 4 pk,Baby Gourmet Squoosh 4 pk,,,each,,,1ea,True,True,03/16/2023,03/22
+freshco,flyer,,Jamieson Melatonin or B Vitamins Selected Varieties,Jamieson Melatonin or B Vitamins Selected Varieties,,,each,,,,True,True,03/16/2023,03/22
+freshco,flyer,,Sensodyne Toothpaste 75-100 mL,Sensodyne Toothpaste 75-100 mL,,4.99,each,,4.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Got 2 B Hair Styling Products 170-175 mL or 340 g,Got 2 B Hair Styling Products 170-175 mL or 340 g,,5.99,each,,1.761764705882353,100g,True,True,03/16/2023,03/22
+freshco,flyer,,Garnier Whole Blends Shampoo or Conditioner 370 mL,Garnier Whole Blends Shampoo or Conditioner 370 mL,,5.49,each,,5.49,,True,True,03/16/2023,03/22
+freshco,flyer,,Irish Spring Body Wash 591 mL or Softsoap Body Wash 591 mL,Irish Spring Body Wash 591 mL or Softsoap Body Wash 591 mL,,,each,,,,True,True,03/16/2023,03/22
+freshco,flyer,,Boost Bottles 237 mL 6 pk,Boost Bottles 237 mL 6 pk,,10.99,each,,1.8316666666666668,1ea,True,True,03/16/2023,03/22
+freshco,flyer,,"Depend or Poise Underwear, Pads or Liners 12-66 pk Selected","Depend or Poise Underwear, Pads or Liners 12-66 pk Selected",,20.99,each,,1.7491666666666665,1ea,True,True,03/16/2023,03/22
+freshco,flyer,,Dial Kids Body Wash 709 mL,Dial Kids Body Wash 709 mL,,5.99,each,,5.99,,True,True,03/16/2023,03/22
+freshco,flyer,,Email Acquisition,Email Acquisition,,,each,,,,True,True,03/16/2023,03/22
