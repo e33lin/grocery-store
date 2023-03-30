@@ -10,6 +10,8 @@ Ensure that you have Ruby installed on your machine. If you are on a Mac, it is 
 
 (you can install Ruby however you want, I personally went with using homebrew as I already have used homebrew before: https://mac.install.guide/ruby/13.html)
 
+You also need PostgreSQL installed: https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/
+
 ### Instructions
 
 1. Clone this repo
